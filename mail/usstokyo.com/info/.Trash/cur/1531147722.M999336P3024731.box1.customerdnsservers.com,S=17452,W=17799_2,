@@ -1,0 +1,347 @@
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id 4KxIL74xQ1vskygAsyhj2Q
+	for <info@usstokyo.com>; Mon, 09 Jul 2018 04:58:22 -0500
+Received: from mail-pf0-f187.google.com ([209.85.192.187]:46030)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <00ooooo9+bncBCC2T5GH7UCRBFPDRTNAKGQEOHVFQ6A@googlegroups.com>)
+	id 1fcSw2-00BAbu-HN
+	for info@usstokyo.com; Mon, 09 Jul 2018 04:58:22 -0500
+Received: by mail-pf0-f187.google.com with SMTP id a12-v6sf11405273pfn.12
+        for <info@usstokyo.com>; Mon, 09 Jul 2018 02:58:03 -0700 (PDT)
+Received: by 2002:a17:902:b595:: with SMTP id a21-v6ls4148188pls.10.gmail;
+ Mon, 09 Jul 2018 02:57:41 -0700 (PDT)
+Received: by 2002:a17:90a:15c2:0:0:0:0 with HTTP; Mon, 9 Jul 2018 02:57:40
+ -0700 (PDT)
+Received: by mail-pl0-x243.google.com with SMTP id c41-v6so5813735plj.10
+        for <00ooooo9@googlegroups.com>; Mon, 09 Jul 2018 02:57:41 -0700 (PDT)
+Received: from mail-pl0-x243.google.com (mail-pl0-x243.google.com. [2607:f8b0:400e:c01::243])
+        by gmr-mx.google.com with ESMTPS id f1-v6si663221pgv.2.2018.07.09.02.57.41
+        for <00ooooo9@googlegroups.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 09 Jul 2018 02:57:41 -0700 (PDT)
+Return-Path: <00ooooo9+bncBCC2T5GH7UCRBFPDRTNAKGQEOHVFQ6A@googlegroups.com>
+Reply-To: <sales.emarketingzone@gmail.com>
+From: "Fawwad Ahmed" <mehwishverani12@gmail.com>
+Sender: <00ooooo9@googlegroups.com>
+To: "emarketingzone" <sales.emarketingzone@gmail.com>
+Bcc: <00ooooo9@googlegroups.com>
+Subject: Increase Your Sale (Email & SMS Marketing)..
+Date: Mon, 9 Jul 2018 14:57:40 +0500
+Message-ID: <CANHHOPwiujEKw0rpD+SfQba=m0sZeWA7js7fCdYdJ2+3AAQwSg@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_000E_01D417BD.D89B6F30"
+X-Mailer: Microsoft Outlook 15.0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=sender:x-gm-message-state:mime-version:reply-to:from:date
+         :message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=crQ0J3z5v/Z/ZjIX9yC72X5+h0Ge1bpZuktdTWmOvJk=;
+        b=f6aV7OH0o8LmEaa/A4g78po12bPOOXUS5NqXE8tGK51RF0L/a5ORHp2rBs5/TCRtvi
+         bZq7FB6lxKr9/JCINYytttFPd0kFDZVr9He3CUVVdJD6nV+bsqybiyPoFyHtRygwJACV
+         ff8h+DbZXpnR09MDNXHUiNW+e9vj1aNTLrbtvtiBpoLTAdFHNleriZYcKvnChG2xQkwN
+         OevRHXx+k/NPYPrnKncsFsGTJvQicmjdTIdxkSDfEGWw21ibgRnT3rha0JiB69GgCp37
+         1jGhxlpnE5g5r7m6O+u/zhC8lQhKuBeoeTjF5vIUCODil0RR5hqT6ZCpIIhcpOAs+7xB
+         gL9Q==
+X-Gm-Message-State: APt69E2qfHoKEiXtAR7b2vasoub9B0mRnlnOSLQr76pIUrOMF7F145y5
+	36BygjBbnAuuElXPsWTDWv8=
+X-Google-Smtp-Source: AAOMgpfUrcPnP/6s2LVFPk8cJ+3ot/SK44LMWAQHhFdhjKFv7mUH/dAyXvmYxoyuQQQYndAm/VuMAQ==
+X-Received: by 2002:a17:902:8201:: with SMTP id x1-v6mr4643947pln.53.1531130261660;
+        Mon, 09 Jul 2018 02:57:41 -0700 (PDT)
+X-Received: by 2002:a17:902:bf01:: with SMTP id bi1-v6mr19766295plb.43.1531130261398;
+ Mon, 09 Jul 2018 02:57:41 -0700 (PDT)
+X-Received: by 2002:a17:902:8642:: with SMTP id y2-v6mr77798plt.2.1531130262782;
+        Mon, 09 Jul 2018 02:57:42 -0700 (PDT)
+X-BeenThere: 00ooooo9@googlegroups.com
+X-Original-Sender: mehwishverani12@gmail.com
+X-Original-Authentication-Results: gmr-mx.google.com;       dkim=pass
+ header.i=@gmail.com header.s=20161025 header.b=Hwt5I20c;       spf=pass
+ (google.com: domain of mehwishverani12@gmail.com designates
+ 2607:f8b0:400e:c01::243 as permitted sender) smtp.mailfrom=mehwishverani12@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+X-Spam-Checked-In-Group: 00ooooo9@googlegroups.com
+X-Google-Group-Id: 266373294955
+List-Help: <https://groups.google.com/support/>, <mailto:00ooooo9+help@googlegroups.com>
+List-Unsubscribe: <mailto:googlegroups-manage+266373294955+unsubscribe@googlegroups.com>, <https://groups.google.com/group/00ooooo9/subscribe>
+Thread-Index: AQF2ZNf4YUD2l8i9Yk35EcBdqwYWVQ==
+X-OlkEid: 0000000026A0FBE8E417E848BC29605E720D39A90700C3B68E10F77511CEB4CD00AA00BBB6E600000000000B0000471AB411C4E76547B76A92AE0CC390E30000000008000000671D4B158A0238409344A07AD28A5399
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_000E_01D417BD.D89B6F30
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Sir / Madam
+
+
+
+Email marketing is one of the best ways of advertising your business online. 
+As the number of email users is growing rapidly, more and more businesses 
+are choosing email marketing as their primary advertising campaign, because 
+it's a great method of reaching global audience for their target market.
+
+
+
+ Email Marketing Packages For 600,000 Emails
+
+
+
+
+Single Shots    999/=
+
+8 Shots            3499/=
+
+20 Shots          5999/=
+
+Monthly Package For 30 Shots Just In 7,000/=
+
+
+
+ SMS Marketing Packages
+
+
+
+
+Non-Branded SMS       100,000 SMS Just in 6,499/=
+
+Branded SMS                0.24 / SMS
+
+
+
+
+
+
+IF You Required More Detail On same Please write us at 
+sales.emarketingzone@gmail. <mailto:sales.emarketingzone@gmail.com> com OR 
+Call & SMS at 0306-222-6482.
+
+
+
+Thanks
+
+Fawwad Ahmed
+
+Team
+
+e-Marketing Zone
+
+0306-222-64-82
+
+sales.emarketingzone@gmail.com <mailto:sales.emarketingzone@gmail.com>
+
+-- 
+You received this message because you are subscribed to the Google Groups 
+"00ooooo9" group.
+To unsubscribe from this group and stop receiving emails from it, send an 
+email to 00ooooo9+unsubscribe@googlegroups.com 
+<mailto:00ooooo9+unsubscribe@googlegroups.com> .
+To post to this group, send email to 00ooooo9@googlegroups.com 
+<mailto:00ooooo9@googlegroups.com> .
+To view this discussion on the web visit 
+https://groups.google.com/d/msgid/00ooooo9/CANHHOPwiujEKw0rpD%2BSfQba%3Dm0sZeWA7js7fCdYdJ2%2B3AAQwSg%40mail.gmail.com 
+<https://groups.google.com/d/msgid/00ooooo9/CANHHOPwiujEKw0rpD%2BSfQba%3Dm0sZeWA7js7fCdYdJ2%2B3AAQwSg%40mail.gmail.com?utm_medium=email&utm_source=footer> 
+.
+For more options, visit https://groups.google.com/d/optout.
+
+
+------=_NextPart_000_000E_01D417BD.D89B6F30
+Content-Type: text/html;
+	boundary="00000000000055f39105708e0bbb";
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div =
+class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div =
+dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div =
+class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div =
+dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div =
+class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div =
+dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div =
+class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div =
+dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div =
+class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div =
+dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div =
+class=3D"gmail_quote"><div dir=3D"ltr"><p class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><b><u>Dear Sir / Madam</u></b></p><p =
+class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial">=C2=A0</p><p class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><span =
+style=3D"font-family:tahoma,sans-serif">Email marketing is one of the =
+best ways of advertising your business online. As the number of email =
+users is growing rapidly, more and more businesses are choosing email =
+marketing as their primary advertising campaign, because it&#39;s a =
+great method of reaching global audience for their target =
+market.</span></p><p class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial">=C2=A0</p><p class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial">=C2=A0<b><u><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(192,80,77)">Email =
+Marketing Packages For 600,000 Emails</span></u></b></p><p =
+class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><b><u><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(192,80,77)"><br></span><=
+/u></b></p><p class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><b><span =
+style=3D"font-family:tahoma,sans-serif;color:black">Single</span></b><b><=
+span style=3D"font-family:tahoma,sans-serif">=C2=A0Shots=C2=A0 =
+=C2=A0=C2=A0</span></b><b><span =
+style=3D"font-family:tahoma,sans-serif;color:black">999</span></b><b><spa=
+n style=3D"font-family:tahoma,sans-serif">/=3D</span></b></p><p =
+class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><b><span =
+style=3D"font-family:tahoma,sans-serif;color:black">8</span></b><b><span =
+style=3D"font-family:tahoma,sans-serif">=C2=A0Shots=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 3</span></b><b><span =
+style=3D"font-family:tahoma,sans-serif;color:black">499</span></b><b><spa=
+n style=3D"font-family:tahoma,sans-serif">/=3D</span></b></p><p =
+class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><b><span =
+style=3D"font-family:tahoma,sans-serif">20 Shots=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0=C2=A0</span></b><b><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(31,73,125)">59</span></b=
+><b><span =
+style=3D"font-family:tahoma,sans-serif;color:black">99</span></b><b><span=
+ style=3D"font-family:tahoma,sans-serif">/=3D</span></b></p><p =
+class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><b><span =
+style=3D"font-family:tahoma,sans-serif">Monthly Package For 30 Shots =
+Just In=C2=A0</span></b><b><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(31,73,125)">7</span></b>=
+<b><span =
+style=3D"font-family:tahoma,sans-serif">,000/=3D</span></b></p><p =
+class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial">=C2=A0</p><p =
+class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial">=C2=A0<b><u><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(192,80,77)">SMS =
+Marketing Packages</span></u></b></p><p class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><b><u><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(192,80,77)"><br></span><=
+/u></b></p><p class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><b><span =
+style=3D"font-family:tahoma,sans-serif">Non-Branded SMS=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0</span></b><b><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(31,73,125)">100,000 SMS =
+Just in 6,499/=3D</span></b></p><p class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><b><span =
+style=3D"font-family:tahoma,sans-serif">Branded SMS=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span></b><b><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(31,73,125)">0.24 / =
+SMS</span></b></p><p class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial"><br></p><p =
+class=3D"MsoNormal" =
+style=3D"margin-left:0.25in;font-size:12.8px;background-image:initial;bac=
+kground-position:initial;background-size:initial;background-repeat:initia=
+l;background-origin:initial;background-clip:initial">=C2=A0</p><p =
+class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><span =
+style=3D"font-family:tahoma,sans-serif">IF You Required More Detail On =
+same Please write us at=C2=A0<a =
+href=3D"mailto:sales.emarketingzone@gmail.com" =
+target=3D"_blank">sales.emarketingzone@gmail.<wbr>com</a>=C2=A0OR Call =
+&amp; SMS at 0306-222-6482</span><span =
+style=3D"font-family:tahoma,sans-serif;color:rgb(31,73,125)">.</span></p>=
+<p class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial">=C2=A0</p><p class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><b><u><span =
+style=3D"font-family:tahoma,sans-serif">Thanks</span></u></b></p><p =
+class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><span =
+style=3D"font-family:tahoma,sans-serif">Fawwad Ahmed</span></p><p =
+class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><span =
+style=3D"font-family:tahoma,sans-serif">Team</span></p><p =
+class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><span =
+style=3D"font-family:tahoma,sans-serif">e-Marketing Zone</span></p><p =
+class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><span =
+style=3D"font-family:tahoma,sans-serif">0306-222-64-82</span></p><p =
+class=3D"MsoNormal" =
+style=3D"font-size:12.8px;background-image:initial;background-position:in=
+itial;background-size:initial;background-repeat:initial;background-origin=
+:initial;background-clip:initial"><span =
+style=3D"font-family:tahoma,sans-serif"><a =
+href=3D"mailto:sales.emarketingzone@gmail.com" =
+target=3D"_blank">sales.emarketingzone@gmail.com</a></span></p></div></di=
+v></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div></div><span class=3D"HOEnZb"><font =
+color=3D"#888888">
+
+<p></p></font></span></div></div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google =
+Groups &quot;00ooooo9&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send =
+an email to <a =
+href=3D"mailto:00ooooo9+unsubscribe@googlegroups.com">00ooooo9+unsubscrib=
+e@googlegroups.com</a>.<br />
+To post to this group, send email to <a =
+href=3D"mailto:00ooooo9@googlegroups.com">00ooooo9@googlegroups.com</a>.<=
+br />
+To view this discussion on the web visit <a =
+href=3D"https://groups.google.com/d/msgid/00ooooo9/CANHHOPwiujEKw0rpD%2BS=
+fQba%3Dm0sZeWA7js7fCdYdJ2%2B3AAQwSg%40mail.gmail.com?utm_medium=3Demail&u=
+tm_source=3Dfooter">https://groups.google.com/d/msgid/00ooooo9/CANHHOPwiu=
+jEKw0rpD%2BSfQba%3Dm0sZeWA7js7fCdYdJ2%2B3AAQwSg%40mail.gmail.com</a>.<br =
+/>
+For more options, visit <a =
+href=3D"https://groups.google.com/d/optout">https://groups.google.com/d/o=
+ptout</a>.<br />
+
+------=_NextPart_000_000E_01D417BD.D89B6F30--

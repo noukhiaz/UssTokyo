@@ -1,0 +1,561 @@
+Return-Path: <00ooooo9+bncBCC2T5GH7UCRBBXASDNQKGQEFIKLZ5I@googlegroups.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id aHOfNC8wZFt+kgMAsyhj2Q
+	for <info@usstokyo.com>; Fri, 03 Aug 2018 05:36:31 -0500
+Return-path: <00ooooo9+bncBCC2T5GH7UCRBBXASDNQKGQEFIKLZ5I@googlegroups.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Fri, 03 Aug 2018 05:36:31 -0500
+Received: from mail-yb0-f184.google.com ([209.85.213.184]:53142)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <00ooooo9+bncBCC2T5GH7UCRBBXASDNQKGQEFIKLZ5I@googlegroups.com>)
+	id 1flXRf-000yha-Jt
+	for info@usstokyo.com; Fri, 03 Aug 2018 05:36:31 -0500
+Received: by mail-yb0-f184.google.com with SMTP id s12-v6sf1040706ybm.19
+        for <info@usstokyo.com>; Fri, 03 Aug 2018 03:36:12 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1533292552; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=P6VTO0oecCLMgKYRDy/ioGSeRaCF/KwYcYho7A16HMYLeJpuPaqSOKHzWBrah/2+dU
+         AUIFFgJaP3i3GJEULrGpIXmtroVTU+gAiUB8rgJtG3BRd0HF2ZralNVMGbbX1omY57MZ
+         ZBCNJ+51u80Jqp6REtBxQI+BxLr6QHUmjyWj+uBNQbNYApcqIHS5qhu+PA7REQqn1oHp
+         H7ZJPJSB6CWhsy13K1mSOH5WXbxkRxS33VPS2+Y+gQKk46jdhnuaFzYilE0et8ebY5FC
+         7BW8orLq/Dod3nhmgP/tDKk/PnABC9I7xgQpIXnFKHaemsepfZ95bJ34Dip0v9kXXWYO
+         zEYQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-archive:list-help:list-post:list-id
+         :mailing-list:precedence:to:subject:message-id:date:from:reply-to
+         :mime-version:arc-authentication-results:arc-message-signature
+         :sender:dkim-signature:dkim-signature:arc-authentication-results;
+        bh=z36JRBIIs07XTeqgUzTh/xwfyc1MCSZHwl4f+J88aSY=;
+        b=OsQvM5GXrlYmWry9Pr9JK4rxJiEiGtAjWjhTNOwhU3DKWSNsFHNLphMjf87Lip93Qk
+         YieSzI0pckqE7JuVYDDyGux6298kvkXtcN4u2Z9URAL5Ag3KvmNooTTRDGxXocZ7HiwT
+         ql4eBq+qlwhLsa427S3gCufTqljh58dIJOj2h3QZ7O5JDeJE00dSW0MNI1Oa2VRirBwG
+         2cHd+T7+btjSlI433mmvJaItoZFtvkJlm6rY8Ugzo5C1NBdvzpz9NuQJ1b8LKBxBuC63
+         X7zmYXpl1Ksf/9ed1YvXZlJNF0MQU4CajZDMSHR/vlyRdBeezvbK63dIudpllRCXy+bF
+         PfOA==
+ARC-Authentication-Results: i=2; gmr-mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b="unAo/IGl";
+       spf=pass (google.com: domain of mehwishverani12@gmail.com designates 2607:f8b0:4864:20::541 as permitted sender) smtp.mailfrom=mehwishverani12@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20161025;
+        h=sender:mime-version:reply-to:from:date:message-id:subject:to
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=z36JRBIIs07XTeqgUzTh/xwfyc1MCSZHwl4f+J88aSY=;
+        b=Q4Nau2nDu9Hs38fJeDhw1R8alJLTrnttSpB+MMs3U2NDeciRDoGTH15CWO/4dHJANh
+         6+g4KUX6ia9P5Kzy2THwqosbOAZSCcHxsQP2exasl13iufqQwcmpkpTvdrivG9fm2Uo5
+         jNZmb9gs6SCAJj+t+hfN9lUazfCYkEbviAQHdzA+a8O+pe+IrpMTDGCp+WD0z00whU2z
+         C6hA3WddFTWoc9IvbtL2tA+fmJPKG9Swd2TNNO2Yd/rQiHkYykWe3RQK/FxkJtRyjoqE
+         Qib0M0kRglw0TEcrWUERPvQ+OlyY+vpB9KCkq4zLe0BaWl1weJrCfEB1UbcmRmH3Kubm
+         eRRw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:from:date:message-id:subject:to
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=z36JRBIIs07XTeqgUzTh/xwfyc1MCSZHwl4f+J88aSY=;
+        b=Ngm0KsXSnXqevYyTKbs+4RxK5ZCeouYjX9nl3+xXZ1d8+riOahUUeAO0tuYUta9QBk
+         WT8Zw1yrvQOkC7qBWvteF/UwQ8NSHIzYvFiCCCgbDmeTRBfa9apC0PzfufJ+T23bnM1A
+         xwo+wQ5vEnCKoUe7jGtyceWGQaNS3jyfQSNHAsLNLGdj1+hCxpB6kL4vM/ZBYbTYZ7rS
+         uXzWjK4dNQgBRkU6rB67/L24eOyuBToLaCI74PLO4G0S8a5IhqHmf3Ws23C+K5CHbiwL
+         UdFGu5X/Yf2X+MBBe3vhh3tA1NG9NJfpf/ADfx/m9BrBeDSsXAwLJyt4lMHGTsPoKYTQ
+         6Q3A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=sender:x-gm-message-state:mime-version:reply-to:from:date
+         :message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=z36JRBIIs07XTeqgUzTh/xwfyc1MCSZHwl4f+J88aSY=;
+        b=DdEs2YzqvMzep4PRWL0OedGLt2dW7Ruoc6LUTgayIylSyvAmK7nAIhloZFVaJE9itr
+         sAxd9qhy5zydbBBkTiJgMbWuguBh3gsD2JEFINcMTubwSeI6WrDlvwv06PrLhMiYu8bz
+         50K9N/WTOO2xZaG67MmIq6TqFmbdqKga9yXdV5jYqBJuR//amJd4YoGfqtVmsBmQH6rx
+         gmhTiCB7Je/QsZNMlywTdSzWAbWLVCHsOSB7GAiT9ytPeQxsoa6jpS9f6APf1BERAG42
+         RZtmQFBc4ae0a34yb1X801w83BPLTgLjzrg/iTuADOlI21nVbI6XIFYOmYXv8aqMEZRd
+         seFQ==
+Sender: 00ooooo9@googlegroups.com
+X-Gm-Message-State: AOUpUlG1vhRa61NrrusYlHxGbcEtX19qb2T4zjakpFF4Mdcntr8RwBLg
+	KY+3qpG8WTtPXBRBrxALQtA=
+X-Google-Smtp-Source: AAOMgpdHg/Ux1VTaD/tUIFmX1ARPKKGaYpvpLW7m1ZZ6dINukcOu2aVaNfzpSg6gaCtDWV0vb0C7Mg==
+X-Received: by 2002:a25:8486:: with SMTP id v6-v6mr41316ybk.3.1533292552491;
+        Fri, 03 Aug 2018 03:35:52 -0700 (PDT)
+X-BeenThere: 00ooooo9@googlegroups.com
+Received: by 2002:a81:52cf:: with SMTP id g198-v6ls759554ywb.38.gmail; Fri, 03
+ Aug 2018 03:35:50 -0700 (PDT)
+X-Received: by 2002:a81:9203:: with SMTP id j3-v6mr2179024ywg.118.1533292550663;
+        Fri, 03 Aug 2018 03:35:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1533292550; cv=none;
+        d=google.com; s=arc-20160816;
+        b=j6dk/wOU3lgrILYlQAuBf/SOKi51p7WJh4saslyW3EvobU6Ws3v+VeSRmwP0Y21MHx
+         mNf/F2KA7s/leSr4Y0iHyOi8bbjq7K9e+IAlGPcSdNSYF1djASlh2KDLAqCtesil35w4
+         a0/jXUEQPIRb1+OOeFLOS0zigVOFVbR9AhJI0ezFPppHjfrBicTqY4K8HSRz3OFLfo7Y
+         HvY96ls3WNIH6O51D4FcO9YxMJcGy7RbK/LKFJQ1bn7lbdsdWYOTiGEP1mtY5Ikh/P9f
+         9tAb22EWrjFsbfvP4tW9Jx3soXeYRLDh4R6B/qZfcBiv2HvvT8JboSQHtZ+kxt1NazUZ
+         XPig==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:reply-to:mime-version
+         :dkim-signature:arc-authentication-results;
+        bh=TMuKZ2zfgMCYhwJvwuiUCqJAOdkvdQaTqPBmS7xIY8g=;
+        b=zwBLf/nfu51+T/Ga5hDMMPPwtNDbID2AT0J2FMYQ9zDH47NYEc+k0Ps7KSxALu454e
+         tydGWAp4GlYOGX6cV5Fs2UIM7efOE/Nh/gYgjpPzub/FIpFh3fJf2W/DEsvOePf6/hPY
+         RQ6j47AsRlHZEmPBhGUA1a4r9jT+KtLPExIOZQdC7z36sPOR3Axdz/Of7ViwYaz3lXZH
+         q8HVIicU0hN7m3qOf2WZkqPSDg9LhxlWc5T9T+tIijgURQnHEOYS+YPtsDmwsfcJIEhh
+         C7mi3mXs39UB1llY1MRqaFzCjgEKyYfIqL3W+lisfWclZp1HrLcJ5dEVRNd2WpUwvs/V
+         gCWg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b="unAo/IGl";
+       spf=pass (google.com: domain of mehwishverani12@gmail.com designates 2607:f8b0:4864:20::541 as permitted sender) smtp.mailfrom=mehwishverani12@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from mail-pg1-x541.google.com (mail-pg1-x541.google.com. [2607:f8b0:4864:20::541])
+        by gmr-mx.google.com with ESMTPS id 145-v6si270746ybe.3.2018.08.03.03.35.50
+        for <00ooooo9@googlegroups.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Aug 2018 03:35:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mehwishverani12@gmail.com designates 2607:f8b0:4864:20::541 as permitted sender) client-ip=2607:f8b0:4864:20::541;
+Received: by mail-pg1-x541.google.com with SMTP id y4-v6so2661167pgp.9
+        for <00ooooo9@googlegroups.com>; Fri, 03 Aug 2018 03:35:50 -0700 (PDT)
+X-Received: by 2002:a63:440a:: with SMTP id r10-v6mr3159466pga.27.1533292549484;
+ Fri, 03 Aug 2018 03:35:49 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a17:90a:9f85:0:0:0:0 with HTTP; Fri, 3 Aug 2018 03:35:48
+ -0700 (PDT)
+Reply-To: moonit2012@hotmail.com
+From: Moon International <mehwishverani12@gmail.com>
+Date: Fri, 3 Aug 2018 15:35:48 +0500
+Message-ID: <CANHHOPx3voP0UMBCV-gtfBodXp6O0k2LifOiO+52Usx-9mSVjA@mail.gmail.com>
+Subject: CISM (Certified Information Security Manager)
+To: moonit2012@hotmail.com
+Content-Type: multipart/related; boundary="000000000000c0f8180572857d97"
+Bcc: 00ooooo9@googlegroups.com
+X-Original-Sender: mehwishverani12@gmail.com
+X-Original-Authentication-Results: gmr-mx.google.com;       dkim=pass
+ header.i=@gmail.com header.s=20161025 header.b="unAo/IGl";       spf=pass
+ (google.com: domain of mehwishverani12@gmail.com designates
+ 2607:f8b0:4864:20::541 as permitted sender) smtp.mailfrom=mehwishverani12@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Precedence: list
+Mailing-list: list 00ooooo9@googlegroups.com; contact 00ooooo9+owners@googlegroups.com
+List-ID: <00ooooo9.googlegroups.com>
+X-Spam-Checked-In-Group: 00ooooo9@googlegroups.com
+X-Google-Group-Id: 266373294955
+List-Post: <https://groups.google.com/group/00ooooo9/post>, <mailto:00ooooo9@googlegroups.com>
+List-Help: <https://groups.google.com/support/>, <mailto:00ooooo9+help@googlegroups.com>
+List-Archive: <https://groups.google.com/group/00ooooo9
+List-Unsubscribe: <mailto:googlegroups-manage+266373294955+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/group/00ooooo9/subscribe>
+
+--000000000000c0f8180572857d97
+Content-Type: multipart/alternative; boundary="000000000000c0f8170572857d96"
+
+--000000000000c0f8170572857d96
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+*Moon International Pak Pvt. Limited*
+
+*Offers*
+
+*CISM (Certified Information Security Manager)*
+
+
+
+*New Classes From Saturday 4th August*
+
+The CISM Exam Preparation course is an instructor-led classroom session
+that provides a comprehensive revision program for the key job practice
+knowledge domains and exam preparation exercises designed to ensure that
+delegates pass the exam at the first attempt. Course provides intensive
+revision for the challenging CISM exam, moving you closer to achieving the
+known benefits of CISM certification such as higher earning potential and
+career advancement.
+
+Moon International designed training will not only help you pass your exam,
+but also help you to understand the key concepts of CISM that will lead you
+to implement IT Security in any organization.
+
+*Who Should attend*
+
+=C2=B7  IT Professionals
+
+=C2=B7  IT Managers
+
+=C2=B7  Security Managers
+
+=C2=B7  Graduates and IT Professionals willing to become Security professio=
+nals
+
+
+
+Start Date:       04-August
+
+ Days:            Saturday & Sunday
+
+Timings:            11:00 ~ 14:00
+
+Call or email now to avail this Golden Opportunity:
+
+*0332-2222342** =E2=80=93 **0323-2338341*
+
+*Moon International Pak Pvt Limited*
+
+*PearsonVue Test Center =E2=80=93 Cisco Network Academy*
+
+*EXIN Accredited Test Centre, EC-Council Authorized Training Centre*
+
+*Head Office:*
+
+E-133 Block B, Gulshan-E-Jamal
+
+Near Millenium Mall, Rashid Minhas Road
+
+Karachi-Pakistan
+
++92-21-34688633 <+92%2021%2034688633>
+
+marketing@mooninternationalpak.com
+
+--=20
+You received this message because you are subscribed to the Google Groups "=
+00ooooo9" group.
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to 00ooooo9+unsubscribe@googlegroups.com.
+To post to this group, send email to 00ooooo9@googlegroups.com.
+To view this discussion on the web visit https://groups.google.com/d/msgid/=
+00ooooo9/CANHHOPx3voP0UMBCV-gtfBodXp6O0k2LifOiO%2B52Usx-9mSVjA%40mail.gmail=
+.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--000000000000c0f8170572857d96
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"=
+gmail_quote"><div lang=3D"EN-US" link=3D"blue" vlink=3D"purple"><div class=
+=3D"m_-3715540748432384447m_-1890607806518060273WordSection1"><p class=3D"M=
+soNormal" align=3D"center" style=3D"text-align:center;background:white"><b>=
+<span style=3D"font-size:18.0pt;font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;;color:#222222">Moon International Pak Pvt. Limited</span></b><u><=
+/u><u></u></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;backgrou=
+nd:white;font-variant-ligatures:normal;font-variant-caps:normal;text-decora=
+tion-style:initial;text-decoration-color:initial;word-spacing:0px">
+<b><i><span style=3D"font-size:18.0pt;font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;;color:red">Offers</span></i></b><u></u><u></u></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;backgrou=
+nd:white;font-variant-ligatures:normal;font-variant-caps:normal;text-decora=
+tion-style:initial;text-decoration-color:initial;word-spacing:0px">
+<b><span style=3D"font-size:20.0pt;font-family:&quot;Arial&quot;,&quot;sans=
+-serif&quot;;color:black">CISM (Certified Information Security Manager)</sp=
+an></b><u></u><u></u></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;backgrou=
+nd:white;font-variant-ligatures:normal;font-variant-caps:normal;text-decora=
+tion-style:initial;text-decoration-color:initial;word-spacing:0px">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sa=
+ns-serif&quot;;color:#1f497d"><img border=3D"0" width=3D"355" height=3D"142=
+" id=3D"m_-3715540748432384447m_-1890607806518060273m_7281563471894079760Pi=
+cture_x0020_1" src=3D"cid:image001.png@01D3EDE1.CF44E660">=C2=A0</span></b>=
+<u></u><u></u></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"margin-bottom:12.0pt;text-=
+align:center;background:white;font-variant-ligatures:normal;font-variant-ca=
+ps:normal;text-decoration-style:initial;text-decoration-color:initial;word-=
+spacing:0px">
+<b><span style=3D"font-size:18.0pt;font-family:&quot;Calibri&quot;,&quot;sa=
+ns-serif&quot;;color:red">New Classes From Saturday 4<sup>th</sup> August</=
+span></b><span style=3D"color:red"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"background:white">
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;;color:black">The CISM Exam Preparation course is an instructor-=
+led classroom session that provides a comprehensive revision program for th=
+e key job practice knowledge domains and exam preparation
+ exercises designed to ensure that delegates pass the exam at the first att=
+empt. Course provides intensive revision for the challenging CISM exam, mov=
+ing you closer to achieving the known benefits of CISM certification such a=
+s higher earning potential and career
+ advancement.</span><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;;color:black">Moon International designed training will not only=
+ help you pass your exam, but also help you to understand the key concepts =
+of CISM that will lead you to implement IT Security in
+ any organization.</span><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sa=
+ns-serif&quot;;color:#1f4e79">Who Should attend</span></b><span style=3D"co=
+lor:#1f497d"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:47.25pt;line-height:18.0pt;back=
+ground:white">
+<span style=3D"font-size:10.0pt;font-family:Symbol;color:black">=C2=B7</spa=
+n><span style=3D"font-size:7.0pt;color:black">=C2=A0
+</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;;color:black">IT Professionals</span><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"margin-left:47.25pt;line-height:18.0pt;back=
+ground:white">
+<span style=3D"font-size:10.0pt;font-family:Symbol;color:black">=C2=B7</spa=
+n><span style=3D"font-size:7.0pt;color:black">=C2=A0
+</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;;color:black">IT Managers</span><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"margin-left:47.25pt;line-height:18.0pt;back=
+ground:white">
+<span style=3D"font-size:10.0pt;font-family:Symbol;color:black">=C2=B7</spa=
+n><span style=3D"font-size:7.0pt;color:black">=C2=A0
+</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;;color:black">Security Managers</span><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"margin-left:47.25pt;line-height:18.0pt;back=
+ground:white">
+<span style=3D"font-size:10.0pt;font-family:Symbol;color:black">=C2=B7</spa=
+n><span style=3D"font-size:7.0pt;color:black">=C2=A0
+</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;;color:black">Graduates and IT Professionals willing to b=
+ecome Security professionals</span><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"line-height:18.0pt;background:white;font-va=
+riant-ligatures:normal;font-variant-caps:normal;text-align:start;text-decor=
+ation-style:initial;text-decoration-color:initial;word-spacing:0px">
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;;color:#1f497d">=C2=A0</span><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"line-height:18.0pt;background:white">
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;;color:black">Start Date:=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A004=
+-August
+</span><span style=3D"color:black"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-ser=
+if&quot;;color:black">=C2=A0Days:=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0 Saturday &amp; Sunday</span><span style=3D"color:b=
+lack"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"background:white">
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;;color:black">Timings:=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0 11:00 ~ 14:00</span><span style=3D"color:black"><u=
+></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"background:white">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-ser=
+if&quot;;color:black">Call or email now to avail this Golden Opportunity:=
+=C2=A0</span><span style=3D"color:#1f497d"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"background:white">
+<b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-=
+serif&quot;;color:#1f497d">0332-2222342</span></b><b><span style=3D"font-si=
+ze:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#2e75b6=
+"> =E2=80=93
+</span></b><b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,=
+&quot;sans-serif&quot;;color:#1f497d">0323-2338341</span></b><u></u><u></u>=
+</p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-=
+serif&quot;;color:black">Moon International Pak Pvt Limited</span></b><u></=
+u><u></u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-=
+serif&quot;;color:#222222">PearsonVue Test Center =E2=80=93 Cisco Network A=
+cademy</span></b><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-=
+serif&quot;;color:black">EXIN Accredited Test Centre, EC-Council Authorized=
+ Training Centre</span></b><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-=
+serif&quot;;color:black">Head Office:</span></b><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-ser=
+if&quot;;color:black">E-133 Block B, Gulshan-E-Jamal</span><u></u><u></u></=
+p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-ser=
+if&quot;;color:black">Near Millenium Mall, Rashid Minhas Road</span><u></u>=
+<u></u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-ser=
+if&quot;;color:black">Karachi-Pakistan</span><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-ser=
+if&quot;;color:black"><a href=3D"tel:+92%2021%2034688633" target=3D"_blank"=
+><span style=3D"color:#1155cc">+92-21-34688633</span></a></span><u></u><u><=
+/u></p>
+<p class=3D"MsoNormal" style=3D"background:white;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;text-align:start;text-decoration-style:initial=
+;text-decoration-color:initial;word-spacing:0px">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,&quot;sans-ser=
+if&quot;;color:#1f497d"><a href=3D"mailto:marketing@mooninternationalpak.co=
+m" target=3D"_blank">marketing@mooninternationalpak<wbr>.com</a></span></p>=
+</div></div></div></div>
+</div><br></div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;00ooooo9&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:00ooooo9+unsubscribe@googlegroups.com">00ooooo9+u=
+nsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:00ooooo9@googlegroup=
+s.com">00ooooo9@googlegroups.com</a>.<br />
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/00ooooo9/CANHHOPx3voP0UMBCV-gtfBodXp6O0k2LifOiO%2B52Usx-9mSVjA%4=
+0mail.gmail.com?utm_medium=3Demail&utm_source=3Dfooter">https://groups.goog=
+le.com/d/msgid/00ooooo9/CANHHOPx3voP0UMBCV-gtfBodXp6O0k2LifOiO%2B52Usx-9mSV=
+jA%40mail.gmail.com</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--000000000000c0f8170572857d96--
+--000000000000c0f8180572857d97
+Content-Type: image/png; name="image001.png"
+Content-Disposition: inline; filename="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D3EDE1.CF44E660>
+X-Attachment-Id: c4fba77dc0033995_0.1
+
+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
+UgaMORfCGRMynl6kHNdFOGfchdpw5+cEeAWhWO/3rQFhp3i5xY9yzjgqGkA3T9w54x78N+1jtRyU
+caMHh6rcfvdgX/l7s5kAxLusn3QTXVfSKuMhmOZ80iXTma7TiNuKLAPN1aez+frMAdoK6OBGbh7l
+Q5PtQ6kw7vOF2q7QTxeMOzmrKWSsNtzR/mQNZKB886DowuXPZjOxI2JCoywLRlXGoofmwyaTPMv8
+KfFwi37sENfNBt6kdJVtPIbJiRk6r5lxDq0kH6NhjhaMY7AncXQExuR0jfYB5btfOzpyHz+drCO8
+YzwzxN1C9qRrrjLWXXzTDMlwaTx0beZkQIbQd7Gjc6W59zUDoElO0ima84Kxs8I4BLozDxljjnHE
+GKfwHWR2cFsB8mMdZKDcut8+8jv7c9Nem8WuoxqHORATz/wfcOGnH5r/GxJb0RIjIy4eZ2GCY+xN
+ZpOUZOz8MH0+igithOq4G2qErwq5YFtjLnrMCEcdrue+0sGjppOOD/XjXOho2s1ZB7fnwIVw816l
+PUjTyHeBuX3za4Np/nx12l6rwieNhyw/TOzKKuuwcWzM98eQpVdsmpV0Q7v4dXfpy/BwfnFVqu+s
+qmE+ufl0WQV99uHb9enJRsAnrdZfuKvnkfKltYkUg4VLb+5+vGdLlc7f39y12AqbLb+6e6YVwC9S
+ztb5XRXSc9kh9Un7/rkf64VJdQXrk6X1ZFP898mXNYO0R0r755udaJDzjf3Xg6R12Jevv2L5vJNV
+3kHap29KvFZ+tfZAuX3yt22t3LNc7+YzbCL8nItSX4ecfd0wMt5OuPVmiHeRsw0Rno3Sat++6fDO
+8m1tpHIT4dM3O/wg+fD1QcoMKnz95ks8XL6c324O+cz5tm+//nuLgPYlH65uWptiPxgrav34/RJW
+8L1q+fDr/OdJsY9twZZtfjs5Pf/zxndfcvbl8urr+U2xKfHux/n178vPR9rs9ork/wY7ets0zBql
+AAAAAElFTkSuQmCC
+--000000000000c0f8180572857d97--

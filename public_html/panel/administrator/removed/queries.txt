@@ -1,0 +1,3 @@
+SELECT * 
+FROM  `incidents` 
+WHERE FIND_IN_SET(  '2',  `claimedby` )  to find comma seprated values

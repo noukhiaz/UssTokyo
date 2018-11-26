@@ -1,0 +1,72 @@
+Return-Path: <>
+Delivered-To: usstoki@box1.customerdnsservers.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id aCT+FTV4BFrfIwwAsyhj2Q
+	for <usstoki@box1.customerdnsservers.com>; Thu, 09 Nov 2017 09:45:57 -0600
+Return-path: <>
+Envelope-to: usstoki@box1.customerdnsservers.com
+Delivery-date: Thu, 09 Nov 2017 09:45:57 -0600
+Received: from mailnull by box1.customerdnsservers.com with local (Exim 4.89)
+	id 1eCp1h-003NDs-84
+	for usstoki@box1.customerdnsservers.com; Thu, 09 Nov 2017 09:45:57 -0600
+X-Failed-Recipients: demo@domin.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box1.customerdnsservers.com>
+To: usstoki@box1.customerdnsservers.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1510242357-eximdsn-268147364
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1eCp1h-003NDs-84@box1.customerdnsservers.com>
+Date: Thu, 09 Nov 2017 09:45:57 -0600
+
+--1510242357-eximdsn-268147364
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  demo@domin.com
+    host aspmx.l.google.com [108.177.9.27]
+    SMTP error from remote mail server after RCPT TO:<demo@domin.com>:
+    550-5.1.1 The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at
+    550 5.1.1  https://support.google.com/mail/?p=NoSuchUser k144si3435693oih.56 - gsmtp
+
+--1510242357-eximdsn-268147364
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box1.customerdnsservers.com
+
+Action: failed
+Final-Recipient: rfc822;demo@domin.com
+Status: 5.0.0
+Remote-MTA: dns; aspmx.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser k144si3435693oih.56 - gsmtp
+
+--1510242357-eximdsn-268147364
+Content-type: message/rfc822
+
+Return-path: <usstoki@box1.customerdnsservers.com>
+Received: from usstoki by box1.customerdnsservers.com with local (Exim 4.89)
+	(envelope-from <usstoki@box1.customerdnsservers.com>)
+	id 1eCp1g-003NDj-Uz
+	for demo@domin.com; Thu, 09 Nov 2017 09:45:57 -0600
+To: demo@domin.com
+Subject: Message from Contact Demo
+X-PHP-Script: www.usstokyo.com/php/contact-form.php for 103.255.6.90
+From: Demo Contact Form <demo@domain.com>
+Message-Id: <E1eCp1g-003NDj-Uz@box1.customerdnsservers.com>
+Date: Thu, 09 Nov 2017 09:45:56 -0600
+
+ From: sfds 
+ E-Mail: asad@digiatlc.com 
+ Phone : 78979 
+ Message : gh j gjghj
+
+--1510242357-eximdsn-268147364--

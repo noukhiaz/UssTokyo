@@ -1,0 +1,585 @@
+Return-Path: <470-XOQ-769.0.165334.0.0.19020.9.11645434@mkt.lightspeedhq.com>
+Delivered-To: asad@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id CPN3AKaSolsEVzwAsyhj2Q
+	for <asad@usstokyo.com>; Wed, 19 Sep 2018 13:17:10 -0500
+Return-path: <470-XOQ-769.0.165334.0.0.19020.9.11645434@mkt.lightspeedhq.com>
+Envelope-to: asad@usstokyo.com
+Delivery-date: Wed, 19 Sep 2018 13:17:10 -0500
+Received: from mkt.lightspeedhq.com ([192.28.150.105]:46362)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <470-XOQ-769.0.165334.0.0.19020.9.11645434@mkt.lightspeedhq.com>)
+	id 1g2h2D-00GaVM-N7
+	for asad@usstokyo.com; Wed, 19 Sep 2018 13:17:09 -0500
+X-MSFBL: YXNhZEB1c3N0b2t5by5jb21AZHZwLTE5Mi0yOC0xNTAtMTA1QGJnLWFiZC0zOTlA
+	NDcwLVhPUS03Njk6NjA1MzY6MjIwNzg6MTQzNjg5OjA6MTkwMjA6OToxNjUzMzQ6
+	MTE2NDU0MzQ=
+Received: from [10.1.87.249] ([10.1.87.249:58653] helo=abmas02.marketo.org)
+	by abmta27.marketo.org (envelope-from <hi@lightspeedhq.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id D4/BD-19328-F7292AB5; Wed, 19 Sep 2018 13:16:31 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1537380991;
+	s=m1; d=lightspeedhq.com; i=@lightspeedhq.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=ljXRFbtfDMgWdaDlvGBzevpp2sLtri3dxHLFBEPDIuM=;
+	b=NowDTPU/V83yf4OjMFv/AkIPVimLf5wNWdPw5/eoLHex490pCgIWer5zV/RiFuE0
+	uGLHBlx377MQhI7Jws1X7L4F7PidBdzFvo/Hi7ysCJeL27CoI8I+ptQOgnRZDwbENrH
+	2zPEHoLxg3zPrxxbnnNCUZmQsemK6CX4YNo9+9vU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1537380991;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=ljXRFbtfDMgWdaDlvGBzevpp2sLtri3dxHLFBEPDIuM=;
+	b=dWKtsmf2Vxy2Am1a7VPxSR3lPMz4XeTRhwFj2vx3Sq/AHTU7Yr0UDaYKYmnbzdyY
+	wyL5vP+pxjJgQPDr5KXdGVqM2DeTtGg4fAfxxOc8QUwxypemgkpn5k06NkupVe7dihG
+	WY3xWIuxByooKBYcemAzBWc+qVdh5btdKgyLI7SA=
+Date: Wed, 19 Sep 2018 13:16:31 -0500 (CDT)
+From: Lightspeed Blog <hi@lightspeedhq.com>
+Reply-To: hi@lightspeedhq.com
+To: asad@usstokyo.com
+Message-ID: <801724003.61959558.1537380991881.JavaMail.root@abmas02.marketo.org>
+Subject: 6 ways your POS can help you transition from summer to fall
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_61959557_1772303093.1537380991880"
+X-Binding: bg-abd-399
+X-MarketoID: 470-XOQ-769:60536:22078:143689:0:19020:9:165334:11645434
+X-MktArchive: false
+List-Unsubscribe: <mailto:JFQUMRCMJVGFQOKQKRTW2RSXKQWUCVDUMV3T2PI.165334.19020.9@unsub-ab.mktomail.com>
+X-Mailfrom: 470-XOQ-769.0.165334.0.0.19020.9.11645434@mkt.lightspeedhq.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+
+------=_Part_61959557_1772303093.1537380991880
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<http://go.lightspeedhq.com/izBX0tOVAe300Y001vR1Q0M> =C2=A0  <http://go.lig=
+htspeedhq.com/Q0BQ0vO0Xf13R0tVY10AMA0> =C2=A0  <http://go.lightspeedhq.com/=
+c0M11RAX03tO0VYQB0vgB00> =C2=A0  <http://go.lightspeedhq.com/s0hB03V0vOtC0X=
+1RMA10Y0Q> =C2=A0  <http://go.lightspeedhq.com/DXiM10D0QOv00B0V3t1A0YR> =C2=
+=A0  <http://go.lightspeedhq.com/Q0BQ0vO0Xj13R0tVY10EMA0>
+=C2=A9 Lightspeed 2018=20
+ 700 St-Antoine Est, Suite 300, Montreal, Quebec, Canada, H2Y1A6=20
+ If you no longer wish to receive these emails you may unsubscribe <[[http:=
+//www2.lightspeedhq.com/UnsubscribePage.html?mkt_unsubscribe=3D1&mkt_tok=3D=
+eyJpIjoiTUdZMFpqWmlObVU1WkRVMiIsInQiOiJSL1JjUDJwSnpzMmNoQldwOGpPaTk0ZUcrOTF=
+XRU1JbVc1VHpGN0JxQjVYTys3RXFnRFVkL3lPWW0wdDVrblE2T1h5Z253dzJCNHpmclVVdXBOQX=
+lNRGtCUUNmMVNqbHltd2NVOStpVldFUzF4L3hnKzd4bUNFUm02bGx2UVFnViJ9]]> at anytim=
+e.
+
+------=_Part_61959557_1772303093.1537380991880
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<!-- Copyright (C) 2018 Perkuto Solutions Inc - All Rights Reserved.
+ You may use and modify this code under the terms of the Perkuto Template l=
+icense available here: http://perkuto.com/terms-and-conditions  -->
+<head>=20
+<!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml><![endif]-->=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />=
+=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ minimum-scale=3D1, maximum-scale=3D1" />=20
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=20
+<meta name=3D"format-detection" content=3D"telephone=3Dno" />=20
+<title>Allegro</title>=20
+<!-- Start Marketo Variable Definitions -->        =20
+<!-- Start Marketo Variable Definitions -->=20
+<style type=3D"text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; bac=
+kground-color:#f6f6f6; -webkit-font-smoothing:antialiased; -moz-osx-font-sm=
+oothing:grayscale; margin:0!important;padding:0!important;}
+        table td {border-collapse: collapse;}
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        h1,h2,h3,h4,h5,h6 {margin:0;padding:0;}
+        body,
+        #body_style {background-color:#f6f6f6; width:100%; min-width:100%!i=
+mportant;}
+       =20
+        a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration:none !important;
+        font-size:inherit!important;
+        font-family:inherit!important;
+        font-weight:inherit!important;
+        line-height:inherit!important;
+        }
+        a,
+        a:link,
+        a:visited,
+        a:active {color:#ed5153; text-decoration:none;}
+        @media only screen and (max-width:600px) {
+            body {min-width:100%!important;}
+            table.button {width:100%!important;}
+            p {padding-left:0; padding-right:0!important;}
+            table.tableCollapse {width:100%!important;}
+            td.w25 {width:25px!important;}
+            img.w100 {width:100%!important; height:auto!important;}
+        }
+    </style>=20
+</head>=20
+<body bgcolor=3D"#f6f6f6"><style type=3D"text/css">div#emailPreHeader{ disp=
+lay: none !important; }</style><div id=3D"emailPreHeader" style=3D"mso-hide=
+:all; visibility:hidden; opacity:0; color:transparent; mso-line-height-rule=
+:exactly; line-height:0; font-size:0px; overflow:hidden; border-width:0; di=
+splay:none !important;">Plus our latest retail articles, hot off the press!=
+</div>=20
+<div id=3D"body_style" style=3D"background-color:#f6f6f6;">=20
+<table width=3D"100%" bgcolor=3D"#f6f6f6" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"center" style=3D"margin:0px auto; width:100%!impor=
+tant; min-width:100%!important;">=20
+<tbody>
+<tr>=20
+<td>=20
+<table bgcolor=3D"#ffffff" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"600" class=3D"tableCollapse" align=3D"center" style=3D"margin:0px=
+ auto; width:600px;">=20
+<tbody>
+<tr>=20
+<td class=3D"mktoContainer" id=3D"MainContainer" bgcolor=3D"#ffffff" align=
+=3D"center" valign=3D"top">
+<table bgcolor=3D"#f6f6f6" width=3D"100%" align=3D"center" cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" class=3D"mktoModule tableCollapse" id=3D"L=
+ogoModule" style=3D"margin:0px auto; width:100%!important; min-width:100%!i=
+mportant;">=20
+<tbody>=20
+<tr>=20
+<td height=3D"25" style=3D"height:25px; font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" style=3D"line-height:1px;">=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"tableCollapse" align=3D"center" style=3D"margin:0px auto; width:100%!i=
+mportant; min-width:100%!important;">=20
+<tbody>=20
+<tr>=20
+<td width=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nbs=
+p;</td>=20
+<td align=3D"center" style=3D"line-height:1px;">=20
+<div style=3D"display:inline-block" class=3D"mktoImg" id=3D"Logo" mktolocki=
+mgsize=3D"false" mktolockimgstyle=3D"false">=20
+<a href=3D
+"http://go.lightspeedhq.com/VvOy001YBV0Q100X3MRAdt0" target=3D"_blank"
+> <img width=3D"200" border=3D"0" alt=3D"Lightspeed Logo" style=3D"width:20=
+0px; height:auto!important; display:inline-block; border:none; outline:none=
+; text-decoration:none; vertical-align:middle; -ms-interpolation-mode:bicub=
+ic;" src=3D"http://www2.lightspeedhq.com/rs/470-XOQ-769/images/lightspeed-l=
+ogo200x47.png" /> </a>=20
+</div> </td>=20
+<td width=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nbs=
+p;</td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td height=3D"25" style=3D"height:25px; font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>
+<table bgcolor=3D"#ffffff" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"center" class=3D"mktoModule tableCollapse" id=3D"D=
+igestoModule" style=3D"margin:0px auto; width:100%!important; min-width:100=
+%!important;">=20
+<tbody>=20
+<tr>=20
+<td valign=3D"top" style=3D"line-height:1px;">=20
+<!-- Start of Digesto Token -->                <!--https://www.lightspeedhq=
+.com/wp-content/uploads/2017/07/Clothes-rack.jpg--> <table width=3D"100%" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"tableCollapse" ali=
+gn=3D"center" style=3D"width:100%!important; min-width:100%!important;">   =
+                                 <tbody><tr>                               =
+         <td style=3D"line-height:1px;">                                   =
+         <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" class=3D"tableCollapse" align=3D"center" style=3D"width:100%!importa=
+nt; min-width:100%!important;">                                            =
+    <tbody><tr>                                                    <td alig=
+n=3D"center" style=3D"line-height:1px;">                                   =
+                     <div>                                                 =
+           <a href=3D "http://go.lightspeedhq.com/umt000vOM30Y1H01BARXQV0" =
+class=3D"item-link" target=3D"_blank" ><img class=3D"w100" width=3D"600" bo=
+rder=3D"0" src=3D"https://assets.lightspeedhq.com/img/2018/09/f708d8c9-blog=
+-sept_summertofall-min.png" alt=3D"Post Image" style=3D"width:600px; height=
+:auto!important; display:inline-block; -ms-interpolation-mode: bicubic; bor=
+der:none; outline: none; text-decoration:none; vertical-align:middle;"></a>=
+                                                        </div>             =
+                                       </td>                               =
+                 </tr>                                            </tbody><=
+/table>                                        </td>                       =
+             </tr>                                    <tr>                 =
+                       <td height=3D"45" style=3D"height:45px; font-size:1p=
+x; line-height:1px;">&nbsp;</td>                                    </tr>  =
+                                  <tr>                                     =
+   <td style=3D"line-height:1px;">                                         =
+   <table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" class=3D"tableCollapse" style=3D"margin:0px auto; width:100=
+%!important; min-width:100%!important;">                                   =
+             <tbody><tr>                                                   =
+ <td width=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nb=
+sp;</td>                                                    <td style=3D"fo=
+nt-family:Arial, sans-serif; font-size:22px; line-height:33px; color:#494c4=
+c; text-align:center; font-weight:normal;">                                =
+                        <div><a href=3D "http://go.lightspeedhq.com/umt000v=
+OM30Y1H01BARXQV0" class=3D"item-link" target=3D"_blank" style=3D"color:#494=
+c4c; text-decoration:none;" ><span style=3D"color:#494c4c; text-decoration:=
+none;">6 ways your POS can help you transition from summer to fall</span></=
+a></div>                                                    </td>          =
+                                          <td width=3D"25" style=3D"width:2=
+5px; font-size:1px; line-height:1px;">&nbsp;</td>                          =
+                      </tr>                                            </tb=
+ody></table>                                        </td>                  =
+                  </tr>                                    <tr>            =
+                            <td height=3D"30" style=3D"height:30px; font-si=
+ze:1px; line-height:1px;">&nbsp;</td>                                    </=
+tr>                                    <tr>                                =
+        <td>                                            <table width=3D"100=
+%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=
+=3D"tableCollapse" style=3D"margin:0px auto; width:100%!important; min-widt=
+h:100%!important;">                                                <tbody><=
+tr>                                                    <td width=3D"25" sty=
+le=3D"width:25px; font-size:1px; line-height:1px;">&nbsp;</td>             =
+                                       <td style=3D"font-family:Arial, sans=
+-serif; font-size:16px; line-height:24px; color:#808080; text-align:center;=
+ font-weight:normal;">                                                     =
+   <div>                                                            Seasona=
+l transition is a thrilling time for fashion retailers; new collections are=
+ coming in, and shops are reborn with exciting sale opportunities. Switchin=
+g from one season to the next can [=E2=80=A6]                              =
+                          </div>                                           =
+         </td>                                                    <td width=
+=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nbsp;</td>  =
+                                              </tr>                        =
+                    </tbody></table>                                       =
+ </td>                                    </tr>                            =
+        <tr>                                        <td height=3D"40" style=
+=3D"height:40px; font-size:1px; line-height:1px;">&nbsp;</td>              =
+                      </tr>                                    <tr>        =
+                                <td>                                       =
+     <table width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" class=3D"tableCollapse" style=3D"margin:0px auto; width=
+:100%!important; min-width:100%!important;">                               =
+                 <tbody><tr>                                               =
+     <td width=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;"=
+>&nbsp;</td>                                                    <td>       =
+                                                 <div align=3D"center" clas=
+s=3D"button">                                                            <!=
+--[if mso]>                                                            <tab=
+le class=3D"button" width=3D"200" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" style=3D"width:200px; border-spacing: 0; border-collapse: collapse;=
+ mso-table-lspace:0pt; mso-table-rspace:0pt;">                             =
+                                   <tr>                                    =
+                                <td align=3D"center">                      =
+                                                  <a:roundrect role=3D"pres=
+entation" xmlns:a=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-=
+microsoft-com:office:word" href=3D "http://go.lightspeedhq.com/umt000vOM30Y=
+1H01BARXQV0" style=3D"height:43px; v-text-anchor:middle; width:200px;" arcs=
+ize=3D"70%" strokecolor=3D"#ed5153" fillcolor=3D"#ed5153" >                =
+                                                        <w:anchorlock></w:a=
+nchorlock>                                                                 =
+       <a:textbox role=3D"presentation" inset=3D"0,0,0,0">                 =
+                                                       <center style=3D"col=
+or:#ffffff; font-family:Arial, sans-serif; font-size:16px;">               =
+                                                         <![endif]-->      =
+                                                                      <div =
+style=3D"color: #ffffff; background-color: #ed5153; border-radius: 30px; -w=
+ebkit-border-radius: 30px; -moz-border-radius: 30px; width:200px; border-to=
+p: 0px solid transparent; border-right: 0px solid transparent; border-botto=
+m: 0px solid transparent; border-left: 0px solid transparent; padding-top: =
+5px; padding-bottom: 5px;font-family: Arial, sans-serif; text-align: center=
+; mso-border-alt: none;"><a href=3D "http://go.lightspeedhq.com/umt000vOM30=
+Y1H01BARXQV0" style=3D"color:#ffffff; text-decoration:none;" ><span style=
+=3D"font-size:16px; line-height:32px; color:#ffffff; text-decoration:none;"=
+>Read the article</span></a></div>                                         =
+                               <!--[if mso]>                               =
+                                         </center>                         =
+                                               </a:textbox>                =
+                                                        </a:roundrect>     =
+                                                               </td>       =
+                                                         </tr>             =
+                                               </table>                    =
+                                        <![endif]-->                       =
+                                 </div>                                    =
+                </td>                                                    <t=
+d width=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nbsp;=
+</td>                                                </tr>                 =
+                           </tbody></table>                                =
+        </td>                                    </tr>                     =
+               <tr>                                        <td height=3D"50=
+" style=3D"height:50px; font-size:1px; line-height:1px;">&nbsp;</td>       =
+                             </tr>                                    <tr> =
+                                       <td bgcolor=3D"#f6f6f6" height=3D"45=
+" style=3D"height:45px; font-size:1px; line-height:1px;">&nbsp;</td>       =
+                             </tr>                                </tbody><=
+/table>              <!--https://assets.lightspeedhq.com/img/2018/09/29b2c0=
+52-screen-shot-2018-09-16-at-11.36.47-pm-min.png--> <table width=3D"100%" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"tableCollapse" ali=
+gn=3D"center" style=3D"width:100%!important; min-width:100%!important;">   =
+                                 <tbody><tr>                               =
+         <td style=3D"line-height:1px;">                                   =
+         <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" class=3D"tableCollapse" align=3D"center" style=3D"width:100%!importa=
+nt; min-width:100%!important;">                                            =
+    <tbody><tr>                                                    <td alig=
+n=3D"center" style=3D"line-height:1px;">                                   =
+                     <div>                                                 =
+           <a href=3D "http://go.lightspeedhq.com/z0Rv1Y3000MOtnBVXAI1Q00" =
+class=3D"item-link" target=3D"_blank" ><img class=3D"w100" width=3D"600" bo=
+rder=3D"0" src=3D"https://assets.lightspeedhq.com/img/2018/09/d3574721-blog=
+-sept_basicreportsinventoryplans-min.png" alt=3D"Post Image" style=3D"width=
+:600px; height:auto!important; display:inline-block; -ms-interpolation-mode=
+: bicubic; border:none; outline: none; text-decoration:none; vertical-align=
+:middle;"></a>                                                        </div=
+>                                                    </td>                 =
+                               </tr>                                       =
+     </tbody></table>                                        </td>         =
+                           </tr>                                    <tr>   =
+                                     <td height=3D"45" style=3D"height:45px=
+; font-size:1px; line-height:1px;">&nbsp;</td>                             =
+       </tr>                                    <tr>                       =
+                 <td style=3D"line-height:1px;">                           =
+                 <table width=3D"100%" align=3D"center" cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"0" class=3D"tableCollapse" style=3D"margin:0px a=
+uto; width:100%!important; min-width:100%!important;">                     =
+                           <tbody><tr>                                     =
+               <td width=3D"25" style=3D"width:25px; font-size:1px; line-he=
+ight:1px;">&nbsp;</td>                                                    <=
+td style=3D"font-family:Arial, sans-serif; font-size:22px; line-height:33px=
+; color:#494c4c; text-align:center; font-weight:normal;">                  =
+                                      <div><a href=3D "http://go.lightspeed=
+hq.com/z0Rv1Y3000MOtnBVXAI1Q00" class=3D"item-link" target=3D"_blank" style=
+=3D"color:#494c4c; text-decoration:none;" ><span style=3D"color:#494c4c; te=
+xt-decoration:none;">How to use basic reports to create inventory plans</sp=
+an></a></div>                                                    </td>     =
+                                               <td width=3D"25" style=3D"wi=
+dth:25px; font-size:1px; line-height:1px;">&nbsp;</td>                     =
+                           </tr>                                           =
+ </tbody></table>                                        </td>             =
+                       </tr>                                    <tr>       =
+                                 <td height=3D"30" style=3D"height:30px; fo=
+nt-size:1px; line-height:1px;">&nbsp;</td>                                 =
+   </tr>                                    <tr>                           =
+             <td>                                            <table width=
+=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ class=3D"tableCollapse" style=3D"margin:0px auto; width:100%!important; mi=
+n-width:100%!important;">                                                <t=
+body><tr>                                                    <td width=3D"2=
+5" style=3D"width:25px; font-size:1px; line-height:1px;">&nbsp;</td>       =
+                                             <td style=3D"font-family:Arial=
+, sans-serif; font-size:16px; line-height:24px; color:#808080; text-align:c=
+enter; font-weight:normal;">                                               =
+         <div>                                                            I=
+f you=E2=80=99ve been in retail longer than a week, it=E2=80=99s likely you=
+=E2=80=99ve been to one or more retail market. Of all things in retail, the=
+ market is one of our [=E2=80=A6]                                          =
+              </div>                                                    </t=
+d>                                                    <td width=3D"25" styl=
+e=3D"width:25px; font-size:1px; line-height:1px;">&nbsp;</td>              =
+                                  </tr>                                    =
+        </tbody></table>                                        </td>      =
+                              </tr>                                    <tr>=
+                                        <td height=3D"40" style=3D"height:4=
+0px; font-size:1px; line-height:1px;">&nbsp;</td>                          =
+          </tr>                                    <tr>                    =
+                    <td>                                            <table =
+width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" class=3D"tableCollapse" style=3D"margin:0px auto; width:100%!importa=
+nt; min-width:100%!important;">                                            =
+    <tbody><tr>                                                    <td widt=
+h=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nbsp;</td> =
+                                                   <td>                    =
+                                    <div align=3D"center" class=3D"button">=
+                                                            <!--[if mso]>  =
+                                                          <table class=3D"b=
+utton" width=3D"200" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"width:200px; border-spacing: 0; border-collapse: collapse; mso-table-ls=
+pace:0pt; mso-table-rspace:0pt;">                                          =
+                      <tr>                                                 =
+                   <td align=3D"center">                                   =
+                                     <a:roundrect role=3D"presentation" xml=
+ns:a=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com=
+:office:word" href=3D "http://go.lightspeedhq.com/z0Rv1Y3000MOtnBVXAI1Q00" =
+style=3D"height:43px; v-text-anchor:middle; width:200px;" arcsize=3D"70%" s=
+trokecolor=3D"#ed5153" fillcolor=3D"#ed5153" >                             =
+                                           <w:anchorlock></w:anchorlock>   =
+                                                                     <a:tex=
+tbox role=3D"presentation" inset=3D"0,0,0,0">                              =
+                                          <center style=3D"color:#ffffff; f=
+ont-family:Arial, sans-serif; font-size:16px;">                            =
+                                            <![endif]-->                   =
+                                                         <div style=3D"colo=
+r: #ffffff; background-color: #ed5153; border-radius: 30px; -webkit-border-=
+radius: 30px; -moz-border-radius: 30px; width:200px; border-top: 0px solid =
+transparent; border-right: 0px solid transparent; border-bottom: 0px solid =
+transparent; border-left: 0px solid transparent; padding-top: 5px; padding-=
+bottom: 5px;font-family: Arial, sans-serif; text-align: center; mso-border-=
+alt: none;"><a href=3D "http://go.lightspeedhq.com/z0Rv1Y3000MOtnBVXAI1Q00"=
+ style=3D"color:#ffffff; text-decoration:none;" ><span style=3D"font-size:1=
+6px; line-height:32px; color:#ffffff; text-decoration:none;">Read the artic=
+le</span></a></div>                                                        =
+                <!--[if mso]>                                              =
+                          </center>                                        =
+                                </a:textbox>                               =
+                                         </a:roundrect>                    =
+                                                </td>                      =
+                                          </tr>                            =
+                                </table>                                   =
+                         <![endif]-->                                      =
+                  </div>                                                   =
+ </td>                                                    <td width=3D"25" =
+style=3D"width:25px; font-size:1px; line-height:1px;">&nbsp;</td>          =
+                                      </tr>                                =
+            </tbody></table>                                        </td>  =
+                                  </tr>                                    =
+<tr>                                        <td height=3D"50" style=3D"heig=
+ht:50px; font-size:1px; line-height:1px;">&nbsp;</td>                      =
+              </tr>                                    <tr>                =
+                        <td bgcolor=3D"#f6f6f6" height=3D"45" style=3D"heig=
+ht:45px; font-size:1px; line-height:1px;">&nbsp;</td>                      =
+              </tr>                                </tbody></table>     =20
+<!-- End of Digesto Token --> </td>=20
+</tr>=20
+</tbody>=20
+</table>
+<table bgcolor=3D"#f6f6f6" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"center" class=3D"mktoModule tableCollapse" id=3D"F=
+ooterModule04" style=3D"margin:0px auto; width:100%!important; min-width:10=
+0%!important;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"left">=20
+<table width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" class=3D"tableCollapse" style=3D"width:100%!important; min-width=
+:100%!important;">=20
+<tbody>=20
+<tr>=20
+<td width=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nbs=
+p;</td>=20
+<td class=3D"mktEditable" id=3D"SocialIcons" style=3D"text-align:center; li=
+ne-height:1px;">=20
+<div>=20
+<a target=3D"_blank" href=3D
+"http://go.lightspeedhq.com/izBX0tOVAe300Y001vR1Q0M"
+><img width=3D"32" height=3D"32" border=3D"0" alt=3D"Facebook" style=3D"wid=
+th:32px; height:32px; display:inline-block; border:none; outline:none; text=
+-decoration:none; vertical-align:middle;" src=3D"https://d2fi4ri5dhpqd1.clo=
+udfront.net/public/resources/social-networks-icon-sets/circle-dark-gray/fac=
+ebook@2x.png" /></a> &nbsp;=20
+<a target=3D"_blank" href=3D
+"http://go.lightspeedhq.com/Q0BQ0vO0Xf13R0tVY10AMA0"
+><img width=3D"32" height=3D"32" border=3D"0" alt=3D"Twitter" style=3D"widt=
+h:32px; height:32px; display:inline-block; border:none; outline:none; text-=
+decoration:none; vertical-align:middle;" src=3D"https://d2fi4ri5dhpqd1.clou=
+dfront.net/public/resources/social-networks-icon-sets/circle-dark-gray/twit=
+ter@2x.png" /></a> &nbsp;=20
+<a target=3D"_blank" href=3D
+"http://go.lightspeedhq.com/c0M11RAX03tO0VYQB0vgB00"
+><img width=3D"32" height=3D"32" border=3D"0" alt=3D"Instagram" style=3D"wi=
+dth:32px; height:32px; display:inline-block; border:none; outline:none; tex=
+t-decoration:none; vertical-align:middle;" src=3D"https://d2fi4ri5dhpqd1.cl=
+oudfront.net/public/resources/social-networks-icon-sets/circle-dark-gray/in=
+stagram@2x.png" /></a> &nbsp;=20
+<a target=3D"_blank" href=3D
+"http://go.lightspeedhq.com/s0hB03V0vOtC0X1RMA10Y0Q"
+><img width=3D"32" height=3D"32" border=3D"0" alt=3D"LinkedIn" style=3D"wid=
+th:32px; height:32px; display:inline-block; border:none; outline:none; text=
+-decoration:none; vertical-align:middle;" src=3D"https://d2fi4ri5dhpqd1.clo=
+udfront.net/public/resources/social-networks-icon-sets/circle-dark-gray/lin=
+kedin@2x.png" /></a> &nbsp;=20
+<a target=3D"_blank" href=3D
+"http://go.lightspeedhq.com/DXiM10D0QOv00B0V3t1A0YR"
+><img width=3D"32" height=3D"32" border=3D"0" alt=3D"Youtube" style=3D"widt=
+h:32px; height:32px; display:inline-block; border:none; outline:none; text-=
+decoration:none; vertical-align:middle;" src=3D"https://d2fi4ri5dhpqd1.clou=
+dfront.net/public/resources/social-networks-icon-sets/circle-dark-gray/yout=
+ube@2x.png" /></a> &nbsp;=20
+<a target=3D"_blank" href=3D
+"http://go.lightspeedhq.com/Q0BQ0vO0Xj13R0tVY10EMA0"
+><img width=3D"32" height=3D"32" border=3D"0" alt=3D"Web Site" style=3D"wid=
+th:32px; height:32px; display:inline-block; border:none; outline:none; text=
+-decoration:none; vertical-align:middle;" src=3D"https://d2fi4ri5dhpqd1.clo=
+udfront.net/public/resources/social-networks-icon-sets/circle-dark-gray/web=
+site@2x.png" /></a>=20
+</div></td>=20
+<td width=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nbs=
+p;</td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td height=3D"30" style=3D"height:30px; font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>
+<table bgcolor=3D"#f6f6f6" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"center" class=3D"mktoModule tableCollapse" id=3D"F=
+ooterModule06" style=3D"margin:0px auto; width:100%!important; min-width:10=
+0%!important;">=20
+<tbody>=20
+<tr>=20
+<td align=3D"left">=20
+<table width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" class=3D"tableCollapse" style=3D"width:100%!important; min-width=
+:100%!important;">=20
+<tbody>=20
+<tr>=20
+<td width=3D"25" style=3D"width:25px; font-size:1px; line-height:1px;">&nbs=
+p;</td>=20
+<td class=3D"mktEditable" id=3D"Footer" style=3D"text-align:center; font-fa=
+mily:Arial, sans-serif; font-size:12px; line-height:14px; color:#494c4c; fo=
+nt-weight:normal;">=20
+<div>
+ =C2=A9 Lightspeed 2018=20
+<br /> 700 St-Antoine Est, Suite 300, Montreal, Quebec, Canada, H2Y1A6=20
+<br /> If you no longer wish to receive these emails you may=20
+<a href=3D"http://www2.lightspeedhq.com/UnsubscribePage.html?mkt_unsubscrib=
+e=3D1&mkt_tok=3DeyJpIjoiTUdZMFpqWmlObVU1WkRVMiIsInQiOiJSL1JjUDJwSnpzMmNoQld=
+wOGpPaTk0ZUcrOTFXRU1JbVc1VHpGN0JxQjVYTys3RXFnRFVkL3lPWW0wdDVrblE2T1h5Z253dz=
+JCNHpmclVVdXBOQXlNRGtCUUNmMVNqbHltd2NVOStpVldFUzF4L3hnKzd4bUNFUm02bGx2UVFnV=
+iJ9" target=3D"_blank" style=3D"text-decoration:none; color:#494c4c;"><span=
+ style=3D"text-decoration:underline; color:#494c4c;">unsubscribe</span></a>=
+ at anytime.=20
+</div></td>=20
+<td width=3D"25" style=3D"font-size:1px; line-height:1px;">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td height=3D"15" style=3D"height:15px; font-size:1px; line-height:1px;">&n=
+bsp;</td>=20
+</tr>=20
+</tbody>=20
+</table></td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+</div>  =20
+<a href=3D
+"http://go.lightspeedhq.com/R003MvVORY0010A0XkQBFt1"
+></a>
+<img src=3D"http://go.lightspeedhq.com/trk?t=3D1&mid=3DNDcwLVhPUS03Njk6NjA1=
+MzY6MjIwNzg6MTQzNjg5OjA6MTkwMjA6OToxNjUzMzQ6MTE2NDU0MzQ6YXNhZEB1c3N0b2t5by5=
+jb20%3D" width=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D=
+"" />
+</body>
+</html>
+------=_Part_61959557_1772303093.1537380991880--

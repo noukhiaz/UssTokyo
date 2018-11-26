@@ -1,0 +1,41 @@
+Return-Path: <info@usstokyo.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id gJ8hHspjYFuwDjoAsyhj2Q
+	for <info@usstokyo.com>; Tue, 31 Jul 2018 08:27:38 -0500
+Return-path: <info@usstokyo.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Tue, 31 Jul 2018 08:27:38 -0500
+Received: from [119.153.195.43] (port=50835 helo=Asad)
+	by box1.customerdnsservers.com with esmtpa (Exim 4.91)
+	(envelope-from <info@usstokyo.com>)
+	id 1fkUgb-00Fxrj-Q1
+	for info@usstokyo.com; Tue, 31 Jul 2018 08:27:38 -0500
+From: "Microsoft Outlook" <info@usstokyo.com>
+Sender: "Microsoft Outlook" <info@usstokyo.com>
+To: "Admin [USSTOKYO.COM]" <info@usstokyo.com>
+Subject: Microsoft Outlook Test Message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_3719_01D428FC.251304A0"
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_3719_01D428FC.251304A0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+This is an e-mail message sent automatically by Microsoft Outlook while =
+testing the settings for your account.
+
+------=_NextPart_000_3719_01D428FC.251304A0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>This is an e-mail message sent automatically by Microsoft =
+Outlook while testing the settings for your account.
+</p></body></html>
+------=_NextPart_000_3719_01D428FC.251304A0--
+

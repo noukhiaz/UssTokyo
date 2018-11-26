@@ -1,0 +1,765 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201803 will be lost/reset.
+# Last config file used to build this data file was /home/usstoki/tmp/awstats/awstats.usstokyo.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2672                
+POS_VISITOR 16243               
+POS_DAY 24672               
+POS_DOMAIN 3384                
+POS_LOGIN 3885                
+POS_ROBOT 4040                
+POS_WORMS 4879                
+POS_EMAILSENDER 5010                
+POS_EMAILRECEIVER 5153                
+POS_SESSION 25377               
+POS_SIDER 25584               
+POS_FILETYPES 5288                
+POS_DOWNLOADS 5408                
+POS_OS 5456                
+POS_BROWSER 5769                
+POS_SCREENSIZE 7214                
+POS_UNKNOWNREFERER 7288                
+POS_UNKNOWNREFERERBROWSER 7801                
+POS_ORIGIN 8132                
+POS_SEREFERRALS 8268                
+POS_PAGEREFS 8425                
+POS_SEARCHWORDS 8730                
+POS_KEYWORDS 8882                
+POS_MISC 2336                
+POS_ERRORS 8941                
+POS_CLUSTER 3741                
+POS_SIDER_404 9037                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180401004434 19 3708 9072273663294
+FirstTime 0
+LastTime 20180331135230
+LastUpdate 20180401075346 19 0 18 0 0
+TotalVisits 301                 
+TotalUnique 225                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 225                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 15 2857 20 34 2475
+1 14 14 2662 12 16 389
+2 15 15 2833 26 38 3322
+3 10 10 1910 18 31 1692
+4 35 35 6674 32 75 5140
+5 25 25 4722 24 46 3235
+6 15 15 2931 26 35 2468
+7 25 25 4535 37 63 3411
+8 20 20 3902 35 55 5129
+9 17 17 3231 27 49 3887
+10 10 10 1890 19 32 2309
+11 26 26 7097 28 55 4534
+12 15 15 2845 23 48 3458
+13 21 21 3792 19 35 3431
+14 17 17 3032 38 56 4249
+15 27 27 5130 29 47 4231
+16 19 19 3609 36 52 3608
+17 25 25 4931 15 23 1305
+18 10 10 1902 27 41 2751
+19 28 28 5011 50 60 4494
+20 11 11 2081 23 39 2071
+21 10 10 1882 31 44 3721
+22 6 6 1142 30 38 1772
+23 9 9 1707 22 39 3265
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 24
+pk 172 172 34836
+us 135 135 25487
+pl 24 24 4835
+ru 21 21 3387
+cn 18 18 3394
+ua 12 12 2252
+gb 8 8 1512
+in 5 5 935
+kr 4 4 764
+ca 4 4 760
+jp 3 3 569
+fr 3 3 561
+za 2 2 374
+cl 2 2 374
+nl 2 2 382
+ae 2 2 378
+br 1 1 187
+se 1 1 187
+ee 1 1 187
+de 1 1 187
+ro 1 1 187
+au 1 1 191
+sa 1 1 191
+nz 1 1 191
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+bingbot/ 139 26885 20180331221515 0
+YandexBot/ 84 15740 20180331044614 0
+Baiduspider/ 45 8455 20180330201605 0
+Googlebot/ 36 6883 20180329203048 0
+Mail\.RU_Bot/ 25 5015 20180330232644 0
+no_user_agent 19 3710 20180320191945 0
+DuckDuckGo\-Favicons\-Bot/ 12 2292 20180325040445 0
+DotBot/ 9 1876 20180317093326 0
+SiteExplorer/ 8 1636 20180316212446 0
+(firefox/)([0-9]\.|[0-1][0]\.) 6 1126 20180329021223 0
+SafeDNSBot 5 1040 20180319024149 0
+DomainSONOCrawler/ 2 374 20180318051004 0
+KomodiaBot/ 2 374 20180322135215 0
+Google[\x20]Web[\x20]Preview 1 187 20180321025802 0
+Python\-urllib/ 1 191 20180304224838 0
+aiHitBot/ 1 191 20180302235056 0
+Firefox/1\.5 1 0 20180314085620 0
+SurveyBot/ 1 191 20180306222718 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 355 66833 0 0
+php 51 11328 0 0
+Unknown 19 4147 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+winphone 1 1
+winxp 28 28
+win7 60 60
+ios_iphone 41 41
+linux 19 19
+win10 106 106
+linuxandroid 97 97
+winlong 1 1
+macosx10 2 2
+Unknown 20 20
+macosx 1 1
+macosx11 2 2
+macosx8 1 1
+win2003 1 1
+win8.1 12 12
+win8 2 2
+macosx12 25 25
+winvista 5 5
+win2000 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 71
+firefox55.0 1 1
+safari5.1 4 4
+android 6 6
+edge16 1 1
+chrome11.0.696.71 2 2
+chrome63.0.3223.8 1 1
+firefox35.0 1 1
+chrome65.0.3325.181 39 39
+msie11.0 10 10
+safari9.0 2 2
+chrome41.0.2272.118 2 2
+firefox57.0 6 6
+chrome34.0.1847.116 1 1
+firefox18.0 1 1
+chrome64.0.3282.119 2 2
+chrome51.0.2704.81 1 1
+iphone 3 3
+chrome57.0.2987.108 1 1
+safari10.0 1 1
+firefox58.0 13 13
+safari5.3.8 1 1
+chrome60.0.3112.116 1 1
+mozilla 5 5
+opera51.0.2830.55 1 1
+Unknown 9 9
+edge15 1 1
+chrome38.0.2125.104 6 6
+opera9.27 7 7
+firefox59.0 1 1
+firefox32.0 3 3
+chrome65.0.3325.162 1 1
+chrome61.0.3163.100 15 15
+msie7.0 2 2
+msie10.0 1 1
+firefox33.0 1 1
+chrome64.0.3282.186 53 53
+chrome45.0.2454.94 1 1
+chrome56.0.2924.76 3 3
+chrome14.0.813.0 1 1
+chrome42.0.2311.152 9 9
+chrome65.0.3325.109 47 47
+chrome63.0.3239.84 8 8
+chrome39.0.2171.95 1 1
+safari5.0.2 3 3
+chrome38.0.1025.166 3 3
+chrome62.0.3202.94 1 1
+chrome63.0.3239.132 17 17
+chrome31.0.1650.57 1 1
+chrome37.0.0.0 1 1
+chrome46.0.2490.76 3 3
+chrome34.0.1847.137 3 3
+chrome64.0.3282.140 2 2
+safari11.0 23 23
+chrome56.0.2924.87 9 9
+msie9.0 3 3
+chrome49.0.2623.75 12 12
+msie6.0 3 3
+chrome58.0.3029.110 6 6
+safari8.0 5 5
+chrome44.0.2403.89 1 1
+opera36.0.2130.32 3 3
+chrome41.0.2228.0 1 1
+chrome60.0.3112.113 1 1
+firebird 1 1
+chrome65.0.3325.146 2 2
+firefox31.0 1 1
+chrome64.0.3282.137 22 22
+chrome52.0.2743.116 2 2
+chrome26.0.1410.65 1 1
+chrome49.0.2623.112 18 18
+msie8.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180326214227
+Mozilla/5.0_Firefox/35.0 20180315142041
+Python/3.6_aiohttp/2.3.10 20180319070434
+python-requests/2.18.4 20180329060241
+python-requests/2.14.2 20180305001002
+panscient.com 20180326055747
+}__test|O:21:\ 20180312215723
+Mozilla/5.0_(compatible;_ips-agent) 20180311204611
+NYU_Internet_Census_(https://scan.lol;_research@scan.lol) 20180328135809
+Opera/9.27 20180320191807
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Python/3.6_aiohttp/2.3.10 20180319070434
+}__test|O:21:\ 20180312215723
+python-requests/2.14.2 20180305001002
+python-requests/2.18.4 20180329060241
+NYU_Internet_Census_(https://scan.lol;_research@scan.lol) 20180328135809
+panscient.com 20180326055747
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 368 368
+From1 9 9
+From2 2 2
+From3 4 4
+From4 42 42
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandexru 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://auc.usstokyo.com/aj-325RipChHLd1OIK.htm 1 1
+http://auc.usstokyo.com/aj-Z23TZ1iISme72S.htm 1 1
+http://tds-advert005.info 1 1
+http://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 1 181
+404 523 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 112
+/wp/wp-admin/install.php 1 -
+/install/install.php 1 -
+/administrator/ 4 -
+/joomla/administrator/index.php 1 -
+//wp/wp-includes/wlwmanifest.xml 1 -
+/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 2 http://usstokyo.com/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+//wp-login.php 4 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/administrator/components/com_joomleague/assets/classes/php-ofc-library/ofc_upload_image.php 1 http://usstokyo.com/administrator/components/com_joomleague/assets/classes/php-ofc-library/ofc_upload_image.php
+/xmlrpc.php 3 -
+/log.php 1 -
+/favicon.png 1 -
+/.svn/wc.db 1 -
+/blog/wp-login.php 1 -
+/cfg-contactform-1/inc/upload.php 1 http://usstokyo.com/cfg-contactform-1/inc/upload.php
+/components/com_foxcontact/lib/ 1 http://usstokyo.com/components/com_foxcontact/lib/
+/sitemap.xml 3 -
+/user/ 3 -
+/wp/wp-login.php 1 -
+//site/wp-includes/wlwmanifest.xml 1 -
+/modules/columnadverts/uploadimage.php 1 http://usstokyo.com/modules/columnadverts/uploadimage.php
+/images/vikslider/2013_Nissan_Altima_2.5SL_--_2012_NYIAS.JPG 3 -
+/wp-content/themes/u-design/style.css 1 http://www.usstokyo.com/wp-content/themes/u-design/style.css
+/wp-config.php~ 1 -
+/administrator/components/com_vikrentcar/resources/big_00_masterbild_1230x692_heli_1179_582.jpg 1 -
+/ads.txt 1 -
+/assets/js/uploadify/uploadify.css 1 http://usstokyo.com/assets/js/uploadify/uploadify.css
+/components/com_sexycontactform/fileupload/index.php 1 http://usstokyo.com/components/com_sexycontactform/fileupload/index.php
+/theme/assets/global/plugins/jquery-file-upload/server/php/ 1 http://www.usstokyo.com/theme/assets/global/plugins/jquery-file-upload/server/php/
+//cms/wp-includes/wlwmanifest.xml 1 -
+//xmlrpc.php 3 -
+/wp/wp-includes/wlwmanifest.xml 2 -
+/components/com_facileforms/libraries/jquery/uploadify.php 1 http://usstokyo.com/components/com_facileforms/libraries/jquery/uploadify.php
+/wp-login.php 64 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php 2 http://usstokyo.com/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php
+/.DS_Store 1 -
+/component/users/ 1 -
+/wordpress/ 1 -
+/blog/administrator/index.php 1 -
+/components/com_b2jcontact/css/b2jcontact.css 2 -
+/wp-content/themes/u-design/scripts/admin/uploadify/uploadify.css 1 http://usstokyo.com/wp-content/themes/u-design/scripts/admin/uploadify/uploadify.css
+/uploadify/uploadify.css 1 http://usstokyo.com/uploadify/uploadify.css
+//administrator/components/com_xcloner-backupandrestore/index2.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 http://usstokyo.com/wp-content/plugins/formcraft/file-upload/server/content/upload.php
+/components/com_creativecontactform/fileupload/files/shell.php 1 http://usstokyo.com/components/com_creativecontactform/fileupload/files/shell.php
+/wp-content/plugins/Premium_Gallery_Manager/uploadify/uploadify.css 1 http://usstokyo.com/wp-content/plugins/Premium_Gallery_Manager/uploadify/uploadify.css
+/.ssh/id_ecdsa 1 -
+/bitrix/admin/index.php 3 -
+/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 1 http://usstokyo.com/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php
+/wp/wp-admin/admin-ajax.php 1 -
+/admin/ 3 -
+/wp-content/plugins/cherry-plugin/README.md 1 http://www.usstokyo.com/wp-content/plugins/cherry-plugin/README.md
+/wordpress/wp-admin/install.php 1 -
+/admin 1 -
+/wp/ 1 -
+/' 2 http://whois.domaintools.com/usstokyo.com
+/sftp_config.json 1 -
+/wp-content/themes/satoshi/upload-file.php 1 http://www.usstokyo.com/wp-content/themes/satoshi/upload-file.php
+/wp-admin/admin-ajax.php 2 http://usstokyo.com/wp-admin/admin-ajax.php
+/wp-config.php 1 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/blog/wp-admin/admin-ajax.php 1 -
+/blog/wp-admin/install.php 1 -
+/assets/super_admin/vendor/jquery-file-upload/server/php 1 http://usstokyo.com/assets/super_admin/vendor/jquery-file-upload/server/php
+/.ssh/id_ed25519 1 -
+/'https://www.usstokyo.com/index.php' 1 -
+//wordpress/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-login.php 1 -
+/administrator/components/com_vikrentcar/resources/big_199x80.jpg 1 -
+//wp-includes/wlwmanifest.xml 1 -
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 1 http://www.usstokyo.com/administrator/components/com_simplephotogallery/lib/uploadFile.php
+/upload.php 1 -
+/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php 1 http://usstokyo.com/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php
+/wp-content/themes/village/blueprint/gallery/ajaxupload/server/php.php 1 http://usstokyo.com/wp-content/themes/village/blueprint/gallery/ajaxupload/server/php.php
+/administrator/index.php 55 -
+/.ssh/id_dsa 1 -
+/wp-config.php.bak 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 http://www.usstokyo.com/wp-content/plugins/formcraft/file-upload/server/php/upload.php
+/ckupload/ckupload.php 1 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 1 http://www.usstokyo.com/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php
+/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.js 1 http://www.usstokyo.com/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.js
+/.hg/hgrc 1 -
+/wp-admin/install.php 1 -
+/admin.php 3 -
+/administrator/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php 2 http://usstokyo.com/administrator/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php
+/.ssh/id_rsa 1 -
+/RPC2 1 -
+/robots.txt 254 -
+/modules/namamodule/uploadimage.php 1 http://usstokyo.com/modules/namamodule/uploadimage.php
+/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.css 1 http://www.usstokyo.com/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.css
+/'https://usstokyo.com/index.php' 1 -
+/media/error.php 1 -
+/.git/config 1 -
+/.idea/WebServers.xml 1 -
+/sz.php 1 -
+/blog/robots.txt 2 -
+//blog/wp-includes/wlwmanifest.xml 1 -
+/blog/ 2 http://usstokyo.com/blog/
+/error.php 1 -
+/.wp-config.php.swp 1 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/user/register 1 -
+/assets/modules/evogallery/js/uploadify/uploadify.css 1 http://www.usstokyo.com/assets/modules/evogallery/js/uploadify/uploadify.css
+/components/com_b2jcontact/izoc.php 1 -
+/components/com_joomleague/assets/classes/php-ofc-library/ofc_upload_image.php 1 http://usstokyo.com/components/com_joomleague/assets/classes/php-ofc-library/ofc_upload_image.php
+/wordpress/wp-admin/admin-ajax.php 1 -
+/joomla/robots.txt 1 -
+/wp-includes/wlwmanifest.xml 3 -
+/admin/login.php 3 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 1 http://usstokyo.com/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 225
+125.209.120.154 18 18 3438 20180331045455
+192.162.167.196 12 12 2562 20180322175628
+216.97.76.96 12 12 2087 20180302192833
+54.67.59.131 11 11 2101 20180329175951
+66.249.81.116 10 10 1910 20180331045404
+66.249.81.112 9 9 1719 20180329053548
+192.162.164.21 8 8 1708 20180320110358
+103.255.5.41 8 8 1528 20180321095315
+72.167.190.210 7 7 1400 20180320191807
+103.255.4.94 6 6 1146 20180326161330
+103.255.5.50 6 6 1146 20180325153657
+91.200.12.193 6 6 1122 20180321064124
+146.185.223.249 6 6 1139 20180320153727
+74.217.90.250 5 5 955 20180314230516
+103.255.5.71 5 5 955 20180312151415
+66.249.93.35 5 5 935 20180327151943
+66.249.81.239 4 4 764 20180312170108
+103.255.4.2 4 4 764 20180318193804
+13.93.83.229 4 4 748 20180306163545
+103.255.4.58 4 4 764 20180314163535
+103.255.4.86 4 4 764 20180321185853
+5.62.62.94 4 4 748 20180312214950
+66.249.81.114 4 4 764 20180323091247
+66.249.93.48 4 4 764 20180315015253
+103.255.5.55 3 3 573 20180328073554
+66.102.6.158 1 1 187 20180323114555
+101.211.182.36 2 2 374 20180305121359
+123.125.71.76 1 1 187 20180330173442
+183.240.92.137 1 1 191 20180324150943
+101.227.139.172 1 1 187 20180308115420
+173.244.48.129 1 1 187 20180318144820
+125.209.235.182 1 1 191 20180327052655
+103.255.4.251 1 1 191 20180325172934
+39.55.197.246 1 1 191 20180323074718
+39.53.13.225 1 1 191 20180323131254
+217.96.186.121 1 1 191 20180314085621
+119.160.103.177 1 1 191 20180323081258
+66.249.81.103 1 1 187 20180323042703
+220.181.108.187 1 1 187 20180330173438
+178.171.31.131 1 1 187 20180307191026
+198.20.103.242 1 1 187 20180315182744
+39.42.95.10 1 1 191 20180318120938
+115.239.212.66 1 1 191 20180320220818
+66.249.93.50 3 3 573 20180320092044
+43.245.8.91 3 3 569 20180326103929
+103.255.5.250 1 1 191 20180328153116
+195.22.127.130 2 2 374 20180312215723
+101.211.168.7 2 2 374 20180305222253
+69.58.178.58 1 1 191 20180311204611
+99.245.225.164 1 1 187 20180319204034
+119.156.115.117 1 1 187 20180327042822
+49.196.162.98 1 1 191 20180328223239
+18.232.108.157 1 1 187 20180315200601
+46.229.170.197 1 1 191 20180318112235
+182.191.183.222 1 1 191 20180325030057
+66.102.6.129 1 1 187 20180319003915
+39.55.228.21 1 1 191 20180320080117
+207.154.212.152 1 1 187 20180301103051
+103.255.5.25 3 3 573 20180327170746
+66.249.81.105 1 1 187 20180322150548
+39.53.40.101 1 1 191 20180322081010
+66.249.88.1 1 1 187 20180304235540
+38.100.21.67 1 1 191 20180308162754
+182.189.244.121 1 1 191 20180318121947
+119.160.101.162 1 1 187 20180305073119
+39.37.168.201 1 1 191 20180329051630
+39.46.29.104 1 1 187 20180331074413
+43.245.8.119 3 3 573 20180319144310
+103.255.4.22 1 1 191 20180326011509
+43.245.8.28 1 1 191 20180328093930
+108.178.61.58 1 1 187 20180316142231
+103.255.7.4 1 1 191 20180312131044
+103.255.5.254 2 2 382 20180321033353
+39.55.194.122 1 1 191 20180322095407
+196.139.4.25 2 2 374 20180315090526
+103.255.5.26 3 3 573 20180329100540
+125.209.235.168 1 1 191 20180327052703
+125.209.235.175 1 1 191 20180317022422
+103.255.5.83 2 2 382 20180305012402
+119.160.102.25 2 2 374 20180326112107
+23.100.69.102 1 1 187 20180309172522
+173.211.126.58 1 1 187 20180302162717
+163.172.13.38 1 1 191 20180317161701
+61.151.178.176 1 1 191 20180325020416
+188.25.189.107 1 1 187 20180302054042
+217.69.143.217 1 1 187 20180311055219
+103.255.5.110 1 1 191 20180305124215
+120.204.17.67 1 1 187 20180308115518
+183.240.92.147 1 1 191 20180323103257
+182.176.90.167 1 1 162 20180325073926
+202.142.190.203 1 1 191 20180331012248
+125.236.237.32 1 1 191 20180307192829
+61.151.178.166 1 1 191 20180323054150
+103.255.5.81 2 2 382 20180325053332
+119.160.99.163 1 1 191 20180331123856
+217.113.119.89 1 1 187 20180329115926
+101.226.65.107 1 1 191 20180323053651
+119.156.99.191 1 1 191 20180308065442
+91.200.12.21 1 1 191 20180306030049
+119.160.99.29 2 2 382 20180329131909
+66.249.83.20 1 1 191 20180331045357
+91.243.93.218 1 1 187 20180331130113
+182.189.47.205 1 1 191 20180318115044
+188.165.244.171 1 1 187 20180314023139
+5.77.39.43 3 3 573 20180322182222
+217.164.54.35 1 1 187 20180321061519
+66.249.93.52 3 3 573 20180317005406
+71.6.165.200 1 1 187 20180308063030
+37.204.35.110 1 1 187 20180314174623
+66.249.81.241 3 3 573 20180312130554
+64.74.215.164 2 2 382 20180314073127
+182.186.124.247 1 1 187 20180321010906
+91.200.12.98 1 1 191 20180317050728
+66.102.7.137 1 1 187 20180331044352
+43.245.11.39 1 1 191 20180323064329
+119.154.164.211 1 1 187 20180323112104
+110.36.83.28 1 1 191 20180320141555
+103.255.5.95 3 3 573 20180325043634
+119.156.120.230 1 1 191 20180329223730
+103.255.5.46 2 2 382 20180324150631
+207.244.149.26 1 1 191 20180321200937
+39.55.238.90 1 1 191 20180323074353
+39.46.92.76 1 1 191 20180312033142
+43.245.8.72 2 2 382 20180330100441
+101.226.33.238 1 1 187 20180312103838
+103.255.5.85 1 1 191 20180320004414
+39.46.53.97 2 2 382 20180314044343
+119.160.66.54 1 1 191 20180321130206
+49.129.50.155 1 1 187 20180305001002
+91.200.12.151 1 1 187 20180325135150
+168.235.194.67 1 1 187 20180312125448
+104.239.149.11 2 2 378 20180318031547
+66.249.81.243 2 2 382 20180316040735
+138.201.176.252 1 1 187 20180319144008
+159.65.24.22 1 1 187 20180324083716
+179.61.183.91 1 1 187 20180322185319
+182.188.66.216 1 1 187 20180308022444
+60.94.230.22 1 1 191 20180325043130
+39.46.44.102 1 1 191 20180321090934
+146.185.223.160 2 2 382 20180327011434
+61.151.178.164 1 1 191 20180325020556
+103.255.4.60 2 2 382 20180323154839
+212.83.178.172 1 1 187 20180312125757
+203.130.20.90 2 2 382 20180320080449
+66.249.83.18 1 1 191 20180308070559
+185.63.217.183 1 1 187 20180314052827
+39.32.243.40 2 2 374 20180304132001
+39.51.171.227 1 1 187 20180308130912
+54.149.107.40 1 1 191 20180321002550
+124.206.180.180 1 1 187 20180315142041
+64.74.215.170 1 1 191 20180314074136
+119.160.69.15 1 1 191 20180321052407
+39.55.96.242 2 2 382 20180305191715
+101.227.139.161 1 1 187 20180312103739
+119.160.100.37 1 1 191 20180323084455
+167.114.157.79 3 3 573 20180326214228
+125.209.235.183 1 1 191 20180317022428
+101.211.181.153 1 1 187 20180306104059
+103.255.7.47 1 1 187 20180305202340
+119.160.96.193 1 1 187 20180324040105
+39.46.232.12 1 1 191 20180320080756
+54.187.145.166 1 1 187 20180303024829
+119.160.101.59 1 1 191 20180323075111
+188.227.19.150 1 1 0 20180328070754
+77.218.249.181 1 1 187 20180324024146
+192.140.149.26 1 1 191 20180325032727
+54.37.149.75 3 3 561 20180329060241
+61.151.179.83 1 1 187 20180314055409
+195.154.185.239 1 1 187 20180326025646
+103.255.4.29 1 1 191 20180322045100
+103.255.5.30 1 1 191 20180327004952
+182.176.121.130 1 1 191 20180325073039
+39.42.78.104 1 1 191 20180322070919
+119.160.96.117 1 1 191 20180323165734
+66.249.93.39 3 3 561 20180325125739
+66.249.93.41 1 1 187 20180308150445
+138.197.202.197 1 1 187 20180305200418
+178.171.31.144 1 1 187 20180329103910
+61.129.6.148 1 1 187 20180314055406
+189.58.168.96 1 1 187 20180308014240
+119.160.116.136 1 1 191 20180331135230
+123.125.71.83 1 1 187 20180330173439
+191.101.113.37 1 1 187 20180315134717
+103.255.4.63 1 1 191 20180306225601
+109.86.210.25 1 1 187 20180318092953
+103.255.4.48 3 3 573 20180307115601
+52.13.111.82 1 1 191 20180307183135
+64.246.178.34 1 1 191 20180324221221
+212.12.188.154 1 1 191 20180320092351
+91.210.146.26 1 1 187 20180316143833
+217.147.169.230 1 1 187 20180304050758
+103.255.4.43 1 1 191 20180329163227
+43.245.8.34 2 2 382 20180330015249
+119.160.69.101 1 1 191 20180325100039
+103.255.5.49 1 1 191 20180306031138
+34.216.84.119 2 2 378 20180320082957
+61.151.178.165 1 1 187 20180308115521
+103.255.4.98 3 3 573 20180328150134
+128.75.60.90 1 1 187 20180314174331
+62.65.227.204 1 1 187 20180312113648
+119.160.101.236 1 1 191 20180325042000
+119.152.130.138 1 1 191 20180323160911
+34.245.25.71 1 1 187 20180319070434
+98.216.135.49 1 1 187 20180327025115
+103.255.4.6 1 1 191 20180322091626
+103.255.7.57 2 2 2459 20180328111726
+86.85.149.215 1 1 191 20180312051727
+119.160.103.75 1 1 191 20180320080034
+103.255.5.72 2 2 382 20180322132747
+103.255.5.29 2 2 382 20180327172437
+172.82.185.210 1 1 191 20180303071054
+103.255.5.61 2 2 382 20180308124016
+194.170.191.229 1 1 191 20180309044045
+5.188.9.80 2 2 0 20180328135809
+100.35.47.77 1 1 191 20180326055747
+49.106.217.218 1 1 191 20180307035227
+39.60.239.184 1 1 187 20180312145125
+185.191.204.5 1 1 200 20180315041534
+8.37.230.83 1 1 191 20180322112147
+172.105.215.38 1 1 187 20180318204512
+66.249.83.16 2 2 382 20180323041809
+46.161.9.39 1 1 170 20180318053228
+103.255.5.24 1 1 187 20180322150612
+83.31.187.120 1 1 0 20180315143720
+119.160.97.6 1 1 191 20180320113610
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20180301 4 4 760 3
+20180302 14 14 2461 3
+20180303 5 5 939 4
+20180304 5 5 939 4
+20180305 15 15 2825 12
+20180306 13 13 2471 12
+20180307 9 9 1715 7
+20180308 14 14 2642 13
+20180309 3 3 569 3
+20180311 4 4 760 4
+20180312 28 28 5300 19
+20180313 2 2 382 1
+20180314 24 24 4560 15
+20180315 13 13 2277 10
+20180316 10 10 1898 6
+20180317 7 7 1333 7
+20180318 14 14 2641 13
+20180319 9 9 1699 7
+20180320 36 36 7108 17
+20180321 23 23 4463 17
+20180322 24 24 4748 14
+20180323 29 29 5523 24
+20180324 8 8 1512 7
+20180325 24 24 4356 18
+20180326 14 14 2654 11
+20180327 14 14 2662 11
+20180328 14 14 4369 9
+20180329 23 23 4373 14
+20180330 8 8 1516 6
+20180331 15 15 2853 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 6
+30s-2mn 4
+2mn-5mn 6
+1h+ 4
+5mn-15mn 8
+0s-30s 269
+15mn-30mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/ 354 66629 276 274
+/index.php 38 7011 15 21
+/index.php/component/content/article/12-career/5-career 10 2360 4 0
+/index.php/discaunt 8 1600 2 2
+/bid.php 2 2459 1 1
+/auctions.php 2 322 0 0
+/contact.php 2 340 1 1
+/about.php 1 166 0 0
+/terms.php 1 180 0 0
+/login.php 1 162 1 1
+/investor.php 1 180 0 0
+/rules.php 1 171 0 0
+/policy.php 1 173 0 1
+/index.php/component/users/ 1 204 1 0
+/index 1 187 0 0
+/forgot.php 1 164 0 0
+END_SIDER

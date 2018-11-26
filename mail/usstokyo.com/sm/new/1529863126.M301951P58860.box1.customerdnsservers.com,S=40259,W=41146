@@ -1,0 +1,887 @@
+Return-Path: <bounce-989_HTML-399004539-3881963-6167586-17@bounce.email.vimeo.com>
+Delivered-To: sm@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id QOJBD9bbL1vs5QAAsyhj2Q
+	for <sm@usstokyo.com>; Sun, 24 Jun 2018 12:58:46 -0500
+Return-path: <bounce-989_HTML-399004539-3881963-6167586-17@bounce.email.vimeo.com>
+Envelope-to: sm@usstokyo.com
+Delivery-date: Sun, 24 Jun 2018 12:58:46 -0500
+Received: from mta.email.vimeo.com ([199.122.125.171]:47313)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <bounce-989_HTML-399004539-3881963-6167586-17@bounce.email.vimeo.com>)
+	id 1fX9Hg-000FZG-Qa
+	for sm@usstokyo.com; Sun, 24 Jun 2018 12:58:45 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=email.vimeo.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:List-ID:Message-ID:Content-Type; i=vimeo@email.vimeo.com;
+ bh=jFPK+1tWv11V7lFssR70xQFFlvc=;
+ b=UhZ1Fvpk4FBBrFkawkuswhG2IA65k980wcb2Xms4ToMo1LD8ZrO+xDOrv5pY9TtF2ocNtQT53ppU
+   TBtM2UXKc6bxnl2/hXJOcGZS6osTaD/8ObtgmVonIm8Y/au+AkaN0Hl1gZKYtpMel2E8pbFFs7J3
+   5eQ+szSfp4+3e1iK408=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=email.vimeo.com;
+ b=Kt+K/krQbh68uu5yvolxFDtEuZW0FaV44oMKsBHXDCRiFV0kFGuREWfqIojc+Knqgy7xT9tap1vy
+   QM2sQl/8+5bX+yTTV10pyQ7axdbEt2302UW3e/XwjOxkHZ5lA8ci93UMU75bAVk6k1YgaNCHutB7
+   npZRXCz6rOyQnLGreZA=;
+Received: by mta.email.vimeo.com id h5vdte163hss for <sm@usstokyo.com>; Sun, 24 Jun 2018 17:58:04 +0000 (envelope-from <bounce-989_HTML-399004539-3881963-6167586-17@bounce.email.vimeo.com>)
+From: "Vimeo" <vimeo@email.vimeo.com>
+To: <sm@usstokyo.com>
+Subject: Usstokyo.com, meet Vimeo
+Date: Sun, 24 Jun 2018 11:58:05 -0600
+List-Unsubscribe: <mailto:leave-fd411d787c0b5c392848-fe2517797c640479701779-fe8917787d650d7b76-fe8812717363017573-ff971577@leave.email.vimeo.com>
+MIME-Version: 1.0
+Reply-To: "Vimeo" <reply-fe8917787d650d7b76-989_HTML-399004539-6167586-17@email.vimeo.com>
+List-ID: <6167586.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 6167586_3881963
+Message-ID: <afd7b098-c245-4856-a86a-4b4d1e4c3326@ind1s06mta1281.xt.local>
+Content-Type: multipart/alternative;
+	boundary="flVrYVLyIpMQ=_?:"
+
+This is a multi-part message in MIME format.
+
+--flVrYVLyIpMQ=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+
+View this email with images:
+https://view.email.vimeo.com/?qs=0b1a218d7249531ce661ccc06f75587231565a755f6cc2b7d5254f1cc28e7ab5e6e01bdffe499fe58cb3afc42a4f1ef72d671b4814349803e2ae24f18bcb8a70af91ae8bb95cc52365858fe3f4e63a39 
+
+ 
+Vimeo loves videos
+
+Vimeo is the perfect place to watch, upload, and share amazing videos using those crazy tubes we call the Internet. Since you're new, we'd love to show you around and humbly brag about all the cool stuff you can do here. To get started, try watching some of our favorite videos, or uploading one of your own!
+
+Start watching:
+https://click.email.vimeo.com/?qs=8cdc858f43041f2e1e141a8e4172262431245e9e39e89a659c098355da6ca1b591311bed17c85d16b7d3e9e65289b64e54bb1dfa5a6da956 
+
+
+UPLOADING AND SHARING VIDEOS IS EASIER WITH VIMEO PLUS OR PRO
+https://click.email.vimeo.com/?qs=299b91b381d5c36af28f44a6a7c2cdaa1767f17229d15f411a37e58f3d7432f9cd58bffd4cec84293ad70d9618101c8680a68aeaa5f2c9ef
+
+ 
+You are receiving this email advertisement because you registered with Vimeo, LLC (555 West 18th Street, New York, NY 10011) and agreed to receive emails from us regarding new features, events and special offers.
+
+(c) 2018 Vimeo, LLC. All rights reserved.
+
+
+Privacy 
+https://click.email.vimeo.com/?qs=299b91b381d5c36af6b4b57d9f919bc0e51e2615c04c15dd228f1c36fccbe8ed25c2764350ab531b91fb349c22a1fb67449160f8485571b7 
+
+Unsubscribe  
+https://pages.email.vimeo.com/preferences?User_ID=_3UHAclCCfiKpGV2rQLUbw**&JobID=3881963&SegmentCode=27618 
+
+
+https://click.email.vimeo.com/?qs=299b91b381d5c36ac9b06882d6ebafbcce4440150e3b3c734fde1f4837788f68c5a1733db76b8f7a5285f08dd8b856acacf7b30fc5c4a532 
+
+https://click.email.vimeo.com/?qs=299b91b381d5c36aed1ff0ff31459f89656d7b744153f18a0bb48bc91b855a90f751abfe0e115ad0770f8b0ec4346f98156dca2bb7a717af 
+
+https://click.email.vimeo.com/?qs=299b91b381d5c36ad010d348713c93a6eeb33276886abc621ec4a12044ec65a7d9421a70473923e2dc76631e71ea28bc778b9e21dad40ad2 
+
+https://click.email.vimeo.com/?qs=299b91b381d5c36a2ede144be49b7933eccfc910e3d074e284215967428cc14205db3800a93d0df995fa44b0676e8a8f03144a20bf6dbc6c 
+
+
+
+
+--flVrYVLyIpMQ=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!--  -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to Vimeo</title>
+    <style type="text/css">
+      a {
+              text-decoration: none;
+          }
+          .link:hover {
+              text-decoration: none !important;
+          }
+    </style>
+    <style type="text/css">
+      a[x-apple-data-detectors] {
+              color: inherit !important;
+              text-decoration: none !important;
+              font-size: inherit !important;
+              font-family: inherit !important;
+              font-weight: inherit !important;
+              line-height: inherit !important;
+          }
+    </style>
+    <style type="text/css">
+      .owa-link {
+          display: inline-block;
+      }
+      .owa-link img {
+          display: block!important;
+      }
+      .block {
+          display: block !important;
+      }
+      u + .body .gmail-hide {
+      display: none !important;
+      }
+      u + .body .gmail-cta {
+      display: inline-block !important;
+      }
+      u + .body .gmail-pt15 {
+          margin-top: 15px;
+      }
+      u + .body .gmail-pt25 {
+          margin-top: 25px;
+      }
+      @media screen and (min-width: 640px) {
+          .img-max {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          color: #ffffff;
+          font-size: 16px;
+          display: block;
+          border: 0px;
+      }
+          .deliv {
+              width: 90%; max-width: 90%; height: auto;
+          }
+          .td, .tfoot, .thead {
+              display: table-cell !important;
+          }
+          .table {
+              display: table;
+              width: 100%;
+          }
+          .w5p {
+              width: 2%;
+              min-height: 25px;
+          }
+          .w30 {
+              width: 30%;
+          }
+          .w30p {
+              width: 32%;
+          }
+          .w50 {
+              min-width: 500px;
+              width: 50%;
+          }
+          .w40 {
+              width: 40%;
+          }
+          .w60 {
+              width: 60%;
+          }
+          .w70 {
+              width: 70%;
+          }
+          .des-show {
+              display: block !important;
+          }
+          .des-tal {
+              text-align: left !important;
+          }
+          .des-pt100 {
+              padding-top: 100px !important;
+          }
+          .des-pt75 {
+              padding-top: 75px !important;
+          }
+          .des-pl75 {
+              padding-left: 75px !important;
+          }
+          .des-pt50 {
+              padding-top: 50px !important;
+          }
+          .des-pb50 {
+              padding-bottom: 50px !important;
+          }
+          .des-pr50 {
+              padding-right: 50px !important;
+          }
+          .des-pl50 {
+              padding-left: 50px !important;
+          }
+          .des-pb100 {
+              padding-bottom: 100px !important;
+          }
+          .des-pr0 {
+              padding-right: 0px !important;
+          }
+          .des-pb75 {
+              padding-bottom: 75px !important;
+          }
+          .td-top {
+              display: table-cell;
+              float: left;
+          }
+          .hero h1 {
+              font-size: 50px !important;
+              line-height: 60px !important;
+          }
+       h2 {
+              font-size: 40px !important;
+              line-height: 44px !important;
+          }
+      }
+      @media screen and (max-width: 640px) {
+          .mobile-hide {
+              display: none;
+          }
+          .des-tal {
+          text-align: center !important;
+          }
+          .img-max {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          color: #ffffff;
+          font-size: 16px;
+          display: block;
+          border: 0px;
+      }
+          .img-max-icon {
+          width: 100% !important;
+          max-width: 400px !important;
+          min-width: 300px !important;
+          height: auto !important;
+          color: #ffffff;
+          font-size: 16px;
+          display: block;
+          border: 0px;
+              margin: 0 auto !important;
+      }
+          
+          .deliv {
+              width: 90%; max-width: 90%; height: auto;
+          }
+      }
+          @media screen and (max-width: 320px) {
+              .img-max-icon {
+                  max-width: 100% !important;
+                  height: auto !important;
+              }
+          }
+    </style>
+    <style type="text/css">
+      [owa] .owa-link div {
+          display: block !important;
+      }
+      [owa] .owa-link img {
+          display: block !important
+      }
+      [owa] .td, [owa] .tfoot, [owa] .thead {
+        display: table-cell !important;
+      }
+      [owa] .img-max {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          color: #ffffff;
+          font-size: 16px;
+          display: block;
+          border: 0px;
+      }
+        [owa] .img-max-icon {
+          width: 100% !important;
+          max-width: 400px !important;
+          min-width: 300px !important;
+          height: auto !important;
+          color: #ffffff;
+          font-size: 16px;
+          display: block;
+          border: 0px;
+              margin: 0 auto !important;
+      }
+        
+      [owa] .w50 {
+          min-width: 320px;
+          width: 50%;
+      }
+      [owa] .w5p {
+          width: 2%;
+          min-height: 25px;
+      }
+      [owa] .w30p {
+          width: 32%;
+      }
+          [owa] .w30 {
+          width: 30%;
+      }
+      [owa] .w40 {
+          width: 40%;
+      }
+      [owa] .w60 {
+          width: 60%;
+      }
+      [owa] .w70 {
+          width: 70%;
+      }
+      [owa] .table {
+          display: table;
+          width: 100%;
+      }
+      [owa] .des-pt100 {
+              padding-top: 100px !important;
+          }
+          [owa] .des-pt75 {
+              padding-top: 75px !important;
+          }
+          [owa] .des-pl75 {
+              padding-left: 75px !important;
+          }
+          [owa] .des-pt50 {
+              padding-top: 50px !important;
+          }
+          [owa] .des-pb50 {
+              padding-bottom: 50px !important;
+          }
+          [owa] .des-pr50 {
+              padding-right: 50px !important;
+          }
+          [owa] .des-pl50 {
+              padding-left: 50px !important;
+          }
+          [owa] .des-pb100 {
+              padding-bottom: 100px !important;
+          }
+          [owa] .des-pr0 {
+              padding-right: 0px !important;
+          }
+          [owa] .des-pb75 {
+              padding-bottom: 75px !important;
+          }
+      @media yahoo {
+          .pt75 {
+              padding-top: 75px;
+          }
+          .gmail-cta {
+      display:none!important;
+      }
+          .td,.tfoot,.thead {
+        display:table-cell!important;
+      }
+      .w50 {
+          min-width: 320px;
+          width: 50%;
+      }
+      .w5p {
+          width: 2%;
+          min-height: 25px;
+      }
+      .w30 {
+          width: 30%;
+      }
+      .w30p {
+          width: 32%;
+      }
+      .w50 {
+          min-width: 320px;
+          width: 50%;
+      }
+      .w40 {
+          width: 40%;
+      }
+      .w60 {
+          width: 60%;
+      }
+      .w70 {
+          width: 70%;
+      }
+      .table {
+          display: table;
+          width: 100%;
+      }
+     
+    </style>
+    <style type="text/css">
+      /***************
+      PADDING 0px
+      ***************/
+      /***************
+      PADDING 5px
+      ***************/
+      /***************
+      PADDING 10px
+      ***************/
+      /***************
+      PADDING 15px
+      ***************/
+      /***************
+      PADDING 20px
+      ***************/
+      /***************
+      PADDING 25px
+      ***************/
+      /***************
+      PADDING 30px
+      ***************/
+      /***************
+      PADDING 35px
+      ***************/
+      /***************
+      PADDING 40px
+      ***************/
+      /***************
+      PADDING 45px
+      ***************/
+      /***************
+      PADDING 50px
+      ***************/
+      /***************
+      PADDING 55px
+      ***************/
+      /***************
+      PADDING 60px
+      ***************/
+      /***************
+      PADDING 65px
+      ***************/
+      /***************
+      PADDING 70px
+      ***************/
+      /***************
+      PADDING 75px
+      ***************/
+      /***************
+      PADDING 100px
+      ***************/
+      /***************
+      PADDING 125px
+      ***************/
+      /***************
+      PADDING 150px
+      ***************/
+          /**********
+          FONT SIZES
+          ***********/
+          /***********
+          LINE HEIGHTS
+          ***********/
+          /***********
+          COLORS
+          ***********/
+          /***********
+          ALIGNMENT
+          ***********/
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0; background-color: #f1f3f4;" class="body"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Since you're new here, we'd love to show you all the cool stuff you can do here. Let's start with the most important part: you.</div>
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+     Welcome to Vimeo.
+    <hr>
+    </div>
+    <div style="display: none; width: 0px; height: 0px; max-height: 0px; overflow: hidden;">
+    </div>
+       <img src="https://click.email.vimeo.com/open.aspx?ffcb10-fe8917787d650d7b76-fdf81670776c017c73127470-fe8812717363017573-ff551d787c-fe2517797c640479701779-ff971577" width="1" height="1">
+           
+    <div class="frame" style="background-color:#f1f3f4;">
+      <div class="section" style="max-width:800px; margin:0 auto; background-color:#f1f3f4;">
+        <!--[if (gte mso 9)|(IE)]>
+          <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+            <tr>
+              <td align="center" bgcolor="#ffffff" style="mso-padding-bottom-alt: 30px;">
+        <![endif]-->
+           <div class="pt20 clear tac" style="text-align:center; padding-top:40px; mso-margin-top-alt: 20px; mso-margin-bottom-alt:20px;">
+                <a  href="https://click.email.vimeo.com/?qs=7d3ffc8d1cd625f2d1f2a9d59537d33d26c3ba3632d8b7b5f90c50da2147352af361361d9e4ea595fa6e9927726c96bcf530f9ef712c9d25" target="_blank" style="font-family:Helvetica, Arial, sans-serif;"><img src="http://a.vimeocdn.com/si/email/onboarding_header_nonuploader_01.png" width="800" height="107" alt="Vimeo and You" style="margin:0 auto; display:block !important; display: none; color: #ffffff; font-size: 16px;" border="0" class="img-max"/></a>
+                </div>
+
+  <div class="hero pt15 pb30" style="background-color:#ffffff; max-width:800px; margin:0 auto;">
+          <!--[if (gte mso 9)|(IE)]>
+            <table cellspacing="0" padding="0" border="0" width="800" role="presentation">
+              <tr>
+                <td align="center">
+          <![endif]-->
+            <div class="pt10 clear tac" style="text-align:center; mso-margin-top-alt: 20px; mso-margin-bottom-alt:20px;">
+              <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec196742c47f9e0c2603fc42f5dc4051d41a0487c4c25f51fa1939c545e8fd35d5d170848346d8649716801f9d5a8843c3d4ee" target="_blank" style="font-family: Helvetica, Arial, sans-serif;"><img src="http://a.vimeocdn.com/si/email/onboarding_updated_sp_02n.jpg" width="800" height="300" alt="Vimeo and You" style="margin:0 auto; display:block !important; display: none; color: #ffffff; font-size: 16px;" class="img-max" border="0"/></a>
+      </div>
+      
+            <!--start modules --> 
+          <div class="pl20 pr20 pt25 center des-pl50 des-pr50" style="padding-top:40px; padding-bottom:10px; padding-right:20px; padding-left:20px; margin:0 auto; margin: 0 auto;">
+            <div class="thead w50 tac des-tal vam" style="text-align:left; display:table-header-group; vertical-align:middle; text-align: left;">
+              <!--[if (gte mso 9)|(IE)]>
+                <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+                  <tr>
+                    <td align="center" valign="top">
+              <![endif]-->
+                <p style="margin:0; font-family: Hevletica, Arial, sans-serif; text-align: left; color:#445566; padding-bottom: 10px; mso-margin-top-alt:15px; font-size:18px; line-height:27px;">Welcome to Vimeo! We'd love to show you all the cool stuff you can do here. Let's start with the most important part: you. <br> <br>
+
+Your profile is where you can show the world who you are &mdash; your talents, your tastes, and of course, your videos. Let's explore all you can do.
+</p>
+                    
+                <p style="margin:0; font-family: Hevletica, Arial, sans-serif; text-align: left; color:#445566; mso-margin-top-alt:15px; font-size:18px; line-height:26px;"> <center><a  href="https://click.email.vimeo.com/?qs=381f46dc94ec1967c2f8d29ddc9a9d221d59b909011e6717c6e5c53260b7c5d773be5fd5acb2560063ae884bd08ad1864cddbd250948115a" target="_blank" class="cta" style="font-size:16px; font-family: Helvetica, Arial, sans-serif; font-weight:normal; color:#ffffff; text-decoration:none; border-radius:6px; padding:15px 30px; display:inline-block; font-weight:bold; mso-padding-alt:0px; margin-top:20px; background-color: #00adef; border: 1px solid #00adef; mso-border-alt: 10px solid #00adef; color: #ffffff;">Complete your profile</a></center> </p>
+                    <br>
+                    <!--[if gte mso 12]>
+                      <br>
+                      <br>
+                    <![endif]-->
+                  <!--[if (gte mso 9)|(IE)]>
+              </p>
+              <!--[if (gte mso 9)|(IE)]>
+              </td>
+            </tr>
+          </table>
+              <![endif]-->
+            </div>         
+
+   <div class="section" style="max-width:800px; margin:0 auto; background-color:#ffffff;">
+        <div class="section" style="max-width:700px; margin:0 auto; background-color:#ffffff; padding-bottom: 20px;">
+        <!--[if (gte mso 9)|(IE)]>
+          <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+            <tr>
+              <td align="center" bgcolor="#ffffff" style="padding-top: 75px;">
+                <table cellspacing="0" cellpadding="0" border="0" width="800" align="center" role="presentation">
+                  <tr>
+                    <td align="left" class="pt75 pb50">
+        <![endif]-->
+        <div class="center session" style="margin:0 auto; margin: 0 auto;">
+          <div>
+            <!--[if (gte mso 9)|(IE)]>
+              <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation" bgcolor="#ffffff">
+                <tr>
+                  <td width="350" align="center" valign="middle" style="mso-padding-alt: 25px;">
+            <![endif]-->
+            <div class="td vam pl25 pr25" style="vertical-align:middle; background-color:#ffffff;">
+              <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec196774e3f0e631d37e2e769a4532756af2cb315fe997ca5e23448dfce2e9ea4dcbf78326df300f482e5430f0297c2fc516f7" target="_blank" style="font-family: Helvetica, Arial, sans-serif;"><img src="http://a.vimeocdn.com/si/email/onboarding_icons_blue_covervideo.png" alt="Vimeo: cover videos" width="300" height="200" border="0" class="img-max-icon"/></a>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            <td width="400" align="left" bgcolor="#ffffff" style="mso-padding-alt: 50px;" valign="middle">
+            <![endif]-->
+            <div class="td vam des-tal pt50 pb50 pr20 pl20 des-pt50 des-pb50 des-pr20" style="padding-left:30px; padding-right:30px; vertical-align:middle; text-align:left; background-color: #ffffff;">
+              <p style="margin:0;font-size:16px; line-height:24px; font-family: Hevletica, Arial, sans-serif; text-align:left; color: #445566;" class="pt10">
+               First things first: that cover video. Think of it like a cover photo, but, y'know, a looping video. It can literally be any video you want. <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec19671a56bedc345d285862337e61f606f430f1b49b8bc9e7a506b35040c2ba250b651d88b18c16237f1bd67bb78a0914d423" target="_blank" style="font-family: Helvetica, Arial, sans-serif; color:#00adef;text-decoration:none;"><strong>Add a cover video</strong></a>.
+                <!--[if gte mso 12]>
+                  <br>
+                <![endif]-->
+              </p>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+            <![endif]-->
+          </div>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+        <![endif]-->
+        </div>
+
+     <!-- end first module --> 
+    
+      <!-- start tip box --> 
+       <div class="section pt30 pb30 des-pt30 des-pb30" style="max-width:800px; margin:0 auto; background-color:#ffffff; background-color: #ffffff;">
+            <!--[if (gte mso 9)|(IE)]>
+              <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+                <tr>
+                  <td align="center" bgcolor="#ffffff" style="mso-padding-top-alt: 30px; mso-padding-bottom-alt: 30px;">
+                    <table cellspacing="0" padding="0" border="0" width="800" role="presentation">
+                      <tr>
+                        <td align="center">
+            <![endif]-->
+            <div class="center pt30 pb30 des-pt30 des-pb30" style="padding-bottom: 10px; max-width:700px; margin:0 auto; max-width:700px; margin: 0 auto;">
+              <div class="session tac" style="text-align:center;">
+                <!--[if (gte mso 9)|(IE)]>
+                  <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
+                    <tr>
+                      <td align="center" valign="top">
+                <![endif]-->
+                
+                <!--[if gte mso 12]>
+                  <br>
+                  <br>
+                <![endif]-->
+                <div class="table 100p">
+                  <!--[if gte mso 12]>
+                    <br>
+                    <br>
+                  <![endif]-->
+                  <div class="td pt15 pb15 pl25 pr25" style="padding-top:10px; padding-bottom:10px; padding-right:25px; padding-left:25px; background-color: #ffffff; border-radius: 3px; border: solid 2px #eeeeee;">
+                    <!--[if (gte mso 9)|(IE)]>
+                      <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation" bgcolor="#ffffff" style="mso-padding-alt: 25px;">
+                        <tr>
+                          <td width="50" align="left" valign="middle">
+                    <![endif]-->
+                    <div class="vam" style="vertical-align:middle;display: table-cell;">
+                      <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec1967bb912868e2e41d107a296607b4cc23e125b7706d31442804302736c452123d6fc1a6ca5ee1f951a36c8a50fcdb5d1120" target="_blank" style="font-family: Helvetica, Arial, sans-serif;"><img src="http://a.vimeocdn.com/si/email/onboarding_icons_lightbulb.png" width="70" height="70" style="display: block; border: 0px;"/></a>
+                    </div>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td align="left" valign="middle" class="pt20">
+                    <![endif]-->
+                    <div class="pl25 vam tal" style="padding-left:25px;text-align:left;vertical-align:middle;display: table-cell;">
+                      <p class="pt5 lh24 fsz18" style="margin:0;font-size:14px; font-family: Hevletica, Arial, sans-serif; color: #445566; font-size:14px; line-height:20px;">
+                           <i><strong>Tip:</strong> Basic members start with 500MB of storage, which translates to about 6 minutes of HD, 3 minutes of 360, and 1 minute of 4K footage. <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec19677f094e979c25696a19f42b934ecdf93ba7d44edcebe20398c7d32d81053584813ac1e3173d19972690b9605ca5c5724e" target="_blank" style="font-family: Helvetica, Arial, sans-serif; color:#00adef;text-decoration:none;">Find the right plan for you.</a>
+</i>
+                      </p>
+                    </div>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+                    <![endif]-->
+                  </div>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+                <![endif]-->
+              </div>
+              <!--[if (gte mso 9)|(IE)]>
+              </td>
+            </tr>
+          </table>
+              <![endif]-->
+            </div>
+           
+
+      <!-- start second module --> 
+    <div class="section" style="max-width:800px; margin:0 auto; background-color:#ffffff;">
+            <div class="section" style="max-width:700px; margin:0 auto; background-color:#ffffff;">
+      <!--[if (gte mso 9)|(IE)]>
+        <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+          <tr>
+            <td align="center" bgcolor="#ffffff" style="padding-top: 75px;">
+              <table cellspacing="0" cellpadding="0" border="0" width="800" align="center" role="presentation">
+                <tr>
+                  <td align="left" class="pt75 pb50">
+      <![endif]-->
+      <div class="center session" style="margin:0 auto; margin: 0 auto;">
+        <div>
+          <!--[if (gte mso 9)|(IE)]>
+            <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation" bgcolor="#ffffff">
+              <tr>
+                <td width="400" align="left" bgcolor="#ffffff" style="mso-padding-alt: 50px;" valign="middle">
+          <![endif]-->
+          <div class="tfoot vam" style="display:table-footer-group;vertical-align:middle;">
+            <div class="des-tal pt50 pb50 pl40 pr10 des-pl20 des-pt30 des-pb30" style="padding-left:30px; padding-right:30px; text-align:left; background-color: #ffffff;">
+              <p style="margin:0;font-size:16px; line-height:24px; font-family: Hevletica, Arial, sans-serif; text-align: left; color: #445566;" class="pt10">
+             Featured videos are your way to show off your stuff, whether it's a casual vacation video or your latest documentary. <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec1967368713e743e43b756b6d8b5e512eb3e97c4d369fa72a407273d8c4b3bb183e0480728e4dc6209c841a424dcbc0142175" target="_blank" style="font-family: Helvetica, Arial, sans-serif; color:#00adef;text-decoration:none;"><strong>Add your videos</strong></a>.<br>
+                <!--[if gte mso 12]>
+                  <br>
+                <![endif]-->
+              </p>
+            </div>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <td width="350" align="left" valign="middle" style="mso-padding-alt: 25px;">
+          <![endif]-->
+          <div class="thead vam" style="display:table-header-group; vertical-align:middle; background-color: #ffffff;">
+            <!--[if (gte mso 9)|(IE)]><!-->
+                <!--<![endif]-->
+              <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec19670e8c1cea503225a11a19c6fa5bd84d9db55dd40de586b3a4a3bb80e5bca5bec8055bf54d9bcf20a0e916fc8d9558c245" target="_blank" style="font-family:Helvetica, Arial, sans-serif;"><img src="http://a.vimeocdn.com/si/email/onboarding_icons_blue_videos.png" alt="Vimeo: feature videos" width="300" height="200" border="0" class="img-max-icon"/></a>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+            <![endif]-->
+          </div>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+        <![endif]-->
+      </div>
+      </div>
+
+      <div class="section" style="max-width:800px; margin:0 auto; background-color:#ffffff;">
+                <div class="section" style="max-width:700px; margin:0 auto; background-color:#ffffff;">
+        <!--[if (gte mso 9)|(IE)]>
+          <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+            <tr>
+              <td align="center" bgcolor="#ffffff" style="padding-top: 75px;">
+                <table cellspacing="0" cellpadding="0" border="0" width="800" align="center" role="presentation">
+                  <tr>
+                    <td align="left" class="pt75 pb50">
+        <![endif]-->
+        <div class="center session" style="margin:0 auto; margin: 0 auto;">
+          <div>
+            <!--[if (gte mso 9)|(IE)]>
+              <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation" bgcolor="#ffffff">
+                <tr>
+                  <td width="350" align="center" valign="middle" style="mso-padding-alt: 25px;">
+            <![endif]-->
+            <div class="td vam pl25 pr25" style="vertical-align:middle; background-color:#ffffff;">
+              <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec19676ea27f9d796ac6750b0ec3d4bbae8adf323e621fedb387f5fedb11fe13de5d8581ab821bbe45aa8bb896d613609d01ed" target="_blank" style="font-family: Helvetica, Arial, sans-serif;"><img src="http://a.vimeocdn.com/si/email/onboarding_icons_blue_profile.png" alt="Vimeo: experiences" width="300" height="200" border="0" class="img-max-icon"/></a>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            <td width="400" align="left" bgcolor="#ffffff" style="mso-padding-alt: 50px;" valign="middle">
+            <![endif]-->
+            <div class="td vam des-tal pt50 pb50 pr20 pl20 des-pt50 des-pb50 des-pr20" style="padding-left:30px; padding-right:30px; padding-bottom: 30px; vertical-align:middle; text-align:left; background-color: #ffffff;">
+              <p style="margin:0;font-size:16px; line-height:24px; font-family: Hevletica, Arial, sans-serif; text-align:left; color: #445566;" class="pt10">
+                Celebrate your skills by listing your talents in the Experience section, and help others easily connect with you. <a  href="https://click.email.vimeo.com/?qs=381f46dc94ec1967673bf74c86e69fe294bcf53fad4f3dcf9a6042fd843a40c009a4622f9d9a37022b01ba32d8a8a0beb70688d602d4a232" target="_blank" style="font-family: Helvetica, Arial, sans-serif; color:#00adef;text-decoration:none;"><strong>Tell the world</strong></a>.
+                <!--[if gte mso 12]>
+                  <br>
+                <![endif]-->
+              </p>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+            <![endif]-->
+          </div>
+      
+          <div class="section" style="max-width:800px; margin:0 auto; background-color:#ffffff; overflow: hidden; position: relative; background-color: #ffffff;">
+            <!--[if (gte mso 9)|(IE)]>
+              <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+                <tr>
+                  <td align="center" bgcolor="#ffffff" style="mso-padding-top-alt: 100px; mso-padding-bottom-alt: 100px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="600" role="presentation">
+                      <tr>
+                        <td align="left" class="pt75 pb50">
+            <![endif]-->
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+            <![endif]-->
+          </div>
+  
+          <div class="section center" style="max-width:800px; margin:0 auto; background-color:#ffffff; background-color: #ffffff;">
+              <!--[if (gte mso 9)|(IE)]>
+                <table cellspacing="0" padding="0" border="0" width="800" role="presentation">
+                  <tr>
+                    <td align="center">
+              <![endif]-->
+              <div class="max800 center pl25 pr25" style="padding-right:25px; padding-left:25px; padding-bottom: 20px; max-width:800px; margin:0 auto; max-width: 800px; margin: 0 auto;">
+                <div class="session tac" style="text-align:center;">
+                  <!--[if (gte mso 9)|(IE)]>
+                    <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+                      <tr>
+                        <td align="center" valign="top">
+                  <![endif]-->
+                    <a  href="https://click.email.vimeo.com/?qs=8cdc858f43041f2e4df372e172137a30b9981f8dfbcf82792e23880b6e951414b9a25acef6f801c32b0c4e7fef542f848ce37e9276a82d0b" target="_blank" class="cta" style="font-size:16px; font-family: Helvetica, Arial, sans-serif; font-weight:normal; color:#ffffff; text-decoration:none; border-radius:6px; padding:15px 30px; display:inline-block; font-weight:bold; mso-padding-alt:0px; margin-top:20px; background-color: #00adef; border: 1px solid #00adef; mso-border-alt: 10px solid #00adef; color: #ffffff;">Complete your profile</a>
+                    <!--[if gte mso 12]>
+                      <br>
+                      <br>
+                    <![endif]-->
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+                  <![endif]-->
+                </div>
+              </div>
+              <!--[if (gte mso 9)|(IE)]>
+              </td>
+            </tr>
+          </table>
+              <![endif]-->
+            </div>
+          </div>
+          
+               <center> <div class="pl25 pr25 pt25 center des-pl50 des-pr50" style="padding-top:25px; padding-bottom: 25px; padding-right:25px; padding-left:25px; margin:0 auto; margin: 0 auto;">
+            <div class="thead w50 tac des-tal vam" style="text-align:left; display:table-header-group; vertical-align:middle; text-align: left;">
+              <!--[if (gte mso 9)|(IE)]>
+                <table cellspacing="0" padding="0" border="0" width="100%" role="presentation">
+                  <tr>
+                    <td align="center" valign="top">
+              <![endif]-->
+                <div class="tac center" style="text-align:center; border-top: 1px solid #eeeeee;">
+                    
+                  <p style="margin:0; font-size:14px; line-height:18px; font-family: Hevletica, Arial, sans-serif; color: #445566; padding-top: 25px;">
+             Vimeo and You
+                      <br> <br> 
+                  </p>
+                    <img src="http://a.vimeocdn.com/si/email/onboarding_icon_statusbar_01.png" width="200" height="39" border="0" style="display:center;" align="center">
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+            </table>
+                <![endif]-->
+              </div>
+              <!--[if (gte mso 9)|(IE)]>
+              </td>
+            </tr>
+          </table>
+              <![endif]-->
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+            <![endif]-->
+          </center>
+          </div>
+          
+      
+          <div class="section center" style="max-width:800px; margin:0 auto; background-color:#f1f3f4;">
+            <!--[if (gte mso 9)|(IE)]>
+              <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" role="presentation" bgcolor="#ffffff">
+                <tr>
+                  <td align="center" style="mso-padding-top-alt: 75px;">
+            <![endif]-->
+            
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+            <![endif]-->
+          </div>
+       </div>
+   </div>
+</div>
+      </div>
+          </div>
+
+         <!-- start footer --> 
+            <div style="padding-top:20px; padding-right:15px; padding-left:15px; padding-bottom:50px; text-align:center; background-color:#f1f3f4; color:#999999; max-width: 800px; margin: 0 auto;" class="footer tac pt20 pb50 pl15 pr15">
+              <a href="" target="_blank" style="font-family: Helvetica, Arial, sans-serif;color:#999999;text-decoration:underline;">
+                 </a>
+             <p class="pt15" style="margin:0;font-size:12px; line-height:21px; font-family: Hevletica, Arial, sans-serif;padding-top:15px;font-size:12px;line-height:18px;">
+                    <a  href="https://click.email.vimeo.com/?qs=8cdc858f43041f2eb03247345bd3e6922ec5bc5381f563a4267e04bf6a32d65da10f24f21cb9a415c77fb1bc9d6b12a2954a97ec1abf220d"><img src="https://f.vimeocdn.com/si/email/facebook.jpg" alt="Facebook" width="32" height="32" border="0" /></a> &nbsp;
+                              <a  href="https://click.email.vimeo.com/?qs=8cdc858f43041f2ea2585f6e88033f61f334cdf978cc9b6bd9f9bbb3895edc6f7b0b43680793be795a09e2d7c9ae7f3e4aeac5af49b0c9a4" style="margin: 0 5px;"><img src="https://f.vimeocdn.com/si/email/twitter.jpg" alt="Twitter" width="32" height="32" border="0" /></a> &nbsp;
+                              <a  href="https://click.email.vimeo.com/?qs=8cdc858f43041f2e31c5dcf0c4de6628a4df13154e96d06ed945aad80a9f92dd3b33d9493fedfef2345d731d61095b21a4b2c55cafda394b"><img src="https://f.vimeocdn.com/si/email/tumblr.jpg" alt="Tumblr" width="32" height="32" border="0" /></a> &nbsp;
+                              <a  href="https://click.email.vimeo.com/?qs=8cdc858f43041f2e4e3c2ea98a62f48737779f8ddb7b9f652aaf2d66a52903ddfb848fd03a5191b6b2aad20bd1dfdb593816787214a07eef" style="margin: 0 5px;"><img src="https://f.vimeocdn.com/si/email/instagram.jpg" alt="instagram" width="32" height="32" border="0" /></a> &nbsp;&nbsp; <br> <br> <br>
+                  <span style="line-height:22px;">Having trouble viewing? <a  href="https://view.email.vimeo.com/?qs=0b1a218d7249531ce661ccc06f75587231565a755f6cc2b7d5254f1cc28e7ab5e6e01bdffe499fe58cb3afc42a4f1ef72d671b4814349803e2ae24f18bcb8a701954cbbd8b2074f18f7abd7222a25d26" style="text-decoration: none; color:#00adef;">Click here</a></span><br> <br> 
+                     Featured Staff Pick: <a href="https://click.email.vimeo.com/?qs=8cdc858f43041f2e964790eec93a4d03f1341486623092c6cff325f9551cc051298399c3c5b4b3ee24241320d2d0405c4a6ce908fca60b85" target="_blank" style="font-family: Helvetica, Arial, sans-serif; color:#00adef;text-decoration:none;">KINGDOM OF COLOURS</a> by <a href="https://click.email.vimeo.com/?qs=8cdc858f43041f2e8238160bc2b736e818903dec89b594905a25da7f7ee3bacd841c9b85a1dc0bed75780ef1066e6b3b271069c37e869b33" target="_blank" style="font-family: Helvetica, Arial, sans-serif; color:#00adef;text-decoration:none;">Thomas Blanchard</a> <br> <br>
+                You are receiving this email because you registered at Vimeo <span class="mobilelink">(555 West 18th Street. New York, NY 10011)</span> and agreed to receive email from us regarding new features, events and special offers about Vimeo services. If you wish to be unsubscribed from receiving these emails, <a href="https://pages.email.vimeo.com/preferences?User_ID=_3UHAclCCfiKpGV2rQLUbw**&JobID=3881963&SegmentCode=27618" style="color: #00adef; text-decoration: none;">click here</a>.
+        </p>
+    </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+            <![endif]-->
+        </div>
+      </div>
+      <!-- close custom tag --> 
+        </body>
+      </html>           
+
+--flVrYVLyIpMQ=_?:--
+

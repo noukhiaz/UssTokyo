@@ -1,0 +1,774 @@
+Return-Path: <hamid@pro-sport.us>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id aHDZIBJwdFtkhDUAsyhj2Q
+	for <info@usstokyo.com>; Wed, 15 Aug 2018 13:25:22 -0500
+Return-path: <hamid@pro-sport.us>
+Envelope-to: info@usstokyo.com
+Delivery-date: Wed, 15 Aug 2018 13:25:22 -0500
+Received: from mout.perfora.net ([74.208.4.196]:33435)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <hamid@pro-sport.us>)
+	id 1fq0Ty-00Eig6-95
+	for info@usstokyo.com; Wed, 15 Aug 2018 13:25:22 -0500
+Received: from [10.1.10.203] ([71.224.47.77]) by mrelay.perfora.net
+ (mreueus002 [74.208.5.2]) with ESMTPSA (Nemesis) id 0MZW4R-1fZhRO0uYn-00LH1y
+ for <info@usstokyo.com>; Wed, 15 Aug 2018 20:24:44 +0200
+From: Hamid Basbous <hamid@pro-sport.us>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-29B37D96-CD32-4B63-A134-7D54703120E4
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Date: Wed, 15 Aug 2018 14:24:41 -0400
+Subject: Re: Auto auctions 
+Message-Id: <F2F3852E-B711-4EEF-BEF9-7D9C3232B615@pro-sport.us>
+References: <87A41A8D-F2D5-480A-B7B4-55C5E993205C@pro-sport.us> <BN3PR16MB0673EE77329C5E0D54057CF0CA3F0@BN3PR16MB0673.namprd16.prod.outlook.com> <F0E19F4A-4874-41EA-95A0-294F63430AFF@pro-sport.us> <BN3PR16MB06732172E2D0C661D33E9001CA3F0@BN3PR16MB0673.namprd16.prod.outlook.com> <CFAEFCFE-2C66-4D60-ADBD-352AD0BAAEF6@pro-sport.us> <BN3PR16MB0673E692F816D25FECF5DC29CA3F0@BN3PR16MB0673.namprd16.prod.outlook.com> <3CB65E2A-5F0E-49EB-A727-67D9F3986F24@pro-sport.us> <BN3PR16MB0673B6E920FE599C0C4DE463CA3F0@BN3PR16MB0673.namprd16.prod.outlook.com> <697F0DCE-C5A6-409C-8DA2-C421590C67A0@pro-sport.us> <BN3PR16MB0673CE6AE3A6A7496080CD4DCA3F0@BN3PR16MB0673.namprd16.prod.outlook.com> <31F01062-5DE6-410C-A1F2-76AB96EBD921@pro-sport.us> <BN3PR16MB0673662A90EE20C3EE77F77CCA3F0@BN3PR16MB0673.namprd16.prod.outlook.com>
+In-Reply-To: <BN3PR16MB0673662A90EE20C3EE77F77CCA3F0@BN3PR16MB0673.namprd16.prod.outlook.com>
+To: "Admin [USSTOKYO.COM]" <info@usstokyo.com>
+X-Mailer: iPhone Mail (15E302)
+X-Provags-ID: V03:K1:1qb9StVxwImlDwDgnhBtI9k34b4SogrMZoe3IuqC1WNyIEF7hmo
+ uHpc0pw586yUQKlCtdthWwRQSmMLvWK/Zi7DEzliGnXoAIFjtbs89aXrmTlBK4d+c6LvXwb
+ 8FIByz6tJUzgeJIt/LySNgXMBth0YhZ17/dJKoqhn7d1ViJdd4teTUdh+uHKZok+ZnRblE6
+ 6qB8Ipoaj9VsYT3D1FIIA==
+X-UI-Out-Filterresults: notjunk:1;V01:K0:LEYipaZoDpU=:QdYVwRppbUWM3+X92r4oXy
+ cbRF3NrwVX43h06RILlGjmaAxI94y/Qo88K2z6aVifQX97oJv5gCQ2fXJSq230sw9R3do48JJ
+ gasn3OqAaM0qkjixyQBZdn17LcG0pWuR6fz71DvVrB2RUzBGGGpJPrRFefvO9gpuGNutME0RM
+ tl2g/gNpQpXXYGzniVIYR8bdjwLWvcAQ8VSUrTwnzEPmKzhLY7YC4D//6f3RKPyX9BvaHqFEo
+ RMCUSk1tb58lRChlgJWSfIN7vBZYTIGScuFkZ+E5764+LejgU9JWcEK4Ad4XkX1YADMDn2+KP
+ oCOiPc/dXcJmckrkbeK1g7WKLCEbIYd3f4H/Fdd2UVFVKva1aXQBhvEWd8XkjqtV6ZSmEdI3h
+ IFM8zuEZomh/zjItRB5JQZle6zZNQesLjLZ6c28Wxs+YmoMBFuDvB0tFUMZ3rw3jLisDAAVNG
+ 3oG5b40/ATQyGkSegAaNSxwt2r8+hoS0jsvmpTGY1sMbKasHhkuF+cDJiuUvpgd7Iwp7p4oK3
+ p9XWLOidKYy1RdwaXHUmAao6/uoV4402VqkgyTmkJhRxgfd5robFwetJ7x1HaJPGw/V3y6N3x
+ v8W4cob/dkyKICTtQ86d05lKA6znfeSBKtX4ZrIxhIfwYkv5ReUBZC8rFX5lIYGYkoPRlobIi
+ uATv7lBMBgl4TkOQt6Uqj9veN0GFdwd2aaStkN+5uHF2T8CxYZjJgfK5n1tiIsOs3kwJI0lf6
+ pvEeEBe2hIftG3Zl
+
+
+--Apple-Mail-29B37D96-CD32-4B63-A134-7D54703120E4
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Ok,
+
+So if I buy strategically it would help, let=E2=80=99s say I buy 4 cars from=
+ one auction (if possible). That might be more beneficial to create one full=
+ container?
+
+Hamid Basbous
+
+President Pro-Sport Motors
+828 Matsonford Road
+West Conshohocken, Pa, 19428
+
+Office 484-344-5069
+Fax 484-244-6972
+
+> On Aug 15, 2018, at 2:22 PM, Admin [USSTOKYO.COM] <info@usstokyo.com> wrot=
+e:
+>=20
+>=20
+> Sir that might take a couple or more days to know. Might have to ask our s=
+hipping line if they can ship there.
+>=20
+> Yes, we can put 4 cars or so in one 40 Hi-Cube container, however, we most=
+ly buy through online auctions from all cities of Japan. Sometimes, we buy a=
+ car from Tokyo and the other from Osaka (which is far away and has its own s=
+hipping port). As we have shipping arrangements from almost all ports of Jap=
+an, it's cheaper for us to ship from the closest port rather than bringing t=
+he car to Tokyo and then ship from here. That will raise costs.
+>=20
+> However, our shipping costs are already very cheap and reasonable so it wo=
+n't be a problem if we ship the cars individually.
+> In case you prefer only single-container shipment, we can arrange that too=
+.
+>=20
+> Best Regards
+> Noukhaiz Nadeem
+> CEO
+> www.UssTokyo.com
+> From: Hamid Basbous <hamid@pro-sport.us>
+> Sent: Thursday, August 16, 2018 3:13:51 AM
+> To: Admin [USSTOKYO.COM]
+> Subject: Re: Auto auctions
+> =20
+> Can you guys ship to port of Wilmington in Delaware or Elizabeth in New Je=
+rsey?
+>=20
+> Hamid Basbous
+>=20
+> President Pro-Sport Motors
+> 828 Matsonford Road
+> West Conshohocken, Pa, 19428
+>=20
+> Office 484-344-5069
+> Fax 484-244-6972
+>=20
+> On Aug 15, 2018, at 2:03 PM, Admin [USSTOKYO.COM] <info@usstokyo.com> wrot=
+e:
+>=20
+>>=20
+>> These cars will average around 1000 - 1700 USD including taxes, auction f=
+ees and freight till the USA. Do you have any specific port name?
+>>=20
+>> Suppose you buy FJ Cruiser for 15000 USD from the auction, it will cost a=
+round 1500 - 1700 USD until delivery at your desired port (Includes document=
+ation, taxes, freight etc).
+>>=20
+>> Smaller in size cars might cost a little lesser (1000 - 1400 USD).
+>>=20
+>> Best Regards
+>> Noukhaiz Nadeem
+>> CEO
+>> www.UssTokyo.com
+>>=20
+>> From: Hamid Basbous <hamid@pro-sport.us>
+>> Sent: Thursday, August 16, 2018 2:54:28 AM
+>> To: Admin [USSTOKYO.COM]
+>> Subject: Re: Auto auctions
+>> =20
+>> Currently what I have in mind are
+>>=20
+>> Skylines/gts/Gtr
+>> Supra=E2=80=99s
+>> Rx7s
+>> 240s possibly=20
+>> Turbo Mr2=E2=80=99s
+>> Mitsubishi evos=20
+>> Are pre 1998 Porsche 911s expensive in japan?
+>> Fj cruiser possibly
+>>=20
+>> This is what I have off the top of my mind, could change when we get ther=
+e but definitely skylines, Supra=E2=80=99s, rx7s, 240sx/180sx
+>>=20
+>> Hamid Basbous
+>>=20
+>> President Pro-Sport Motors
+>> 828 Matsonford Road
+>> West Conshohocken, Pa, 19428
+>>=20
+>> Office 484-344-5069
+>> Fax 484-244-6972
+>>=20
+>> On Aug 15, 2018, at 1:46 PM, Admin [USSTOKYO.COM] <info@usstokyo.com> wro=
+te:
+>>=20
+>>> Dear Mr. Hamid,
+>>>=20
+>>> Can you please name some of the cars you looking to buy, along with the m=
+odel?
+>>> Taxes in Japan apply to the cost of the car and the shipping charges als=
+o differ as per different sizes and shapes of the cars.
+>>>=20
+>>> Best Regards
+>>> Noukhaiz Nadeem
+>>> CEO
+>>> www.UssTokyo.com
+>>>=20
+>>> From: Hamid Basbous <hamid@pro-sport.us>
+>>> Sent: Thursday, August 16, 2018 2:37:33 AM
+>>> To: Admin [USSTOKYO.COM]
+>>> Subject: Re: Auto auctions
+>>> =20
+>>> Can you break down the charges for me?
+>>>=20
+>>> Hamid Basbous
+>>>=20
+>>> President Pro-Sport Motors
+>>> 828 Matsonford Road
+>>> West Conshohocken, Pa, 19428
+>>>=20
+>>> Office 484-344-5069
+>>> Fax 484-244-6972
+>>>=20
+>>> On Aug 15, 2018, at 1:34 PM, Admin [USSTOKYO.COM] <info@usstokyo.com> wr=
+ote:
+>>>=20
+>>>>=20
+>>>> Dear Mr. Hamid,
+>>>>=20
+>>>> Sure, Sir. We will do it all for you. Once the car is bought from the a=
+uction, it takes around 2 weeks for us to arrange all exporting documents an=
+d ship the cars to any port in the world.
+>>>>=20
+>>>> Best Regards
+>>>> Noukhaiz Nadeem
+>>>> CEO=20
+>>>> www.UssTokyo.com
+>>>> =20
+>>>> From: Hamid Basbous <hamid@pro-sport.us>
+>>>> Sent: Thursday, August 16, 2018 2:25:36 AM
+>>>> To: Admin [USSTOKYO.COM]
+>>>> Subject: Re: Auto auctions
+>>>> =20
+>>>> Ok fantastic,
+>>>>=20
+>>>> My flight is booked for oct 27th and I will be in japan until November 1=
+0th. Will you be able to process all the shipping, storage, paperwork, etc u=
+ntil the car goes to the port? I ship land rovers from Amsterdam, I have a c=
+ontact who does ocean freight and importing for me but is this possible for y=
+ou to handle?
+>>>>=20
+>>>> Hamid Basbous
+>>>>=20
+>>>> President Pro-Sport Motors
+>>>> 828 Matsonford Road
+>>>> West Conshohocken, Pa, 19428
+>>>>=20
+>>>> Office 484-344-5069
+>>>> Fax 484-244-6972
+>>>>=20
+>>>> On Aug 15, 2018, at 1:20 PM, Admin [USSTOKYO.COM] <info@usstokyo.com> w=
+rote:
+>>>>=20
+>>>>> Dear Mr. Hamid,
+>>>>>=20
+>>>>> Yes, that is totally possible. We can buy any number of vehicles for y=
+ou when you visit Japan. Later you can use our online bidding system to buy f=
+rom auctions even when you are in the USA.
+>>>>>=20
+>>>>> Please let us know before your arrival in Japan and we will make arran=
+gements for your buying.
+>>>>>=20
+>>>>> Best Regards
+>>>>> Noukhaiz Nadeem
+>>>>> CEO
+>>>>> www.UssTokyo.com
+>>>>> =20
+>>>>> From: Hamid Basbous <hamid@pro-sport.us>
+>>>>> Sent: Wednesday, August 15, 2018 9:05:40 PM
+>>>>> To: Admin [USSTOKYO.COM]
+>>>>> Subject: Re: Auto auctions
+>>>>> =20
+>>>>> Ok I understand.
+>>>>>=20
+>>>>> But when I do come to Japan am I able to meet you at your offices and p=
+urchase vehicle through you while I am there? Also would you be able to prov=
+ide access to see the cars? I plan on buying 10-20 vehicles the first time a=
+round. I=E2=80=99m looking to build a relationship and buy cars through some=
+one there and then when I go back to the US continue buying via internet. Is=
+ this possible?
+>>>>>=20
+>>>>> Hamid Basbous
+>>>>>=20
+>>>>> President Pro-Sport Motors
+>>>>> 828 Matsonford Road
+>>>>> West Conshohocken, Pa, 19428
+>>>>>=20
+>>>>> Office 484-344-5069
+>>>>> Fax 484-244-6972
+>>>>>=20
+>>>>> On Aug 15, 2018, at 7:48 AM, Admin [USSTOKYO.COM] <info@usstokyo.com> w=
+rote:
+>>>>>=20
+>>>>>>=20
+>>>>>> Dear Mr. Hamid,
+>>>>>>=20
+>>>>>> We thank you for your interest in UssTokyo.com
+>>>>>>=20
+>>>>>> We are a gateway to all Japanese car auctions for all the people arou=
+nd the world. We can help you set-up an account at our system which will let=
+ you buy cars directly from the auctions using your portal online.
+>>>>>>=20
+>>>>>> We have many clients abroad who are using our services.
+>>>>>> If you wish to register, please follow and fill in the information in=
+ the link below and we will guide you to have access
+>>>>>> to all Auction houses in Japan.
+>>>>>>=20
+>>>>>> Please be advised that as an individual visiting from the USA, you wi=
+ll not be able to buy cars on your visit to Japan. You will always need an i=
+ntermediary-company to buy cars on your behalf. We can do that for you. Also=
+, there is no need to visit Japan for this very purpose. You can have access=
+ to all Auction Houses even now without having to visit Japan.
+>>>>>>=20
+>>>>>> Please ask if you have any further questions.
+>>>>>> We look forward to building a healthy and fruitful business relations=
+hip with you.
+>>>>>>=20
+>>>>>> Best Regards
+>>>>>> Noukhaiz Nadeem
+>>>>>> CEO=20
+>>>>>> www.UssTokyo.com
+>>>>>> =20
+>>>>>> From: Hamid Basbous <hamid@pro-sport.us>
+>>>>>> Sent: Wednesday, August 15, 2018 1:30:33 PM
+>>>>>> To: info@usstokyo.com
+>>>>>> Subject: Auto auctions
+>>>>>> =20
+>>>>>> Hello,
+>>>>>>=20
+>>>>>> I am a used car dealer in Pennsylvania and will be flying to Tokyo at=
+ the end of October and I am looking to buy vehicles and send them back to t=
+he United States. I am speaking to a couple auction houses to form a relatio=
+nship as I am looking to buy multiple vehicles to ship. I am looking for a c=
+ompany who can help with access to the auctions. Is there a time we can spea=
+k to discuss how your company works?
+>>>>>>=20
+>>>>>> Hamid Basbous
+>>>>>>=20
+>>>>>> President Pro-Sport Motors
+>>>>>> 828 Matsonford Road
+>>>>>> West Conshohocken, Pa, 19428
+>>>>>>=20
+>>>>>> Office 484-344-5069
+>>>>>> Fax 484-244-6972
+
+--Apple-Mail-29B37D96-CD32-4B63-A134-7D54703120E4
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Ok,<div><br></div><div>So if I buy strategi=
+cally it would help, let=E2=80=99s say I buy 4 cars from one auction (if pos=
+sible). That might be more beneficial to create one full container?<br><br><=
+div id=3D"AppleMailSignature"><span style=3D"background-color: rgba(255, 255=
+, 255, 0);">Hamid Basbous</span><div><span style=3D"background-color: rgba(2=
+55, 255, 255, 0);"><br></span></div><div><span style=3D"background-color: rg=
+ba(255, 255, 255, 0);">President Pro-Sport Motors</span></div><div><span sty=
+le=3D"background-color: rgba(255, 255, 255, 0);">828 Matsonford Road</span><=
+/div><div><span style=3D"background-color: rgba(255, 255, 255, 0);">West Con=
+shohocken, Pa, 19428</span></div><div><span style=3D"background-color: rgba(=
+255, 255, 255, 0);"><br></span></div><div><span style=3D"background-color: r=
+gba(255, 255, 255, 0);">Office 484-344-5069</span></div><div><span style=3D"=
+background-color: rgba(255, 255, 255, 0);">Fax 484-244-6972</span></div></di=
+v><div><br>On Aug 15, 2018, at 2:22 PM, Admin [<a href=3D"http://USSTOKYO.CO=
+M">USSTOKYO.COM</a>] &lt;<a href=3D"mailto:info@usstokyo.com">info@usstokyo.=
+com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div>
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-12=
+52">
+
+
+
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font-=
+family:Calibri,Helvetica,sans-serif;" dir=3D"ltr">
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0">Sir that might take a couple or mo=
+re days to know. Might have to ask our shipping line if they can ship there.=
+</p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0">Yes, we can put 4 cars or so in on=
+e 40 Hi-Cube container, however, we mostly buy through online auctions from a=
+ll cities of Japan. Sometimes, we buy a car from Tokyo and the other from Os=
+aka (which is far away and has
+ its own shipping port). As we have shipping arrangements from almost all po=
+rts of Japan, it's cheaper for us to ship from the closest port rather than b=
+ringing the car to Tokyo and then ship from here. That will raise costs.</p>=
+
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0">However, our shipping costs are al=
+ready very cheap and reasonable so it won't be a problem if we ship the cars=
+ individually.</p>
+<p style=3D"margin-top:0;margin-bottom:0">In case you prefer only single-con=
+tainer shipment, we can arrange that too.</p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0">Best Regards</p>
+<p style=3D"margin-top:0;margin-bottom:0">Noukhaiz Nadeem</p>
+<p style=3D"margin-top:0;margin-bottom:0">CEO</p>
+<p style=3D"margin-top:0;margin-bottom:0"><a href=3D"http://www.UssTokyo.com=
+">www.UssTokyo.com</a></p>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" sty=
+le=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Hamid Basbous &lt;<a hr=
+ef=3D"mailto:hamid@pro-sport.us">hamid@pro-sport.us</a>&gt;<br>
+<b>Sent:</b> Thursday, August 16, 2018 3:13:51 AM<br>
+<b>To:</b> Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO.COM</a>]<br>
+<b>Subject:</b> Re: Auto auctions </font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Dutf-8">
+<div dir=3D"auto">Can you guys ship to port of Wilmington in Delaware or Eli=
+zabeth in New Jersey?<br>
+<br>
+<div id=3D"x_AppleMailSignature"><span style=3D"background-color:rgba(255,25=
+5,255,0)">Hamid Basbous</span>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">President Pro-Spor=
+t Motors</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">828 Matsonford Roa=
+d</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">West Conshohocken,=
+ Pa, 19428</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Office 484-344-506=
+9</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Fax 484-244-6972</=
+span></div>
+</div>
+<div><br>
+On Aug 15, 2018, at 2:03 PM, Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO=
+.COM</a>] &lt;<a href=3D"mailto:info@usstokyo.com">info@usstokyo.com</a>&gt;=
+ wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div id=3D"x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; colo=
+r:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">These cars will average around 10=
+00 - 1700 USD including taxes, auction fees and freight till the USA. Do you=
+ have any specific port name<span style=3D"font-size:12pt">?</span></p>
+<p style=3D"margin-top:0; margin-bottom:0"><span style=3D"font-size:12pt"><b=
+r>
+</span></p>
+<p style=3D"margin-top:0; margin-bottom:0"><span style=3D"font-size:12pt">Su=
+ppose you buy FJ Cruiser for 15000 USD from the auction, it will cost around=
+ 1500 - 1700 USD until delivery at your desired port (Includes documentation=
+, taxes, freight etc).</span></p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Smaller in size cars might cost a=
+ little lesser (1000 - 1400 USD).</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Best Regards</p>
+<p style=3D"margin-top:0; margin-bottom:0">Noukhaiz Nadeem</p>
+<p style=3D"margin-top:0; margin-bottom:0">CEO</p>
+<p style=3D"margin-top:0; margin-bottom:0"><a href=3D"http://www.UssTokyo.co=
+m">www.UssTokyo.com</a></p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" c=
+olor=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Hamid Basbous &lt;<a h=
+ref=3D"mailto:hamid@pro-sport.us">hamid@pro-sport.us</a>&gt;<br>
+<b>Sent:</b> Thursday, August 16, 2018 2:54:28 AM<br>
+<b>To:</b> Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO.COM</a>]<br>
+<b>Subject:</b> Re: Auto auctions </font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Dutf-8">
+<div dir=3D"auto">Currently what I have in mind are
+<div><br>
+</div>
+<div>Skylines/gts/Gtr</div>
+<div>Supra=E2=80=99s</div>
+<div>Rx7s</div>
+<div>240s possibly&nbsp;</div>
+<div>Turbo Mr2=E2=80=99s</div>
+<div>Mitsubishi evos&nbsp;</div>
+<div>Are pre 1998 Porsche 911s expensive in japan?</div>
+<div>Fj cruiser possibly</div>
+<div><br>
+</div>
+<div>This is what I have off the top of my mind, could change when we get th=
+ere but definitely skylines, Supra=E2=80=99s, rx7s, 240sx/180sx</div>
+<div><br>
+</div>
+<div>
+<div id=3D"x_x_AppleMailSignature"><span style=3D"background-color:rgba(255,=
+255,255,0)">Hamid Basbous</span>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">President Pro-Spor=
+t Motors</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">828 Matsonford Roa=
+d</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">West Conshohocken,=
+ Pa, 19428</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Office 484-344-506=
+9</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Fax 484-244-6972</=
+span></div>
+</div>
+<div><br>
+On Aug 15, 2018, at 1:46 PM, Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO=
+.COM</a>] &lt;<a href=3D"mailto:info@usstokyo.com">info@usstokyo.com</a>&gt;=
+ wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div id=3D"x_x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; co=
+lor:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0; margin-bottom:0">Dear Mr. Hamid,<br>
+<br>
+Can you please name some of the cars you looking to buy, along with the mode=
+l?<br>
+Taxes in Japan apply to the cost of the car and the shipping charges also di=
+ffer as per different sizes and shapes of the cars.</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Best Regards</p>
+<p style=3D"margin-top:0; margin-bottom:0">Noukhaiz Nadeem</p>
+<p style=3D"margin-top:0; margin-bottom:0">CEO</p>
+<p style=3D"margin-top:0; margin-bottom:0"><a href=3D"http://www.UssTokyo.co=
+m">www.UssTokyo.com</a></p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif"=
+ color=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Hamid Basbous &lt;<=
+a href=3D"mailto:hamid@pro-sport.us">hamid@pro-sport.us</a>&gt;<br>
+<b>Sent:</b> Thursday, August 16, 2018 2:37:33 AM<br>
+<b>To:</b> Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO.COM</a>]<br>
+<b>Subject:</b> Re: Auto auctions </font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Dutf-8">
+<div dir=3D"auto">Can you break down the charges for me?<br>
+<br>
+<div id=3D"x_x_x_AppleMailSignature"><span style=3D"background-color:rgba(25=
+5,255,255,0)">Hamid Basbous</span>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">President Pro-Spor=
+t Motors</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">828 Matsonford Roa=
+d</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">West Conshohocken,=
+ Pa, 19428</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Office 484-344-506=
+9</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Fax 484-244-6972</=
+span></div>
+</div>
+<div><br>
+On Aug 15, 2018, at 1:34 PM, Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO=
+.COM</a>] &lt;<a href=3D"mailto:info@usstokyo.com">info@usstokyo.com</a>&gt;=
+ wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div id=3D"x_x_x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; c=
+olor:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Dear Mr. Hamid,<br>
+<br>
+Sure, Sir. We will do it all for you. Once the car is bought from the auctio=
+n, it takes around 2 weeks for us to arrange all exporting documents and shi=
+p the cars to any port in the world.<br>
+<br>
+Best Regards</p>
+<p style=3D"margin-top:0; margin-bottom:0">Noukhaiz Nadeem</p>
+<p style=3D"margin-top:0; margin-bottom:0">CEO&nbsp;</p>
+<p style=3D"margin-top:0; margin-bottom:0"><a href=3D"http://www.UssTokyo.co=
+m">www.UssTokyo.com</a></p>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_x_x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-seri=
+f" color=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Hamid Basbous &lt=
+;<a href=3D"mailto:hamid@pro-sport.us">hamid@pro-sport.us</a>&gt;<br>
+<b>Sent:</b> Thursday, August 16, 2018 2:25:36 AM<br>
+<b>To:</b> Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO.COM</a>]<br>
+<b>Subject:</b> Re: Auto auctions </font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Dutf-8">
+<div dir=3D"auto">Ok fantastic,
+<div><br>
+</div>
+<div>My flight is booked for oct 27th and I will be in japan until November 1=
+0th. Will you be able to process all the shipping, storage, paperwork, etc u=
+ntil the car goes to the port? I ship land rovers from Amsterdam, I have a c=
+ontact who does ocean freight
+ and importing for me but is this possible for you to handle?<br>
+<br>
+<div id=3D"x_x_x_x_AppleMailSignature"><span style=3D"background-color:rgba(=
+255,255,255,0)">Hamid Basbous</span>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">President Pro-Spor=
+t Motors</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">828 Matsonford Roa=
+d</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">West Conshohocken,=
+ Pa, 19428</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Office 484-344-506=
+9</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Fax 484-244-6972</=
+span></div>
+</div>
+<div><br>
+On Aug 15, 2018, at 1:20 PM, Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO=
+.COM</a>] &lt;<a href=3D"mailto:info@usstokyo.com">info@usstokyo.com</a>&gt;=
+ wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div id=3D"x_x_x_x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt=
+; color:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0; margin-bottom:0">Dear Mr. Hamid,<br>
+<br>
+Yes, that is totally possible. We can buy any number of vehicles for you whe=
+n you visit Japan. Later you can use our online bidding system to buy from a=
+uctions even when you are in the USA.<br>
+<br>
+Please let us know before your arrival in Japan and we will make arrangement=
+s for your buying.</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Best Regards</p>
+<p style=3D"margin-top:0; margin-bottom:0">Noukhaiz Nadeem</p>
+<p style=3D"margin-top:0; margin-bottom:0">CEO</p>
+<p style=3D"margin-top:0; margin-bottom:0"><a href=3D"http://www.UssTokyo.co=
+m">www.UssTokyo.com</a></p>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_x_x_x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-se=
+rif" color=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Hamid Basbous &=
+lt;<a href=3D"mailto:hamid@pro-sport.us">hamid@pro-sport.us</a>&gt;<br>
+<b>Sent:</b> Wednesday, August 15, 2018 9:05:40 PM<br>
+<b>To:</b> Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO.COM</a>]<br>
+<b>Subject:</b> Re: Auto auctions </font>
+<div>&nbsp;</div>
+</div>
+<meta content=3D"text/html; charset=3Dutf-8">
+<div dir=3D"auto">Ok I understand.
+<div><br>
+</div>
+<div>But when I do come to Japan am I able to meet you at your offices and p=
+urchase vehicle through you while I am there? Also would you be able to prov=
+ide access to see the cars? I plan on buying 10-20 vehicles the first time a=
+round. I=E2=80=99m looking to build a
+ relationship and buy cars through someone there and then when I go back to t=
+he US continue buying via internet. Is this possible?<br>
+<br>
+<div id=3D"x_x_x_x_x_AppleMailSignature"><span style=3D"background-color:rgb=
+a(255,255,255,0)">Hamid Basbous</span>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">President Pro-Spor=
+t Motors</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">828 Matsonford Roa=
+d</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">West Conshohocken,=
+ Pa, 19428</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)"><br>
+</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Office 484-344-506=
+9</span></div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">Fax 484-244-6972</=
+span></div>
+</div>
+<div><br>
+On Aug 15, 2018, at 7:48 AM, Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO=
+.COM</a>] &lt;<a href=3D"mailto:info@usstokyo.com">info@usstokyo.com</a>&gt;=
+ wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div id=3D"x_x_x_x_x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12=
+pt; color:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Dear Mr. Hamid,</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">We thank you for your interest in=
+ <a href=3D"http://UssTokyo.com">
+UssTokyo.com</a></p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">We are a gateway to all Japanese c=
+ar auctions for all the people around the world. We can help you set-up an a=
+ccount at our system which will let you buy cars directly from the auctions u=
+sing your portal online.</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">We have many clients abroad who a=
+re using our services.</p>
+<p style=3D"margin-top:0; margin-bottom:0">If you wish to register, please f=
+ollow and fill in the information in the link below and we will guide you to=
+ have access</p>
+<p style=3D"margin-top:0; margin-bottom:0">to all Auction houses in Japan.</=
+p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Please be advised that as an indi=
+vidual visiting from the USA, you will not be able to buy cars on your visit=
+ to Japan. You will always need an intermediary-company to buy cars on your b=
+ehalf. We can do that for you.
+ Also, there is no need to visit Japan for this very purpose. You can have a=
+ccess to all Auction Houses even now without having to visit Japan.</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Please ask if you have any furthe=
+r questions.<br>
+We look forward to building a healthy and fruitful business relationship wit=
+h you.</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0">Best Regards</p>
+<p style=3D"margin-top:0; margin-bottom:0">Noukhaiz Nadeem</p>
+<p style=3D"margin-top:0; margin-bottom:0">CEO&nbsp;</p>
+<p style=3D"margin-top:0; margin-bottom:0"><a href=3D"http://www.UssTokyo.co=
+m">www.UssTokyo.com</a></p>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_x_x_x_x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-=
+serif" color=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Hamid Basbous=
+ &lt;<a href=3D"mailto:hamid@pro-sport.us">hamid@pro-sport.us</a>&gt;<br>
+<b>Sent:</b> Wednesday, August 15, 2018 1:30:33 PM<br>
+<b>To:</b> <a href=3D"mailto:info@usstokyo.com">info@usstokyo.com</a><br>
+<b>Subject:</b> Auto auctions </font>
+<div>&nbsp;</div>
+</div>
+<div class=3D"x_x_x_x_x_BodyFragment"><font size=3D"2"><span style=3D"font-s=
+ize:11pt">
+<div class=3D"x_x_x_x_x_PlainText">Hello,<br>
+<br>
+I am a used car dealer in Pennsylvania and will be flying to Tokyo at the en=
+d of October and I am looking to buy vehicles and send them back to the Unit=
+ed States. I am speaking to a couple auction houses to form a relationship a=
+s I am looking to buy multiple
+ vehicles to ship. I am looking for a company who can help with access to th=
+e auctions. Is there a time we can speak to discuss how your company works?<=
+br>
+<br>
+Hamid Basbous<br>
+<br>
+President Pro-Sport Motors<br>
+828 Matsonford Road<br>
+West Conshohocken, Pa, 19428<br>
+<br>
+Office 484-344-5069<br>
+Fax 484-244-6972<br>
+</div>
+</span></font></div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+
+
+</div></blockquote></div></body></html>=
+
+--Apple-Mail-29B37D96-CD32-4B63-A134-7D54703120E4--

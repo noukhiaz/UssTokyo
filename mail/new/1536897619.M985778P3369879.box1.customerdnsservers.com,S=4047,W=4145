@@ -1,0 +1,98 @@
+Return-Path: <>
+Delivered-To: usstoki@box1.customerdnsservers.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id GG/5OFMym1uXazMAsyhj2Q
+	for <usstoki@box1.customerdnsservers.com>; Thu, 13 Sep 2018 23:00:19 -0500
+Return-path: <>
+Envelope-to: usstoki@box1.customerdnsservers.com
+Delivery-date: Thu, 13 Sep 2018 23:00:19 -0500
+Received: from mailnull by box1.customerdnsservers.com with local (Exim 4.91)
+	id 1g0fHH-00E8kO-RJ
+	for usstoki@box1.customerdnsservers.com; Thu, 13 Sep 2018 23:00:19 -0500
+X-Failed-Recipients: aukinternational@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box1.customerdnsservers.com>
+To: usstoki@box1.customerdnsservers.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1536897619-eximdsn-1038382465
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1g0fHH-00E8kO-RJ@box1.customerdnsservers.com>
+Date: Thu, 13 Sep 2018 23:00:19 -0500
+
+--1536897619-eximdsn-1038382465
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  aukinternational@gmail.com
+    host gmail-smtp-in.l.google.com [173.194.67.27]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 Unauthenticated email from yahoo.com is not accepted due to domain's
+    550-5.7.1 DMARC policy. Please contact the administrator of yahoo.com domain if
+    550-5.7.1 this was a legitimate mail. Please visit
+    550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+    550 5.7.1 DMARC initiative. j4-v6si1136056otc.88 - gsmtp
+
+--1536897619-eximdsn-1038382465
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box1.customerdnsservers.com
+
+Action: failed
+Final-Recipient: rfc822;aukinternational@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 Unauthenticated email from yahoo.com is not accepted due to domain's
+ 550-5.7.1 DMARC policy. Please contact the administrator of yahoo.com domain if
+ 550-5.7.1 this was a legitimate mail. Please visit
+ 550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+ 550 5.7.1 DMARC initiative. j4-v6si1136056otc.88 - gsmtp
+
+--1536897619-eximdsn-1038382465
+Content-type: message/rfc822
+
+Return-path: <usstoki@box1.customerdnsservers.com>
+Received: from usstoki by box1.customerdnsservers.com with local (Exim 4.91)
+	(envelope-from <usstoki@box1.customerdnsservers.com>)
+	id 1g0fHG-00E8kB-Jq; Thu, 13 Sep 2018 23:00:18 -0500
+To: aukinternational@gmail.com, info@usstokyo.com, noukhaiz@hotmail.com
+Subject: Message from Contact USSTOKYO.com
+X-PHP-Script: usstokyo.com/php/contact-form.php for 88.80.20.156
+From: Contact Form taylort7a8eallen@yahoo.com
+Message-Id: <E1g0fHG-00E8kB-Jq@box1.customerdnsservers.com>
+Date: Thu, 13 Sep 2018 23:00:18 -0500
+
+ From: Taylor Allen 
+ E-Mail: taylort7a8eallen@yahoo.com 
+ Phone : (805) 372-1751 
+ Message : Hey after visiting your site, which is nice by the way, I was wondering if you are like most people.  
+
+Most people have either tried facebook ads and not had success or have not tried facebook ads.  Very few are successful, however this is for a reason.  It is simply that the successful people know what other people do not know.  
+
+We created a free report that explains what the successful people know.  You can download this new free report and create facebook ads that get results fast:
+
+https://advertisinginsights.top/guide
+
+If you read this free report, please let us know what you think.
+
+Thank you,
+Sydney Harris
+Customer Success Manager
+Advertzing
+500 Westover Dr #12733
+Sanford, NC 27330
+
+
+
+
+
+
+
+
+If you received this commercial message on accident, I apologize. To prevent any future communication please visit: https://advertisinginsights.top/outs.php?site=usstokyo.com 
+
+
+--1536897619-eximdsn-1038382465--

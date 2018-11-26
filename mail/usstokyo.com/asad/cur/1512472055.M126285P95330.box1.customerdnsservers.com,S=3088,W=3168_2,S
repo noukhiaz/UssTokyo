@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: asad@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id UMNTB/d9JlpidAEAsyhj2Q
+	for <asad@usstokyo.com>; Tue, 05 Dec 2017 05:07:35 -0600
+Return-path: <>
+Envelope-to: asad@usstokyo.com
+Delivery-date: Tue, 05 Dec 2017 05:07:35 -0600
+Received: from mailnull by box1.customerdnsservers.com with local (Exim 4.89)
+	id 1eMB4Y-000Pkr-Vi
+	for asad@usstokyo.com; Tue, 05 Dec 2017 05:07:35 -0600
+X-Failed-Recipients: "asad_khanrwp@yahoo.com; asadkhanrwp"@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box1.customerdnsservers.com>
+To: asad@usstokyo.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1512472054-eximdsn-196907682
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1eMB4Y-000Pkr-Vi@box1.customerdnsservers.com>
+Date: Tue, 05 Dec 2017 05:07:34 -0600
+
+--1512472054-eximdsn-196907682
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  "asad_khanrwp@yahoo.com; asadkhanrwp"@gmail.com
+    host gmail-smtp-in.l.google.com [64.233.178.26]
+    SMTP error from remote mail server after RCPT TO:<"asad_khanrwp@yahoo.com; asadkhanrwp"@gmail.com>:
+    553-5.1.2 The recipient address <asad_khanrwp@yahoo.com; asadkhanrwp@gmail.com>
+    553 5.1.2 is not a valid RFC-5321 address. v188si4968229oif.483 - gsmtp
+
+--1512472054-eximdsn-196907682
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box1.customerdnsservers.com
+
+Action: failed
+Final-Recipient: rfc822;"asad_khanrwp@yahoo.com; asadkhanrwp"@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 553-5.1.2 The recipient address <asad_khanrwp@yahoo.com; asadkhanrwp@gmail.com>
+ 553 5.1.2 is not a valid RFC-5321 address. v188si4968229oif.483 - gsmtp
+
+--1512472054-eximdsn-196907682
+Content-type: message/rfc822
+
+Return-path: <asad@usstokyo.com>
+Received: from [103.255.6.77] (port=24113 helo=[192.168.8.182])
+	by box1.customerdnsservers.com with esmtpsa (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89)
+	(envelope-from <asad@usstokyo.com>)
+	id 1eMB4Y-000Pkd-4G; Tue, 05 Dec 2017 05:07:34 -0600
+To: aukinternational@gmail.com,
+ "asad_khanrwp@yahoo.com; asadkhanrwp"@gmail.com
+From: "Asad U. Khan" <asad@usstokyo.com>
+Subject: asd asd as
+Message-ID: <1681f277-322e-4764-e845-dc28859fa71c@usstokyo.com>
+Date: Tue, 5 Dec 2017 16:07:30 +0500
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101
+ Thunderbird/56.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+X-Antivirus: Avast (VPS 171204-2, 12/04/2017), Outbound message
+X-Antivirus-Status: Clean
+
+da sdas dasd as d
+
+
+---
+This email has been checked for viruses by Avast antivirus software.
+https://www.avast.com/antivirus
+
+
+--1512472054-eximdsn-196907682--

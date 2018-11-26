@@ -1,0 +1,276 @@
+Return-Path: <theupper12+bncBD72FD6I74BBBXF2U7OQKGQEL2VGITQ@googlegroups.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id yO9IDoTdqVuunAIAsyhj2Q
+	for <info@usstokyo.com>; Tue, 25 Sep 2018 02:02:28 -0500
+Return-path: <theupper12+bncBD72FD6I74BBBXF2U7OQKGQEL2VGITQ@googlegroups.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Tue, 25 Sep 2018 02:02:28 -0500
+Received: from mail-yw1-f60.google.com ([209.85.161.60]:45799)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <theupper12+bncBD72FD6I74BBBXF2U7OQKGQEL2VGITQ@googlegroups.com>)
+	id 1g4hMa-000jtC-25
+	for info@usstokyo.com; Tue, 25 Sep 2018 02:02:28 -0500
+Received: by mail-yw1-f60.google.com with SMTP id e196-v6sf11031110ywe.12
+        for <info@usstokyo.com>; Tue, 25 Sep 2018 00:02:08 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1537858908; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=kvAcVyqPwkojxm2k5fr8qK34/RHqYltYEsV8ePMds3xq9nxgGMncnyXygYTTJl+isK
+         KY0Yt/O55QFVWehDaI7P19r6mcf9YdJclutbryBH/cjyw8Qt77ahxZYkWeevkgcdoMCB
+         iA/KzOPuT/DEHna91h+wiHTel2Hvn8IYf+1vx8rmJnmIJrdyy7cgi+VECIoAWgPSLUDQ
+         2aiD+aA2HMfKSKU52zIV22Bl5DJbfPNj1agvR4gPyRvhIP5p4bP0ZWh4OSg42mWtmCS6
+         gl78yasDbcS3vxQ0DqOCzgse8BrwnpQeuTHn1rlrUJIOGos+Y36k7cuDad90ZdLNs5NO
+         f3lQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-archive:list-help:list-post:list-id
+         :mailing-list:precedence:to:subject:message-id:date:from:reply-to
+         :in-reply-to:references:mime-version:sender:dkim-signature
+         :dkim-signature;
+        bh=mmxTaHPWV1ZyW0hQWVGuw0Ej4H5+ZnlZeCbzvdsrmsk=;
+        b=AxAdtechXqx3hrEEyus0Dbt/+n3fFxQnlTRAkgciw695xwp1cPYIrK8mSBF4rpl4sx
+         0gqae2W8rG74WJPQ/QR8qyNN+tUdsH0fcv5rx5hUr+vQUQLgmTK/63V6XZ3vFCMzCy2s
+         fWf0YaEm2ikqnc4Ni3/CPW//PBxWdIhkDi+WvFw5+HoXff1F6enjERCOESW+jZBN1aVE
+         4VmAE4T9O2dcogvHy/rof2aqfIYMXUVWJG7k1/Y94/NMjlu9nHa62XUMz5vBL8bdYZ6r
+         2aMbVer3X5TLA8+LBzscs5sR0tlq75o7s1ke+VpVqjA3T0hQA76Vobw4E6wb9tS88RNU
+         vBBg==
+ARC-Authentication-Results: i=2; gmr-mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=dRbThH0u;
+       spf=pass (google.com: domain of sarazahid987@gmail.com designates 2607:f8b0:4864:20::d41 as permitted sender) smtp.mailfrom=sarazahid987@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20161025;
+        h=sender:mime-version:references:in-reply-to:reply-to:from:date
+         :message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:list-unsubscribe;
+        bh=mmxTaHPWV1ZyW0hQWVGuw0Ej4H5+ZnlZeCbzvdsrmsk=;
+        b=USs/7+p28tbc0CmnNmPMGebMhejcAngYKu0WTigsXMXDIQeI3I1IWpCf0/riM8m4qU
+         HA325haOSyGeiX430qDuTmNElgw3eIdnpyJKIpjXmSsAa7sqQwXNglm9SzRbtV5m308I
+         BJcM45M9ZmZ0OBgrpsLjRLAIQGPfAItPUmNAyw+S7Yl+1NBT1J3oW3CA9rNMRnlllwrr
+         DpjFZzB7jYYc+YAfSKhZ3i6aNRGrYyS1OXoAjSHf+8Q0KPs/zfYQsR8JKmT/GZ0EZhrM
+         K01uSB4dy53zblm64yE/HPR0Tlz9Wo8TdTRHA19vSqLiCNphstzCRbryJVCnJALv9p7M
+         rbbg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:reply-to:from:date:message-id
+         :subject:to:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=mmxTaHPWV1ZyW0hQWVGuw0Ej4H5+ZnlZeCbzvdsrmsk=;
+        b=UlNFx+jAK4piD1T9tVnNNV3OJwSAg0VsnBqKHfXwbZuDuSLDu5JFIy2R5Dsnexm0S/
+         0GwhXys3aaAxD1ghw1iGf29dpXsOHsg7DqQlHrgso4DepRfKNXjqo8ULi+eWk9+KQPe+
+         OpdtATQp7p+gMRht+4FovVIWGQIvdHsSJnZYAUcNJ5B+f0T74JW9aPlgPFdemofqIIKP
+         ctY1JpO5LPZjxo+Tup5SXGI/TyH+HgYJfjApI6+s5jAX+5K3NZs9+8KaEo+Muz5DAhLm
+         EjHoWZpT+9zMOdKX4PTbDQwDMIE9B9pAyk3PLbuRdugJLJ9yFktO4dld/kQer1kRbAtM
+         dK8g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=sender:x-gm-message-state:mime-version:references:in-reply-to
+         :reply-to:from:date:message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=mmxTaHPWV1ZyW0hQWVGuw0Ej4H5+ZnlZeCbzvdsrmsk=;
+        b=dxrwDfis+8saJ8oq4+AQuJisFatGQXv79j3KJkVvAJAjhklk07hpjIy2oPbmcezM33
+         U+64d1h8oTyNfU81tulfEgbUbsnLTnZK2y7RJlBlRqKCWFOUVq2UmemqonF6zgPBTbGM
+         fcTywzmrJGwjTRG5/k1Jp6dOz3dWnEChP+IBrwExHDFDPpz2hOBXvTL7U6unv7S0gBq+
+         DQNuv+6zO6QDGDPSATC7Ov7CLb9ZyO2/vFEk1pMRkghMJD8SiWmkY/BVC/Eaki7LRj/d
+         QKAkQXtuqdwR3+VsnpxdOAqq1EmHTvAE+G7Qcwlg/K/WiZyDjNlJNYUw7GDc3m0yJ7mT
+         teUw==
+Sender: theupper12@googlegroups.com
+X-Gm-Message-State: ABuFfogjYnblQsihLKAbV8YgXfbUEyff4qDlCjO7nr7HRkwkBhWSnDSA
+	C6rQlCB05hv3WXUVO/cEWpY=
+X-Google-Smtp-Source: ACcGV63UfDZCK8ypOESN5umS5Vkk9Pm3EoKIOoXrfX3i3TQcMsDO1ItSaVR8aGkVyigBhMC+opl9JA==
+X-Received: by 2002:a81:6d13:: with SMTP id i19-v6mr19742ywc.2.1537858908659;
+        Tue, 25 Sep 2018 00:01:48 -0700 (PDT)
+X-BeenThere: theupper12@googlegroups.com
+Received: by 2002:a0d:f942:: with SMTP id j63-v6ls1500732ywf.25.gmail; Tue, 25
+ Sep 2018 00:01:48 -0700 (PDT)
+X-Received: by 2002:a81:a38f:: with SMTP id a137-v6mr160722ywh.176.1537858908015;
+        Tue, 25 Sep 2018 00:01:48 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1537858907; cv=none;
+        d=google.com; s=arc-20160816;
+        b=DBu97qhqFf9m7KJfzzamEmmuPGGtElIkWdIyCJ9CjUsmFCIZjrZi0frHHFgnUJ9gGL
+         0d6HiEjur+sHmc5Jpqv+dvT2TrHjnfAUoEK7O7prX1eC9qZdJjm+ANP2lvpumcFR26LV
+         9XRSJbJj9X4Q2VDpt3Ci/VC4QbywGZwyXQsg2zhG3AO4S5pXXcglO4kitoz02rsdJXOL
+         wFq3zESIddtnxVPnPRroOwdK2qMJtZ+Lhjnyk2VZvP7kLF0yJ1j3WEyzzlnsKvXBvcI0
+         HwVSvKWjoh69K/lF1sa/OQfhBDwcmwwyainJ2D9Bk+wWuhPo3mRa32XFJ7jZHYSrJzNZ
+         Pa9A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:reply-to:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=Cek/wzQ7cq4B8rO11AbwtTlEU4jGwddBD4xd5rR8PKc=;
+        b=DVSwis6T2QPPh1BjtGDFmP4HUterVinaHa5aqBINkMAjCLEWdFJn2yCs1VQsvHSh8I
+         R/ZMmqEEbkf7x6rt2GfqyzIMuarfTTyW3XhAiZi5u/h+NAkArKKWavHxUtSiVO8qlk2E
+         79pTQ6eFd4Usie1FZ9yN5ZOGR2jFpo5J0UEWPiLsvx4Et/CrFyrELmvHFMQ+drXZ5Qqh
+         JrGh88lRmNkOkLHwjRnZNPAvi0yPbMlY59gOa2OcaVr/rpUxZpAce53M1sKJNF4rF7SJ
+         XrpV48BGrn34pSmX7hTocRneEWJAZ1xHQ/GFnZvTiO6YO4OlgRY4K+Cuey0KB+ieLqZu
+         3oLA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=dRbThH0u;
+       spf=pass (google.com: domain of sarazahid987@gmail.com designates 2607:f8b0:4864:20::d41 as permitted sender) smtp.mailfrom=sarazahid987@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from mail-io1-xd41.google.com (mail-io1-xd41.google.com. [2607:f8b0:4864:20::d41])
+        by gmr-mx.google.com with ESMTPS id p4-v6si60490ywm.4.2018.09.25.00.01.47
+        for <theupper12@googlegroups.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 25 Sep 2018 00:01:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sarazahid987@gmail.com designates 2607:f8b0:4864:20::d41 as permitted sender) client-ip=2607:f8b0:4864:20::d41;
+Received: by mail-io1-xd41.google.com with SMTP id u12-v6so14579597ioc.11
+        for <theupper12@googlegroups.com>; Tue, 25 Sep 2018 00:01:47 -0700 (PDT)
+X-Received: by 2002:a6b:6c12:: with SMTP id a18-v6mr1888998ioh.72.1537858907619;
+ Tue, 25 Sep 2018 00:01:47 -0700 (PDT)
+MIME-Version: 1.0
+References: <00d701d4549b$0063edc0$012bc940$@gmail.com> <CALNTepNs+tV98xOuskmg-ZNgw5Qwjuug0YuKX=9P-G5Q=ckDpw@mail.gmail.com>
+In-Reply-To: <CALNTepNs+tV98xOuskmg-ZNgw5Qwjuug0YuKX=9P-G5Q=ckDpw@mail.gmail.com>
+Reply-To: karachi@softax.com.pk
+From: Softax <sarazahid987@gmail.com>
+Date: Tue, 25 Sep 2018 12:01:36 +0500
+Message-ID: <CAD+c-KdUzzQOOGieu5WavVvxCGuJJUErNM3GhPvNcPDtTZqY9w@mail.gmail.com>
+Subject: In accordance with Labour Laws & Superior Court Judgments
+To: karachi@softax.com.pk
+Content-Type: multipart/alternative; boundary="000000000000e750640576acadfc"
+Bcc: theupper12@googlegroups.com
+X-Original-Sender: sarazahid987@gmail.com
+X-Original-Authentication-Results: gmr-mx.google.com;       dkim=pass
+ header.i=@gmail.com header.s=20161025 header.b=dRbThH0u;       spf=pass
+ (google.com: domain of sarazahid987@gmail.com designates 2607:f8b0:4864:20::d41
+ as permitted sender) smtp.mailfrom=sarazahid987@gmail.com;       dmarc=pass
+ (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Precedence: list
+Mailing-list: list theupper12@googlegroups.com; contact theupper12+owners@googlegroups.com
+List-ID: <theupper12.googlegroups.com>
+X-Spam-Checked-In-Group: theupper12@googlegroups.com
+X-Google-Group-Id: 1042604531278
+List-Post: <https://groups.google.com/group/theupper12/post>, <mailto:theupper12@googlegroups.com>
+List-Help: <https://groups.google.com/support/>, <mailto:theupper12+help@googlegroups.com>
+List-Archive: <https://groups.google.com/group/theupper12
+List-Unsubscribe: <mailto:googlegroups-manage+1042604531278+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/group/theupper12/subscribe>
+
+--000000000000e750640576acadfc
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+*Workshop on *
+
+
+*Salary & Wage Management*
+
+*(in accordance with Labour Laws & Superior Court Judgments)*
+
+
+
+*September 27*, 2018
+
+Faletti=E2=80=99s Hotel, *Lahore*
+
+
+
+*October 04*, 2018
+
+Marriott Hotel, *Karachi*
+
+*For details and registration, please contact:*
+
+Lahore: 042-36312148
+
+Karachi: 021-32640313
+
+
+
+[image: http://softax.com.pk/events.php] <http://softax.com.pk/events.php>
+
+<http://softax.com.pk/events.php>
+
+--=20
+You received this message because you are subscribed to the Google Groups "=
+theupper12" group.
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to theupper12+unsubscribe@googlegroups.com.
+To post to this group, send email to theupper12@googlegroups.com.
+To view this discussion on the web visit https://groups.google.com/d/msgid/=
+theupper12/CAD%2Bc-KdUzzQOOGieu5WavVvxCGuJJUErNM3GhPvNcPDtTZqY9w%40mail.gma=
+il.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--000000000000e750640576acadfc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><b><span style=3D"font-size:14.0pt;color:red"></span></b><=
+div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div =
+link=3D"blue" vlink=3D"purple" lang=3D"EN-US"><div class=3D"m_5168648269875=
+685206m_-6739368872176826024WordSection1"><p class=3D"MsoNormal" style=3D"t=
+ext-align:center" align=3D"center"><u><font size=3D"4"><b><span style=3D"co=
+lor:rgb(155,187,89)">Workshop on </span></b></font></u></p><p class=3D"MsoN=
+ormal" style=3D"text-align:center" align=3D"center"><font size=3D"4"><b><sp=
+an style=3D"color:firebrick"><br></span></b></font></p><p class=3D"MsoNorma=
+l" style=3D"text-align:center" align=3D"center"><font size=3D"4"><b><i><spa=
+n style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:rgb=
+(192,0,0)">Salary &amp; Wage Management</span></i></b></font></p><p class=
+=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><font size=3D"4=
+"><b><i><span style=3D"font-family:&quot;Segoe UI&quot;,&quot;sans-serif&qu=
+ot;;color:rgb(79,129,189)">(in accordance with Labour Laws &amp; Superior C=
+ourt Judgments)</span></i></b></font></p><p class=3D"MsoNormal" style=3D"te=
+xt-align:center" align=3D"center"><font size=3D"4"><span style=3D"color:bla=
+ck">=C2=A0</span></font></p><p class=3D"MsoNormal" style=3D"text-align:cent=
+er" align=3D"center"><font size=3D"4"><b><span style=3D"color:rgb(31,73,125=
+)">September 27</span></b><span style=3D"color:rgb(31,73,125)">,</span><spa=
+n style=3D"color:black"> 2018</span><b><span style=3D"color:rgb(31,73,125)"=
+></span></b></font></p><p class=3D"MsoNormal" style=3D"text-align:center" a=
+lign=3D"center"><font size=3D"4"><span style=3D"color:black">Faletti=E2=80=
+=99s Hotel,<b> </b></span><b><span style=3D"color:rgb(31,73,125)">Lahore</s=
+pan></b></font></p><p class=3D"MsoNormal" style=3D"text-align:center" align=
+=3D"center"><font size=3D"4"><b><span style=3D"color:black">=C2=A0</span></=
+b></font></p><p class=3D"MsoNormal" style=3D"text-align:center" align=3D"ce=
+nter"><font size=3D"4"><b><span style=3D"color:rgb(31,73,125)">October 04</=
+span></b><span style=3D"color:rgb(31,73,125)">,</span><span style=3D"color:=
+black"> 2018</span><b><span style=3D"color:rgb(31,73,125)"></span></b></fon=
+t></p><p class=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><=
+font size=3D"4"><span style=3D"color:black">Marriott Hotel,<b> </b></span><=
+b><span style=3D"color:rgb(31,73,125)">Karachi</span></b></font></p><p clas=
+s=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><font size=3D"=
+4"><b><span style=3D"color:black">For details and registration, please cont=
+act:</span></b></font></p><p class=3D"MsoNormal" style=3D"text-align:center=
+" align=3D"center"><font size=3D"4"><span style=3D"color:black">Lahore: 042=
+-36312148</span></font></p><p class=3D"MsoNormal" style=3D"text-align:cente=
+r" align=3D"center"><font size=3D"4"><span style=3D"color:black">Karachi: 0=
+21-32640313</span></font></p><p class=3D"MsoNormal" style=3D"text-align:cen=
+ter" align=3D"center"><span style=3D"font-size:10.0pt;font-family:&quot;Seg=
+oe UI&quot;,&quot;sans-serif&quot;;color:black"><font size=3D"4">=C2=A0</fo=
+nt></span></p><p class=3D"MsoNormal" style=3D"text-align:center" align=3D"c=
+enter"><a href=3D"/"><span style=3D"font-size:10.0pt;font-family:&quot;Sego=
+e UI&quot;,&quot;sans-serif&quot;;color:black"></span></a><a href=3D"http:/=
+/softax.com.pk/events.php"><img id=3D"m_5168648269875685206m_-6739368872176=
+826024Picture_x0020_1" src=3D"cid:1660f7decd24ce8e91" style=3D"margin-right=
+: 0px;" alt=3D"http://softax.com.pk/events.php" border=3D"0"></a></p><p cla=
+ss=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Segoe UI&quot;,&quot;sans-serif&quot=
+;;color:black"><a href=3D"http://softax.com.pk/events.php"><img id=3D"m_516=
+8648269875685206m_-6739368872176826024Picture_x0020_2" src=3D"cid:1660f7dec=
+d2772f6c2" alt=3D"" width=3D"679" height=3D"960" border=3D"0"></a><u><span =
+id=3D"goog_1868872822"></span><span id=3D"goog_1868872823"></span></u></spa=
+n></p></div></div></div></div>
+</div></div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;theupper12&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:theupper12+unsubscribe@googlegroups.com">theupper=
+12+unsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:theupper12@googlegro=
+ups.com">theupper12@googlegroups.com</a>.<br />
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/theupper12/CAD%2Bc-KdUzzQOOGieu5WavVvxCGuJJUErNM3GhPvNcPDtTZqY9w=
+%40mail.gmail.com?utm_medium=3Demail&utm_source=3Dfooter">https://groups.go=
+ogle.com/d/msgid/theupper12/CAD%2Bc-KdUzzQOOGieu5WavVvxCGuJJUErNM3GhPvNcPDt=
+TZqY9w%40mail.gmail.com</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--000000000000e750640576acadfc--

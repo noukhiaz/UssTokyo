@@ -1,0 +1,617 @@
+Return-Path: <bounce-989_HTML-399004539-3890134-6167586-18@bounce.email.vimeo.com>
+Delivered-To: sm@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id qPxlGJbvSFvwnhwAsyhj2Q
+	for <sm@usstokyo.com>; Fri, 13 Jul 2018 13:29:42 -0500
+Return-path: <bounce-989_HTML-399004539-3890134-6167586-18@bounce.email.vimeo.com>
+Envelope-to: sm@usstokyo.com
+Delivery-date: Fri, 13 Jul 2018 13:29:42 -0500
+Received: from mta2.email.vimeo.com ([199.122.125.183]:33230)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <bounce-989_HTML-399004539-3890134-6167586-18@bounce.email.vimeo.com>)
+	id 1fe2p4-007rf2-5K
+	for sm@usstokyo.com; Fri, 13 Jul 2018 13:29:42 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=email.vimeo.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:List-ID:Message-ID:Content-Type; i=vimeo@email.vimeo.com;
+ bh=rl5cRcexdHIZ4Af2ajPwnAJg6l8=;
+ b=MPnCroTKqE9AAzc4FRKsaCwRCkgdedrJX8HGLux6a4qKIp41XMCB+9MJ16Z38/p0CXoHDwWf/004
+   A2A0I6q5CX9hrQaAmdBluVl1IE5G4+dAJ+a6vKAoewNMYMqnOAmnsD/RysDxX5TLX9QjI+TsKwAA
+   CTvuUjB9zt0uGIpJeG8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=email.vimeo.com;
+ b=CExmY/VVkzZ8OwKz0E2tu6B7zKf9drfNmww2EMHmrwFJ/81sDiCmXRcMuDGgU0Qsu6r1UbrGv+K8
+   +CEJaK804zMs+xsK7NDJVYX+R0pC6+gd1VdhpVC/XV1NtkWVPTycmivsCKdWm9EnyCwk2bgGCtlL
+   xv5kqTCT4Y+TbBwaR3Q=;
+Received: by mta2.email.vimeo.com id h93npg163hsc for <sm@usstokyo.com>; Fri, 13 Jul 2018 18:29:01 +0000 (envelope-from <bounce-989_HTML-399004539-3890134-6167586-18@bounce.email.vimeo.com>)
+From: "Vimeo" <vimeo@email.vimeo.com>
+To: <sm@usstokyo.com>
+Subject: Everything you need to know about storage
+Date: Fri, 13 Jul 2018 12:29:02 -0600
+List-Unsubscribe: <mailto:leave-fd411d787c0b5c392848-fe2517797c640479701779-fe9317787c64057e71-fe8812717363017573-ff961578@leave.email.vimeo.com>
+MIME-Version: 1.0
+Reply-To: "Vimeo Support" <reply-fe9317787c64057e71-989_HTML-399004539-6167586-18@email.vimeo.com>
+List-ID: <6167586.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 6167586_3890134
+Message-ID: <200a2e0e-2c55-4cac-875c-cafc98e782e5@ind1s06mta1283.xt.local>
+Content-Type: multipart/alternative;
+	boundary="baDAAxyoJhXt=_?:"
+
+This is a multi-part message in MIME format.
+
+--baDAAxyoJhXt=_?:
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Vimeo
+
+https://click.email.vimeo.com/?qs=f411a62ddc387b751020c94c56056ca6c03b15e3a93b0e1c89a94adcf99a3cf149436814e071472d9318cfc3f9b67325ac036aa2ca6e8976dfc8041b70f34c26 
+
+
+When it comes to storage, Vimeo offers quality, reliability, and most importantly &mdash; tons of space. And we've got you covered with an array of tools for sending private videos, sharing rough cuts, and uploading your videos from most every device and cloud storage platform.
+ 
+
+https://click.email.vimeo.com/?qs=f411a62ddc387b751020c94c56056ca6c03b15e3a93b0e1c89a94adcf99a3cf149436814e071472d9318cfc3f9b67325ac036aa2ca6e8976dfc8041b70f34c26 
+Start free trial
+
+Back it up
+
+Store your videos on vimeo.com &mdash; or upload with the app for iOS and Android &mdash; to keep them organized and secure.
+ 
+ 
+
+Share progress
+
+ Sending drafts means that you'll need space for new versions and private videos. On Vimeo, there's room for all of it. 
+
+Showcase your work
+
+Vimeo showcases your videos in the highest quality possible, whether they're home movies or film festival submissions.
+ 
+ 
+
+Storage options
+PlusPROBusiness
+
+https://click.email.vimeo.com/?qs=f411a62ddc387b7514e63ccf3d5c684257678e1f78894723179ef7d9beca2ceaab18ab207aa4218bfd81d130ca23bccaed3e14ea907f3616f052f335370a2723 
+ Try it free 
+https://click.email.vimeo.com/?qs=f411a62ddc387b75916153baba29e60dafe91663ea898d7c47e678e0115025a74f8e8e29405a2ca4b07c94436c58dff9fc5763e9c84942d63c798c5e5d554574 
+ Try it free  
+https://click.email.vimeo.com/?qs=f411a62ddc387b75185eefc56668a8ebccc48964a4a9f3cb6d69b72f632eb66c8896c05581975f6c26f91803ff8afd772bb35270eee127f791b96464d56ba4b1 
+ Try it free  
+5GB/week20GB/weekUnlimited weekly
+ 5TB total
+HD video1 hour4 hours41 days
+360 video30 minutes2 hours20 days
+4K video10 minutes40 minutes7 days
+
+Does this email look weird?
+https://view.email.vimeo.com/?qs=bb5b4b176ac7763d34a2fffb530abab3c551f2fc28009a6140f4e7b8b941b5c394519d6fdba21985baaf68a26cf206639ad0b9f6eca1f23d233440b4744ff71ec55017dc6b3f436e47e266a600334823 
+Click here 
+
+
+ You are receiving this email advertisement because you registered with Vimeo, Inc. (555 West 18th Street, New York, NY 10011) and agreed to receive emails from us regarding new features, events and special offers.
+ 
+
+
+ &trade; + (c) 2018 Vimeo, Inc. All rights reserved.
+ 
+
+https://click.email.vimeo.com/?qs=f411a62ddc387b75e2f782852ccdda979092c21c4593756fef6372b8b940a393b9edea3106325d9c274cfc8516e0be6831b5c74b6587251322ca065d99936c33 
+Privacy   |  
+https://pages.email.vimeo.com/preferences?User_ID=_3UHAclCCfiKpGV2rQLUbw**&JobID=3890134&SegmentCode=28691 
+Unsubscribe 
+
+https://click.email.vimeo.com/?qs=f411a62ddc387b75e3934ed0ec3f771df490a83fde4c20bec97502d62cbfc35cc79dab0cc43c08359ea6060d2726df5799f2821b161db5eb 
+
+https://click.email.vimeo.com/?qs=f411a62ddc387b758a8180153fa3c936af5a929e1648c11aba1bc037853470c4d71ac1f731ed30c852d4c1d63e497e8d0cafd5de49dcfeda 
+
+https://click.email.vimeo.com/?qs=f411a62ddc387b75dd5c12899c1746c9f4cc83d47df5980cf19363d2f0e4b5ba6a999becf8e21ac6057ce6e6e910df3ea6a00342de8036f4 
+
+https://click.email.vimeo.com/?qs=f411a62ddc387b75130094941b8dcc66a1853647fc95db6e14e104c27b269a9bcf7dccbc1d1c6747395b31ae2d218892f8a07eae6695100c 
+
+
+
+
+
+--baDAAxyoJhXt=_?:
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ <!--  -->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Vimeo</title>
+      <style type="text/css">
+         /* Client-specific Styles */
+         #outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+         body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+         /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+         .ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing.  */
+         #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+         img {outline:none; text-decoration:none;border:none; -ms-interpolation-mode: bicubic;}
+         a img {border:none;}
+         .image_fix {display:block;}
+         p {margin: 0px 0px !important;}
+         table td {border-collapse: collapse;}
+         table { border-collapse:collapse; mso-table-lspace:-1pt; mso-table-rspace:-1pt; }
+         .mobilelink a {
+            text-decoration:none;
+            color:#7b8084;
+         }
+         /*STYLES*/
+
+         /*IPHONE STYLES*/
+      @media only screen and (max-width: 480px) {
+
+         table[class=devicewidth] {width: 320px!important;text-align:center!important;}
+         td[class=devicewidth] {width: 320px!important;text-align:center!important;}
+         img[class=devicewidth] {width: 320px!important;text-align:center!important;}
+         td[class=devicewidthtext] {width: 320px!important;line-height:20px!important;padding-left:20px!important;padding-right:20px!important;}
+            td[class=devicewidthcenter] {width: 320px!important;line-height:24px!important;text-align:center!important;padding-left:10px!important; padding-right: 10px!important;}
+         img[class=colorlogo]{width:320px!important;height:5px!important;}
+         img[class=hero] {width:320px!important;height:165px!important;}
+           img[class=hero2] {width:320px!important;height:100px!important;}
+           img[class=icon] {width:90px!important; height:90px!important; display:center!important;}
+          td[class=mobilehide]{display:none!important;}
+         td[class=social]{padding-left:0px!important;padding-right:0px!important;padding-bottom:25px!important;padding-top:0px!important;}
+         table[class=devicewidthsocial] {width:210px!important; text-align:center!important; padding-left:60px!important;}
+           td[class=devicewidthfoot] {width:310px!important; padding-left:20px!important;padding-right:20px!important;}
+           table[class=devicewidthcta]{width:280px!important;}
+          td[class=comparetable] {width: 320px !important;}
+         
+          
+     /* start compare table */
+          
+table[class=comparetable] {width: 320px!important; text-align: center; border-collapse: collapse; font-family: Helvetica, Arial, sans-serif; font-size: 11px!important;}
+tr[class=comparetable] {background: transparent!important; font-family: Helvetica, Arial, sans-serif;}
+td[class=comparetable] {width: 80px!important; text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 11px!important; line-height: 12px!important; padding-left: 0px!important; padding-right: 0px!important; padding-top: 5px!important; padding-bottom: 5px!important;}
+th[class=comparetable] {width: 80px!important; text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 13px!important; line-height: 12px!important; padding-top: 10px!important; padding-bottom: 5px!important; border-top: 1px solid #BCBCBC!important; border-left: 1px solid #BCBCBC!important; border-right: 1px solid #BCBCBC!important;}
+td[class=rowtitle] {width:80px!important; text-align: left; font-family: Helvetica, Arial, sans-serif; font-size: 12px!important; line-height: 12px; padding-left: 5px!important; padding-right:5px!important; border: 1px solid #BCBCBC;}
+img[class=checkmark] {text-align: center; display: center; width: 20px; height: 20px;}
+a[class=cta1] {width: 80px!important;padding-left: 0px!important; padding-right: 0px!important; padding-top: 5px!important; padding-bottom: 5px!important;text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 12px !important; font-weight: bold !important; color: #1489C9!important; background-color: #ffffff!important; border: none!important; border-radius: 0px!important;}
+a[class=cta2] {width: 80px!important; padding-left: 0px!important; padding-right: 0px!important; padding-top: 5px!important; padding-bottom: 5px!important; text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 12px !important; font-weight: bold !important; color: #00adef!important; background-color: #ffffff!important; border: none!important; border-radius: 0px!important;}
+a[class=cta3] {width: 80px!important; padding-left: 0px!important; padding-right: 0px!important; padding-top: 5px!important; padding-bottom: 5px!important; text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 12px !important; font-weight: bold !important; color: #76C224!important; background-color: #ffffff!important; border: none!important; border-radius: 0px!important;}
+
+          
+/* end compare table */
+
+          
+          /* Main Image Mobile Swap */
+         span[id=switcher] {
+            display:block;
+            background-image: url(http://a.vimeocdn.com/si/email/upsell_series_header_mobile_storage.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            background-size: 320px 233px;
+            width: 320px !important;
+            height: 233px !important;
+         }
+         
+          img[id=houdini] {display: none !important;}
+      }
+          
+      </style>
+       
+   </head>
+<body leftmargin="0" rightmargin="0" marginwidth="0" topmargin="0" bottommargin="0" marginheight="0" offset="0" bgcolor="#f0f1f4"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Start your free trial of Vimeo Plus, PRO, or Business and get tons of storage.</div>
+<!-- Start of preheader -->
+    
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#f0f1f4" style="margin:0 auto;">
+   <tr>
+         <td align="center">
+            <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                        <table width="640" cellpadding="0" cellspacing="0" border="0" class="devicewidth">
+                           <tbody>
+                              <tr>
+                                 <td class="vimeologo" width="640" height="30" style="color: #99aabb; font-family: Helvetica, Arial, sans-serif; font-size: 12px;" align="center">
+                                 <img src="https://click.email.vimeo.com/open.aspx?ffcb10-fe9317787c64057e71-fdf81670776c017c73127470-fe8812717363017573-ff551d787c-fe2517797c640479701779-ff961578" width="1" height="1">
+                                     </td>
+                              </tr>  
+                             <tr>
+                                 <!-- start of image -->
+                                <td align="center" height="4" style="line-height:4px;">
+<img width="640" border="0" height="4" alt="" style="display:block; border:none; outline:none; text-decoration:none;" src="https://image.email.vimeo.com/lib/fe8812717363017573/m/1/ColorBar2.png" class="colorlogo">
+</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+
+<!-- header -->
+             <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                  <tr>
+                     <td width="100%">
+                        <table bgcolor="#ffffff" width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                              <tr>
+                                 <td align="center">
+                                    <table bgcolor="#FFFFFF" width="640" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
+                                        <tr>
+                                            <td align="center">
+                                            <a  href="https://click.email.vimeo.com/?qs=f411a62ddc387b75cbfc0d05e6c3e1539b9882b52a68383fcd0d15ca3225e73b186dbb036eea49b45dd6cb1a6f304c5d270d9144746a4d8dea95015f7359b1f3" target="_blank"><span id="switcher"><img id="houdini" class="hero" src="http://a.vimeocdn.com/si/email/upsell_series_header_desktop_storage.png" style="display:block;" width="640" height="210" border="0" alt="Tons of Storage"></span></a>
+                                            </td>
+                                          </tr>
+                                     
+                                        <!-- space --> 
+                                        <tr>
+                                             <td width="100%" height="40">
+                                             	
+                                             </td>
+                                          </tr>
+                                    <!-- space --> 
+
+                                         <tr>
+                                                <td class="devicewidthtext" align="left" style="background-color:#ffffff; color:#445566; font-family: Helvetica, Arial, sans-serif; font-size:14px; line-height:20px; padding-left:35px; padding-right:35px;">
+                                                    When it comes to storage, Vimeo offers quality, reliability, and most importantly &mdash; tons of space. And we've got you covered with an array of tools for sending private videos, sharing rough cuts, and uploading your videos from most every device and cloud storage platform.
+                                             </td>
+                                        </tr>
+                                        
+                                         <!-- space --> 
+                                        <tr>
+                                             <td width="100%" height="40">
+                                             	
+                                             </td>
+                                          </tr>
+                                    <!-- space --> 
+                                         <table width="220" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidthcta">
+                                                 <tr>
+                                                    <td style="width: 220px; height:45px; background: #00ADEF; color: #ffffff; font-size: 16px; line-height: 21px; text-align: center;  -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;" bgcolor="#00adef">
+                                                        <a  href="https://click.email.vimeo.com/?qs=f411a62ddc387b7588119eaba3d964068b06ab156c30bbf0a6b45f40cb493ff5de707bf91c4ed8cd3ec6906ff0844dfcdd576565dbb16905631b307cc156ca10" target="_blank" style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 21px; color: #ffffff; text-decoration: none; display: block; padding: 12px 10px;"><strong>Start free trial</strong></a>
+                                                    </td>
+                                                 </tr>
+                                     </table>
+                                        
+                                         <!-- space --> 
+                                        <tr>
+                                             <td width="100%" height="40">
+                                             	
+                                             </td>
+                                          </tr>
+                                    <!-- space --> 
+                                     </table>
+                                  </td>
+                            </tr>
+                                 
+<!-- end header --> 
+             
+<!-- start upload from anywhere -->
+                <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                  <tr>
+                     <td width="100%" bgcolor="#ffffff">
+                        <table  width="570" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" bgcolor="#ffffff">
+                              <tr>
+                                 <td>
+                                    <table width="100" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tr>
+                                             <td class="devicewidth">
+                                                <table width="100" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                      <!-- image -->
+                                                      <tr>
+                                                         <td width="100" valign="top" align="center" bgcolor="#FFFFFF">
+                                                            <img style="display:center;" class="icon" src="http://a.vimeocdn.com/si/email/upsell_series_icon_storage_01.png" border="0" width="70" height="70" alt="Back up your videos" />
+                                                         </td>
+                                                      </tr>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                    </table>
+                                    <!-- end of left column -->
+
+                                    <!--[if mso]></td><td><![endif]-->
+
+                                    <!-- start of right column -->
+                                    <table width="450" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" bgcolor="#ffffff">
+                                          <tr>
+                                             <td class="devicewidth">
+                                                <table width="450" class="devicewidth" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                                                      <tr>
+                                                         <td width="450" align="left" class="devicewidthtext" style="font-family: Helvetica, arial, sans-serif; font-size: 14px; line-height:20px; color: #445566; padding-right:15px;">
+                                                             <span style="font-size:16px;"><strong>Back it up</strong></span>
+                                                             <br>
+                                                            Store your videos on vimeo.com &mdash; or upload with the app for iOS and Android &mdash; to keep them organized and secure.
+                                                         
+                                                       </td>
+                                                    </tr>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                    </table>
+                         <!-- space --> 
+                         <tr>
+                                             <td width="100%" height="30">
+                                             	
+                                             </td>
+                                          </tr>
+                      <!-- space --> 
+                         
+<!-- end upload anywhere-->      
+             <!-- start powerful privacy -->
+                <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" bgcolor="#FFFFFF">
+                  <tr>
+                     <td width="100%">
+                        <table  width="570" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                              <tr>
+                                 <td>
+                                    <table width="100" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tr>
+                                             <td class="devicewidth">
+                                                <table width="100" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                      <!-- image -->
+                                                      <tr>
+                                                         <td width="100" valign="top" align="center">
+                                                            <img style="display:center;" class="icon" src="http://a.vimeocdn.com/si/email/upsell_series_icon_storage_02.png" border="0" width="70" height="70" alt="Generate leads"/>
+                                                         </td>
+                                                      </tr>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                    </table>
+                                    <!-- end of left column -->
+
+                                    <!--[if mso]></td><td><![endif]-->
+
+                                    <!-- start of right column -->
+                                    <table width="450" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tr>
+                                             <td class="devicewidth">
+                                                <table width="450" class="devicewidth" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                      <tr>
+                                                         <td width="450" align="left" class="devicewidthtext" style="font-family: Helvetica, arial, sans-serif; font-size: 14px; line-height:20px; color: #445566; padding-right:25px;">
+                                                             <span style="font-size:16px;"><strong>Share progress</strong></span><br>
+                   Sending drafts means that you'll need space for new versions and private videos. On Vimeo, there's room for all of it.                                                         															</td>
+                                                    </tr>
+                                                 </table>
+                                              </td>
+                                        </tr>
+                                     </table>
+                            <!-- space --> 
+                                        <tr>
+                                             <td width="100%" height="30">
+                                             	
+                                             </td>
+                                          </tr>
+                                    <!-- space --> 
+<!-- end powerful privacy --> 
+                         
+             <!-- start customizable portfolios -->
+                <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                  <tr>
+                     <td width="100%">
+                        <table  width="570" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" bgcolor="#FFFFFF" >
+                              <tr>
+                                 <td>
+                                    <table width="100" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tr>
+                                             <td class="devicewidth">
+                                                <table width="100" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                                      <!-- image -->
+                                                      <tr>
+                                                         <td width="100" valign="top" align="center" bgcolor="#FFFFFF">
+                                                        <img style="display:center;" class="icon" src="http://a.vimeocdn.com/si/email/upsell_series_icon_storage_03.png" border="0" width="70" height="70" alt="Boost engagement" />
+                                                         </td>
+                                                      </tr>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                    </table>
+                                    <!-- end of left column -->
+
+                                    <!--[if mso]></td><td><![endif]-->
+
+                                    <!-- start of right column -->
+                                    <table width="450" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tr>
+                                             <td class="devicewidth">
+                                                <table width="450" class="devicewidth" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                                                      <tr>
+                                                         <td width="450" align="left" class="devicewidthtext" style="font-family: Helvetica, arial, sans-serif; font-size: 14px; line-height:20px; color: #445566; padding-right:25px;">
+                                                             <span style="font-size:16px;"><strong>Showcase your work</strong></span><br>
+                                                          Vimeo showcases your videos in the highest quality possible, whether they're home movies or film festival submissions.
+                                                             
+                                                           </td>
+                                                        </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                        </table>
+
+                            <!-- space --> 
+                                        <tr>
+                                            <center> <td width="100%" height="30" style="border-bottom: 1px solid #eeeeee; text-align: center">
+                                             	
+                                                </td> 
+                                            </center>
+                                          </tr>
+                                    <!-- space --> 
+                                       <!-- space --> 
+                                        <tr>
+                                             <td width="100%" height="40">
+                                             	
+                                             </td>
+                                          </tr>
+                                    <!-- space --> 
+                                     
+                                      <!-- headline for table --> 
+                                        <tr>
+                                            <td class="devicewidthcenter" align="left" style="background-color:#ffffff; color:#445566; font-family: Helvetica, Arial, sans-serif; font-size:20px; line-height:20px; padding-right:35px; padding-bottom: 10px;">
+                                                <strong>Storage options</strong>
+                                             </td>
+                                          </tr>
+                                    <!-- end headline for table --> 
+                                      
+                                     
+                                     <!-- compare table --> 
+              <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" bgcolor="#ffffff"> 
+                  <tr>
+                      <td width="100%" align="center" bgcolor="#ffffff" class="devicewidth">
+                       <table bgcolor="#ffffff" width="570" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                           <tr>
+                               <td class="comparetable" bgcolor="#ffffff">
+                               	
+                               </td>
+                                      
+                               <!-- start headers -->  
+                                      <th class="comparetable" width="180" style="padding:10px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #445566; border-top: 1px solid #BCBCBC; border-left: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC;">Plus</th>
+                               
+                                        <th class="comparetable" width="180" style="padding:10px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #445566; border-top: 1px solid #BCBCBC; border-left: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC;">PRO</th>
+                               
+                             <th class="comparetable" width="180" style="padding:10px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #445566; border-top: 1px solid #BCBCBC; border-left: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC;">Business</th>
+                                     </tr>
+                           <!-- end header row --> 
+                          
+                           <!-- start CTAs --> 
+                           <tr>
+                                     <!-- blank -->   <td class="rowtitle" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #445566; text-align: left; border: 0px;"> </td>  
+                               
+
+                               <!-- start CTAs -->   
+                               <td class="comparetable" width="180" style="text-align: center; padding-left:5px; padding-right: 5px; padding-bottom: 10px; font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 15px; color: #445566; border-left: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC;">   
+<a class="cta1"  href="https://click.email.vimeo.com/?qs=f411a62ddc387b75f1bb2a706ff95c9960797b74ca95fd2c3fdb9329e75ccdc9f2c23c38930215415d6164885c1e1080d7619789de7fdcc231c7b84dbb9696cf" target="_blank" style="font-family: Helvetica, Arial, sans-serif; color:#ffffff; text-decoration:none; display:inline-block; padding:10px 15px; border: 1px solid #1489C9; border-radius:6px; background-color:#1489C9; font-size:14px; font-weight:bold; font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; border-radius: 6px; background-color: #1489C9; padding: 10px 25px; border: 1px solid #1489C9; display: inline-block;" bgcolor="#1489C9"><!--[if gte mso
+9]>&nbsp;<![endif]--> Try it free <!--[if gte mso 9]>&nbsp;<![endif]--> </a></td>
+                                
+                                                   <td class="comparetable" width="180" style="text-align: center; padding-left:5px; padding-right: 5px; padding-bottom: 10px; font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 15px; color: #445566; border-left: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC;">   
+<a class="cta2"  href="https://click.email.vimeo.com/?qs=f411a62ddc387b75788893473f9ea0e02217312697b1b60de49033cddc9dc6e14fd945468c1a3db8c2f04cd69d1f151b35397f19c9432ce37757e658e0edeb31"  target="_blank" style="font-family: Helvetica, Arial, sans-serif; color:#ffffff; text-decoration:none; display:inline-block; padding:10px 15px; border: 1px solid #00adef; border-radius:6px; background-color:#00adef; font-size:14px; font-weight:bold; font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; border-radius: 6px; background-color: #00adef; padding: 10px 25px; border: 1px solid #00adef; display: inline-block;"> Try it free </a></td>
+                                
+                               <td class="comparetable" width="180" style="text-align: center; padding-left:5px; padding-right: 5px; padding-bottom: 10px; font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 15px; color: #445566; border-left: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC; border-right: 1px solid #BCBCBC;"> 
+<a class="cta3"  href="https://click.email.vimeo.com/?qs=f411a62ddc387b75d17cb89cc44fccf8cbb91e18137df3d945f366ad788803dadf2e9f2c51ef4515a02f8e493ffc587553883bd69350493c1c521e8a398f3750" style="font-family: Helvetica, Arial, sans-serif; color:#ffffff; text-decoration:none; display:inline-block; padding:10px 15px; border: 1px solid #76C224; border-radius:6px; background-color:#76C224; font-size:14px; font-weight:bold; font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; border-radius: 6px; background-color: #76C224; padding: 10px 25px; border: 1px solid #76C224; display: inline-block;"> Try it free </a>
+                               </td>
+                                                </tr>
+                                    <tr>
+                                        
+                                       <!-- blank -->   <td class="rowtitle" style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #445566; text-align: left; border: 0px;"> </td>   
+                      
+                                        <td class="comparetable" style="text-align: center; padding:10px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; background-color:#F9FBFC; border: 1px solid #BCBCBC;"><strong>5GB/week</strong></td>
+                                        <td class="comparetable" style="text-align: center; padding:10px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; background-color:#F9FBFC; border: 1px solid #BCBCBC;"><strong>20GB/week</strong></td> 
+                                        <td class="comparetable" style="text-align: center; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; background-color:#F9FBFC; border: 1px solid #BCBCBC;"><strong>Unlimited weekly</strong> <br> 5TB total</td>
+                                                </tr>
+                                       <tr>
+                <td class="rowtitle" width="280" style="padding-left:10px; padding-right: 50px; padding-top: 10px; padding-bottom: 10px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #445566; text-align: left; line-height:18px; border: 1px solid #BCBCBC;"><strong>HD video</strong></td>      
+                      
+                                           <td class="comparetable" style="text-align: center; padding:5px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; border: 1px solid #BCBCBC;">1 hour</td>
+                                           
+                                                     <td class="comparetable" style="text-align: center; padding:5px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; border: 1px solid #BCBCBC;">4 hours</td>
+                                           
+                                          <td class="comparetable" style="text-align: center; padding:5px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; border: 1px solid #BCBCBC;">41 days</td>
+                                           
+                                                </tr>
+                                       <tr>
+                 <td class="rowtitle" width="280" style="padding: 10px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 18px; color: #445566; background-color:#F9FBFC; text-align: left; border: 1px solid #BCBCBC;"><strong>360 video</strong></td>        
+                      
+                                         <td class="comparetable" style="text-align: center; padding:10px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; background-color:#F9FBFC; border: 1px solid #BCBCBC;">30 minutes</td>
+                                           
+                                                   <td class="comparetable" style="text-align: center; padding:10px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; background-color:#F9FBFC; border: 1px solid #BCBCBC;">2 hours</td>
+                                           
+                                           <td class="comparetable" style="text-align: center; padding:10px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; background-color:#F9FBFC; border: 1px solid #BCBCBC;">20 days</td>
+                                                </tr>
+                                       <tr>
+                                           <td class="rowtitle" width="280" style="padding:10px;font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #445566; text-align: left; line-height:18px; border: 1px solid #BCBCBC;"><strong>4K video</strong></td>   
+                      
+                                                     <td class="comparetable" style="text-align: center; padding:5px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; border: 1px solid #BCBCBC;">10 minutes</td>
+                                           
+                                                   <td class="comparetable" style="text-align: center; padding:5px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; border: 1px solid #BCBCBC;">40 minutes</td>
+                                           
+                                            <td class="comparetable" style="text-align: center; padding:5px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 15px; color: #445566; border: 1px solid #BCBCBC;">7 days</td>
+                                                </tr>
+                                       
+                                      
+                         
+                                              </table>
+                                          </td>
+                                   </tr>
+               <!-- space --> 
+                  <tr>
+                                             <td width="100%" height="50">
+                                             	
+                                             </td>
+                                          </tr>
+                                    <!-- space --> 
+                             
+                                     </table>
+<!-- footer -->
+            <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" bgcolor="#f0f1f4">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                         <table align="left" cellpadding="0" cellspacing="0" border="0" width="435" class="devicewidth" bgcolor="#f0f1f4">
+                            <tr>
+                                <td align="left" class="devicewidthfoot" style="font-family: Helvetica; font-size: 11px; color:#7b8084; line-height: 15px;padding-right:15px; padding-left:30px; padding-bottom:15px;padding-top:30px;">
+                                       <span style="line-height:22px;">Does this email look weird?  <a  href="https://view.email.vimeo.com/?qs=bb5b4b176ac7763d34a2fffb530abab3c551f2fc28009a6140f4e7b8b941b5c394519d6fdba21985baaf68a26cf206639ad0b9f6eca1f23d233440b4744ff71e1e140180c44b5e7f42c6bf948378e5cd" style="text-decoration: none; color:#445566; font-weight:bold;">Click here</a></span><br />        
+
+                                 You are receiving this email advertisement because you registered with Vimeo, Inc. <span class="mobilelink">(555 West 18th Street, New York, NY 10011)</span> and agreed to receive emails from us regarding new features, events and special offers.
+                                 <br /><br />
+                                 &trade; + &copy; 2018 Vimeo, Inc. All rights reserved.
+                                 <br /><br />
+                                    <strong><a  href="https://click.email.vimeo.com/?qs=f411a62ddc387b75119b9306577b314f5cbc856a114911545d7de746254dfdb6e4634e429bb47bbbe333b5837af5cd3695a1757cbef2b81af764419e2c60100b" style="text-decoration: none; color:#445566;">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a alias="unsubscribe" href="https://pages.email.vimeo.com/preferences?User_ID=_3UHAclCCfiKpGV2rQLUbw**&JobID=3890134&SegmentCode=28691" style="text-decoration: none; color:#445566;">Unsubscribe</a></strong>
+                                 </td>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" class="devicewidthsocial" align="center" bgcolor="#F0f1f4">
+                            <tr>
+                              <td valign="top" style="padding-top: 30px;padding-right:10px;" class="social" align="center">
+                                  <a  href="https://click.email.vimeo.com/?qs=f411a62ddc387b75d57ef067f31fd39aa21887f6b6fdf9f02a33794e66b9335dee0e56ef773127853391d2f98b7a739b6f60d5ff85ee5a82"><img src="http://a.vimeocdn.com/images_v6/email/icon_email_newsletter_facebook.gif" style="border-style: none;" width="28" height="28" alt="Facebook" /></a>
+                              </td>
+                              <td valign="top" style="padding-top: 30px;padding-right:10px" class="social" align="center">
+                                     <a  href="https://click.email.vimeo.com/?qs=f411a62ddc387b75a35447bbe315c58fcd18b4813d52788fb24e1f1654cb94e39afa66f327e0b600c966602c46f432cb3f94d4e5d588915b"><img src="https://image.email.vimeo.com/lib/fe8812717363017573/m/1/twitter_big.jpg" style="border-style: none;" width="28" height="28" alt="Twitter" /></a>
+                                     </td> 
+                              <td valign="top" style="padding-top: 30px;padding-right:10px" align="center" class="social">
+                                     <a  href="https://click.email.vimeo.com/?qs=f411a62ddc387b756402a70af6ebc0081fc849a5be41bcfd35ba9c180da2395b3beba667744e86eb363edd723fb7d6c340bf4fd7c91ebfc0"><img src="http://a.vimeocdn.com/images_v6/email/icon_email_newsletter_tumblr.gif" style="border-style: none;" width="28" height="28" alt="Tumblr" /></a>
+                              </td>
+                              <td valign="top" style="padding-top: 30px; padding-right:15px" align="center" class="social">
+                                     <a  href="https://click.email.vimeo.com/?qs=f411a62ddc387b75fe3ddfc9ce3327b33354db45c7a5142da20a736cf21f7190cad8c8b0d0ad5537b4f04d59ee9d28595d5381a03bdcf427"><img src="http://static-image.vimeo.com.s3.amazonaws.com/email/ins_instagram.gif" style="border-style: none;" width="28" height="28" alt="Instagram" /></a>
+                                </td>
+                            </tr>
+                         </table>
+                      </td>
+                   </tr>
+                </tbody>
+                                     </table>
+                                  </td>
+                            </tr>
+                         </table>
+                      </td>
+                    </tr>
+                                     </table>
+                                  </td>
+                            </tr>
+                         </table>
+                      </td>
+                    </tr>
+                                     </table>
+                                  </td>
+                            </tr>
+                         </table>
+                      </td>
+                    </tr>
+                            </table>
+                         </table>
+                      </td>
+                 </tr>
+             </table>
+       </td>
+    </tr>
+    </table>
+                            
+<!-- end footer -->
+</body>
+</html>
+
+--baDAAxyoJhXt=_?:--
+

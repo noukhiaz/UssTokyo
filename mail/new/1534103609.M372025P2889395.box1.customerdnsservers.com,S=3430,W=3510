@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: usstoki@box1.customerdnsservers.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id yHIYFjmQcFuzFiwAsyhj2Q
+	for <usstoki@box1.customerdnsservers.com>; Sun, 12 Aug 2018 14:53:29 -0500
+Return-path: <>
+Envelope-to: usstoki@box1.customerdnsservers.com
+Delivery-date: Sun, 12 Aug 2018 14:53:29 -0500
+Received: from mailnull by box1.customerdnsservers.com with local (Exim 4.91)
+	id 1fowQa-00C7f2-UD
+	for usstoki@box1.customerdnsservers.com; Sun, 12 Aug 2018 14:53:29 -0500
+X-Failed-Recipients: aukinternational@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box1.customerdnsservers.com>
+To: usstoki@box1.customerdnsservers.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1534103608-eximdsn-299804030
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fowQa-00C7f2-UD@box1.customerdnsservers.com>
+Date: Sun, 12 Aug 2018 14:53:28 -0500
+
+--1534103608-eximdsn-299804030
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  aukinternational@gmail.com
+    host gmail-smtp-in.l.google.com [172.217.195.27]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 Unauthenticated email from yahoo.com is not accepted due to domain's
+    550-5.7.1 DMARC policy. Please contact the administrator of yahoo.com domain if
+    550-5.7.1 this was a legitimate mail. Please visit
+    550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+    550 5.7.1 DMARC initiative. f63-v6si10522133oig.324 - gsmtp
+
+--1534103608-eximdsn-299804030
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box1.customerdnsservers.com
+
+Action: failed
+Final-Recipient: rfc822;aukinternational@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 Unauthenticated email from yahoo.com is not accepted due to domain's
+ 550-5.7.1 DMARC policy. Please contact the administrator of yahoo.com domain if
+ 550-5.7.1 this was a legitimate mail. Please visit
+ 550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+ 550 5.7.1 DMARC initiative. f63-v6si10522133oig.324 - gsmtp
+
+--1534103608-eximdsn-299804030
+Content-type: message/rfc822
+
+Return-path: <usstoki@box1.customerdnsservers.com>
+Received: from usstoki by box1.customerdnsservers.com with local (Exim 4.91)
+	(envelope-from <usstoki@box1.customerdnsservers.com>)
+	id 1fowQZ-00C7e6-KA; Sun, 12 Aug 2018 14:53:27 -0500
+To: noukhaiz@hotmail.com, aukinternational@gmail.com
+Subject: New Enquiry on STOCK 200130 - USSTokyo.com
+X-PHP-Script: usstokyo.com/enquiry.php for 42.201.220.194
+From: upl_daharki@yahoo.com 
+Reply-To: upl_daharki@yahoo.com 
+X-Mailer: PHP/5.6.31
+Message-Id: <E1fowQZ-00C7e6-KA@box1.customerdnsservers.com>
+Date: Sun, 12 Aug 2018 14:53:27 -0500
+
+Name: Mukesh Kumar 
+		\n\n Stock ID: <a href="https://usstokyo.com/car_detail?id=200130">200130</a>
+		\n Car Name:  - 
+		\n Email: upl_daharki@yahoo.com 
+		\n Mobile: 00923013394458
+		\n  Address: Peral Haven Apartment Flat No.B 37 9th Floor Clifton Block 5 Karachi 
+		\n IP: 42.201.220.194
+		\n Shipping Country: Pakistan		
+		\n Comments: 
+
+--1534103608-eximdsn-299804030--

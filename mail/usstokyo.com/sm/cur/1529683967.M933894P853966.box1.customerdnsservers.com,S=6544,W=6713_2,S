@@ -1,0 +1,169 @@
+Return-Path: <no-reply@vimeo.com>
+Delivered-To: sm@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id mMSTN/8fLVvOBw0Asyhj2Q
+	for <sm@usstokyo.com>; Fri, 22 Jun 2018 11:12:47 -0500
+Return-path: <no-reply@vimeo.com>
+Envelope-to: sm@usstokyo.com
+Delivery-date: Fri, 22 Jun 2018 11:12:47 -0500
+Received: from smtp.vimeo.com ([74.113.233.227]:55909)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <no-reply@vimeo.com>)
+	id 1fWOg3-003Zx2-O5
+	for sm@usstokyo.com; Fri, 22 Jun 2018 11:12:47 -0500
+Received: from dfvimeocliapp2.df.vimeows.com (dfvimeocliapp2.df.vimeows.com [10.90.128.32])
+	by smtp.vimeo.com (Postfix) with ESMTP id 75FCFA57FF
+	for <sm@usstokyo.com>; Fri, 22 Jun 2018 12:12:09 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vimeo.com;
+	s=default; t=1529683929;
+	bh=IlUiqWXC8SBO9KtnXSqA73uKqxEoLfHhaFlNgNu4tY0=;
+	h=To:Subject:Date:From:Reply-To;
+	b=J0xopiBwlKXO8e1eSUl/NoBAhaxEjsKl8yXIm8TKvGd0RONQ9DjBBqIPyCeQ13SjM
+	 oYJvq66PzFu/r7YnF56HPPbU8Qk1rpFHMtpdF6vy5zxhC4sKy2sfIy4CDb5OKwLTpP
+	 S/vWIkRazwgCE9HyI55lKgEa1spIYvb3mAYuIwEQ=
+Received: by dfvimeocliapp2.df.vimeows.com (Postfix, from userid 502)
+	id 753FD80BE9; Fri, 22 Jun 2018 12:12:09 -0400 (EDT)
+To: sm@usstokyo.com
+Subject: Please verify your email address
+X-PHP-Originating-Script: 502:SimpleMailInvoker.php
+Message-ID: <1529683929.5b2d1fd96c9bc@swift.generated>
+Date: Fri, 22 Jun 2018 12:12:09 -0400
+From: Vimeo <no-reply@vimeo.com>
+Reply-To: Vimeo <no-reply@vimeo.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_15296839295b2d1fd96cc55_=_"
+X-Vimeo-UNIQ: cmV2ZXJpZnlfZW1haWx8OWE1M2U5MjJhYTZjZTE1YjRhYzVhZmVlN2E1Zjg4NjEyMzh8ODY1MTczNTh8MTUyOTY4Mzg2OHwyODc0Mw==
+X-Mailer: PHP
+
+
+--_=_swift_v4_15296839295b2d1fd96cc55_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi UssTokyo.com!
+
+As requested, here is a new email verific=
+ation message to replace the one we sent when you registered for a Vimeo=
+ account. To verify this email address, please click the link below.=
+
+
+https://vimeo.com/user/verify?code=3D9d8b1d28e23725d8a387989=
+e49f3e790&amp;utm_source=3Demail&utm_medium=3Dvimeo-verify-201504&utm_ca=
+mpaign=3D28743&email_id=3DcmV2ZXJpZnlfZW1haWx8OWE1M2U5MjJhYTZjZTE1YjRhYz=
+VhZmVlN2E1Zjg4NjEyMzh8ODY1MTczNTh8MTUyOTY4Mzg2OHwyODc0Mw%3D%3D
+
+L=
+OVE,<br />Vimeo
+
+--_=_swift_v4_15296839295b2d1fd96cc55_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><META http-equiv=3D"Content-Type" content=3D"text/html; char=
+set=3Dutf-8"></head><body><table width=3D"100%" cellpadding=3D"10" cellspa=
+cing=3D"0" style=3D"margin: 0;padding: 0 0 30px 0;background-color: #F4F=
+5F7;"><tr><td>
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" align=3D"center">
+        <tr><td style=3D"color: #9ab;=
+ font: normal 11px helvetica, sans-serif; text-align: center; padding: 1=
+0px 0 20px 0;">To ensure delivery, add <strong>no-reply@vimeo.com</stron=
+g> to your address book.</td></tr>
+    <tr><td style=3D"background: ur=
+l('http://f.vimeocdn.com//images_v6/email/bg_header_email.png?DEV') repe=
+at;"><img src=3D"http://f.vimeocdn.com//images_v6/email/bg_header_email.pn=
+g?DEV" alt=3D"" /></td></tr>
+    <tr>
+        <td style=3D"border=
+:1px dotted #D6D7D8;border-top:none;border-bottom:3px solid #D6D7D8"=
+>
+
+            <table width=3D"100%" cellpadding=3D"30" cellspac=
+ing=3D"0" border=3D"0" align=3D"center" style=3D"color#456;background-co=
+lor: #FFFFFF;">
+                <tr><td style=3D"background-color: =
+#FFFFFF;">
+
+                    <p style=3D"text-align:center;m=
+argin:5px 0 25px 0;padding:0"><a href=3D"https://vimeo.com?utm_source=3D=
+email&utm_medium=3Dvimeo-verify-201504&utm_campaign=3D28743&email_id=3DcmV=
+2ZXJpZnlfZW1haWx8OWE1M2U5MjJhYTZjZTE1YjRhYzVhZmVlN2E1Zjg4NjEyMzh8ODY1MTc=
+zNTh8MTUyOTY4Mzg2OHwyODc0Mw%3D%3D" style=3D"color:#28c;text-decoration:non=
+e" target=3D"_blank"><img src=3D"http://f.vimeocdn.com//images_v6/vimeo_=
+logo.png?DEV" srcset=3D"http://f.vimeocdn.com//images_v6/vimeo_logo@2x.png=
+?DEV 2x" border=3D"0" alt=3D"Vimeo" width=3D"150"></a></p>
+
+  =
+                 =20
+    <p style=3D"color:#456;font-family: helvetica, =
+arial, sans-serif;font-size:24px;line-height:1.2;margin:15px 0;padding:0=
+"><strong>Hi UssTokyo.com!</strong></p>
+
+    <p style=3D"color:#=
+456;font-family: helvetica, arial, sans-serif;font-size:14px;line-height=
+:1.5;margin:15px 0;padding:0">As requested, here is a new email verifica=
+tion message to replace the one we sent when you registered for a Vimeo =
+account. To verify this email address, please click the button below.</p=
+>
+
+    <table align=3D"center" width=3D"360" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0">
+        <tr>
+            <t=
+d>
+                <p style=3D"width: 300px; background: #2786C2; font=
+-family: helvetica, arial, sans-serif;font-size: 18px; line-height: 18px=
+; text-align: center;margin: 10px auto 20px auto;padding: 14px 10px; -mo=
+z-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;"><=
+a href=3D"https://vimeo.com/user/verify?code=3D9d8b1d28e23725d8a387989e4=
+9f3e790&amp;utm_source=3Demail&utm_medium=3Dvimeo-verify-201504&utm_camp=
+aign=3D28743&email_id=3DcmV2ZXJpZnlfZW1haWx8OWE1M2U5MjJhYTZjZTE1YjRhYzVh=
+ZmVlN2E1Zjg4NjEyMzh8ODY1MTczNTh8MTUyOTY4Mzg2OHwyODc0Mw%3D%3D" style=3D"col=
+or: #fff; text-decoration: none;"><strong>Verify your email</strong></a>=
+</p>
+            </td>
+        </tr>
+    </table=
+>
+
+    <p style=3D"color:#456;font-family: helvetica, arial, s=
+ans-serif;font-size:14px;line-height:1.5;font-style: italic; margin: 15p=
+x 0 0 0; padding: 0;">LOVE,<br />Vimeo</p>
+
+
+
+         =
+       </td></tr>
+            </table>
+
+        </td>=
+
+    </tr>
+
+    <tr>
+        <td style=3D"color: #9a=
+b; font: normal 11px helvetica, sans-serif; text-align: center; padding:=
+ 20px 0;">
+            TM + &copy; 2018 Vimeo, Inc.<br />
+      =
+      555 West 18th Street, New York, NY 10011<br />
+            <a =
+href=3D"https://vimeo.com/terms" style=3D"color: #9ab;">Terms</a> | <a h=
+ref=3D"https://vimeo.com/privacy" style=3D"color: #9ab;">Privacy Policy<=
+/a>
+        </td>
+    </tr>
+</table>
+<img src=3D"htt=
+ps://vimeo.com/email/track_pixel?r=3DcmV2ZXJpZnlfZW1haWx8OWE1M2U5MjJhYTZjZ=
+TE1YjRhYzVhZmVlN2E1Zjg4NjEyMzh8ODY1MTczNTh8MTUyOTY4Mzg2OHwyODc0Mw%3D%3D"=
+ alt=3D"" />
+</td></tr></table></body></html>
+
+
+
+--_=_swift_v4_15296839295b2d1fd96cc55_=_--
+

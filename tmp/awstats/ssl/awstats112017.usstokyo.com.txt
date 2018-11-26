@@ -1,0 +1,407 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201711 will be lost/reset.
+# Last config file used to build this data file was /home/usstoki/tmp/awstats/ssl/awstats.usstokyo.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2695                
+POS_VISITOR 7743                
+POS_DAY 9832                
+POS_DOMAIN 3520                
+POS_LOGIN 3872                
+POS_ROBOT 4027                
+POS_WORMS 4256                
+POS_EMAILSENDER 4387                
+POS_EMAILRECEIVER 4530                
+POS_SESSION 10386               
+POS_SIDER 10594               
+POS_FILETYPES 4665                
+POS_DOWNLOADS 4974                
+POS_OS 5022                
+POS_BROWSER 5212                
+POS_SCREENSIZE 5693                
+POS_UNKNOWNREFERER 5767                
+POS_UNKNOWNREFERERBROWSER 5926                
+POS_ORIGIN 6043                
+POS_SEREFERRALS 6183                
+POS_PAGEREFS 6327                
+POS_SEARCHWORDS 6523                
+POS_KEYWORDS 6675                
+POS_MISC 2357                
+POS_ERRORS 6734                
+POS_CLUSTER 3728                
+POS_SIDER_404 6859                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171201000743 218 60290 9436739901249
+FirstTime 20171109084343
+LastTime 20171130224159
+LastUpdate 20171201063913 218 0 217 0 0
+TotalVisits 91                  
+TotalUnique 44                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 52                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+AddToFavourites 0 108 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 99 532 14878061 21 30 382884
+1 192 756 11069614 29 37 283154
+2 24 102 5556577 5 8 136093
+3 94 327 6770827 12 14 248825
+4 330 840 11166002 36 61 767565
+5 86 342 17856122 20 31 488340
+6 85 238 6747731 6 13 192228
+7 22 68 3799343 5 10 256147
+8 122 357 14895477 16 49 1984293
+9 162 674 23656067 21 71 3038447
+10 200 1045 15471971 37 46 192228
+11 58 153 7233091 10 12 304637
+12 116 296 3486446 11 15 163735
+13 182 583 5302324 31 83 3201248
+14 72 115 3651652 11 16 281729
+15 73 323 4619499 20 44 2134667
+16 101 609 4915374 3 4 65334
+17 13 13 413923 1 1 24226
+18 1 1 31757 0 0 0
+19 0 0 0 0 0 0
+20 2 4 53021 0 1 0
+21 22 116 6521038 7 14 235257
+22 26 106 5497549 2 7 138178
+23 57 187 8816854 12 17 341302
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+pk 1990 7095 147804534
+jp 107 526 28186066
+us 22 80 3226125
+de 8 8 2553
+gb 6 6 35751
+se 3 61 2599811
+ua 1 1 50842
+ca 1 1 57657
+ru 1 9 446981
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+google[_+\s]web[_+\s]preview 73 4532133 20171125134434 0
+bingpreview 23 2021676 20171130150920 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+png 886 18977488 0 0
+Unknown 65 2057979 0 0
+svg 1 266548 0 0
+jpg 977 44468396 0 0
+css 2070 29568290 0 0
+ttf 4 244116 0 0
+woff2 65 4492288 0 0
+gif 63 17607896 0 0
+js 1651 24982603 0 0
+php 1942 38225475 0 0
+html 25 268313 0 0
+woff 38 1250928 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+winxp 1 1
+macosx 5 5
+win7 4669 1216
+Unknown 22 22
+win8.1 1 1
+winnt 2552 795
+linuxandroid 355 77
+linux 134 18
+ios_iphone 48 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+safari10.0 47 3
+chrome62.0.3202.84 188 47
+firefox57.0 4628 1205
+chrome40.0.2214.85 5 5
+chrome53.0.2785.124 46 3
+msie8.0 9 1
+opera43.0.2442.1144 1 1
+chrome49.0.2623.75 12 12
+chrome61.0.3163.100 566 91
+firefox49.0 1 1
+netscape5.0 3 3
+chrome62.0.3202.94 2015 711
+Unknown 19 19
+safari6.0 1 1
+chrome39.0.2171.95 122 6
+chrome51.0.2704.106 49 5
+chrome51.0.2704.79 13 13
+chrome56.0.2924.87 58 8
+chrome40.0.2214.89 3 3
+chrome7.0.514.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_zgrab/0.x 20171126145950
+WhatsApp/2.17.395_A 20171127084544
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WhatsApp/2.17.395_A 20171127084544
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 512 512
+From1 0 0
+From2 0 0
+From3 5 5
+From4 1622 7270
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.freelancer.com/u/ahmeraliqaiser 5 5
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 116 2391011
+404 208 0
+206 22 2455593
+401 5 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 13
+/images/car-icon.png 1 https://www.usstokyo.com/cars
+/.well-known/assetlinks.json 2 -
+/downloader/ 1 -
+/css/bootstrap.min.css.map 179 -
+/uploads/01.jpg 1 https://www.usstokyo.com/cars.php
+/assets/pages/img/login/bg1.jpg 5 https://www.usstokyo.com/panel/index.php
+/assets/pages/img/login/bg2.jpg 5 https://www.usstokyo.com/panel/index.php
+/robots.txt 3 -
+/assets/pages/img/login/bg3.jpg 5 https://www.usstokyo.com/panel/index.php
+/.well-known/apple-app-site-association 2 -
+/apple-app-site-association 2 -
+/search2.php 1 -
+/uploads/02.jpg 1 https://www.usstokyo.com/cars.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+39.32.173.141 874 3543 20850628 20171126015816
+39.32.245.136 262 850 3358109 20171127050154
+103.255.6.251 108 184 6331173 20171127084926
+60.41.227.178 107 526 28186066 20171124100355
+39.32.79.252 88 276 8443617 20171129134923
+103.255.6.65 79 163 7377249 20171120060751
+103.255.6.90 72 492 20884848 20171109114140
+103.255.7.45 65 187 7923339 20171117235547
+103.255.6.80 62 122 4478806 20171127034438
+103.255.6.106 55 276 16457382 20171130053321
+103.255.6.88 54 241 13656223 20171123042437
+103.255.6.249 51 137 6977477 20171129210318
+103.255.6.4 46 46 325265 20171125144554
+103.255.6.89 34 53 1406921 20171126044611
+103.255.7.15 33 36 1242505 20171123155217
+103.255.6.253 26 84 4514733 20171125025717
+103.255.6.3 15 28 1391502 20171117184233
+103.255.4.69 14 32 1159051 20171127020002
+103.255.7.31 13 48 3083663 20171125115216
+103.255.6.73 10 50 2800584 20171116003614
+103.255.7.16 8 26 1528719 20171130170058
+103.255.5.37 8 58 3508297 20171127084552
+66.249.93.47 6 6 285632 20171130135125
+146.185.28.59 6 6 35751 20171125134241
+138.246.253.19 5 5 0 20171130171220
+109.252.55.59 0 1 50347 
+13.56.159.157 1 1 53243 20171128022525
+128.72.8.218 0 1 29063 
+119.160.100.249 4 40 2573294 20171130121820
+109.173.54.216 0 1 139394 
+209.58.131.213 3 61 2599811 20171109095046
+45.79.218.22 1 1 2630 20171126001824
+176.77.7.193 0 1 45812 
+66.249.93.219 1 1 52175 20171120020136
+103.255.6.101 2 21 1468906 20171123223345
+107.191.102.245 1 1 851 20171109095001
+137.226.113.26 3 3 2553 20171126145950
+77.37.221.104 1 1 57657 20171130063557
+119.153.141.56 3 47 2948905 20171130224159
+37.204.157.236 0 1 17069 
+66.249.93.48 1 1 15752 20171130135125
+119.160.98.85 1 9 430981 20171130073954
+158.69.25.178 1 1 57657 20171130113659
+109.86.72.163 1 1 50842 20171110215525
+66.249.93.43 2 2 106585 20171128074839
+54.67.67.222 4 4 3404 20171124083510
+95.220.102.0 0 1 97361 
+66.249.93.45 2 2 106042 20171127063037
+110.36.183.20 3 46 2682357 20171130064001
+89.178.238.76 0 1 4614 
+5.178.78.78 3 61 2599811 20171109094956
+79.111.91.13 0 1 5664 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20171109 82 668 28648031 5
+20171110 1 1 50842 1
+20171112 1 1 851 1
+20171113 1 1 851 1
+20171115 3 53 2562710 1
+20171116 16 137 7377483 3
+20171117 118 448 22276688 8
+20171118 7 16 600126 1
+20171119 1 1 851 1
+20171120 118 272 13388520 7
+20171121 4 37 2020616 2
+20171122 4 53 3116248 1
+20171123 80 219 11713292 7
+20171124 66 122 5224461 6
+20171125 836 2953 25559458 10
+20171126 168 832 4782374 6
+20171127 531 1439 22843805 12
+20171128 3 3 106807 3
+20171129 20 74 4936621 4
+20171130 79 457 27199685 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 3
+15mn-30mn 2
+0s-30s 50
+30s-2mn 8
+30mn-1h 10
+5mn-15mn 6
+1h+ 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 38
+/api.php 964 4102323 8 10
+/auction.php 307 11109281 0 11
+/search.php 147 8788364 2 1
+/login.php 82 1248005 19 6
+/index.php 76 3982395 36 15
+/get_inputs.php 66 159312 0 0
+/car_detail_auction.php 65 1500330 0 4
+/search_2.php 63 3623996 0 0
+/fonts/fontawesome-webfont.woff2 60 4169968 0 7
+/myaccount.php 48 816827 0 0
+/fonts/Flaticon.woff 31 791740 0 9
+/panel/administrator/index.php 28 1062924 2 2
+/my_bids.php 24 411840 0 0
+/ 22 216054 16 16
+/index 21 1082685 7 4
+/car_detail.php 18 446838 0 0
+/contact.php 14 258701 0 0
+/login 12 173274 0 0
+/cars.php 11 242764 0 0
+/cars 10 303406 0 0
+/about.php 8 179092 1 2
+/about 7 172582 0 1
+/investor 6 122455 0 0
+/investor.php 6 111776 0 2
+/my_cars.php 6 109978 0 1
+/panel/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff 5 296620 0 0
+/php/contact-form.php 2 278 0 0
+/panel/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff 2 162568 0 0
+/panel/assets/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.ttf 3 105912 0 0
+/inc_head.php 1 1370 0 0
+/auction 4 112074 0 0
+/panel/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.ttf 1 138204 0 0
+/panel/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2 5 322320 0 0
+/panel/index.php 5 54596 0 0
+/panel/ 2 11110 0 0
+/my_finance.php 1 14485 0 0
+/contact 5 91503 0 0
+/listing-02.html 1 41149 0 0
+END_SIDER

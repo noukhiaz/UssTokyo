@@ -1,0 +1,670 @@
+Return-Path: <00ooooo9+bncBD72FD6I74BBB7WNQLOQKGQENDAXOJQ@googlegroups.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id wJppEymnoFucJhgAsyhj2Q
+	for <info@usstokyo.com>; Tue, 18 Sep 2018 02:20:09 -0500
+Return-path: <00ooooo9+bncBD72FD6I74BBB7WNQLOQKGQENDAXOJQ@googlegroups.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Tue, 18 Sep 2018 02:20:09 -0500
+Received: from mail-pg1-f191.google.com ([209.85.215.191]:50561)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <00ooooo9+bncBD72FD6I74BBB7WNQLOQKGQENDAXOJQ@googlegroups.com>)
+	id 1g2AIr-006dyb-0H
+	for info@usstokyo.com; Tue, 18 Sep 2018 02:20:09 -0500
+Received: by mail-pg1-f191.google.com with SMTP id l65-v6sf603005pge.17
+        for <info@usstokyo.com>; Tue, 18 Sep 2018 00:19:48 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1537255168; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=EiJdqaqI66JHZHmhqhV5ov+VWUbJ5ssQCGqnrS5cywr3g9fKT+gFWBeDjIs7SiB0pM
+         0AfUf2zepcbu2liqajHCbvC9LzJxcja2mBHnwiqJI7c+vGRsXBYYYjrHQTUNjcCdyuu4
+         GlgcPPdHX46VDdFla7x1EKlYmITiWW1tC3wODuLQz6crAn+MyBbsyCZ6nJCUR4e0saj8
+         i7i45RjmfvGZCtIOaMncWVmhSYQ+CgQCXXXU819xcpqdvRlrnj3u+c1iQWAacagaEeDt
+         bn+uH8BzoLPOmq+mur2je+k5mvJk02ie5ew7M+O8G5ID49aVcGQrR6moU7oynJCrINnS
+         nZag==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-archive:list-help:list-post:list-id
+         :mailing-list:precedence:to:subject:message-id:date:from:reply-to
+         :mime-version:sender:dkim-signature:dkim-signature;
+        bh=d8JGXKxz5D5QozhU/T+Fsu4s82rAZbbLguL7u3ABRq0=;
+        b=LN2vaH0wI+gU8qJwLsJ8Pva+ZSApJMbiyFDeKSqhDAlRFCQPwUiYa5ArK3t+L2QcfQ
+         dpFC26LctHk+YoXEjuYK8kcVuytwGFUz0+KSZNkYpTS8qGq8ZhnkM6DBxVxj87vYYDXU
+         uaD2EkLiNKsVvwFJ2AEpCP36Lt3/q6jGAgl8PEr0odV3uMQDkDYfbWDNgPZvRfWNGhqF
+         CvtfDKYuZb0WwSrM3HRM1uFBXcz1g8p285hmIhW4CJ3RCOYB6upq8F31TM/N+HCA6uKh
+         byzmyU0dHMeDTVcfqcTHGhFbulvNtjlmlnGtr3A10tE3vBHDqQJpGn1eOYW+qDeCbvFm
+         Jj+g==
+ARC-Authentication-Results: i=2; gmr-mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=SZg1JOgT;
+       spf=pass (google.com: domain of sarazahid987@gmail.com designates 2607:f8b0:4864:20::d34 as permitted sender) smtp.mailfrom=sarazahid987@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20161025;
+        h=sender:mime-version:reply-to:from:date:message-id:subject:to
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=d8JGXKxz5D5QozhU/T+Fsu4s82rAZbbLguL7u3ABRq0=;
+        b=ESmWtiWVaqP/S+l9V34ApymT+W6/UfPSOQ5ED2K31X96+Cro5+bfAOpnT5jhVYxAjo
+         BdEvpcaiKFtX5lR7POW1mkVHjjaK5dLRHUH5bqfk+Nv3czQBfFqN31rPqhgaKlga8YYQ
+         10MhBpEbEGlJaGVp4tp1aNvQ13GGt3qmdOLAJXvDrxnapvsO6Kl3y473qiJ/xs1joMF8
+         Ci18DWRHslEeU+jBoroGkVF2CG+9oz2Q0kqOwILs+DdahM13EJvhiCek4v9ILDkIU//k
+         Lzk8BWQku5iiR5hTcovAkDn51t9E1Z1HLV+bF6wp/0NuIV7zIBbDpZZwTBqUeMJKncNA
+         tOxg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:from:date:message-id:subject:to
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=d8JGXKxz5D5QozhU/T+Fsu4s82rAZbbLguL7u3ABRq0=;
+        b=GwF6nZdczaDusIiXreQwHdspGJz1qQvLnV4jmkOUNK3p+C3CIVzhRgDf/ZSthOSZG4
+         BklnMZBvmOq/CHu6EH5K/KhYWTEJYFKRlQZnyuP5li/lZXtV890nYuHcQXsWD1HnhQ8G
+         /hQmjsJqT1YHEVv+UcIceXQhPj42e7iinTq6xJ7lPYlPDVnsHrRAaejw+0rgTBkUhUst
+         0Hykl1S2cDb3FRcecqkWTTRKipqfu44pFmcJ59tx6N2k74tqmK765I3cxRqG+p7PoH0Z
+         qlosJ3sImM78i9eQZDZr2oxDo/fRA7DQEf6Ll6ugkdctUrM6m1jqnl6FhazlJeR7sRF7
+         6T2A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=sender:x-gm-message-state:mime-version:reply-to:from:date
+         :message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=d8JGXKxz5D5QozhU/T+Fsu4s82rAZbbLguL7u3ABRq0=;
+        b=oyolT1wrtHvV+Bb6+HrUMZegWOE+at1jBEGXHqYVHXwYq7hFjj7vzweS3ORTBsIx6W
+         fEmpIfijX+oXOVOUAnuExPk1LRgvLfoLFteHD6HQ7TRhaCbCMH3V4UKgVN53kDSmxw04
+         0MMAW/2AkeOMNEpQA9gmvortKgszsSopuAAoBWbUfHwTshbrHBXWT1pki8Jn3fbQSyrQ
+         /cSsN1gep6T9AXGuEPhB/fw1ojOJU10l4zP642YdrQ/da6UtIndn/0fwX9za92AnFXgu
+         DtLBSJzPGxDPPJ0GtZfldMPDulT0wVl0pPLdKWD5Hjaf7J3OAdUqZlFnCGiVBnnMSHLB
+         424g==
+Sender: 00ooooo9@googlegroups.com
+X-Gm-Message-State: APzg51DiL6phojobtERBODcnBrxH3RgMOf/VV/f/5jkckkBWsrcCcKDq
+	Unp5BglRh36CDHBYJGYEuPc=
+X-Google-Smtp-Source: ANB0VdZrCuftmFKct3oSdnmRdej2fv3jA9yLHQoyUwqElsHMmsUGgWOMAv7Op5QDFk5Yuz3+CWUFtA==
+X-Received: by 2002:a63:143:: with SMTP id 64-v6mr127781pgb.3.1537255167987;
+        Tue, 18 Sep 2018 00:19:27 -0700 (PDT)
+X-BeenThere: 00ooooo9@googlegroups.com
+Received: by 2002:a65:4206:: with SMTP id c6-v6ls3940949pgq.7.gmail; Tue, 18
+ Sep 2018 00:19:26 -0700 (PDT)
+X-Received: by 2002:a63:b544:: with SMTP id u4-v6mr1252837pgo.44.1537255166543;
+        Tue, 18 Sep 2018 00:19:26 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1537255166; cv=none;
+        d=google.com; s=arc-20160816;
+        b=E1snOsqQZeJ5mD7HLzZXwLge/nYpnk2vv5us5GFAVStiL6mmuFnB03o6eFiEE4StJS
+         2YATGPw7Dx4KSw8yxRYXJu3tQSHZMQsmaj57B3xp8dDqtTAxmtjpMvHilzFkJ+zXbygg
+         qNXloT+ItWg4fr03ltQYMhsMVJqFrdtdRCTMLLbAzq81xek/PjDufRfxHd4g1yYhbAVz
+         lCKad2cfljiELRH2WsevnFfRm8U3T9jEw3/60zlm9qGeJ/mRtwsiqnjPreTyB7ijl7fs
+         Td8Qaa4ISDOvJTG6AFvOKppWkfYRC+nCZsD5llRLruwWFwUlgyvbVzBx9p6vpHsYZVkc
+         UVjA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:reply-to:mime-version
+         :dkim-signature;
+        bh=3bScUZ4FbSo3QeFdwAFbNRCoSZt6YymIqLjCEP63Us4=;
+        b=Ky4Nm1AZJ1weA3cx3XM1chBm7dOOA1fb+Wx1lAr9OpObdwJzOF3A6McAZABxBrhXSn
+         nlazmyNk0v73a9qH4uxZTKVlNSzAV6Iis4tWIO9rGPESs8Io5lsE4fDyHsHJ288wrX/a
+         np0HUHyfvJ0gsOMcHvhmKEGxa8R7y1cpA7P/Pxf4zSV90ibRjuLH7/PragYn6BRRLfmK
+         4OTG7iWwdp3EyoBItM2fNZadOMKBttzvazQddbVrC3Zs66AYLprMt03XLtIGeq6sneWo
+         Yz1klXQj9WWarvXhouwatblRFBDOVSl0atGGP8tEHNTWEE8tMC2G2F8ZFlop92PIOExf
+         a2Sg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=SZg1JOgT;
+       spf=pass (google.com: domain of sarazahid987@gmail.com designates 2607:f8b0:4864:20::d34 as permitted sender) smtp.mailfrom=sarazahid987@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from mail-io1-xd34.google.com (mail-io1-xd34.google.com. [2607:f8b0:4864:20::d34])
+        by gmr-mx.google.com with ESMTPS id u20-v6si869943pfm.2.2018.09.18.00.19.26
+        for <00ooooo9@googlegroups.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 18 Sep 2018 00:19:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sarazahid987@gmail.com designates 2607:f8b0:4864:20::d34 as permitted sender) client-ip=2607:f8b0:4864:20::d34;
+Received: by mail-io1-xd34.google.com with SMTP id n18-v6so697192ioa.9
+        for <00ooooo9@googlegroups.com>; Tue, 18 Sep 2018 00:19:26 -0700 (PDT)
+X-Received: by 2002:a6b:7618:: with SMTP id g24-v6mr15350195iom.276.1537255166184;
+ Tue, 18 Sep 2018 00:19:26 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: moonit2012@hotmail.com
+From: Moon International <sarazahid987@gmail.com>
+Date: Tue, 18 Sep 2018 12:19:13 +0500
+Message-ID: <CAD+c-KdqDh+gi4Nt_DVA80efpkV9e0egb88Cu_teFUfmiyoxMQ@mail.gmail.com>
+Subject: ITIL, PRINCE 2, COBIT 5, CEH (ITCN 2018 Special offers)
+To: moonit2012@hotmail.com
+Content-Type: multipart/alternative; boundary="0000000000001c1b380576201c39"
+Bcc: 00ooooo9@googlegroups.com
+X-Original-Sender: sarazahid987@gmail.com
+X-Original-Authentication-Results: gmr-mx.google.com;       dkim=pass
+ header.i=@gmail.com header.s=20161025 header.b=SZg1JOgT;       spf=pass
+ (google.com: domain of sarazahid987@gmail.com designates 2607:f8b0:4864:20::d34
+ as permitted sender) smtp.mailfrom=sarazahid987@gmail.com;       dmarc=pass
+ (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Precedence: list
+Mailing-list: list 00ooooo9@googlegroups.com; contact 00ooooo9+owners@googlegroups.com
+List-ID: <00ooooo9.googlegroups.com>
+X-Spam-Checked-In-Group: 00ooooo9@googlegroups.com
+X-Google-Group-Id: 266373294955
+List-Post: <https://groups.google.com/group/00ooooo9/post>, <mailto:00ooooo9@googlegroups.com>
+List-Help: <https://groups.google.com/support/>, <mailto:00ooooo9+help@googlegroups.com>
+List-Archive: <https://groups.google.com/group/00ooooo9
+List-Unsubscribe: <mailto:googlegroups-manage+266373294955+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/group/00ooooo9/subscribe>
+
+--0000000000001c1b380576201c39
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+*ITCN ASIA 2018 (Special Offers)*
+
+
+
+*Moon International Pak Pvt. Limited*
+
+
+
+*Offering Special discounts between 25-27 September*
+
+
+
+Moon International is offering special discounted Packages on below
+mentioned courses
+
+
+
+Visit our stall and get on spot discounts exclusively there.
+
+*PEOPLECERT*
+
+=C2=B7         ITIL V3 Foundation (Both Exam and Training in Rs. 38, 000)
+
+=C2=B7         COBIT5 Foundations (Both Exam and Training in Rs. 38, 000)
+
+=C2=B7         Prince2 Foundation (Both Exam and Training in Rs. 38, 000)
+
+=C2=B7         Six Sigma Green Belt (Both Exam and Training in Rs. 45, 000)
+
+=C2=B7         Prince2 Agile Foundation (Both Exam and Training in Rs. 38, =
+000)
+
+*Microsoft / Cisco*
+
+=C2=B7         MCSA Server 2012/2016  (Rs. 15, 000)
+
+=C2=B7         CCNA (Rs.10, 000)
+
+*EC-Council*
+
+=C2=B7         CEH (Certified Ethical Hacking) (Both Training and Exam Rs. =
+65,
+000)
+
+=C2=B7         CHFI (Both Training and Exam Rs. 65, 000)
+
+=C2=B7         ECSA (Both Training and Exam Rs. 75, 000)
+
+*ISACA*
+
+=C2=B7         CISA Training =E2=80=93 Rs. 20, 000
+
+=C2=B7         CISM Training =E2=80=93 Rs. 20, 000
+
+=C2=B7         CGEIT Training =E2=80=93 Rs. 20, 000
+
+
+
+*Moon International Pak Pvt. Limited is:*
+
+=C2=B7         EXIN Authorized Examination Center
+
+=C2=B7         Pearson VUE Authorized Test Center
+
+=C2=B7         EC-Council Approved Training Centre
+
+=C2=B7         Cisco Network Academy
+
+=C2=B7         British Council Platinum Member
+
+=C2=B7         PeopleCert Approve Test Center
+
+
+
+Call now for any further information: *0323-2338341, 0332-2222342*
+
+
+
+*Moon International Pak Pvt Limited*
+
+E-133 Block B, Gulshan-E-Jamal
+
+Near Millenium Mall, Rashid Minhas Road
+
+Karachi-Pakistan
+
+info@mooninternational.com.pk
+
+--=20
+You received this message because you are subscribed to the Google Groups "=
+00ooooo9" group.
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to 00ooooo9+unsubscribe@googlegroups.com.
+To post to this group, send email to 00ooooo9@googlegroups.com.
+To view this discussion on the web visit https://groups.google.com/d/msgid/=
+00ooooo9/CAD%2Bc-KdqDh%2Bgi4Nt_DVA80efpkV9e0egb88Cu_teFUfmiyoxMQ%40mail.gma=
+il.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--0000000000001c1b380576201c39
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+
+<p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-family:=
+Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-variant-l=
+igatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:nor=
+mal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px=
+;text-decoration-style:initial;text-decoration-color:initial;text-align:cen=
+ter;background:white none repeat scroll 0% 0%" align=3D"center"><b><u><span=
+ style=3D"font-size:18pt;font-family:Arial,sans-serif;color:black">ITCN ASI=
+A 2018 (Special Offers)</span></u></b><b><i><span style=3D"font-size:18pt;f=
+ont-family:Arial,sans-serif;color:black"></span></i></b></p><p class=3D"Mso=
+Normal" style=3D"margin:0px;color:rgb(34,34,34);font-family:Arial,Helvetica=
+,sans-serif;font-size:small;font-style:normal;font-variant-ligatures:normal=
+;font-variant-caps:normal;font-weight:400;letter-spacing:normal;text-indent=
+:0px;text-transform:none;white-space:normal;word-spacing:0px;text-decoratio=
+n-style:initial;text-decoration-color:initial;text-align:center;background:=
+white none repeat scroll 0% 0%" align=3D"center"><b><u><span style=3D"font-=
+size:18pt;font-family:Arial,sans-serif;color:black"><span style=3D"text-dec=
+oration:none">=C2=A0</span></span></u></b></p><p class=3D"MsoNormal" style=
+=3D"margin:0px;color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;f=
+ont-size:small;font-style:normal;font-variant-ligatures:normal;font-variant=
+-caps:normal;font-weight:400;letter-spacing:normal;text-indent:0px;text-tra=
+nsform:none;white-space:normal;word-spacing:0px;text-decoration-style:initi=
+al;text-decoration-color:initial;text-align:center;background:white none re=
+peat scroll 0% 0%" align=3D"center"><b><i><span style=3D"font-size:18pt;fon=
+t-family:Arial,sans-serif;color:red">Moon International Pak Pvt. Limited</s=
+pan></i></b></p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,=
+34);font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:norma=
+l;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;le=
+tter-spacing:normal;text-indent:0px;text-transform:none;white-space:normal;=
+word-spacing:0px;text-decoration-style:initial;text-decoration-color:initia=
+l;text-align:center;background:white none repeat scroll 0% 0%" align=3D"cen=
+ter"><b><i><span style=3D"font-size:18pt;font-family:Arial,sans-serif;color=
+:black">=C2=A0</span></i></b></p><p class=3D"MsoNormal" style=3D"margin:0px=
+;color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-size:small=
+;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;f=
+ont-weight:400;letter-spacing:normal;text-indent:0px;text-transform:none;wh=
+ite-space:normal;word-spacing:0px;text-decoration-style:initial;text-decora=
+tion-color:initial;text-align:center;background:white none repeat scroll 0%=
+ 0%" align=3D"center"><b><i><span style=3D"font-size:18pt;font-family:Arial=
+,sans-serif;color:black">Offering Special discounts between 25-27 September=
+</span></i></b></p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,=
+34,34);font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:no=
+rmal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400=
+;letter-spacing:normal;text-indent:0px;text-transform:none;white-space:norm=
+al;word-spacing:0px;text-decoration-style:initial;text-decoration-color:ini=
+tial;text-align:center;background:white none repeat scroll 0% 0%" align=3D"=
+center"><b><u><span style=3D"font-size:18pt;font-family:Arial,sans-serif;co=
+lor:black"><span style=3D"text-decoration:none">=C2=A0</span></span></u></b=
+></p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-fa=
+mily:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-vari=
+ant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacin=
+g:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacin=
+g:0px;text-decoration-style:initial;text-decoration-color:initial;text-alig=
+n:center;background:white none repeat scroll 0% 0%" align=3D"center"><span =
+style=3D"font-size:12pt;font-family:Arial,sans-serif">Moon International is=
+ offering special discounted Packages on below mentioned courses</span></p>=
+<p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-family:=
+Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-variant-l=
+igatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:nor=
+mal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px=
+;text-decoration-style:initial;text-decoration-color:initial;text-align:cen=
+ter;background:white none repeat scroll 0% 0%" align=3D"center"><span style=
+=3D"font-size:12pt;font-family:Arial,sans-serif;color:black">=C2=A0</span><=
+/p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-fami=
+ly:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-varian=
+t-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:=
+normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:=
+0px;text-decoration-style:initial;text-decoration-color:initial;text-align:=
+center;background:white none repeat scroll 0% 0%" align=3D"center"><span st=
+yle=3D"font-size:12pt;font-family:Arial,sans-serif;color:black">Visit our s=
+tall and get on spot discounts exclusively there.</span></p><p class=3D"Mso=
+Normal" style=3D"margin:0px;color:rgb(34,34,34);font-family:Arial,Helvetica=
+,sans-serif;font-size:small;font-style:normal;font-variant-ligatures:normal=
+;font-variant-caps:normal;font-weight:400;letter-spacing:normal;text-align:=
+start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0=
+px;text-decoration-style:initial;text-decoration-color:initial;background:w=
+hite none repeat scroll 0% 0%"><b><span style=3D"font-size:12pt;font-family=
+:Arial,sans-serif;color:black">PEOPLECERT</span></b></p><p class=3D"gmail-m=
+_-5458439505591410879gmail-m_-7104401973229758932MsoListParagraphCxSpFirst"=
+ style=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-s=
+ize:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps=
+:normal;font-weight:400;letter-spacing:normal;text-align:start;text-indent:=
+0px;text-transform:none;white-space:normal;word-spacing:0px;text-decoration=
+-style:initial;text-decoration-color:initial;margin-right:0in;margin-left:0=
+.5in;margin-bottom:0.0001pt;background:white none repeat scroll 0% 0%"><spa=
+n style=3D"font-family:Symbol;color:black"><span>=C2=B7<span style=3D"font:=
+7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0<span>=C2=A0</span></span></span></span><span style=3D"font-family:Ar=
+ial,sans-serif;color:black">ITIL V3 Foundation (Both Exam and Training in R=
+s. 38, 000)</span></p><p class=3D"gmail-m_-5458439505591410879gmail-m_-7104=
+401973229758932MsoListParagraphCxSpMiddle" style=3D"color:rgb(34,34,34);fon=
+t-family:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-=
+variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-sp=
+acing:normal;text-align:start;text-indent:0px;text-transform:none;white-spa=
+ce:normal;word-spacing:0px;text-decoration-style:initial;text-decoration-co=
+lor:initial;margin-left:0.5in;background:white none repeat scroll 0% 0%"><s=
+pan style=3D"font-family:Symbol;color:black"><span>=C2=B7<span style=3D"fon=
+t:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0<span>=C2=A0</span></span></span></span><span style=3D"font-family=
+:Arial,sans-serif;color:black">COBIT5 Foundations (Both Exam and Training i=
+n Rs. 38, 000)</span></p><p class=3D"gmail-m_-5458439505591410879gmail-m_-7=
+104401973229758932MsoListParagraphCxSpMiddle" style=3D"color:rgb(34,34,34);=
+font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;fo=
+nt-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter=
+-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-=
+space:normal;word-spacing:0px;text-decoration-style:initial;text-decoration=
+-color:initial;margin-right:0in;margin-left:0.5in;margin-bottom:0.0001pt;ba=
+ckground:white none repeat scroll 0% 0%"><span style=3D"font-family:Symbol;=
+color:black"><span>=C2=B7<span style=3D"font:7pt &quot;Times New Roman&quot=
+;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></spa=
+n></span></span><span style=3D"font-family:Arial,sans-serif;color:black">Pr=
+ince2 Foundation (Both Exam and Training in Rs. 38, 000)</span></p><p class=
+=3D"gmail-m_-5458439505591410879gmail-m_-7104401973229758932MsoListParagrap=
+hCxSpMiddle" style=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-=
+serif;font-size:small;font-style:normal;font-variant-ligatures:normal;font-=
+variant-caps:normal;font-weight:400;letter-spacing:normal;text-align:start;=
+text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;tex=
+t-decoration-style:initial;text-decoration-color:initial;margin-right:0in;m=
+argin-left:0.5in;margin-bottom:0.0001pt;background:white none repeat scroll=
+ 0% 0%"><span style=3D"font-family:Symbol;color:black"><span>=C2=B7<span st=
+yle=3D"font:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></span></span></span><span style=3D"fo=
+nt-family:Arial,sans-serif;color:black">Six Sigma Green Belt (Both Exam and=
+ Training in Rs. 45, 000)</span></p><p class=3D"gmail-m_-545843950559141087=
+9gmail-m_-7104401973229758932MsoListParagraphCxSpLast" style=3D"color:rgb(3=
+4,34,34);font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:=
+normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:4=
+00;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:no=
+ne;white-space:normal;word-spacing:0px;text-decoration-style:initial;text-d=
+ecoration-color:initial;margin-right:0in;margin-left:0.5in;margin-bottom:0.=
+0001pt;background:white none repeat scroll 0% 0%"><span style=3D"font-famil=
+y:Symbol;color:black"><span>=C2=B7<span style=3D"font:7pt &quot;Times New R=
+oman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</s=
+pan></span></span></span><span style=3D"font-family:Arial,sans-serif;color:=
+black">Prince2 Agile Foundation (Both Exam and Training in Rs. 38, 000)</sp=
+an></p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-=
+family:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-va=
+riant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spac=
+ing:normal;text-align:start;text-indent:0px;text-transform:none;white-space=
+:normal;word-spacing:0px;text-decoration-style:initial;text-decoration-colo=
+r:initial;background:white none repeat scroll 0% 0%"><b><span style=3D"font=
+-size:12pt;font-family:Arial,sans-serif;color:black">Microsoft / Cisco</spa=
+n></b></p><p class=3D"gmail-m_-5458439505591410879gmail-m_-7104401973229758=
+932MsoListParagraphCxSpFirst" style=3D"color:rgb(34,34,34);font-family:Aria=
+l,Helvetica,sans-serif;font-size:small;font-style:normal;font-variant-ligat=
+ures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;=
+text-align:start;text-indent:0px;text-transform:none;white-space:normal;wor=
+d-spacing:0px;text-decoration-style:initial;text-decoration-color:initial;m=
+argin-right:0in;margin-left:0.5in;margin-bottom:0.0001pt;background:white n=
+one repeat scroll 0% 0%"><span style=3D"font-size:10pt;font-family:Symbol;c=
+olor:black"><span>=C2=B7<span style=3D"font:7pt &quot;Times New Roman&quot;=
+">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></span=
+></span></span><span style=3D"font-family:Arial,sans-serif;color:black">MCS=
+A Server 2012/2016 =C2=A0(Rs. 15, 000)</span></p><p class=3D"gmail-m_-54584=
+39505591410879gmail-m_-7104401973229758932MsoListParagraphCxSpLast" style=
+=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-size:sm=
+all;font-style:normal;font-variant-ligatures:normal;font-variant-caps:norma=
+l;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;te=
+xt-transform:none;white-space:normal;word-spacing:0px;text-decoration-style=
+:initial;text-decoration-color:initial;margin-right:0in;margin-left:0.5in;m=
+argin-bottom:0.0001pt;background:white none repeat scroll 0% 0%"><span styl=
+e=3D"font-size:10pt;font-family:Symbol;color:black"><span>=C2=B7<span style=
+=3D"font:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0<span>=C2=A0</span></span></span></span><span style=3D"font-=
+family:Arial,sans-serif;color:black">CCNA (Rs.10, 000)</span></p><p class=
+=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-family:Arial,He=
+lvetica,sans-serif;font-size:small;font-style:normal;font-variant-ligatures=
+:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;text=
+-align:start;text-indent:0px;text-transform:none;white-space:normal;word-sp=
+acing:0px;text-decoration-style:initial;text-decoration-color:initial;backg=
+round:white none repeat scroll 0% 0%"><b><span style=3D"font-size:12pt;font=
+-family:Arial,sans-serif;color:black">EC-Council</span></b></p><p class=3D"=
+gmail-m_-5458439505591410879gmail-m_-7104401973229758932MsoListParagraphCxS=
+pFirst" style=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif=
+;font-size:small;font-style:normal;font-variant-ligatures:normal;font-varia=
+nt-caps:normal;font-weight:400;letter-spacing:normal;text-align:start;text-=
+indent:0px;text-transform:none;white-space:normal;word-spacing:0px;text-dec=
+oration-style:initial;text-decoration-color:initial;margin-right:0in;margin=
+-left:0.5in;margin-bottom:0.0001pt;background:white none repeat scroll 0% 0=
+%"><span style=3D"font-family:Symbol;color:black"><span>=C2=B7<span style=
+=3D"font:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0<span>=C2=A0</span></span></span></span><span style=3D"font-=
+family:Arial,sans-serif;color:black">CEH (Certified Ethical Hacking) (Both =
+Training and Exam Rs. 65, 000)</span></p><p class=3D"gmail-m_-5458439505591=
+410879gmail-m_-7104401973229758932MsoListParagraphCxSpMiddle" style=3D"colo=
+r:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-size:small;font=
+-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-w=
+eight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-trans=
+form:none;white-space:normal;word-spacing:0px;text-decoration-style:initial=
+;text-decoration-color:initial;margin-right:0in;margin-left:0.5in;margin-bo=
+ttom:0.0001pt;background:white none repeat scroll 0% 0%"><span style=3D"fon=
+t-family:Symbol;color:black"><span>=C2=B7<span style=3D"font:7pt &quot;Time=
+s New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=
+=C2=A0</span></span></span></span><span style=3D"font-family:Arial,sans-ser=
+if;color:black">CHFI (Both Training and Exam Rs. 65, 000)</span></p><p clas=
+s=3D"gmail-m_-5458439505591410879gmail-m_-7104401973229758932MsoListParagra=
+phCxSpLast" style=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-s=
+erif;font-size:small;font-style:normal;font-variant-ligatures:normal;font-v=
+ariant-caps:normal;font-weight:400;letter-spacing:normal;text-align:start;t=
+ext-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;text=
+-decoration-style:initial;text-decoration-color:initial;margin-right:0in;ma=
+rgin-left:0.5in;margin-bottom:0.0001pt;background:white none repeat scroll =
+0% 0%"><span style=3D"font-family:Symbol;color:black"><span>=C2=B7<span sty=
+le=3D"font:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></span></span></span><span style=3D"fo=
+nt-family:Arial,sans-serif;color:black">ECSA (Both Training and Exam Rs. 75=
+, 000)</span></p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34=
+,34);font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:norm=
+al;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;l=
+etter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;w=
+hite-space:normal;word-spacing:0px;text-decoration-style:initial;text-decor=
+ation-color:initial;background:white none repeat scroll 0% 0%"><b><span sty=
+le=3D"font-size:12pt;font-family:Arial,sans-serif;color:black">ISACA</span>=
+</b></p><p class=3D"gmail-m_-5458439505591410879gmail-m_-710440197322975893=
+2MsoListParagraphCxSpFirst" style=3D"color:rgb(34,34,34);font-family:Arial,=
+Helvetica,sans-serif;font-size:small;font-style:normal;font-variant-ligatur=
+es:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px;text-decoration-style:initial;text-decoration-color:initial;mar=
+gin-right:0in;margin-left:0.5in;margin-bottom:0.0001pt;background:white non=
+e repeat scroll 0% 0%"><span style=3D"font-family:Symbol;color:black"><span=
+>=C2=B7<span style=3D"font:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></span></span></span><s=
+pan style=3D"font-family:Arial,sans-serif;color:black">CISA Training =E2=80=
+=93 Rs. 20, 000</span></p><p class=3D"gmail-m_-5458439505591410879gmail-m_-=
+7104401973229758932MsoListParagraphCxSpMiddle" style=3D"color:rgb(34,34,34)=
+;font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;f=
+ont-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;lette=
+r-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white=
+-space:normal;word-spacing:0px;text-decoration-style:initial;text-decoratio=
+n-color:initial;margin-right:0in;margin-left:0.5in;margin-bottom:0.0001pt;b=
+ackground:white none repeat scroll 0% 0%"><span style=3D"font-family:Symbol=
+;color:black"><span>=C2=B7<span style=3D"font:7pt &quot;Times New Roman&quo=
+t;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></sp=
+an></span></span><span style=3D"font-family:Arial,sans-serif;color:black">C=
+ISM Training =E2=80=93 Rs. 20, 000</span></p><p class=3D"gmail-m_-545843950=
+5591410879gmail-m_-7104401973229758932MsoListParagraphCxSpLast" style=3D"co=
+lor:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-size:small;fo=
+nt-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font=
+-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-tra=
+nsform:none;white-space:normal;word-spacing:0px;text-decoration-style:initi=
+al;text-decoration-color:initial;margin-right:0in;margin-left:0.5in;margin-=
+bottom:0.0001pt;background:white none repeat scroll 0% 0%"><span style=3D"f=
+ont-family:Symbol;color:black"><span>=C2=B7<span style=3D"font:7pt &quot;Ti=
+mes New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=
+=C2=A0</span></span></span></span><span style=3D"font-family:Arial,sans-ser=
+if;color:black">CGEIT Training =E2=80=93 Rs. 20, 000</span></p><p class=3D"=
+MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-family:Arial,Helvet=
+ica,sans-serif;font-size:small;font-style:normal;font-variant-ligatures:nor=
+mal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;text-ali=
+gn:start;text-indent:0px;text-transform:none;white-space:normal;word-spacin=
+g:0px;text-decoration-style:initial;text-decoration-color:initial;backgroun=
+d:white none repeat scroll 0% 0%"><span style=3D"font-size:12pt;font-family=
+:Arial,sans-serif;color:black">=C2=A0</span></p><p class=3D"MsoNormal" styl=
+e=3D"margin:0px;color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;=
+font-size:small;font-style:normal;font-variant-ligatures:normal;font-varian=
+t-caps:normal;font-weight:400;letter-spacing:normal;text-align:start;text-i=
+ndent:0px;text-transform:none;white-space:normal;word-spacing:0px;text-deco=
+ration-style:initial;text-decoration-color:initial;background:white none re=
+peat scroll 0% 0%"><b><span style=3D"font-size:12pt;font-family:Arial,sans-=
+serif;color:black">Moon International Pak Pvt. Limited is:</span></b></p><p=
+ class=3D"gmail-m_-5458439505591410879gmail-m_-7104401973229758932MsoListPa=
+ragraphCxSpFirst" style=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,=
+sans-serif;font-size:small;font-style:normal;font-variant-ligatures:normal;=
+font-variant-caps:normal;font-weight:400;letter-spacing:normal;text-align:s=
+tart;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0p=
+x;text-decoration-style:initial;text-decoration-color:initial;margin-right:=
+0in;margin-left:0.5in;margin-bottom:0.0001pt;background:white none repeat s=
+croll 0% 0%"><span style=3D"font-family:Symbol;color:black"><span>=C2=B7<sp=
+an style=3D"font:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></span></span></span><span style=
+=3D"font-family:Arial,sans-serif;color:black">EXIN Authorized Examination C=
+enter</span></p><p class=3D"gmail-m_-5458439505591410879gmail-m_-7104401973=
+229758932MsoListParagraphCxSpMiddle" style=3D"color:rgb(34,34,34);font-fami=
+ly:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-varian=
+t-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:=
+normal;text-align:start;text-indent:0px;text-transform:none;white-space:nor=
+mal;word-spacing:0px;text-decoration-style:initial;text-decoration-color:in=
+itial;margin-right:0in;margin-left:0.5in;margin-bottom:0.0001pt;background:=
+white none repeat scroll 0% 0%"><span style=3D"font-family:Symbol;color:bla=
+ck"><span>=C2=B7<span style=3D"font:7pt &quot;Times New Roman&quot;">=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></span></span>=
+</span><span style=3D"font-family:Arial,sans-serif;color:black">Pearson VUE=
+ Authorized Test Center</span></p><p class=3D"gmail-m_-5458439505591410879g=
+mail-m_-7104401973229758932MsoListParagraphCxSpMiddle" style=3D"color:rgb(3=
+4,34,34);font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:=
+normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:4=
+00;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:no=
+ne;white-space:normal;word-spacing:0px;text-decoration-style:initial;text-d=
+ecoration-color:initial;margin-right:0in;margin-left:0.5in;margin-bottom:0.=
+0001pt;background:white none repeat scroll 0% 0%"><span style=3D"font-famil=
+y:Symbol;color:black"><span>=C2=B7<span style=3D"font:7pt &quot;Times New R=
+oman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</s=
+pan></span></span></span><span style=3D"font-family:Arial,sans-serif;color:=
+black">EC-Council Approved Training Centre</span></p><p class=3D"gmail-m_-5=
+458439505591410879gmail-m_-7104401973229758932MsoListParagraphCxSpMiddle" s=
+tyle=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-siz=
+e:small;font-style:normal;font-variant-ligatures:normal;font-variant-caps:n=
+ormal;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0p=
+x;text-transform:none;white-space:normal;word-spacing:0px;text-decoration-s=
+tyle:initial;text-decoration-color:initial;margin-right:0in;margin-left:0.5=
+in;margin-bottom:0.0001pt;background:white none repeat scroll 0% 0%"><span =
+style=3D"font-family:Symbol;color:black"><span>=C2=B7<span style=3D"font:7p=
+t &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0<span>=C2=A0</span></span></span></span><span style=3D"font-family:Ar=
+ial,sans-serif;color:black">Cisco Network Academy</span></p><p class=3D"gma=
+il-m_-5458439505591410879gmail-m_-7104401973229758932MsoListParagraphCxSpMi=
+ddle" style=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;f=
+ont-size:small;font-style:normal;font-variant-ligatures:normal;font-variant=
+-caps:normal;font-weight:400;letter-spacing:normal;text-align:start;text-in=
+dent:0px;text-transform:none;white-space:normal;word-spacing:0px;text-decor=
+ation-style:initial;text-decoration-color:initial;margin-right:0in;margin-l=
+eft:0.5in;margin-bottom:0.0001pt;background:white none repeat scroll 0% 0%"=
+><span style=3D"font-family:Symbol;color:black"><span>=C2=B7<span style=3D"=
+font:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0<span>=C2=A0</span></span></span></span><span style=3D"font-fam=
+ily:Arial,sans-serif;color:black">British Council Platinum Member</span></p=
+><p class=3D"gmail-m_-5458439505591410879gmail-m_-7104401973229758932MsoLis=
+tParagraphCxSpLast" style=3D"color:rgb(34,34,34);font-family:Arial,Helvetic=
+a,sans-serif;font-size:small;font-style:normal;font-variant-ligatures:norma=
+l;font-variant-caps:normal;font-weight:400;letter-spacing:normal;text-align=
+:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:=
+0px;text-decoration-style:initial;text-decoration-color:initial;margin-righ=
+t:0in;margin-left:0.5in;margin-bottom:0.0001pt;background:white none repeat=
+ scroll 0% 0%"><span style=3D"font-family:Symbol;color:black"><span>=C2=B7<=
+span style=3D"font:7pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0<span>=C2=A0</span></span></span></span><span st=
+yle=3D"font-family:Arial,sans-serif;color:black">PeopleCert Approve Test Ce=
+nter</span></p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,3=
+4);font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:normal=
+;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;let=
+ter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;whi=
+te-space:normal;word-spacing:0px;text-decoration-style:initial;text-decorat=
+ion-color:initial;background:white none repeat scroll 0% 0%"><span style=3D=
+"font-size:12pt;font-family:Arial,sans-serif;color:black">=C2=A0</span></p>=
+<p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-family:=
+Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-variant-l=
+igatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:nor=
+mal;text-align:start;text-indent:0px;text-transform:none;white-space:normal=
+;word-spacing:0px;text-decoration-style:initial;text-decoration-color:initi=
+al;background:white none repeat scroll 0% 0%"><span style=3D"font-size:12pt=
+;font-family:Arial,sans-serif;color:black">Call now for any further informa=
+tion:<span>=C2=A0</span><b>0323-2338341, 0332-2222342</b></span></p><p clas=
+s=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-family:Arial,H=
+elvetica,sans-serif;font-size:small;font-style:normal;font-variant-ligature=
+s:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;tex=
+t-align:start;text-indent:0px;text-transform:none;white-space:normal;word-s=
+pacing:0px;text-decoration-style:initial;text-decoration-color:initial;back=
+ground:white none repeat scroll 0% 0%"><span style=3D"font-size:14pt;font-f=
+amily:Arial,sans-serif;color:black">=C2=A0</span><span style=3D"font-size:1=
+2pt;font-family:Arial,sans-serif;color:black"></span></p><p class=3D"MsoNor=
+mal" style=3D"margin:0px;color:rgb(34,34,34);font-family:Arial,Helvetica,sa=
+ns-serif;font-size:small;font-style:normal;font-variant-ligatures:normal;fo=
+nt-variant-caps:normal;font-weight:400;letter-spacing:normal;text-align:sta=
+rt;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;=
+text-decoration-style:initial;text-decoration-color:initial;background:whit=
+e none repeat scroll 0% 0%"><b><span style=3D"font-size:12pt;font-family:Ar=
+ial,sans-serif;color:black">Moon International Pak Pvt Limited</span></b><s=
+pan style=3D"font-size:12pt;font-family:Arial,sans-serif;color:black"></spa=
+n></p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,34);font-f=
+amily:Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-var=
+iant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spaci=
+ng:normal;text-align:start;text-indent:0px;text-transform:none;white-space:=
+normal;word-spacing:0px;text-decoration-style:initial;text-decoration-color=
+:initial;background:white none repeat scroll 0% 0%"><span style=3D"font-siz=
+e:12pt;font-family:Arial,sans-serif;color:black">E-133 Block B, Gulshan-E-J=
+amal</span></p><p class=3D"MsoNormal" style=3D"margin:0px;color:rgb(34,34,3=
+4);font-family:Arial,Helvetica,sans-serif;font-size:small;font-style:normal=
+;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;let=
+ter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;whi=
+te-space:normal;word-spacing:0px;text-decoration-style:initial;text-decorat=
+ion-color:initial;background:white none repeat scroll 0% 0%"><span style=3D=
+"font-size:12pt;font-family:Arial,sans-serif;color:black">Near Millenium Ma=
+ll, Rashid Minhas Road</span></p><p class=3D"MsoNormal" style=3D"margin:0px=
+;color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-size:small=
+;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;f=
+ont-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-=
+transform:none;white-space:normal;word-spacing:0px;text-decoration-style:in=
+itial;text-decoration-color:initial;background:white none repeat scroll 0% =
+0%"><span style=3D"font-size:12pt;font-family:Arial,sans-serif;color:black"=
+>Karachi-Pakistan</span></p><p class=3D"MsoNormal" style=3D"margin:0px;colo=
+r:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-size:small;font=
+-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-w=
+eight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-trans=
+form:none;white-space:normal;word-spacing:0px;text-decoration-style:initial=
+;text-decoration-color:initial;background:white none repeat scroll 0% 0%"><=
+a href=3D"mailto:info@mooninternational.com.pk" style=3D"color:rgb(17,85,20=
+4)" target=3D"_blank"><span style=3D"font-size:12pt;font-family:Arial,sans-=
+serif">info@mooninternational.com.pk</span></a></p>
+
+</div>
+
+</div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;00ooooo9&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:00ooooo9+unsubscribe@googlegroups.com">00ooooo9+u=
+nsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:00ooooo9@googlegroup=
+s.com">00ooooo9@googlegroups.com</a>.<br />
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/00ooooo9/CAD%2Bc-KdqDh%2Bgi4Nt_DVA80efpkV9e0egb88Cu_teFUfmiyoxMQ=
+%40mail.gmail.com?utm_medium=3Demail&utm_source=3Dfooter">https://groups.go=
+ogle.com/d/msgid/00ooooo9/CAD%2Bc-KdqDh%2Bgi4Nt_DVA80efpkV9e0egb88Cu_teFUfm=
+iyoxMQ%40mail.gmail.com</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--0000000000001c1b380576201c39--

@@ -1,0 +1,424 @@
+Return-Path: <mohan.kumar17@outlook.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id gBpAIMhUIlrm7g8Asyhj2Q
+	for <info@usstokyo.com>; Sat, 02 Dec 2017 01:22:48 -0600
+Return-path: <mohan.kumar17@outlook.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Sat, 02 Dec 2017 01:22:48 -0600
+Received: from bay004-omc2s22.hotmail.com ([65.54.190.97]:64603)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <mohan.kumar17@outlook.com>)
+	id 1eL28O-004OYY-7H
+	for info@usstokyo.com; Sat, 02 Dec 2017 01:22:48 -0600
+Received: from IND01-BO1-obe.outbound.protection.outlook.com ([65.54.190.125]) by BAY004-OMC2S22.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Fri, 1 Dec 2017 23:22:08 -0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=U9KHm8B8i2rDtcb+FY/yiztYns5kzMIKkIUqPh8Ts7U=;
+ b=oOOlu8CrT3iMeMpG+Q0yqCFqkrSOKODfl1azp33sZckFAmINQnlQpFYZgaCAirqeuSL0bihyk8IXtSlnKLu2hRnQTIhPaH5lFYX50FBuawWZE5I6gkda0y1VPwNRWkxyx14/EeItIuWwOqTHpwWtLqi9pGov/A7DOwj2/937zdPDXnZxfttVx4NkaY1vnO1xjaTA3M1n6Tlw9GAEJqDVMNDaW4IvpaVDxMhDH+FSYmjUMrD26e25N/Ibcb6fxwfxmEgKkBRBX2xMN0ZEd4bnPihMiKTdmg9ppMC58T0ST8uEcxjyiNA5pLi+9RERK/lIxk2z88IU3FbEP46OGMOiXg==
+Received: from BO1IND01FT007.eop-IND01.prod.protection.outlook.com
+ (10.152.202.51) by BO1IND01HT007.eop-IND01.prod.protection.outlook.com
+ (10.152.202.151) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.239.4; Sat, 2 Dec
+ 2017 07:21:24 +0000
+Received: from MA1PR01MB0844.INDPRD01.PROD.OUTLOOK.COM (10.152.202.52) by
+ BO1IND01FT007.mail.protection.outlook.com (10.152.202.83) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.20.239.4 via Frontend Transport; Sat, 2 Dec 2017 07:21:24 +0000
+Received: from MA1PR01MB0844.INDPRD01.PROD.OUTLOOK.COM ([10.174.58.144]) by
+ MA1PR01MB0844.INDPRD01.PROD.OUTLOOK.COM ([10.174.58.144]) with mapi id
+ 15.20.0282.007; Sat, 2 Dec 2017 07:21:24 +0000
+From: Mohan Kumar <mohan.kumar17@outlook.com>
+Subject: Get Responsive Web Design and Development Services  .
+Thread-Topic: Get Responsive Web Design and Development Services  .
+Thread-Index: AQHTaz4oUgdAZdpKlEiTaTTxuzKf1A==
+Date: Sat, 2 Dec 2017 07:21:24 +0000
+Message-ID: <MA1PR01MB0844AB481F62EF0E05ACE7ADF13E0@MA1PR01MB0844.INDPRD01.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:29EDF9A4E75BF4CF147201F00B6CED29E4AE609D34D36AC21635E3892DEEAFDD;UpperCasedChecksum:15B143EEAA7CFB19BF1C3BB79AE00FA5410CEC5337D79EA7FB67AE16D93B9296;SizeAsReceived:11874;Count:43
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [dbXekDA03bXxW3YTCQFNoAgwjGeRqRwD]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;BO1IND01HT007;6:Fvg0YJiXRQbGakzRH7kYsloXFGzyyCBDiMWZWqMNghXJURSTKwbNRE48Trfsl2Gj5Gx8Ptkz3eCRaGMReiJqgsutFgKvBjiRZwFrR6GAyS5y01RJ84QazDVZIVdjBBcHUS6HyCkrs+f+JGybxxumVIKHvcsW4rP90y7iX2LedFHxoNDKOG/qQRoDsE3kpYCTN0Qhyhv+R2L43rsnNdDdfL2FkRPQLXpzxSH6H+SptMAXTYLWLFPV9TeDdMwsxo1TTTTU3yZ7WGaxSRyCuznlp4++xTVAC9No/BJtNjdjKZ+2UqOytkJ3r4lv1YJHuGl91PbMEiQ6jKjiRWkwu5SdXDy3cK0Gu0kvfAEEzEbgcII=;5:6Axv31pTUBzG7jwDLSQmzSFIgGohMOiVkZh1hd7/IlULaQP1/AoANCJN/1C4u+MgMqxUE5z7Ml/d3htdhgBwH5bGTDTFxusF+SnVL7f6o0Cf0Ee8GvlGT6t0ChWVuMRjpCGtwTF5CPCRsGIkKD9AhlvMLj7PuCPNENKAcfgpPLo=;24:yeU6tpF/J3Up+148d+N8bnejpq7x6mbQGad+41vqhQqWDFEgcvCsEQo/4nuFc4UfkrAe+b7DF+ppKIO25bqBIaSHICiqR9GODiuTxS8m7LQ=;7:EATZGmlM/+qCE6e+xAO6cbhQrH8OM9BifJT07upxZxELpPL5bI3x91XmZmqxuhJa8oA05qBO3QVlkShNrrY7nA6wL/RP98xNFYsZSZ0iPWZ9YhswEEZOTERDH3kWJKcEJsTKoAR082xcA//LNKZ+v3fEQArmw/jBSvtgoD/8CJwaJdnLMgiSKXCGCdCaiNjSicgHSTJr3D0h9xN6t73qAkOGl/yLJ/tGNw5570GrY4kzAt9ttewDpmTkc5ZBXkPl
+x-incomingheadercount: 43
+x-eopattributedmessage: 0
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(201702061074)(5061506573)(5061507331)(1603103135)(2017031320274)(2017031323274)(2017031326274)(2017031322404)(1601125374)(1603101448)(1701031045);SRVR:BO1IND01HT007;
+x-ms-traffictypediagnostic: BO1IND01HT007:
+x-ms-office365-filtering-correlation-id: 8f57a459-d706-416e-3bf5-08d539554b7a
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(432015464)(444000031);SRVR:BO1IND01HT007;BCL:0;PCL:0;RULEID:(100000803101)(100110400095);SRVR:BO1IND01HT007;
+x-forefront-prvs: 0509245D29
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(98901004);DIR:OUT;SFP:1102;SCL:1;SRVR:BO1IND01HT007;H:MA1PR01MB0844.INDPRD01.PROD.OUTLOOK.COM;FPR:;SPF:None;LANG:;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_MA1PR01MB0844AB481F62EF0E05ACE7ADF13E0MA1PR01MB0844INDP_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8f57a459-d706-416e-3bf5-08d539554b7a
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Dec 2017 07:21:24.3004
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BO1IND01HT007
+Bcc:
+X-OriginalArrivalTime: 02 Dec 2017 07:22:08.0496 (UTC) FILETIME=[434A3F00:01D36B3E]
+
+--_000_MA1PR01MB0844AB481F62EF0E05ACE7ADF13E0MA1PR01MB0844INDP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi,
+
+Greetings from Nice Interactive.,
+
+Nice Interactive a creative web design studio located in India. We speciali=
+ze in web design, web
+development and User interfaces. Team of our web designers and developers a=
+lways strive to get an
+astonishing websites to our clients all world.
+
+We are great at :
+
+Word Press Development
+PHP Development, e-commerce
+Responsive Web Design / Development
+SEO / SEM
+Graphic Design
+Logo Design
+HTML5 /CSS 3
+GUI Design
+
+We work on per project fixed rate. I would love to provide very competitive=
+ rate for your project.
+Please feel free to get a feel free quote for your project.
+Looking forward to hear from you.
+
+Thanks & Regards,
+Mohan Kumar
+Web Development Manager
+
+
+
+--_000_MA1PR01MB0844AB481F62EF0E05ACE7ADF13E0MA1PR01MB0844INDP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Helvetica,sans-serif;" dir=3D"ltr">
+<p style=3D"margin-top:0;margin-bottom:0"></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Arial;=0A=
+color:#222222;mso-bidi-language:AR-SA">&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Hi,</span><span style=3D"font-family=
+:&quot;Cambria&quot;,&quot;serif&quot;;=0A=
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;color:#22=
+2222;=0A=
+mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">&nbsp;</span><span style=3D"font-fam=
+ily:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:#222222;mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Greetings from Nice Interactive.,</s=
+pan><span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-as=
+cii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">&nbsp;</span><span style=3D"font-fam=
+ily:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:#222222;mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Nice Interactive a creative web desi=
+gn studio located in India. We specialize
+ in web design, web</span><span style=3D"font-family:&quot;Cambria&quot;,&q=
+uot;serif&quot;;mso-ascii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">development and User interfaces. Tea=
+m of our web designers and developers always
+ strive to get an</span><span style=3D"font-family:&quot;Cambria&quot;,&quo=
+t;serif&quot;;mso-ascii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">astonishing websites to our clients =
+all world.</span><span style=3D"font-family:&quot;Cambria&quot;,&quot;serif=
+&quot;;mso-ascii-theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-languag=
+e:=0A=
+AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">&nbsp;</span><span style=3D"font-fam=
+ily:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:#222222;mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<b><span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-asc=
+ii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;color:red;=0A=
+background:yellow;mso-highlight:yellow;mso-bidi-language:AR-SA">We are grea=
+t at :</span></b><b><span style=3D"font-family:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:red;mso-bidi-language:AR-SA"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">&nbsp;</span><span style=3D"font-fam=
+ily:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:#222222;mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Word Press Development</span><span s=
+tyle=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-f=
+ont:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">PHP Development, e-commerce</span><s=
+pan style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-th=
+eme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Responsive Web Design / Development<=
+/span><span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-=
+ascii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">SEO / SEM</span><span style=3D"font-=
+family:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:#222222;mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Graphic Design</span><span style=3D"=
+font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:majo=
+r-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Logo Design</span><span style=3D"fon=
+t-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-l=
+atin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">HTML5 /CSS 3</span><span style=3D"fo=
+nt-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-=
+latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">GUI Design</span><span style=3D"font=
+-family:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:#222222;mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">&nbsp;</span><span style=3D"font-fam=
+ily:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:#222222;mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<b><span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-asc=
+ii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;color:red;=0A=
+mso-bidi-language:AR-SA">We work on per project fixed rate. I would love to=
+ provide very competitive rate
+ for your project.</span></b><b><span style=3D"font-family:&quot;Cambria&qu=
+ot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:red;mso-bidi-language:AR-SA"><o:p></=
+o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<b><span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-asc=
+ii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;color:red;=0A=
+mso-bidi-language:AR-SA">Please feel free to get a feel free quote for your=
+ project.</span></b><b><span style=3D"font-family:&quot;Cambria&quot;,&quot=
+;serif&quot;;mso-ascii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:red;mso-bidi-language:AR-SA"><o:p></=
+o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<b><span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-asc=
+ii-theme-font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;color:red;=0A=
+mso-bidi-language:AR-SA">Looking forward to hear from you.</span></b><b><sp=
+an style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;=0A=
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;color:red=
+;=0A=
+mso-bidi-language:AR-SA"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">&nbsp;</span><span style=3D"font-fam=
+ily:=0A=
+&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-latin;mso-=
+hansi-theme-font:major-latin;=0A=
+color:#222222;mso-bidi-language:AR-SA"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Thanks &amp; Regards,</span><span st=
+yle=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-fo=
+nt:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Mohan Kumar</span><span style=3D"fon=
+t-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-l=
+atin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: norma=
+l; background-image: initial; background-">
+<span style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-=
+theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-family:Calibri;=
+=0A=
+color:#222222;mso-bidi-language:AR-SA">Web Development Manager</span><span =
+style=3D"font-family:&quot;Cambria&quot;,&quot;serif&quot;;mso-ascii-theme-=
+font:major-latin;=0A=
+mso-hansi-theme-font:major-latin;color:#222222;mso-bidi-language:AR-SA"><o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Cambria&quot;,&quot=
+;serif&quot;;mso-ascii-theme-font:=0A=
+major-latin;mso-hansi-theme-font:major-latin"><o:p>&nbsp;</o:p></span></p>
+<br>
+<p></p>
+</div>
+</body>
+</html>
+
+--_000_MA1PR01MB0844AB481F62EF0E05ACE7ADF13E0MA1PR01MB0844INDP_--

@@ -1,0 +1,145 @@
+Return-Path: <wgnkumara@gmail.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id aBX+C1SbSlve5D0Asyhj2Q
+	for <info@usstokyo.com>; Sat, 14 Jul 2018 19:54:44 -0500
+Return-path: <wgnkumara@gmail.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Sat, 14 Jul 2018 19:54:44 -0500
+Received: from mail-oi0-f41.google.com ([209.85.218.41]:39157)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <wgnkumara@gmail.com>)
+	id 1feVJE-00H11h-1s
+	for info@usstokyo.com; Sat, 14 Jul 2018 19:54:44 -0500
+Received: by mail-oi0-f41.google.com with SMTP id d189-v6so68704439oib.6
+        for <info@usstokyo.com>; Sat, 14 Jul 2018 17:54:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=+Nfjuv4uM5YV4kbJLE+Q4cYy+UImUBnZsGUSW67oOuM=;
+        b=CSSc0WwyNPuqeUBG9m7YPC8kAtmRutB89PJHNl4VHKyICzO4jGAfllbLjSkBMni/ac
+         6J++w6gCP98VbrUp5KRK4LupEN//YM4SrBw9hfDD3IM0dQ5Di6yg9dppC73Ut46l8WYr
+         XhQDPp00LbcVwENEjrp598CpNiLufTqqURRkEza/1lYafkBlBJ68YfSSFPB65U+qHb4i
+         rtQIuYMShL6WBvh4iWcSjDKg0UOsRTEaxfHr/358K3Ul2MtcJDB2n2AgQHngbG7dXj+o
+         XYfvFVahRkrmrbo8HTWN0Loe+GseJ7enHEFEH0gqBF+dLvk6rK9a8QGT3QS7bdu5PilN
+         cdwA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=+Nfjuv4uM5YV4kbJLE+Q4cYy+UImUBnZsGUSW67oOuM=;
+        b=fR/cgR8uTP44UbwWeV5sU/rDMAsayyX3mf8JY/LPtUTWmXgcAM+G+LD7S+3+zE+B0O
+         Pn1ymXzMpCjl8ox04hUh4OAblSEPNnNOL1UgJlVC+hgA3VVg/xQTkxJVZVWnbSgKjOMy
+         woCiDEOnDpY5Zy11kY4dLGaOW1txJ+F0S4P8d9YCMBWtPkkd/ftWXQDM3wQ4HXXhUFr0
+         PYXfkPB9+EfBa/2UuPJRPWeZgiBB1+X2Vm5mJmglggKterIilkM8ZMKi+Kr22AMagvnw
+         lF+P0Havkxi7ebEIMf4MAToU2Ted1OK1uY7d+V1uS4b1rypTBWZS9p3vYuzYXKQd3Qq5
+         ORJg==
+X-Gm-Message-State: AOUpUlFa98ZmlbRfoIR3OdXRn07dTTJjr2f/tNKT1dV3A4dWyNDv7H4I
+	NM2JVOrVQ7FINCS2TTF1ViTog/GLCVpSqIkFLxo=
+X-Google-Smtp-Source: AAOMgpelA4+wmerPhSBaKrxIeTdLr58Rhq2xV205ReW5BFv8p6bpthpccgEZiMVdzYeUiWo1cpQ6nyW9a6KDTQcRTQE=
+X-Received: by 2002:aca:cdc2:: with SMTP id d185-v6mr9540928oig.350.1531616047843;
+ Sat, 14 Jul 2018 17:54:07 -0700 (PDT)
+MIME-Version: 1.0
+References: <E1fe1Al-007Kgw-3N@box1.customerdnsservers.com> <004901d41ba6$2cfbd650$86f382f0$@usstokyo.com>
+In-Reply-To: <004901d41ba6$2cfbd650$86f382f0$@usstokyo.com>
+From: Nilantha Kumara <wgnkumara@gmail.com>
+Date: Sun, 15 Jul 2018 06:23:53 +0530
+Message-ID: <CAC2s60HQoGqHCHT8DG_z5bWsfA0sGg3p8XBy_KMNKzLd3y_dQQ@mail.gmail.com>
+Subject: Re: Message from Contact USSTOKYO.com
+To: "USSTOKYO.com" <info@usstokyo.com>
+Content-Type: multipart/alternative; boundary="00000000000076cede0570ff2665"
+
+--00000000000076cede0570ff2665
+Content-Type: text/plain; charset="UTF-8"
+
+Thank you for your response. This vehicle is to be bought by me in Sri
+Lanka. That is why I asked for the price. Thank you again.
+W G N Kumara from Sri Lanka
+
+On Sun, 15 Jul 2018 12:39 am USSTOKYO.com, <info@usstokyo.com> wrote:
+
+> Dear W G N Kumara,
+>
+> Thank you for contacting us. As per policy the prices of cars sold at USS
+> Auctions are not displayed.
+>
+> However, if your register at our website and bid for cars, we will show
+> sold
+> prices of those cars then.
+>
+> Regards
+> Team
+> UssTokyo.com
+>
+> -----Original Message-----
+> From: Contact Form wgnkumara@gmail.com [mailto:Contact Form
+> wgnkumara@gmail.com]
+> Sent: Friday, July 13, 2018 9:44 PM
+> To: info@usstokyo.com
+> Subject: Message from Contact USSTOKYO.com
+>
+>  From: W G N Kumara
+>  E-Mail: wgnkumara@gmail.com
+>  Phone : +94714812916
+>  Message : Could you please let me know the sold price of HONDA VEZEL HV
+> RS*HSENSING (RU-1317263, Auction Lot No 23414) at your auction on
+> 05-July-2018?
+> Thanking you.
+>
+> W G N Kumara from Sri Lanka
+>
+>
+
+--00000000000076cede0570ff2665
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Thank you for your response. This vehicle is to be bought=
+ by me in Sri Lanka. That is why I asked for the price. Thank you again.<di=
+v dir=3D"auto">W G N Kumara from Sri Lanka</div></div><br><div class=3D"gma=
+il_quote"><div dir=3D"ltr">On Sun, 15 Jul 2018 12:39 am USSTOKYO.com, &lt;<=
+a href=3D"mailto:info@usstokyo.com" target=3D"_blank" rel=3D"noreferrer">in=
+fo@usstokyo.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Dear=
+ W G N Kumara,<br>
+<br>
+Thank you for contacting us. As per policy the prices of cars sold at USS<b=
+r>
+Auctions are not displayed.<br>
+<br>
+However, if your register at our website and bid for cars, we will show sol=
+d<br>
+prices of those cars then.<br>
+<br>
+Regards<br>
+Team <br>
+UssTokyo.com<br>
+<br>
+-----Original Message-----<br>
+From: Contact Form <a href=3D"mailto:wgnkumara@gmail.com" rel=3D"noreferrer=
+ noreferrer" target=3D"_blank">wgnkumara@gmail.com</a> [mailto:<a href=3D"m=
+ailto:Contact" rel=3D"noreferrer noreferrer" target=3D"_blank">Contact</a> =
+Form<br>
+<a href=3D"mailto:wgnkumara@gmail.com" rel=3D"noreferrer noreferrer" target=
+=3D"_blank">wgnkumara@gmail.com</a>] <br>
+Sent: Friday, July 13, 2018 9:44 PM<br>
+To: <a href=3D"mailto:info@usstokyo.com" rel=3D"noreferrer noreferrer" targ=
+et=3D"_blank">info@usstokyo.com</a><br>
+Subject: Message from Contact USSTOKYO.com<br>
+<br>
+=C2=A0From: W G N Kumara <br>
+=C2=A0E-Mail: <a href=3D"mailto:wgnkumara@gmail.com" rel=3D"noreferrer nore=
+ferrer" target=3D"_blank">wgnkumara@gmail.com</a> <br>
+=C2=A0Phone : +94714812916 <br>
+=C2=A0Message : Could you please let me know the sold price of HONDA VEZEL =
+HV<br>
+RS*HSENSING (RU-1317263, Auction Lot No 23414) at your auction on<br>
+05-July-2018?<br>
+Thanking you.<br>
+<br>
+W G N Kumara from Sri Lanka<br>
+<br>
+</blockquote></div>
+
+--00000000000076cede0570ff2665--

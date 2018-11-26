@@ -1,0 +1,41 @@
+Return-Path: <sales@usstokyo.com>
+Delivered-To: sales@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id IOtkJmtnYFsUSToAsyhj2Q
+	for <sales@usstokyo.com>; Tue, 31 Jul 2018 08:43:07 -0500
+Return-path: <sales@usstokyo.com>
+Envelope-to: sales@usstokyo.com
+Delivery-date: Tue, 31 Jul 2018 08:43:07 -0500
+Received: from [119.153.195.43] (port=50868 helo=Asad)
+	by box1.customerdnsservers.com with esmtpa (Exim 4.91)
+	(envelope-from <sales@usstokyo.com>)
+	id 1fkUva-00G2Fr-Vg
+	for sales@usstokyo.com; Tue, 31 Jul 2018 08:43:07 -0500
+From: "Microsoft Outlook" <sales@usstokyo.com>
+Sender: "Microsoft Outlook" <sales@usstokyo.com>
+To: "Sales [USSTOKYO.COM]" <sales@usstokyo.com>
+Subject: Microsoft Outlook Test Message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_3725_01D428FE.4F3C40A0"
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_3725_01D428FE.4F3C40A0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+This is an e-mail message sent automatically by Microsoft Outlook while =
+testing the settings for your account.
+
+------=_NextPart_000_3725_01D428FE.4F3C40A0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>This is an e-mail message sent automatically by Microsoft =
+Outlook while testing the settings for your account.
+</p></body></html>
+------=_NextPart_000_3725_01D428FE.4F3C40A0--
+

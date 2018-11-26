@@ -1,0 +1,820 @@
+<?php include('inc_nt_login.php');
+
+   include('panel/config.php');
+
+   header('Access-Control-Allow-Origin: *');
+
+   error_reporting(0);
+
+
+
+   ?>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+   <head>
+
+      <title>www.USSTokyo.com: Auction</title>
+
+      <?php include('inc_head.php');?>
+	<?php include('inc_script.php');?>
+   </head>
+
+   <body>
+
+      <!--=================================
+
+         loading -->
+
+      <!--=================================
+
+         loading -->
+
+      <!--=================================
+
+         header -->
+
+      <header id="header" class="defualt">
+
+         <?php include('inc_menu_top.php');?>
+
+         <!--================================= mega menu -->
+
+         <div class="menu">  
+
+            <?php include('inc_menu.php');?>
+
+         </div>
+
+      </header>
+
+      <!--================================= header -->
+
+      <style>
+
+         @media (min-width:1025px){
+
+         .mobile
+
+         {
+
+         display:block;
+
+         }
+
+         .mobile_none
+
+         {
+
+         display:none;
+
+         }
+
+         .list-inline>li {
+
+         border:0px !important;
+
+/*         min-height : 45px;*/
+
+         vertical-align : middle;
+
+         }
+
+         }
+
+         @media (max-width:1024px){
+
+         .mobile
+
+         {
+
+         display:none;
+
+         }
+
+         .mobile_none
+
+         {
+
+         display:inherit;
+
+         }
+
+         }
+
+       /*  .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+
+         border-color: #e3e3e3;
+
+         padding: 10px 5px;
+
+         vertical-align:middle;
+
+         }
+
+         th
+
+         {
+
+         text-align:center;
+
+         }
+
+         .list-inline>li {
+
+         padding-right: 7px !important;
+
+         padding-left: 7px !important;
+
+         font-size: 13px !important;
+
+         margin-bottom:3px;
+
+         }
+
+         thead th{ color:#FFFFFF; border:0px;}
+
+         tbody tr:hover{ background-color:#F7F7F7;}*/
+
+      </style>
+
+      <!--=================================
+
+         inner-intro -->
+		 
+		 
+		 
+		 
+		 
+		 
+
+
+      <section class="inner-intro bg-7 bg-overlay-black-70">
+
+         <div class="container">
+
+            <div class="row text-center intro-title">
+
+               <div class="col-lg-6 col-md-6 text-left">
+
+                  <h3 class="text-white">AUCTIONS </h3>
+
+               </div>
+
+               <div class="col-lg-6 col-md-6 text-right">
+
+                  <ul class="page-breadcrumb">
+
+                     <li><a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+
+                     <li><span>AUCTIONS</span> </li>
+
+                  </ul>
+
+               </div>
+
+            </div>
+
+         </div>
+
+      </section>
+
+      <!--=================================
+
+         inner-intro -->
+
+      <section class="product-listing page-section-ptb">
+
+         <div class="container">
+
+            <div class="row">
+
+               <div class="col-lg-12 col-md-12 col-sm-12">
+
+                  <div class="row">
+
+                     <div class="contact-form">
+
+                        <form method="get" class="form-horizontal" action="auction.php" target="_blank">
+
+
+
+                           <div class="col-lg-2 col-md-2">
+
+                              <div class="form-group">
+
+ <select size="20" class="form-control"  name="mark_name" onChange="showModel(this.value)" style="padding: 5px;border: 1px solid #eeeeee;">
+
+<?php $get_companya = aj_get("select marka_id,marka_name from main 
+
+
+WHERE MARKA_NAME IN (
+'RENAULT',
+'PEUGEOT',
+'CITROEN',
+'FIAT',
+'ALFAROMEO',
+'FORD',
+'CHRYSLER',
+'GM',
+'ROVER',
+'VOLVO',
+'OPEL',
+'VOLKSWAGEN',
+'AUDI',
+'BMW',
+'MERCEDES BENZ',
+'ISUZU',
+'SUBARU',
+'DAIHATSU',
+'SUZUKI',
+'MAZDA', 
+'MITSUBISHI',
+'HONDA',
+'NISSAN',
+'TOYOTA')
+
+   group by marka_id 
+
+
+
+   ORDER BY FIELD(MARKA_NAME,   
+
+
+
+'RENAULT',
+'PEUGEOT',
+'CITROEN',
+'FIAT',
+'ALFAROMEO',
+'FORD',
+'CHRYSLER',
+'GM',
+'ROVER',
+'VOLVO',
+'OPEL',
+'VOLKSWAGEN',
+'AUDI',
+'BMW',
+'MERCEDES BENZ',
+'ISUZU',
+'SUBARU',
+'DAIHATSU',
+'SUZUKI',
+'MAZDA', 
+'MITSUBISHI',
+'HONDA',
+'NISSAN',
+'TOYOTA'
+) DESC",120,0); // 1=>debug  // 120 min = 2 hour
+
+
+
+/*
+$get_companya = aj_get("select marka_id,marka_name from main group by marka_id ORDER BY MARKA_NAME DESC",120,0); 
+
+
+// 1=>debug  // 120 min = 2 hour*/
+
+                                     //  echo "<option value='*'>ALL</option>";
+
+                                       foreach($get_companya as $v) {?>
+
+                                    <option value="<?php echo $v['MARKA_NAME'];?>"><?php echo $v['MARKA_NAME'];?></option>
+
+                                    <?php } ?>
+
+                                 </select>
+
+                              </div>
+
+                           </div>
+
+                           <div class="col-lg-3 col-md-3">
+
+                              <div class="form-group">
+
+                                 <div id="__model">
+
+<?php $arr = aj_get("select model_id, model_name, count(*)  from main WHERE MARKA_NAME = 'TOYOTA' group by model_name order by model_name",60,0);?>
+
+<select name="model" size="20" onchange='showAuction(this.value)' id="showAuctionOptions" style="padding: 5px;border: 1px solid #eeeeee;">
+<option value="" selected="selected">Select Model</option>
+<?php  foreach($arr as $v) { ?>
+<option value="<?php echo $v['MODEL_NAME'];?>"><?php echo $v['MODEL_NAME'] ; ?>
+  <?php //echo $v['MODEL_NAME'] . '( ' . $v['TAG2'] . ' )'; ?> 
+
+</option><?php }?>
+</select>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="col-lg-2 col-md-2">
+
+                              <div class="form-group">
+
+                                 <?php 
+
+                                    $date = time();
+
+                                    $datesa = date('Y-m-d', $date);
+
+                                    $day_final = date('d', $date);
+
+                                    $day_number = date('N', $day_final);
+
+                                    $dates = date('Y-m', $date);
+
+                                    
+
+                                    $day = date('Y-m-d', strtotime($datesa.' +1 Weekday'));
+
+                                    
+
+                                    //echo date('Y-m-d', strtotime($datesa.' +1 Weekday')); ;
+
+                                    
+
+                                    //echo $dates.'-'.$day;
+
+                                    $perday = 86400;
+
+                                    $daya = $day;
+
+                                    $dayb = $day+($perday*2);
+
+                                    $dayc = $day+$perday;
+
+                                    $dayd = $day+$perday;
+
+                                    $daye = $day+$perday;
+
+                                    $dayf = $day+$perday;
+
+                                    
+
+                                    // set current date
+
+                                    $date = $datesa;
+
+                                    // parse about any English textual datetime description into a Unix timestamp 
+
+                                    $ts = strtotime($date);
+
+                                    // calculate the number of days since Monday
+
+                                    $dow = date('w', $ts);
+
+                                    $offset = $dow - 1;
+
+                                    if ($offset < 0) {
+
+                                        $offset = 6;
+
+                                    }
+
+                                    // calculate timestamp for the Monday
+
+                                    $ts = $ts - $offset*86400;
+
+                                    // loop from Monday till Sunday 
+
+$time = time(); //isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
+
+
+//$prev_date = date('Y-m-d', strtotime($date .' -1 day'));
+//$next_date = date('Y-m-d', strtotime($date .' +1 day'));
+                                    ?>
+
+                                 Date :
+
+<select name="date" id="selectAuctioneer" onchange='showAuctionDate(this.value)' style="width: 40px;padding: 5px;border: 1px solid #eeeeee;">
+
+                                    <option value=""></option>
+
+                                    <?php 
+
+   //                                    for ($i = 0; $i < 14; $i++, $ts += 86400){?>
+
+     <!--                               <option><?php //print date("Y-m-d", $ts);?></option>
+-->
+                                    <?php 
+
+                                       //}
+
+                                       
+
+                                       ?>
+									   
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)- 7 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)- 6 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)- 5 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)- 4 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)- 3 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)- 2 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)- 1 ,date("Y", $time)));?></option>
+
+
+
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)+ 0 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)+ 1 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)+ 2 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)+ 3 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)+ 4 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)+ 5 ,date("Y", $time)));?></option>
+<option><?php  echo date("Y-m-d", mktime(0,0,0,date("n", $time),date("j",$time)+ 6 ,date("Y", $time)));?></option>
+
+
+
+                                 </select>
+
+                                 Auctions
+
+                                 <div id="__auction">
+
+                                    <select name="auction" size="15" style="padding: 5px;border: 1px solid #eeeeee;" >
+
+                                       <option value="" selected="selected">Select Auctioneer</option>
+
+                                    </select>
+
+                                 </div>
+
+                                 
+
+                              </div>
+
+                           </div>
+
+                           <div class="col-lg-2 col-md-2">
+
+                              <div class="form-group">
+
+                                 Lot No: <input type="text" name="lot" value="" style="width: 63px;padding: 5px;border: 1px solid #eeeeee;" />
+
+                                 <br /><br />
+
+                                 Year: 
+
+                                 <?php
+
+                                    $already_selected_value = '';
+
+                                    $earliest_year = 1990;
+
+                                    
+
+                                    ?>
+
+                                 <select name="year_from" style="width: 40px;padding: 5px;border: 1px solid #eeeeee;">
+
+                                    <option value=""></option>
+
+                                    <?php 
+
+                                       foreach (range(date('Y'), $earliest_year) as $x) {
+
+                                           print '<option>'.$x.'</option>';
+
+                                       }
+
+                                       ?>
+
+                                 </select>
+
+                                 <select name="year_to" style="width: 40px;padding: 5px;border: 1px solid #eeeeee;">
+
+                                    <option value=""></option>
+
+                                    <?php 
+
+                                       foreach (range(date('Y'), $earliest_year) as $x) {
+
+                                       //print '<option value="'.$x.'"'.($x === $already_selected_value ? ' selected="selected"' : '').'>'.$x.'</option>';
+
+                                         print '<option>'.$x.'</option>';
+
+                                       }
+
+                                       ?>
+
+                                 </select>
+
+                                 <br />
+
+                                 Milage: <br />
+
+                                 From: <input type="text" name="mileage_from" value="" style="width: 40px;padding: 5px;border: 1px solid #eeeeee;" /> 
+
+                                 To: <input type="text" name="mileage_to" value="" style="width: 40px;padding: 5px;border: 1px solid #eeeeee;"/>
+
+                                 <br />
+
+                              </div>
+
+                           </div>
+
+                           <div class="col-lg-2 col-md-2">
+
+                              <div class="form-group">
+
+                                 STARTING PRICE: 
+
+                                 <select name="price_start" style="width: 40px;padding: 5px;border: 1px solid #eeeeee;">
+
+                                    <option value=""></option>
+
+                                    <option value="100000">100,000</option>
+
+                                    <option value="300000">300,000</option>
+
+                                    <option value="500000">500,000</option>
+
+                                    <option value="800000">800,000</option>
+
+                                    <option value="1000000">10,00,000</option>
+
+                                    <option value="3000000">30,00,000</option>
+
+                                 </select>
+
+                                 <select name="price_to" style="width: 40px;padding: 5px;border: 1px solid #eeeeee;">
+
+                                    <option value=""></option>
+
+                                    <option value="100000">100,000</option>
+
+                                    <option value="300000">300,000</option>
+
+                                    <option value="500000">500,000</option>
+
+                                    <option value="800000">800,000</option>
+
+                                    <option value="1000000">10,00,000</option>
+
+                                    <option value="3000000">30,00,000</option>
+
+                                 </select>
+
+                                 <br />
+
+                                 DISPLANCE
+
+                                 <select name="displace_from" style="width: 40px;padding: 5px;border: 1px solid #eeeeee;">
+
+                                    <option value=""></option>
+
+                                    <option>2500</option>
+
+                                    <option>1800</option>
+
+                                    <option>1300</option>
+
+                                    <option>1000</option>
+
+                                 </select>
+
+                                 <select name="displace_to" style="width: 40px;padding: 5px;border: 1px solid #eeeeee;">
+
+                                    <option value=""></option>
+
+                                    <option>2500</option>
+
+                                    <option>1800</option>
+
+                                    <option>1300</option>
+
+                                    <option>1000</option>
+
+                                 </select>
+
+                                 <br />
+
+                                 <input id="submit" name="submit" type="submit" value="Send" class="button red">
+
+                              </div>
+
+                           </div>
+
+                        </form>
+
+                     </div>
+
+                  </div>
+
+               </div>
+
+            </div>
+
+         </div>
+
+      </section>
+
+      <!--=================================
+
+         footer -->
+
+      <footer class="footer footer-black bg-3 bg-overlay-black-90">
+
+         <?php include('inc_footer.php');?>
+
+      </footer>
+
+      <!--=================================
+
+         footer -->
+
+      <!--=================================
+
+         back to top -->
+
+      <div class="car-top">
+
+         <span><img src="images/car.png" alt=""></span>
+
+      </div>
+
+      <!--=================================
+
+         back to top -->
+
+      <!--=================================
+
+         jquery -->
+
+      <!-- jquery  -->
+
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+      <script type="text/javascript" src="js/mega-menu/mega_menu.js"></script>
+
+      <!-- jquery-ui -->
+
+      <script type="text/javascript" src="js/jquery-ui.js"></script>
+
+      <!-- 
+
+         <script type="text/javascript" src="js/select/jquery-select.js"></script>
+
+         -->
+
+      <!-- custom -->
+
+      <script type="text/javascript" src="js/custom.js"></script>
+
+
+
+         <script>
+
+            function showModel(str)
+
+            {
+
+                if (str == "") {
+
+                    //document.getElementById("__model").innerHTML = "";
+
+                    return;
+
+                } else { 
+
+                    if (window.XMLHttpRequest) {
+
+                        // code for IE7+, Firefox, Chrome, Opera, Safari
+
+                        xmlhttp = new XMLHttpRequest();
+
+                    } else {
+
+                        // code for IE6, IE5
+
+                        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+                    }
+
+                    xmlhttp.onreadystatechange = function() {
+
+                        if (this.readyState == 4 && this.status == 200) {
+
+                            document.getElementById("__model").innerHTML = this.responseText;
+
+                        }
+
+                    };
+
+                    xmlhttp.open("GET","api.php?q="+str+"&uri=get_model",true);
+
+                    xmlhttp.send();
+
+                }
+
+            }
+
+
+
+            function showAuction(str)
+
+            {
+
+                if (str == "") {
+
+                   // document.getElementById("__auction").innerHTML = "";
+
+                    return;
+
+                } else { 
+
+                    if (window.XMLHttpRequest) {
+
+                        // code for IE7+, Firefox, Chrome, Opera, Safari
+
+                        xmlhttp = new XMLHttpRequest();
+
+                    } else {
+
+                        // code for IE6, IE5
+
+                        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+                    }
+
+                    xmlhttp.onreadystatechange = function() {
+
+                        if (this.readyState == 4 && this.status == 200) {
+
+                            document.getElementById("__auction").innerHTML = this.responseText;
+
+                        }
+
+                    };
+
+                    xmlhttp.open("GET","api.php?q="+str+"&uri=get_auction",true);
+
+                    xmlhttp.send();
+
+                }
+
+            }
+
+
+
+            function showAuctionDate(str)
+
+            {
+
+                if (str == "") {
+
+                    //document.getElementById("__auction").innerHTML = "";
+
+                    return;
+
+                } else { 
+
+                    if (window.XMLHttpRequest) {
+
+                        // code for IE7+, Firefox, Chrome, Opera, Safari
+
+                        xmlhttp = new XMLHttpRequest();
+
+                    } else {
+
+                        // code for IE6, IE5
+
+                        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+                    }
+
+                    xmlhttp.onreadystatechange = function() {
+
+                        if (this.readyState == 4 && this.status == 200) {
+
+                            document.getElementById("__auction").innerHTML = this.responseText;
+
+                        }
+
+                    };
+
+                    xmlhttp.open("GET","api.php?q="+str+"&model="+ document.getElementById("showAuctionOptions").value +"&uri=get_auction_date",true);
+
+                    xmlhttp.send();
+
+                }
+
+            }
+
+         </script>
+
+   </body>
+
+</html>
+
+
+

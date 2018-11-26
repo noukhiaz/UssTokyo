@@ -1,0 +1,223 @@
+Return-Path: <bounce-55487_HTML-399004539-1646925-6167586-2321440@bounce.email.vimeo.com>
+Delivered-To: sm@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id QBClGWsfLVsY/QwAsyhj2Q
+	for <sm@usstokyo.com>; Fri, 22 Jun 2018 11:10:19 -0500
+Return-path: <bounce-55487_HTML-399004539-1646925-6167586-2321440@bounce.email.vimeo.com>
+Envelope-to: sm@usstokyo.com
+Delivery-date: Fri, 22 Jun 2018 11:10:19 -0500
+Received: from mta4.email.vimeo.com ([198.245.86.216]:48516)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <bounce-55487_HTML-399004539-1646925-6167586-2321440@bounce.email.vimeo.com>)
+	id 1fWOdf-003ZEx-8j
+	for sm@usstokyo.com; Fri, 22 Jun 2018 11:10:19 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=email.vimeo.com;
+ h=From:To:Subject:Date:MIME-Version:Reply-To:List-ID:Message-ID:Content-Type:Content-Transfer-Encoding; i=vimeo@email.vimeo.com;
+ bh=IRxv192dF0fhY8G3QqcPIwgOl4A=;
+ b=Y4T9I+MXfzr3xgl0/PpgAyBiq7cxQykBPITF+qnzKcd2Qc4DvghJ2Fh5jUPtYaDm+vupx/VOqFfw
+   pFR5sd37QNlRkVyVJUNl+HwNDN4LlCrPn4GhKAZ/32Ae5FiBJQYYOrd8MY6fvKsokVgp02Vl3Fpo
+   PVgWlMflAhC7HQ1DWvc=
+Received: by mta4.email.vimeo.com id h5kfmo163hs8 for <sm@usstokyo.com>; Fri, 22 Jun 2018 16:09:39 +0000 (envelope-from <bounce-55487_HTML-399004539-1646925-6167586-2321440@bounce.email.vimeo.com>)
+From: "Vimeo" <vimeo@email.vimeo.com>
+To: <sm@usstokyo.com>
+Subject: Welcome to Vimeo - please verify your account
+Date: Fri, 22 Jun 2018 10:09:41 -0600
+MIME-Version: 1.0
+Reply-To: "Vimeo" <reply-fe8e157671620d7f70-55487_HTML-399004539-6167586-2321440@email.vimeo.com>
+List-ID: <6167586_1646925.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 6167586_1646925
+Message-ID: <36a9b5a7-a331-4e1b-be68-471e02e5aa0d@ind1s06mta1266.xt.local>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Vimeo</title>
+      <style type="text/css">
+         /* Client-specific Styles */
+         #outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+         body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+         /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+         .ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing.  */
+         #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+         img {outline:none; text-decoration:none;border:none; -ms-interpolation-mode: bicubic;}
+         a img {border:none;}
+         .image_fix {display:block;}
+         p {margin: 0px 0px !important;}
+         table td {border-collapse: collapse;}
+         table { border-collapse:collapse; mso-table-lspace:-1pt; mso-table-rspace:-1pt; }
+         .mobilelink a {
+            text-decoration:none;
+            color:#7b8084;
+         }
+         /*STYLES*/
+
+         /*IPHONE STYLES*/
+      @media only screen and (max-width: 480px) {
+
+         table[class=devicewidth] {width: 310px!important;text-align:center!important;}
+         td[class=devicewidth] {width: 310px!important;text-align:center!important;padding-bottom:4px!important;}
+         td[class=devicewidth2] {width: 310px!important;text-align:center!important;padding-left:10px!important; padding-right:10px!important;line-height:20px!important;padding-top:10px!important;padding-bottom:6px!important;font-size:12px!important;}
+         table[class=devicewidth2] {width: 270px!important;text-align:center!important;padding-left:25px!important; padding-right:25px!important;}
+         td[class=devicewidthtext] {width: 310px!important;line-height:24px!important;padding-left:20px!important;padding-right:20px!important;padding-bottom:0px!important;}
+          td[class=devicewidthtext2] {width: 310px!important;line-height:32px!important;padding-left:60px!important;padding-right:60px!important;text-align:center!important;font-size:26px!important;}
+         img[class=colorlogo]{width:310px!important;height:5px!important;}
+         img[class=logo] {padding-bottom:10px!important;}
+         td[class=social]{padding-left:0px!important;padding-right:0px!important;padding-bottom:25px!important;padding-top:0px!important;}
+         table[class=devicewidthsocial] {width:210px!important; text-align:center!important; padding-left:60px!important;}
+          td[class=devicewidthfoot] {width:310px!important; padding-left:20px!important;padding-right:20px!important;text-align:center!important;}
+          table[class=devicewidthcta]{width:270px!important;}
+            span[class=mobilehide]{display:none!important;}
+}
+      </style>
+   </head>
+<body leftmargin="0" rightmargin="0" marginwidth="0" topmargin="0" bottommargin="0" marginheight="0" offset="0" bgcolor="#f0f1f4"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Please verify your email address</div>
+
+<div itemscope itemtype="http://schema.org/EmailMessage">
+  <div itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
+    <link itemprop="url" href="https://vimeo.com/user/verify?code=%27%2C%20Verification_Code%2C%20%27&utm_source=email&utm_medium=vimeo-welcomeverify-201504&utm_campaign=28744"/>
+    <meta itemprop="name" content="Confirm Account"/>
+  </div>
+  <meta itemprop="description" content="Confirm Account"/>
+</div>
+
+
+<!-- Start of preheader -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#f0f1f4" style="margin:0 auto;">
+   <tr>
+      <td align="center">
+          <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                        <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                           <tbody>
+                              <tr>
+                                 <td width="100%" height="25" align="center">
+                                 <img src="https://click.email.vimeo.com/open.aspx?ffcb10-fe8e157671620d7f70-fdf71670776c017c73127473-fe8812717363017573-fef21175716c03-fe2517797c640479701779-fe9f16737765007975" width="1" height="1">
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+<!-- END OF PREHEADER --> 
+
+<!-- START CONTENT SECTION -->
+             <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                  <tr>
+                     <td width="100%">
+                        <table bgcolor="#ffffff" width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                              <tr>
+                                 <td align="center">
+                                    <table bgcolor="#FFFFFF" width="640" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
+                                          <tr>
+                                             <td align="center" height="5" style="line-height:5px;">
+                                                <img width="640" border="0" height="5" alt="" border="0" style="display:block; border:none; outline:none; text-decoration:none;" src="http://a.vimeocdn.com/si/email/ColorBar_Emails.png" class="colorlogo">
+                                             </td>
+                                          </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0" align="center" class="devicewidth">
+                                              <tr>
+                                                 <td class="devicewidth" width="640" align="center" style="padding-top:25px;padding-bottom:10px;">
+                                             <a href="https://click.email.vimeo.com/?qs=e39e750727f23e89ea8b511735463d9ad3907f8e64bfa9bfcee6ca9bdf7106cefd891e37e1d589520dfc5bff46e27cd01d1f50ca0a905fd744b0a6a70e5e4e7c" style="color:#2288cc;text-decoration:none" target="_blank"><img src="http://static-image.vimeo.com.s3.amazonaws.com/email/ins_vimeo_logo2.png" alt="Vimeo" width="120" height="35" border="0" style="border:none; font-family:Arial,sans-serif; color:#00aedf; font-size:26px;" /></a></td>
+                                              <tr>
+                                                 <td width="100%" height="20">&nbsp;</td> 
+                                              </tr>
+                                              <tr>
+                                                <td class="devicewidthtext2" align="left" style="background-color:#ffffff; color:#445566;font-family:helvetica,arial,sans-serif;font-size:24px;line-height:25px; padding-left:35px; padding-right:35px;font-weight:bold;">Welcome to video heaven</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="devicewidthtext" align="left" style="background-color:#ffffff; color:#445566;font-family:helvetica,arial,sans-serif;font-size:16px;line-height:23px; padding-left:35px; padding-right:35px;padding-top:15px;padding-bottom:8px;">
+                                          Vimeo is the best home for the best videos in all the universe. There&rsquo;s lots to explore, but before you get going, please prove you are a real and beautiful human by verifying your email address.</td>
+                                            </tr>
+                                              <tr>
+                                                 <td width="100%" height="15">&nbsp;</td>
+                                              </tr>
+                                               <tr>
+                                               <td align="center">
+                                              <table width="280" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidthcta">
+                                                 <tr>
+                                                    <td style="width: 280px; height:46px; background: #00ADEF; font-size: 18px; line-height: 18px; text-align: center;  -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;">
+                                                        <a href="https://click.email.vimeo.com/?qs=bc8872c21b519612f56d5a65c3a6ae324c10a63bb299846b7b1eba3b93216691bcb2018f9b85a488ae39fa17f7423e337fd55c8f5911de1f8dfd9fa72d174f16" target="_blank" style="font-family: helvetica, sans-serif; font-size: 18px; line-height: 18px; color: #fff; text-decoration: none; display: block; padding: 12px 10px;"><strong>Verify email address</strong></a>
+                                                    </td>
+                                                 </tr>
+                                                  
+                                              </table>
+                                           </td>
+                                        </tr>
+                                        <tr>
+                                             <td width="100%" height="20">&nbsp;</td>
+                                        </tr>
+                                             <tr>
+                                                <td class="devicewidthtext" align="left" style="background-color:#ffffff; color:#445566;font-family:helvetica,arial,sans-serif;font-size:16px;line-height:23px; padding-left:35px; padding-right:35px;padding-top:15px;padding-bottom:8px;">
+                                         Over the next few days, you'll get a series of three emails to help you find cool stuff and get the most from your Vimeo membership.
+                                                 </td>
+                                            </tr>
+                                              <tr>
+                                                 <td width="100%" height="30">&nbsp;</td>
+                                              </tr>
+                                     </table>
+                                 </td>
+                              </tr>
+                        </table>
+                     </td>
+                  </tr>
+            </table>
+                  
+          
+<!-- START OF POSTFOOTER -->
+            <table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" bgcolor="#f0f1f4">
+               <tbody>
+                  <tr>
+                     <td width="100%">
+                       <table align="left" cellpadding="0" cellspacing="0" border="0" width="435" class="devicewidth" bgcolor="#f0f1f4">
+                            <tr>
+                                <td class="devicewidthfoot" align="left" style="font-family: Helvetica; font-size: 12px; color:#7b8084; line-height: 15px; padding-top:30px; padding-right:10px; padding-left:23px; padding-bottom:15px">      
+                                 You are receiving this email advertisement because you registered with Vimeo, Inc. <span class="mobilelink">(555 West 18th Street, New York, NY 10011)</span> and agreed to receive emails from us regarding new features, events and special offers.
+                                    <br /><br />
+                                  &trade; + &copy; 2018 Vimeo, Inc. All rights reserved.
+                                 <br /><br />
+                                     <b><a  href="https://click.email.vimeo.com/?qs=6c30d584dd9ef2fae388eab8f2c8cf490a8391650c44d88ecea77d85b53b01e7b40e25d054ac44ea550e2144ea413346634626ad9b91e598b962b7673499fe21" style="text-decoration: none; color:#112233;">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  href="https://click.email.vimeo.com/?qs=be9cccb72170e5c4e4aa30b47e8c9c88c35599f41e0b019409bd7c095c34f456bca95ac51a521cdd44f9123827c0c7752e5470d529c71ffce9a91ec0d7716632" style="text-decoration: none; color:#112233;">Unsubscribe</a></b>
+                                 </td>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" class="devicewidthsocial" align="center" bgcolor="#f0f1f4">
+                            <tr>
+                              <td valign="top" style="padding-top: 30px;padding-right:10px;" class="social" align="center">
+                                  <a href="https://click.email.vimeo.com/?qs=f3c9bf1ad4ab9bc33641484995a22a733759dba254bfa754e9e541e64be6b323ee3a7f1e0b7a8efaa9cf07df1651b795fe973237e05a9dd7"><img src="http://a.vimeocdn.com/images_v6/email/icon_email_newsletter_facebook.gif" style="border-style: none;" width="28" height="28" alt="Facebook" /></a>
+                              </td>
+                              <td valign="top" style="padding-top: 30px;padding-right:10px" class="social" align="center">
+                                     <a href="https://click.email.vimeo.com/?qs=79a8f07493785c6e905fef9ce5041dee9e1293f95b109fc07a4694813ed988ca3538bc28a70a8148b51eb3e40736961e47bcc915368a9e2b"><img src="https://image.email.vimeo.com/lib/fe8812717363017573/m/1/twitter_big.jpg" style="border-style: none;" width="28" height="28" alt="Twitter" /></a>
+                                     </td>
+                                      <td valign="top" style="padding-top: 30px;padding-right:10px" align="center" class="social">
+                                     <a href="https://click.email.vimeo.com/?qs=1792ff2e8f70e6bcff9a241a46a516dc976a44a0ee017980dafcc5539f872f004e47bb2f6a151093a9e9bd5a498b2df278da0f636982350d"><img src="http://a.vimeocdn.com/images_v6/email/icon_email_newsletter_tumblr.gif" style="border-style: none;" width="28" height="28" alt="Tumblr" /></a>
+                                      </td>
+                                      <td valign="top" style="padding-top: 30px; padding-right:15px" align="center" class="social">
+                                     <a href="https://click.email.vimeo.com/?qs=d313bcf019ad1a1431e3fb99b285666fe3ad53dfbad1976ffe3d8b65ca9ef10a6e1f41a9b675a2081d497ebee2a866c10b2104cfc88e358b"><img src="http://static-image.vimeo.com.s3.amazonaws.com/email/ins_instagram.gif" style="border-style: none;" width="28" height="28" alt="Instagram" /></a>
+                                </td>
+                              </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+        </td>
+   </tr>
+</table>
+<!-- END OF POSTFOOTER -->
+</body>
+</html>

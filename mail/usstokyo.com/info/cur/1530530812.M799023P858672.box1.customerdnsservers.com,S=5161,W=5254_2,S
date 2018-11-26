@@ -1,0 +1,93 @@
+Return-Path: <info@connectingjobs.net>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id kEsgLPwLOlswGg0Asyhj2Q
+	for <info@usstokyo.com>; Mon, 02 Jul 2018 06:26:52 -0500
+Return-path: <info@connectingjobs.net>
+Envelope-to: info@usstokyo.com
+Delivery-date: Mon, 02 Jul 2018 06:26:52 -0500
+Received: from basenji.birch.relay.mailchannels.net ([23.83.209.12]:18085)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <info@connectingjobs.net>)
+	id 1fZwyq-003bSy-Cd
+	for info@usstokyo.com; Mon, 02 Jul 2018 06:26:52 -0500
+X-Sender-Id: a2hosting|x-authuser|info@connectingjobs.net
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 9BFB45C178A
+	for <info@usstokyo.com>; Mon,  2 Jul 2018 11:26:11 +0000 (UTC)
+Received: from mi3-ss17.a2hosting.com (unknown [100.96.35.157])
+	(Authenticated sender: a2hosting)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 8241C5C0E18
+	for <info@usstokyo.com>; Mon,  2 Jul 2018 11:26:10 +0000 (UTC)
+X-Sender-Id: a2hosting|x-authuser|info@connectingjobs.net
+Received: from mi3-ss17.a2hosting.com (mi3-ss17.a2hosting.com [68.66.216.20])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384)
+	by 0.0.0.0:2500 (trex/5.16.1);
+	Mon, 02 Jul 2018 11:26:11 +0000
+X-MC-Relay: Bad
+X-MailChannels-SenderId: a2hosting|x-authuser|info@connectingjobs.net
+X-MailChannels-Auth-Id: a2hosting
+X-Slimy-Irritate: 0707023a01989eb8_1530530770687_2045701255
+X-MC-Loop-Signature: 1530530770687:3891944472
+X-MC-Ingress-Time: 1530530770687
+Received: from bba166604.alshamil.net.ae ([217.165.23.234]:21807 helo=Server-GP)
+	by mi3-ss17.a2hosting.com with esmtpa (Exim 4.89_1)
+	(envelope-from <info@connectingjobs.net>)
+	id 1fZwy9-001Tyv-EC
+	for info@usstokyo.com; Mon, 02 Jul 2018 07:26:09 -0400
+MIME-Version: 1.0
+From: "Connecting Jobs" <info@connectingjobs.net>
+To: info@usstokyo.com
+Date: 2 Jul 2018 15:25:05 +0400
+Subject: Welcome to Connecting Jobs
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+X-AuthUser: info@connectingjobs.net
+Message-Id: <20180702112611.9BFB45C178A@relay.mailchannels.net>
+
+=0D=0A=0D=0A<html>=0D=0A<head>=0D=0A=0D=0A	<title></title>=0D=0A	=
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8" />=0D=0A=0D=0A	<meta name=3D"keywords" content=3D"" />=0D=0A=
+	<meta name=3D"description" content=3D"" />=0D=0A=0D=0A	<!-- <lin=
+k href=3D"https://fonts.googleapis.com/css?family=3DOpen+Sans:300=
+,400,600,700" rel=3D"stylesheet"> -->=0D=0A	<link href=3D"https:/=
+/fonts.googleapis.com/css?family=3DOpen+Sans:300,400,600,700|Robo=
+to:100,400,500,700" rel=3D"stylesheet">=0D=0A=0D=0A</head>=0D=0A<=
+body style=3D"margin:0; padding:0;display:block;background:#f2f2f=
+2; " cellspacing=3D"0" cellpadding=3D"0">=0D=0A=0D=0A	<table styl=
+e=3D"width:600px; margin:30px auto; border:none; border-radius:8p=
+x; overflow:hidden" cellpadding=3D"0"; cellspacing=3D"0">=0D=0A		=
+<tbody>=0D=0A			<tr>=0D=0A				<td style=3D"background:#375695; pa=
+dding:20px 0 20px 30px; text-align:Center"><h1 style=3D"font-size=
+:22px; margin:0; font-family: 'Roboto', sans-serif; font-weight:4=
+00; color:#fff; letter-spacing:1px ">Welcome to </h1></td></tr>=0D=0A=
+				<tr><td style=3D"background:#375695; padding:20px 20px 20px  =
+0; text-align:center"><img src=3D"http://connectingjobs.com/demo/=
+images/logo.png" alt=3D"Connecting jobs" style=3D"width:150px;"><=
+/td></tr>=0D=0A<tr><td style=3D"background:#375695; padding:20px =
+0 20px 30px; text-align:center"><h1 style=3D"font-size:18px; marg=
+in:0; font-family: 'Roboto', sans-serif; font-weight:400; color:#=
+fff; letter-spacing:1px ">Your Trusted CV Provider in the Gulf </=
+h1></td>=0D=0A			</tr>=0D=0A			<tr>=0D=0A				<td style=3D" paddin=
+g:30px; background:#fff; vertical-align:top;border: 1px solid #f2=
+f2f2; text-align:center"   colspan=3D"2" > =0D=0A					<h1 style=3D=
+"font-size:24px; margin:0; font-family: 'Roboto', sans-serif; fon=
+t-weight:400; color:#2e75b6; letter-spacing:1px ">Hi,</h1>=0D=0A	=
+				<h2 style=3D"font-size:14px; margin:20px 0; font-family: 'Rob=
+oto', sans-serif; font-weight:400; color:#333; line-height:150%; =
+float:left; width:100%; letter-spacing:1px ">Connecting jobs unde=
+rstands the challenges of finding the right employee.=0D=0AWith a=
+ vast database of applicants, let us be your partner in providing=
+ you the quality candidate you are seeking for.=0D=0A</h2>=0D=0A	=
+=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A					</td>=0D=0A			</tr>=0D=0A			<t=
+r>=0D=0A				<td style=3D" padding:10px 10px; background:#fff; ver=
+tical-align:top;border: 1px solid #f2f2f2;  border-top:0;text-ali=
+gn:center"   colspan=3D"2">=0D=0A					=0D=0A					<p style=3D"font=
+-size:13px; font-family: 'Roboto', sans-serif; font-weight:400; l=
+etter-spacing:2px;  margin-bottom:0">Get in touch with us at <a h=
+ref=3D"mailto:info@connectingjobs.com"  style=3D"color:#2e75b6; d=
+isplay:inline-block; text-decoration:none;">info@connectingjobs.c=
+om</a></p>=0D=0A				</td>=0D=0A			</tr>=0D=0A		</tbody>=0D=0A	</t=
+able>=0D=0A</body>=0D=0A</html>
+

@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: usstoki@box1.customerdnsservers.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id MNzHFyCqUFtX9jIAsyhj2Q
+	for <usstoki@box1.customerdnsservers.com>; Thu, 19 Jul 2018 10:11:28 -0500
+Return-path: <>
+Envelope-to: usstoki@box1.customerdnsservers.com
+Delivery-date: Thu, 19 Jul 2018 10:11:28 -0500
+Received: from mailnull by box1.customerdnsservers.com with local (Exim 4.91)
+	id 1fgAaW-00E1A7-8V
+	for usstoki@box1.customerdnsservers.com; Thu, 19 Jul 2018 10:11:28 -0500
+X-Failed-Recipients: aukinternational@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box1.customerdnsservers.com>
+To: usstoki@box1.customerdnsservers.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1532013088-eximdsn-1580971798
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fgAaW-00E1A7-8V@box1.customerdnsservers.com>
+Date: Thu, 19 Jul 2018 10:11:28 -0500
+
+--1532013088-eximdsn-1580971798
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  aukinternational@gmail.com
+    host gmail-smtp-in.l.google.com [173.194.70.26]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 Unauthenticated email from mail.ru is not accepted due to domain's
+    550-5.7.1 DMARC policy. Please contact the administrator of mail.ru domain if
+    550-5.7.1 this was a legitimate mail. Please visit
+    550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+    550 5.7.1 DMARC initiative. n125-v6si4462022oih.331 - gsmtp
+
+--1532013088-eximdsn-1580971798
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box1.customerdnsservers.com
+
+Action: failed
+Final-Recipient: rfc822;aukinternational@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 Unauthenticated email from mail.ru is not accepted due to domain's
+ 550-5.7.1 DMARC policy. Please contact the administrator of mail.ru domain if
+ 550-5.7.1 this was a legitimate mail. Please visit
+ 550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+ 550 5.7.1 DMARC initiative. n125-v6si4462022oih.331 - gsmtp
+
+--1532013088-eximdsn-1580971798
+Content-type: message/rfc822
+
+Return-path: <usstoki@box1.customerdnsservers.com>
+Received: from usstoki by box1.customerdnsservers.com with local (Exim 4.91)
+	(envelope-from <usstoki@box1.customerdnsservers.com>)
+	id 1fgAaT-00E18C-4B; Thu, 19 Jul 2018 10:11:25 -0500
+To: aukinternational@gmail.com, info@usstokyo.com, noukhaiz@hotmail.com
+Subject: Message from Contact USSTOKYO.com
+X-PHP-Script: usstokyo.com/php/contact-form.php for 62.210.140.246
+From: Contact Form leonida.bugrimowa@mail.ru
+Message-Id: <E1fgAaT-00E18C-4B@box1.customerdnsservers.com>
+Date: Thu, 19 Jul 2018 10:11:25 -0500
+
+ From: LemuelNaibe 
+ E-Mail: leonida.bugrimowa@mail.ru 
+ Phone : 83164792836 
+ Message : пеноблоки 
+ 
+<a href=http://gazobeton-smolensk.portalsnab.ru>газоблок</a>
+
+--1532013088-eximdsn-1580971798--

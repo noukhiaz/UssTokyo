@@ -1,0 +1,56 @@
+Return-Path: <lisa@danjub.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id 0HWlGeyqJ1oeAAYAsyhj2Q
+	for <info@usstokyo.com>; Wed, 06 Dec 2017 02:31:40 -0600
+Return-path: <lisa@danjub.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Wed, 06 Dec 2017 02:31:40 -0600
+Received: from host.danjub.com ([217.172.180.39]:49157 helo=danjub.com)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <lisa@danjub.com>)
+	id 1eMV7E-001ffE-7S
+	for info@usstokyo.com; Wed, 06 Dec 2017 02:31:40 -0600
+Received: from IP-129-157.dataclub.eu (unknown [84.38.129.157])
+	by host.danjub.com (Postfix) with ESMTPA id 5A9AB35C4D7
+	for <info@usstokyo.com>; Wed,  6 Dec 2017 07:53:43 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=danjub.com;
+	s=default; t=1512546823;
+	bh=KrEKC/qttp1ximx84nnll2v5TKNPwrcQF/jI1AA3CTc=; l=573;
+	h=Subject:To:From;
+	b=nPPQwvqRyFuTXJDbjKvSvQ7epnbGvhxRbrqS+/R/D4VRXOZ3Rt0HGld2m06tM9pdc
+	 DGALGu5jEMSLI2PzG1WBeM0BfQZ2kXd1DcXpO15BeuguppzMc1hb0cLOJjq3dABtGt
+	 Rd057S3YF5nWYHJqOV9Smy/SKMndkUNU6SMHaaVM=
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Re: Customer Enquiry
+To: info@usstokyo.com
+From: "Lisa Chang" <lisa@danjub.com>
+Date: Wed, 06 Dec 2017 09:53:40 +0200
+Reply-To: lisarsourcing@outlook.com
+
+Dear Sir,
+
+Li Sar Sourcing is a full service sourcing and supply chain company and we =
+have customers that are interested in your products, I sent you an email in=
+quiry last time but i did not receive any reply, are you the correct person=
+ to be addressed? =
+
+
+Please send your catalogue to Email: lisarsourcing@outlook.com to enable ou=
+r customers place order.
+
+
+Regards,
+
+Lisa Chang,
+Export Manager
+Li Sar Sourcing Ltd
+Suite 307, 3/F, Tins Enterprise Centre, =
+
+777 Lai Chi Kok Road
+Cheung Sha Wan, Kowloon, Hong Kong
+Web:   www.lisarsourcing.com

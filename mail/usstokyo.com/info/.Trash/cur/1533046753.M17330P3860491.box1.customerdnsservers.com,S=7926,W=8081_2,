@@ -1,0 +1,155 @@
+Received: from mail-it0-f64.google.com ([209.85.214.64]:55338)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <00ooooo9+bncBCC2T5GH7UCRBEVM5PNAKGQE6Z7OBZY@googlegroups.com>)
+	id 1fiy0y-00FrIC-0w
+	for info@usstokyo.com; Fri, 27 Jul 2018 03:22:20 -0500
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id OF/PETzWWlv5pzkAsyhj2Q
+	for <info@usstokyo.com>; Fri, 27 Jul 2018 03:22:20 -0500
+Received: by 2002:a17:90a:9f85:0:0:0:0 with HTTP; Fri, 27 Jul 2018 01:21:37
+ -0700 (PDT)
+Received: by mail-it0-f64.google.com with SMTP id e21-v6sf4347026itc.5
+        for <info@usstokyo.com>; Fri, 27 Jul 2018 01:22:01 -0700 (PDT)
+Received: by mail-pf1-x442.google.com with SMTP id j8-v6so1490444pff.6
+        for <00ooooo9@googlegroups.com>; Fri, 27 Jul 2018 01:21:38 -0700 (PDT)
+Received: from mail-pf1-x442.google.com (mail-pf1-x442.google.com. [2607:f8b0:4864:20::442])
+        by gmr-mx.google.com with ESMTPS id j5-v6si101491iog.4.2018.07.27.01.21.38
+        for <00ooooo9@googlegroups.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 27 Jul 2018 01:21:38 -0700 (PDT)
+Received: by 2002:a24:eb15:: with SMTP id h21-v6ls462479itj.4.canary-gmail;
+ Fri, 27 Jul 2018 01:21:38 -0700 (PDT)
+Reply-To: <hmapltd@gmail.com>
+From: "AA Nawab" <mehwishverani12@gmail.com>
+Sender: <00ooooo9@googlegroups.com>
+To: <hmapltd@gmail.com>
+Bcc: <00ooooo9@googlegroups.com>
+Subject: Furnished & Serviced Offices
+Date: Fri, 27 Jul 2018 13:21:37 +0500
+Message-ID: <CANHHOPyy1UGWjZyqV3txPu3FpT5QHjTvu7G7UUW7RzaRUVgt2Q@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_39E7_01D42903.5B001600"
+X-Mailer: Microsoft Outlook 16.0
+List-Unsubscribe: <mailto:googlegroups-manage+266373294955+unsubscribe@googlegroups.com>, <https://groups.google.com/group/00ooooo9/subscribe>
+Thread-Index: AQIdMgcGikfNFniVKDRFolLNFh9jnQ==
+X-OlkEid: 000000005B356BD633BA374990437292913A66E20700C3B68E10F77511CEB4CD00AA00BBB6E600000000000B000045C2D80C3059A74BB8228975B56BB6A8000000000A05000068FAAC3EFA88924AB0C8F5DCE58B11C6
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=sender:x-gm-message-state:mime-version:reply-to:from:date
+         :message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=bUNxJXxpRbVT6N2xRIo9O4lqVsZ0CwJWjrDEBWg7IUk=;
+        b=o+Z68FJcj6tQCO+3GAyi9OcHmf6hlffMpAIyAH5vQ1TBKcuRIEqFOo970rxXLFRypE
+         /WLX2Ip/GicLf9hAzr0wvmZHtFNYsa6Y66sJlES977QL/EomANP1EhTfTBNFawrarMM/
+         lbx2e5lzDp6anOHidLR72Da5MQE4JmUUCXcDkNJhC/SapVoZ/bHbZqy4krfJrUguwofW
+         KZ5rh8ViHzynP6NvJ2h+M0VAU1sYzX7qaa+LEbmcLgk3qUsZ8dGZYJyVT3qR0EmnDSzu
+         gdVy58lTc/6RSEfHpnzRzisBH2RFIwQXR4qoaAPfaveddC88qn/940Rd8/kuDwCWb4w1
+         XGKw==
+X-Gm-Message-State: AOUpUlFgS5udXCSyu3Ld39q5GHB3DRVs1ukDN5kNJR6IhStMOzjiz7+R
+	bKv3phxjtRP90zn2CDwPIdY=
+X-Google-Smtp-Source: AAOMgpfsqZFASMk1EuLCKo0qIPeBwBibus5ly+FduRJdXeOcxFuZ/U38cPr79ECcpwm0LILnXtYECA==
+X-Received: by 2002:a24:ad4f:: with SMTP id a15-v6mr2408710itj.42.1532679698266;
+        Fri, 27 Jul 2018 01:21:38 -0700 (PDT)
+X-Received: by 2002:a63:161a:: with SMTP id w26-v6mr5250310pgl.257.1532679697666;
+ Fri, 27 Jul 2018 01:21:37 -0700 (PDT)
+X-Received: by 2002:a02:a485:: with SMTP id d5-v6mr57897jam.7.1532679700682;
+        Fri, 27 Jul 2018 01:21:40 -0700 (PDT)
+X-BeenThere: 00ooooo9@googlegroups.com
+X-Original-Sender: mehwishverani12@gmail.com
+X-Original-Authentication-Results: gmr-mx.google.com;       dkim=pass
+ header.i=@gmail.com header.s=20161025 header.b=UooV4GHw;       spf=pass
+ (google.com: domain of mehwishverani12@gmail.com designates
+ 2607:f8b0:4864:20::442 as permitted sender) smtp.mailfrom=mehwishverani12@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+X-Spam-Checked-In-Group: 00ooooo9@googlegroups.com
+X-Google-Group-Id: 266373294955
+List-Help: <https://groups.google.com/support/>, <mailto:00ooooo9+help@googlegroups.com>
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_39E7_01D42903.5B001600
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Furnished & Serviced Offices.
+
+Starting @ 18K with Conference & Meeting Room, Internet, Phone, Centrally 
+A/c, Self Generated Power, Parking etc. Call 021-3260222 
+<tel:(021)%2032602222>
+
+
+-- 
+You received this message because you are subscribed to the Google Groups 
+"00ooooo9" group.
+To unsubscribe from this group and stop receiving emails from it, send an 
+email to 00ooooo9+unsubscribe@googlegroups.com 
+<mailto:00ooooo9+unsubscribe@googlegroups.com> .
+To post to this group, send email to 00ooooo9@googlegroups.com 
+<mailto:00ooooo9@googlegroups.com> .
+To view this discussion on the web visit 
+https://groups.google.com/d/msgid/00ooooo9/CANHHOPyy1UGWjZyqV3txPu3FpT5QHjTvu7G7UUW7RzaRUVgt2Q%40mail.gmail.com 
+<https://groups.google.com/d/msgid/00ooooo9/CANHHOPyy1UGWjZyqV3txPu3FpT5QHjTvu7G7UUW7RzaRUVgt2Q%40mail.gmail.com?utm_medium=email&utm_source=footer> 
+.
+For more options, visit https://groups.google.com/d/optout.
+
+
+------=_NextPart_000_39E7_01D42903.5B001600
+Content-Type: text/html;
+	boundary="000000000000ef1f9d0571f6cc07";
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><p =
+class=3D"m_-5318919738275669436gmail-m_-734925975797162700gmail-MsoNormal=
+"><span style=3D"line-height:24.5333px"><font size=3D"6"><span =
+class=3D"m_-5318919738275669436gmail-m_-734925975797162700gmail-m_5859840=
+290190624798gmail-m_-7957897550201662113gmail-m_6297615990252915563gmail-=
+m_-1638482549754791542gmail-m_-1116986181026135718gmail-il"><span =
+class=3D"m_-5318919738275669436gmail-m_-734925975797162700gmail-m_5859840=
+290190624798gmail-m_-7957897550201662113gmail-m_6297615990252915563gmail-=
+il">Furnished</span></span>=C2=A0&amp; Serviced =
+Offices.</font></span></p><p =
+class=3D"m_-5318919738275669436gmail-m_-734925975797162700gmail-MsoNormal=
+"><span style=3D"line-height:24.5333px"><font size=3D"6">Starting =
+@=C2=A0<span =
+class=3D"m_-5318919738275669436gmail-m_-734925975797162700gmail-m_5859840=
+290190624798gmail-m_-7957897550201662113gmail-m_6297615990252915563gmail-=
+il">18K</span>=C2=A0with=C2=A0<b><span =
+style=3D"background-image:initial;background-size:initial;background-orig=
+in:initial;background-clip:initial;background-position:initial;background=
+-repeat:initial">Conference &amp; Meeting =
+Room,</span></b>=C2=A0Internet, Phone, Centrally A/c, Self Generated =
+Power, Parking etc. Call=C2=A0<a href=3D"tel:(021)%2032602222" =
+value=3D"+922132602222" =
+target=3D"_blank">021-3260222</a></font></span></p></div><span =
+class=3D"HOEnZb"><font color=3D"#888888">
+
+<p></p><br></font></span></div></div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google =
+Groups &quot;00ooooo9&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send =
+an email to <a =
+href=3D"mailto:00ooooo9+unsubscribe@googlegroups.com">00ooooo9+unsubscrib=
+e@googlegroups.com</a>.<br />
+To post to this group, send email to <a =
+href=3D"mailto:00ooooo9@googlegroups.com">00ooooo9@googlegroups.com</a>.<=
+br />
+To view this discussion on the web visit <a =
+href=3D"https://groups.google.com/d/msgid/00ooooo9/CANHHOPyy1UGWjZyqV3txP=
+u3FpT5QHjTvu7G7UUW7RzaRUVgt2Q%40mail.gmail.com?utm_medium=3Demail&utm_sou=
+rce=3Dfooter">https://groups.google.com/d/msgid/00ooooo9/CANHHOPyy1UGWjZy=
+qV3txPu3FpT5QHjTvu7G7UUW7RzaRUVgt2Q%40mail.gmail.com</a>.<br />
+For more options, visit <a =
+href=3D"https://groups.google.com/d/optout">https://groups.google.com/d/o=
+ptout</a>.<br />
+
+------=_NextPart_000_39E7_01D42903.5B001600--

@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: usstoki@box1.customerdnsservers.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id 6HrJMoyfjluldjkAsyhj2Q
+	for <usstoki@box1.customerdnsservers.com>; Tue, 04 Sep 2018 10:06:52 -0500
+Return-path: <>
+Envelope-to: usstoki@box1.customerdnsservers.com
+Delivery-date: Tue, 04 Sep 2018 10:06:52 -0500
+Received: from mailnull by box1.customerdnsservers.com with local (Exim 4.91)
+	id 1fxCuq-00Fnmx-OQ
+	for usstoki@box1.customerdnsservers.com; Tue, 04 Sep 2018 10:06:52 -0500
+X-Failed-Recipients: aukinternational@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box1.customerdnsservers.com>
+To: usstoki@box1.customerdnsservers.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1536073612-eximdsn-674278548
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fxCuq-00Fnmx-OQ@box1.customerdnsservers.com>
+Date: Tue, 04 Sep 2018 10:06:52 -0500
+
+--1536073612-eximdsn-674278548
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  aukinternational@gmail.com
+    host gmail-smtp-in.l.google.com [64.233.179.27]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 Unauthenticated email from yahoo.com is not accepted due to domain's
+    550-5.7.1 DMARC policy. Please contact the administrator of yahoo.com domain if
+    550-5.7.1 this was a legitimate mail. Please visit
+    550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+    550 5.7.1 DMARC initiative. r6-v6si12979372oib.74 - gsmtp
+
+--1536073612-eximdsn-674278548
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box1.customerdnsservers.com
+
+Action: failed
+Final-Recipient: rfc822;aukinternational@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 Unauthenticated email from yahoo.com is not accepted due to domain's
+ 550-5.7.1 DMARC policy. Please contact the administrator of yahoo.com domain if
+ 550-5.7.1 this was a legitimate mail. Please visit
+ 550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+ 550 5.7.1 DMARC initiative. r6-v6si12979372oib.74 - gsmtp
+
+--1536073612-eximdsn-674278548
+Content-type: message/rfc822
+
+Return-path: <usstoki@box1.customerdnsservers.com>
+Received: from usstoki by box1.customerdnsservers.com with local (Exim 4.91)
+	(envelope-from <usstoki@box1.customerdnsservers.com>)
+	id 1fxCuo-00Fnma-TM; Tue, 04 Sep 2018 10:06:50 -0500
+To: 
+Subject: Enquiry STOCK   Toyota - Passo [23] - USSTokyo.com
+X-PHP-Script: usstokyo.com/enquiry.php for 103.255.4.243
+MIME-Version: 1.0
+Content-type: text/html; charset=iso-8859-1
+To: AUK <aukinternational@gmail.com>, Noukhaiz Nadeem <noukhaiz@hotmail.com>, Admin <info@usstokyo.com>
+From: Fawad Ahmed <Fawadahmed97@yahoo.com>
+Message-Id: <E1fxCuo-00Fnma-TM@box1.customerdnsservers.com>
+Date: Tue, 04 Sep 2018 10:06:50 -0500
+
+<strong>Name:</strong> Mr./Ms.Fawad Ahmed
+		<br/> <strong>Car Name:</strong> Toyota - Passo
+		<br/><strong> Stock ID:</strong> <a href="https://usstokyo.com/car_detail?id=23">23</a>
+		<br/><strong> Model: </strong>2015
+		<br/><strong> Auction Grade: </strong>4 Grade
+		<br/><strong> Email: </strong>Fawadahmed97@yahoo.com
+		<br/><strong> Mobile: </strong>923244454367
+		<br/> <strong> Address:</strong> Lahore
+		<br/> <strong>IP:</strong> 103.255.4.243
+		<br/> <strong>Shipping Country:</strong> Pakistan		
+		<br/><strong> Comments:</strong> Total price till delivery at home of this vehicle?
+
+--1536073612-eximdsn-674278548--

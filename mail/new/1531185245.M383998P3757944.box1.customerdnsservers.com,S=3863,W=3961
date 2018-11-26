@@ -1,0 +1,98 @@
+Return-Path: <>
+Delivered-To: usstoki@box1.customerdnsservers.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id wK6nFl0IRFt4VzkAsyhj2Q
+	for <usstoki@box1.customerdnsservers.com>; Mon, 09 Jul 2018 20:14:05 -0500
+Return-path: <>
+Envelope-to: usstoki@box1.customerdnsservers.com
+Delivery-date: Mon, 09 Jul 2018 20:14:05 -0500
+Received: from mailnull by box1.customerdnsservers.com with local (Exim 4.91)
+	id 1fchED-00Flcm-6o
+	for usstoki@box1.customerdnsservers.com; Mon, 09 Jul 2018 20:14:05 -0500
+X-Failed-Recipients: aukinternational@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box1.customerdnsservers.com>
+To: usstoki@box1.customerdnsservers.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1531185245-eximdsn-1217396772
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fchED-00Flcm-6o@box1.customerdnsservers.com>
+Date: Mon, 09 Jul 2018 20:14:05 -0500
+
+--1531185245-eximdsn-1217396772
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  aukinternational@gmail.com
+    host gmail-smtp-in.l.google.com [64.233.171.26]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 Unauthenticated email from yahoo.com is not accepted due to domain's
+    550-5.7.1 DMARC policy. Please contact the administrator of yahoo.com domain if
+    550-5.7.1 this was a legitimate mail. Please visit
+    550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+    550 5.7.1 DMARC initiative. 20-v6si7750580oip.83 - gsmtp
+
+--1531185245-eximdsn-1217396772
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box1.customerdnsservers.com
+
+Action: failed
+Final-Recipient: rfc822;aukinternational@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 Unauthenticated email from yahoo.com is not accepted due to domain's
+ 550-5.7.1 DMARC policy. Please contact the administrator of yahoo.com domain if
+ 550-5.7.1 this was a legitimate mail. Please visit
+ 550-5.7.1  https://support.google.com/mail/answer/2451690 to learn about the
+ 550 5.7.1 DMARC initiative. 20-v6si7750580oip.83 - gsmtp
+
+--1531185245-eximdsn-1217396772
+Content-type: message/rfc822
+
+Return-path: <usstoki@box1.customerdnsservers.com>
+Received: from usstoki by box1.customerdnsservers.com with local (Exim 4.91)
+	(envelope-from <usstoki@box1.customerdnsservers.com>)
+	id 1fchEA-00Flbs-7y; Mon, 09 Jul 2018 20:14:02 -0500
+To: aukinternational@gmail.com, info@usstokyo.com, noukhaiz@hotmail.com
+Subject: Message from Contact USSTOKYO.com
+X-PHP-Script: usstokyo.com/php/contact-form.php for 172.245.58.96
+From: Contact Form sydneyg052aharris@yahoo.com
+Message-Id: <E1fchEA-00Flbs-7y@box1.customerdnsservers.com>
+Date: Mon, 09 Jul 2018 20:14:02 -0500
+
+ From: Sydney Harris 
+ E-Mail: sydneyg052aharris@yahoo.com 
+ Phone : (805) 372-1751 
+ Message : Hello, I recently went to your website and wanted to comment on how nice it looks.
+
+We work with businesses to help them get results with Facebook ads by using the Lead Accelerator. 
+
+This new report shares the reason why so many businesses fail with Facebook ads, and how you can succeed:
+
+http://advertzing.com/
+
+We call it the Lead Accelerator. If you check out our free report, I would love to hear what you think.
+
+Thank you,
+Sydney Harris
+Customer Success Manager
+Advertzing
+500 Westover Dr #12733
+Sanford, NC 27330
+
+
+
+
+
+
+
+
+If you received this commercial message by mistake, I apologize. To prevent any future correspondence please visit: http://optinprivacy.xyz/out.php?site=usstokyo.com 
+
+
+--1531185245-eximdsn-1217396772--

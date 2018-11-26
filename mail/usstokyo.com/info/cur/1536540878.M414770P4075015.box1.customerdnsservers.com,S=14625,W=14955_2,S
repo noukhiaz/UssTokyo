@@ -1,0 +1,330 @@
+Return-Path: <info@analyticsmessage.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id wGXCF87AlVsHLj4Asyhj2Q
+	for <info@usstokyo.com>; Sun, 09 Sep 2018 19:54:38 -0500
+Return-path: <info@analyticsmessage.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Sun, 09 Sep 2018 19:54:38 -0500
+Received: from mta13.analyticsmessage.com ([185.153.228.14]:52213)
+	by box1.customerdnsservers.com with esmtps (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.91)
+	(envelope-from <info@analyticsmessage.com>)
+	id 1fzATN-00H6nc-QW
+	for info@usstokyo.com; Sun, 09 Sep 2018 19:54:38 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=analyticsmessage.com;
+ h=Message-ID:Date:Subject:From:Reply-To:To:MIME-Version:Content-Type:List-Unsubscribe:List-Id; i=info@analyticsmessage.com;
+ bh=XFvIowlDbN2HL1SUM/AtMSY6NOk=;
+ b=Tm+N3Bdwkj/89DmwAOXluizVzv6unWe8qbSraPo23lreUrinB2RGwAStg4Mmq6EQDrOFXUlCdEHY
+   jgnzSLqaOd2d0EyDjkb1cHHnwoWOmurWEkHiLc4CzA4KQJCZg+otr+rUNvmta8YRzMK34CsvMETX
+   KHTldv8j2JRSSktbZTc=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=analyticsmessage.com;
+ b=Qz2s/nso7dcqzNn+Gr1npILzFSYei+OTEUiBnCNMdIQbwivvP92mijcmBykt502ub3NlNnpwia+y
+   efOm4c50aZy+qJZzd7OA1hcC3F/ul5OQPhTg341Uykv6Qnc2Xb5jvQiEDZBAp7LIDbCPjmkou62i
+   9Sbzr3qZGBJ3qia4pJA=;
+Message-ID: <e6500ce7188868ca2b6ea83ed82f12a5@analyticsmessage.com>
+Date: Mon, 10 Sep 2018 00:53:40 +0000
+Subject: Update for Google Analytics ID UA-48188927-1
+From: Google Analytics Webmaster Update <info@analyticsmessage.com>
+Reply-To: Google Analytics Webmaster Update <info@analyticsmessage.com>
+To: "info@usstokyo.com" <info@usstokyo.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1536540820_1db5cd9d59f45889514485f366ae4ee3_=_"
+X-Sender: info@analyticsmessage.com
+X-Report-Abuse: Please report abuse for this campaign here:
+ http://test.mailpaths.org/index.php/campaigns/go815m6fka45e/report-abuse/cz4829xyx890e/lr3552vfvrfd3
+X-Receiver: info@usstokyo.com
+X-Fxyn-Tracking-Did: 0
+X-Fxyn-Subscriber-Uid: lr3552vfvrfd3
+X-Fxyn-Mailer: SwiftMailer - 5.4.x
+X-Fxyn-EBS: http://test.mailpaths.org/index.php/lists/block-address
+X-Fxyn-Delivery-Sid: 4
+X-Fxyn-Customer-Uid: vd904vhnbjcc7
+X-Fxyn-Customer-Gid: 0
+X-Fxyn-Campaign-Uid: go815m6fka45e
+Precedence: bulk
+List-Unsubscribe: <http://test.mailpaths.org/index.php/lists/cz4829xyx890e/unsubscribe/lr3552vfvrfd3/go815m6fka45e/unsubscribe-direct?source=email-client-unsubscribe-button>,
+ <mailto:info@analyticsmessage.com?subject=Campaign-Uid:go815m6fka45e /
+ Subscriber-Uid:lr3552vfvrfd3 - Unsubscribe request&body=Please unsubscribe
+ me!>
+List-Id: cz4829xyx890e <UAnumber_Email>
+Feedback-ID: go815m6fka45e:lr3552vfvrfd3:cz4829xyx890e:vd904vhnbjcc7
+
+
+--_=_swift_v4_1536540820_1db5cd9d59f45889514485f366ae4ee3_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=C2=A0
+New Google Analytics Extension
+=C2=A0
+Dear Google Analytics us=
+er,
+You are receiving this message because your account (Google Analytics=
+
+ID: UA-48188927-1) can now access the new Analytics Extension that
+ide=
+ntifies your site visitors for the past 12 months.
+=C2=A0
+What's the Ne=
+w Extension?
+Earlier this year, we introduced Web Leads for Google Analyt=
+ics
+that showed users a list of the companies that had visited their
+we=
+bsite and included such detailed information as company addresses,
+employ=
+ee contacts, emails, and phone numbers.
+Starting August 20, 2018, this ne=
+w extension will now allow you to
+view even more information about your w=
+ebsite visitors in nearly
+real-time, including search keywords, contact e=
+mails and more.
+=C2=A0
+For Google Ads users:
+If you are using AdWords=
+, you'll be given access to view even more
+detailed information and usefu=
+l knowledge about your AdWords visits,
+including which keywords are used =
+by your visitors before they click
+on your ad and an option to filter the=
+ ads that provide the best
+leads.
+=C2=A0
+Next step:
+1. Sign in with=
+ your Google Analytics account today to access the new
+extension.
+2. Si=
+gn in with your Google Analytics account before September 15th
+to view yo=
+ur website=E2=80=99s full 12-month visitor report.
+All Web Leads data can=
+ be downloaded for free into Excel or Google
+Docs.
+=C2=A0
+If you have=
+ further questions, please contact us at any time by
+email or via our liv=
+e chat support.
+=C2=A0
+=C2=A0
+Sign in with Google Analytics
+http://=
+test.mailpaths.org/index.php/campaigns/go815m6fka45e/track-url/lr3552vfvrfd=
+3/3840d34883e38bc55766ba9cb45a848a38ae7021
+=C2=A0
+=C2=A0
+------------=
+-------------
+=C2=A0
+Sincerely,
+Web leads for Google Analytics
+Data=
+ powered by Fastbase
+Unsubscribe Here
+http://test.mailpaths.org/index.p=
+hp/campaigns/go815m6fka45e/track-url/lr3552vfvrfd3/ecb0ecaa16dff2ea3ebfb357=
+de62745da815d350=C2=A0If=C2=A0you=C2=A0want=C2=A0to=C2=A0stop=C2=A0further=
+=C2=A0correspondence
+with FastBase Inc.
+=C2=A0
+
+--_=_swift_v4_1536540820_1db5cd9d59f45889514485f366ae4ee3_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head><meta charset=3D"UTF-8"><meta name=3D"x-apple-disable-message-reforma=
+tting"><meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUT=
+F-8"><meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=
+=3D1">
+=09<title>New Google Analytics Extension</title>
+</head>
+<body bgcolor=3D"#f9f9f9" data-gramm=3D"true" data-gramm_editor=3D"true" da=
+ta-gramm_id=3D"83fb55bb-0821-acd6-cf4a-8056237653ee" style=3D"width:100%; m=
+argin:0; padding:0">
+<table align=3D"center" bgcolor=3D"#fafafa" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"padding:0; margin:0px; background-color:#fafafa;=
+ font-family:Arial,sans-serif; width:100%">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td align=3D"center" class=3D"main-colm" valign=3D"top">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"m=
+ainbody" style=3D"margin:0px; padding:0px">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr style=3D"border-top:2px solid #2392ec">
+=09=09=09=09=09=09<td valign=3D"top">=C2=A0</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"border:#e0dede 1px solid;  max-width:100%; width:650px; margin:0 au=
+to">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"left" class=3D"mb_pad1" style=3D"pa=
+dding:20px 40px; background-color:#fff; border-top:3px solid #2392ec;">
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><font class=3D"font1" color=3D"#282=
+f33" style=3D"font-size:20px; font-family:Arial,sans-serif; padding-bottom:=
+0px; padding-top:0px; padding-left:0px; margin:0px; line-height:40px !impor=
+tant; font-weight:normal; padding-right:0px">New Google Analytics Extension=
+</font></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><font class=3D"font1" color=3D"#525=
+252" style=3D"font-size:15px; font-family:Arial,sans-serif; padding-bottom:=
+0px; padding-top:0px; padding-left:0px; margin:0px; line-height:24px!import=
+ant; padding-right:0px">Dear Google Analytics user,<br />
+=09=09=09=09=09=09=09=09=09=09=09=09You are receiving this message because =
+your account (Google Analytics ID: UA-48188927-1) can now access the new An=
+alytics Extension that identifies your site visitors for the past 12 months=
+. </font></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><strong style=3D"font-size:15px; co=
+lor:#525252">What's the New Extension?</strong></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><font class=3D"font1" color=3D"#525=
+252" style=3D"font-size:15px; font-family:Arial,sans-serif; padding-bottom:=
+0px; padding-top:0px; padding-left:0px; margin:0px; line-height:24px!import=
+ant; padding-right:0px">Earlier this year, we introduced Web Leads for Goog=
+le Analytics that showed users a list of the companies that had visited the=
+ir website and included such detailed information as company addresses, emp=
+loyee contacts, emails, and phone numbers. </font></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><font class=3D"font1" color=3D"#525=
+252" style=3D"font-size:15px; font-family:Arial,sans-serif; padding-bottom:=
+0px; padding-top:0px; padding-left:0px; margin:0px; line-height:24px!import=
+ant; padding-right:0px">Starting August 20, 2018, this new extension will n=
+ow allow you to view even more information about your website visitors in n=
+early real-time, including search keywords, contact emails and more. </font=
+></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><strong style=3D"font-size:15px; co=
+lor:#525252">For Google Ads users:</strong></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><font class=3D"font1" color=3D"#525=
+252" style=3D"font-size:15px; font-family:Arial,sans-serif; padding-bottom:=
+0px; padding-top:0px; padding-left:0px; margin:0px; line-height:24px!import=
+ant; padding-right:0px">If you are using AdWords, you'll be given access to=
+ view even more detailed information and useful knowledge about your AdWord=
+s visits, including which keywords are used by your visitors before they cl=
+ick on your ad and an option to filter the ads that provide the best leads.=
+ </font></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><strong style=3D"font-size:15px; co=
+lor:#525252">Next step:</strong></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><font class=3D"font1" color=3D"#525=
+252" style=3D"font-size:15px; font-family:Arial,sans-serif; padding-bottom:=
+0px; padding-top:0px; padding-left:0px; margin:0px; line-height:24px!import=
+ant; padding-right:0px">1. Sign in with your Google Analytics account today=
+ to access the new extension.<br />
+=09=09=09=09=09=09=09=09=09=09=09=092. Sign in with your Google Analytics a=
+ccount before September 15th to view your website=E2=80=99s full 12-month v=
+isitor report.<br />
+=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09All Web Leads data can be downloaded fo=
+r free into Excel or Google Docs.</font><br />
+=09=09=09=09=09=09=09=09=09=09=09=09=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><font class=3D"font1" color=3D"#525=
+252" style=3D"font-size:15px; font-family:Arial,sans-serif; padding-bottom:=
+0px; padding-top:0px; padding-left:0px; margin:0px; line-height:24px!import=
+ant; padding-right:0px">If you have further questions, please contact us at=
+ any time by email or via our live chat support.</font></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D""><a href=3D"http://test.m=
+ailpaths.org/index.php/campaigns/go815m6fka45e/track-url/lr3552vfvrfd3/3840=
+d34883e38bc55766ba9cb45a848a38ae7021" style=3D"font-family:Arial; font-weig=
+ht:bold; color:#ffffff; font-size:14px; background:#4285f4;letter-spacing:1=
+px; padding:14px 20px 14px 20px; text-decoration:none; border-radius: 3px;"=
+ target=3D"_blank">Sign in with Google Analytics</a></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09<hr /></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td>=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td><font class=3D"font1" color=3D"#525=
+252" style=3D"font-size:15px; font-family:Arial,sans-serif; padding-bottom:=
+0px; padding-top:0px; padding-left:0px; margin:0px; padding-right:0px">Sinc=
+erely,<br />
+=09=09=09=09=09=09=09=09=09=09=09=09Web leads for Google Analytics<br />
+=09=09=09=09=09=09=09=09=09=09=09=09Data powered by Fastbase</font></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09<br />
+=09=09=09<br />
+=09=09=09<br />
+=09=09=09<a data-unsubtag=3D"_UNSUBSCRIBE_URL_" href=3D"http://test.mailpat=
+hs.org/index.php/campaigns/go815m6fka45e/track-url/lr3552vfvrfd3/ecb0ecaa16=
+dff2ea3ebfb357de62745da815d350" target=3D"_blank">Unsubscribe Here</a>=
+=C2=A0If=C2=A0you=C2=A0want=C2=A0to=C2=A0stop=C2=A0further=C2=A0corresponde=
+nce with FastBase Inc.<br />
+=09=09=09<br />
+=09=09=09<br />
+=09=09=09=C2=A0</td>
+=09=09</tr>
+=09</tbody>
+</table>
+<img width=3D"1" height=3D"1" src=3D"http://test.mailpaths.org/index.php/ca=
+mpaigns/go815m6fka45e/track-opening/lr3552vfvrfd3" alt=3D"" />
+</body>
+</html>
+
+--_=_swift_v4_1536540820_1db5cd9d59f45889514485f366ae4ee3_=_--
+

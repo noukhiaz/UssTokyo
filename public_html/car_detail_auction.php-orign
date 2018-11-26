@@ -1,0 +1,1420 @@
+<?php include('inc_nt_login.php');
+
+		include('panel/config.php');
+
+if(isset($_POST['shipiing_contry'])){
+
+$shipiing_contry = $_POST['shipiing_contry'];
+
+$user_id = $_POST['user_id'];
+
+$bid_price = $_POST['bid_price'];
+
+$comments = $_POST['comments'];
+
+
+$groupp = $_POST['groupp'];
+$numm = $_POST['numm'];
+
+$car_id = $_POST['car_id'];
+$auction_date = $_POST['auction_date'];
+
+
+$reg_date = time();
+
+$myip = $_SERVER["REMOTE_ADDR"];
+/*
+print_r($_POST);
+error_reporting(E_ALL);
+ini_set('display_errors', '1');*/
+$result = mysql_query("SELECT * FROM bidding where user_id = '$user_id' AND car_id = '$car_id'");
+
+$num_rows = mysql_num_rows($result);
+
+			if($num_rows <= '0')
+
+				{
+//echo $num_rows;
+				//echo $num_rows;
+
+						mysql_query("INSERT INTO bidding set
+						`shipiing_contry` = '$shipiing_contry',
+						`user_id` = '$user_id',
+						`auction_date` = '$auction_date',
+            `groupp` = '$groupp',
+            `numm` = '$numm',
+						`car_id` = '$car_id',
+						`bid_price` = '$bid_price',
+						`comments` = '$comments',						
+						`reg_date` = '$reg_date',
+						`myip` = '$myip',
+						`is_auction` = '1',
+						`is_active` = '1',
+            `is_accepted` = '0'");
+           
+
+						$success = '1';		
+//print_r($_POST)
+
+
+$user_name = $_REQUEST['user_name'];
+$email = $_REQUEST['user_email'];
+//$email = $_SESSION["email"];
+
+$bid_car_name = $_REQUEST['bid_car_name'];
+
+		$message = "Name: " . $user_name . "\n\n Car ID: " . $car_id . "\n\n Car Name: " . $bid_car_name . "\n\n IP: " . $myip . "\n\n Email: " . $email . "\n\n Comments: " . $comments;
+		$to      = 'noukhaiz@hotmail.com';
+		$subject = 'New Bid USSTokyo';
+		//$message = 'hello';
+		$headers = 'From: '. $email . "\r\n" .
+			'Reply-To: '. $email . "\r\n" .
+			'X-Mailer: PHP/' . phpversion();
+		mail($to, $subject, $message, $headers);
+		//$ssuccs = 'done';
+
+
+						?>
+            <meta http-equiv="refresh" content="0;URL='my_bids.php?date=<?php echo $auction_date;?>'" />
+        
+        <?php 
+        die();			
+				}
+        else
+        {
+        	$bid_id = $_REQUEST['bid_id'];
+        	
+//die('sorry, you already applied');
+        		mysql_query("UPDATE  bidding set 
+
+						`shipiing_contry` = '$shipiing_contry',
+
+            `groupp` = '$groupp',
+            `numm` = '$numm',
+
+
+						`car_id` = '$car_id',
+
+						`bid_price` = '$bid_price',
+
+						`comments` = '$comments'						
+
+
+
+            where id = '$bid_id'
+
+						");
+
+						$success = '1';		
+//print_r($_POST)
+						?>
+            <meta http-equiv="refresh" content="0;URL='my_bids.php?date=<?php echo $auction_date;?>'" /><?php 
+
+        }
+
+}		
+
+?>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+
+<title>www.USSTokyo.com: Car Details</title>
+
+<?php include('inc_head.php');?>
+<?php include('inc_script.php');?>
+
+<!-- slick css -->
+
+<link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
+
+<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
+
+</head>
+
+<?php 
+
+$id = $_REQUEST['id'];
+
+
+if(isset($_GET['col']))
+{
+$col = $_GET['col'];
+//$time = time();
+//$today = date('d',$time);
+//$datea = date('d',$time);
+	if($col != '1')
+	{
+		$table = 'stats';
+	}
+	else
+	{
+		$table = 'main';	
+	}
+}
+else
+{
+	$table = 'main';
+}
+
+//echo $table;
+$arr = aj_get("select * from ".$table." where id='".$_GET['id']."'",30,0);
+/*
+$car_idd = $_GET['id'];
+$arr = aj_get("SELECT * FROM main WHERE id = '$car_idd'
+UNION
+SELECT * FROM stats WHERE id = '$car_idd'");
+*/
+
+//$arr = aj_get("select * from main where id='".$_GET['id']."'",30,0); // 1=>debug
+//print($arr);
+ 
+  
+
+ 
+
+  
+
+  
+
+  
+
+
+
+/*
+
+$sql = mysql_query("select * from cars where is_active = '1' AND id = '$id'");
+
+$row = mysql_fetch_array($sql);
+
+$bidd = $row['id'];
+
+$sqlbrands = mysql_query("select * from brands where id = '$bidd'");
+
+$bid = mysql_fetch_array($sqlbrands);
+
+$cidd = $bid['parent_company'];
+
+$sqlcompanies = mysql_query("select * from companies where id = '$cidd'");
+
+$cid = mysql_fetch_array($sqlcompanies);
+
+*/
+
+?>	
+
+
+
+<body>
+
+
+
+
+
+<!--=================================
+
+ header -->
+
+
+
+<header id="header" class="defualt">
+
+<?php include('inc_menu_top.php');?>
+
+<!--================================= mega menu -->
+
+<div class="menu">  
+
+	<?php include('inc_menu.php');?>
+
+ </div>
+
+</header>
+
+
+
+<!--================================= header -->
+
+
+
+
+
+
+
+<!--=================================
+
+ inner-intro -->
+
+ 
+
+ <section class="inner-intro bg-7 bg-overlay-black-70">
+
+  <div class="container">
+
+     <div class="row text-center intro-title">
+
+	 <?php 	  foreach($arr as $v) { ?>
+
+           <div class="col-lg-6 col-md-6 col-sm-6 text-left">
+
+             <h3 class="text-white"><?php echo $v['MODEL_NAME'];?> - <?php echo $v['MARKA_NAME'];?> </h3>
+
+           </div>
+
+           <div class="col-lg-6 col-md-6 col-sm-6 text-right">
+
+             <ul class="page-breadcrumb">
+
+                <li><a href="#"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+
+                <li><a href="#">Auction Listing</a> <i class="fa fa-angle-double-right"></i></li>
+
+                <li><span> <?php echo $v['MODEL_NAME'];?> - <?php echo $v['MARKA_NAME'];?></span> </li>
+
+             </ul>
+
+           </div>
+
+		    <?php }?>
+
+     </div>
+
+  </div>
+
+</section>
+
+
+
+<!--=================================
+
+ inner-intro -->
+
+
+
+
+
+<!--=================================
+
+car-details -->
+
+
+
+<section class="car-details page-section-ptb">
+
+  <div class="container">
+
+    <div class="row">
+
+	 <?php 	  foreach($arr as $v) { ?>
+
+     <div class="col-lg-9 col-md-9 col-sm-9">
+
+	 
+
+       <h3><?php echo $v['MODEL_NAME'];?> - <?php echo $v['MARKA_NAME'];?></h3>
+
+      </div>
+
+     <div class="col-lg-3 col-md-3 col-sm-3">
+
+      <div class="car-price text-right">
+
+         <strong>¥ <?php echo number_format($v['START']);?></strong>
+
+         <span><?php echo $v['STATUS'];?></span>
+
+       </div> 
+
+      </div> 
+
+	  <?php }?>
+
+    </div>
+
+    <div class="row">
+
+<!--      <div class="col-lg-12 col-md-12">
+
+    <?php //include('print_option.php');?>  
+
+      </div>-->
+
+    </div>
+
+    <div class="row">
+
+	
+
+     <div class="col-lg-7 col-md-7 col-sm-7">
+
+        <div class="slider-slick">
+
+          <div class="slider slider-for detail-big-car-gallery"> 
+
+		  <?php //echo $v['IMAGES'];?>
+
+
+
+
+
+<?php
+
+$img = explode('#',$arr[0]['IMAGES']);
+
+  //$arr[0]['IMAGES'] = '<img src="'.implode('&w=320"><img src="',$img).'&w=320">'; // remove &w=320 to view full size
+
+foreach($img as $element)
+
+//foreach(array_slice($img,1) as $key=>$element)
+
+{
+
+?>
+
+<img src="<?php echo $element;?>" class="img-responsive" style="" />	<?php 
+
+ }
+
+?>
+
+			   
+
+            </div>
+
+            <div class="slider slider-nav"> 
+
+											
+
+<?php 
+
+//$img = explode('#',$arr[0]['IMAGES']);
+
+  //$arr[0]['IMAGES'] = '<img src="'.implode('&w=320"><img src="',$img).'&w=320">'; // remove &w=320 to view full size
+
+foreach($img as $element)
+
+//foreach(array_slice($img,1) as $key=>$element)
+
+{
+
+?>
+
+<img src="<?php echo $element;?>" class="img-responsive" />	<?php 
+
+ }
+
+?>	
+
+            </div>
+
+         </div>
+
+        
+
+     </div>
+
+	 <div class="col-lg-5 col-md-5 col-sm-5">
+
+	 <div class="car-details-sidebar">
+
+             <div class="details-form contact-2 details-weight">
+
+<form action="<?php echo $_SERVER['PHP_SELF'];?>?id=<?php echo $_REQUEST['id'];?>" class="gray-form" method="post">	
+
+<input type="hidden" class="form-control"  value="<?php echo $_SESSION['id'];?>" name="user_id" > 
+<input type="hidden" class="form-control"  value="<?php echo $_SESSION['email'];?>" name="user_email" > 	
+<input type="hidden" class="form-control"  value="<?php echo $_SESSION['name'];?>" name="user_name" > 	
+
+<input type="hidden" class="form-control"  value="<?php echo $_REQUEST['id'];?>" name="car_id" > 	
+<input type="hidden" value="<?php $x = $v['AUCTION_DATE']; echo strtok($x, " ");?>" name="auction_date" > 	
+
+   <?php    foreach($arr as $v) { ?>
+
+<?php $STATUS =  $v['STATUS']; if($STATUS == 'SOLD' ){$disabled = "disabled";?> <h5>Sold</h5><?php 
+}else{  $disabled = "";?> <h5>BID NOW</h5><?php }?>
+     
+                
+
+<div class="form-group">
+
+                    <label>Starting Price*</label>
+
+				
+<input type="number" class="form-control" min="<?php echo $row['price'];?>" placeholder="Starting Price: <?php echo number_format($v['START']);?> JPY" name="bid_price" disabled>
+
+					<?php }?>
+
+              </div>     
+
+
+<input type="hidden" class="form-control"  value="<?php echo $v['MODEL_NAME'];?> - <?php echo $v['MARKA_NAME'];?>" name="bid_car_name" >
+        <?php
+$user_id = $_SESSION['id'];
+$car_id =  $v['ID'];        
+$sql_bid = mysql_query("select * from bidding where car_id = '$car_id' AND user_id = '$user_id'" );
+$row_bid = mysql_fetch_assoc($sql_bid);
+$coubet = mysql_num_rows($sql_bid);
+if($coubet != '0'){
+$bid_id =  $row_bid['id'] ;  
+$accepted =  $row_bid['is_accepted'] ;  
+$groupp =  $row_bid['groupp'] ;  
+$numm =  $row_bid['numm'] ;  
+$bid_price =  $row_bid['bid_price'];  
+$shipiing_contry =  $row_bid['shipiing_contry'] ;  
+$comments =  $row_bid['comments'] ;  
+}
+?>
+
+
+          <div class="form-group">
+
+                   <label>Your Bid in JPY*</label>
+<?php if($coubet != '0'){?>
+<input type="text" class="form-control" value="<?php echo $bid_price;?>" name="bid_price" required > 
+<input type="hidden" class="form-control" value="<?php echo $bid_id;?>" name="bid_id" required > 
+
+<?php }else{ ?>
+<input type="number" class="form-control" min="<?php echo $row['price'];?>" placeholder="<?php echo number_format($v['START']);?> JPY" name="bid_price" required <?php echo $disabled ;?>> 
+<?php }?>
+
+           </div>
+
+
+
+
+
+<div class="col-lg-6 col-md-6 col-sm-6">
+
+           <div class="form-group">
+
+                   <label>Group </label>
+
+                   
+<?php if($coubet != '0'){?>
+<select name="groupp">
+<option></option>
+<option <?php if($groupp == 'A'){?>selected="selected"<?php }?>>A</option>
+<option <?php if($groupp == 'B'){?>selected="selected"<?php }?>>B</option>
+<option <?php if($groupp == 'C'){?>selected="selected"<?php }?>>C</option>
+<option <?php if($groupp == 'D'){?>selected="selected"<?php }?>>D</option>
+<option <?php if($groupp == 'E'){?>selected="selected"<?php }?>>E</option>
+<option <?php if($groupp == 'F'){?>selected="selected"<?php }?>>F</option>
+<option <?php if($groupp == 'G'){?>selected="selected"<?php }?>>G</option>
+<option <?php if($groupp == 'H'){?>selected="selected"<?php }?>>H</option>
+<option <?php if($groupp == 'I'){?>selected="selected"<?php }?>>I</option>
+<option <?php if($groupp == 'J'){?>selected="selected"<?php }?>>J</option>
+<option <?php if($groupp == 'K'){?>selected="selected"<?php }?>>K</option>
+<option <?php if($groupp == 'L'){?>selected="selected"<?php }?>>L</option>
+<option <?php if($groupp == 'M'){?>selected="selected"<?php }?>>M</option>
+<option <?php if($groupp == 'N'){?>selected="selected"<?php }?>>N</option>
+<option <?php if($groupp == 'O'){?>selected="selected"<?php }?>>O</option>
+<option <?php if($groupp == 'P'){?>selected="selected"<?php }?>>P</option>
+<option <?php if($groupp == 'Q'){?>selected="selected"<?php }?>>Q</option>
+<option <?php if($groupp == 'R'){?>selected="selected"<?php }?>>R</option>
+<option <?php if($groupp == 'S'){?>selected="selected"<?php }?>>S</option>
+<option <?php if($groupp == 'T'){?>selected="selected"<?php }?>>T</option>
+<option <?php if($groupp == 'U'){?>selected="selected"<?php }?>>U</option>
+<option <?php if($groupp == 'V'){?>selected="selected"<?php }?>>V</option>
+<option <?php if($groupp == 'W'){?>selected="selected"<?php }?>>W</option>
+<option <?php if($groupp == 'X'){?>selected="selected"<?php }?>>X</option>
+<option <?php if($groupp == 'Y'){?>selected="selected"<?php }?>>Y</option>
+<option <?php if($groupp == 'Z'){?>selected="selected"<?php }?>>Z</option>
+
+<?php }else{ ?>
+<select name="groupp" <?php echo $disabled ;?>>
+<option></option>                      
+<?php }?>
+
+                      <option>A</option>
+
+                      <option>B</option>
+
+                      <option>C</option>
+
+                      <option>D</option>
+
+                      <option>E</option>
+
+                      <option>F</option>
+
+                      <option>G</option>
+
+                      <option>H</option>
+
+                      <option>I</option>
+
+                      <option>J</option>
+
+                      <option>K</option>
+
+                      <option>L</option>
+
+                      <option>M</option>
+
+                      <option>N</option>
+
+                      <option>O</option>
+
+                      <option>P</option>
+
+                      <option>Q</option>
+
+                      <option>R</option>
+
+                      <option>S</option>
+
+                      <option>T</option>
+
+                      <option>U</option>
+
+                      <option>V</option>
+
+                      <option>W</option>
+
+                      <option>X</option>
+
+                      <option>Y</option>
+
+                      <option>Z</option>
+
+                   </select>
+
+           </div>
+
+</div>
+
+
+
+<div class="col-lg-6 col-md-6 col-sm-6">
+
+           <div class="form-group">
+
+                   <label>NUM </label>
+
+<?php if($coubet != '0'){?>
+<select name="numm">
+
+
+<option <?php if($numm == '0'){?>selected="selected"<?php }?>>0</option>
+
+<option <?php if($numm == '1'){?>selected="selected"<?php }?>>1</option>
+<option <?php if($numm == '2'){?>selected="selected"<?php }?>>2</option>
+<option <?php if($numm == '3'){?>selected="selected"<?php }?>>3</option>
+
+
+
+<?php }else{ ?>
+<select name="numm" <?php echo $disabled ;?>>
+<option value="0"></option>     
+ <option>1</option>
+
+                      <option>2</option>
+
+                      <option>3</option>                 
+<?php }?>
+
+
+                     
+
+                   </select>
+
+           </div>
+
+</div>                   
+
+
+
+                <div >
+
+                   <label>Shipping Country*</label>
+<!--
+<input type="text" class="form-control" placeholder="England"  name="shipiing_contry" required <?php echo $disabled ;?>>
+
+-->
+
+    <!--<option value="Afghanistan">Afghanistan</option>
+    <option value="Albania">Albania</option>
+    <option value="Algeria">Algeria</option>
+    <option value="American Samoa">American Samoa</option>
+    <option value="Andorra">Andorra</option>
+    <option value="Angola">Angola</option>
+    <option value="Anguilla">Anguilla</option>
+    <option value="Antartica">Antarctica</option>
+    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Armenia">Armenia</option>
+    <option value="Aruba">Aruba</option>
+    <option value="Australia">Australia</option>
+    <option value="Austria">Austria</option>
+    <option value="Azerbaijan">Azerbaijan</option>
+    <option value="Bahamas">Bahamas</option>
+    <option value="Bahrain">Bahrain</option>
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="Barbados">Barbados</option>
+    <option value="Belarus">Belarus</option>
+    <option value="Belgium">Belgium</option>
+    <option value="Belize">Belize</option>
+    <option value="Benin">Benin</option>
+    <option value="Bermuda">Bermuda</option>
+    <option value="Bhutan">Bhutan</option>
+    <option value="Bolivia">Bolivia</option>
+    <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+    <option value="Botswana">Botswana</option>
+    <option value="Bouvet Island">Bouvet Island</option>
+    <option value="Brazil">Brazil</option>
+    <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+    <option value="Brunei Darussalam">Brunei Darussalam</option>
+    <option value="Bulgaria">Bulgaria</option>
+    <option value="Burkina Faso">Burkina Faso</option>
+    <option value="Burundi">Burundi</option>
+    <option value="Cambodia">Cambodia</option>
+    <option value="Cameroon">Cameroon</option>
+    <option value="Canada">Canada</option>
+    <option value="Cape Verde">Cape Verde</option>
+    <option value="Cayman Islands">Cayman Islands</option>
+    <option value="Central African Republic">Central African Republic</option>
+    <option value="Chad">Chad</option>
+    <option value="Chile">Chile</option>
+    <option value="China">China</option>
+    <option value="Christmas Island">Christmas Island</option>
+    <option value="Cocos Islands">Cocos (Keeling) Islands</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Comoros">Comoros</option>
+    <option value="Congo">Congo</option>
+    <option value="Congo">Congo, the Democratic Republic of the</option>
+    <option value="Cook Islands">Cook Islands</option>
+    <option value="Costa Rica">Costa Rica</option>
+    <option value="Cota D'Ivoire">Cote d'Ivoire</option>
+    <option value="Croatia">Croatia (Hrvatska)</option>
+    <option value="Cuba">Cuba</option>
+    <option value="Cyprus">Cyprus</option>
+    <option value="Czech Republic">Czech Republic</option>
+    <option value="Denmark">Denmark</option>
+    <option value="Djibouti">Djibouti</option>
+    <option value="Dominica">Dominica</option>
+    <option value="Dominican Republic">Dominican Republic</option>
+    <option value="East Timor">East Timor</option>
+    <option value="Ecuador">Ecuador</option>
+    <option value="Egypt">Egypt</option>
+    <option value="El Salvador">El Salvador</option>
+    <option value="Equatorial Guinea">Equatorial Guinea</option>
+    <option value="Eritrea">Eritrea</option>
+    <option value="Estonia">Estonia</option>
+    <option value="Ethiopia">Ethiopia</option>
+    <option value="Falkland Islands">Falkland Islands (Malvinas)</option>
+    <option value="Faroe Islands">Faroe Islands</option>
+    <option value="Fiji">Fiji</option>
+    <option value="Finland">Finland</option>
+    <option value="France">France</option>
+    <option value="France Metropolitan">France, Metropolitan</option>
+    <option value="French Guiana">French Guiana</option>
+    <option value="French Polynesia">French Polynesia</option>
+    <option value="French Southern Territories">French Southern Territories</option>
+    <option value="Gabon">Gabon</option>
+    <option value="Gambia">Gambia</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Germany">Germany</option>
+    <option value="Ghana">Ghana</option>
+    <option value="Gibraltar">Gibraltar</option>
+    <option value="Greece">Greece</option>
+    <option value="Greenland">Greenland</option>
+    <option value="Grenada">Grenada</option>
+    <option value="Guadeloupe">Guadeloupe</option>
+    <option value="Guam">Guam</option>
+    <option value="Guatemala">Guatemala</option>
+    <option value="Guinea">Guinea</option>
+    <option value="Guinea-Bissau">Guinea-Bissau</option>
+    <option value="Guyana">Guyana</option>
+    <option value="Haiti">Haiti</option>
+    <option value="Heard and McDonald Islands">Heard and Mc Donald Islands</option>
+    <option value="Holy See">Holy See (Vatican City State)</option>
+    <option value="Honduras">Honduras</option>
+    <option value="Hong Kong">Hong Kong</option>
+    <option value="Hungary">Hungary</option>
+    <option value="Iceland">Iceland</option>
+    <option value="India">India</option>
+    <option value="Indonesia">Indonesia</option>
+    <option value="Iran">Iran (Islamic Republic of)</option>
+    <option value="Iraq">Iraq</option>
+    <option value="Ireland">Ireland</option>
+    <option value="Israel">Israel</option>
+    <option value="Italy">Italy</option>
+    <option value="Jamaica">Jamaica</option>
+    <option value="Japan">Japan</option>
+    <option value="Jordan">Jordan</option>
+    <option value="Kazakhstan">Kazakhstan</option>
+    <option value="Kenya">Kenya</option>
+    <option value="Kiribati">Kiribati</option>
+    <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
+    <option value="Korea">Korea, Republic of</option>
+    <option value="Kuwait">Kuwait</option>
+    <option value="Kyrgyzstan">Kyrgyzstan</option>
+    <option value="Lao">Lao People's Democratic Republic</option>
+    <option value="Latvia">Latvia</option>
+    <option value="Lebanon" selected>Lebanon</option>
+    <option value="Lesotho">Lesotho</option>
+    <option value="Liberia">Liberia</option>
+    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+    <option value="Liechtenstein">Liechtenstein</option>
+    <option value="Lithuania">Lithuania</option>
+    <option value="Luxembourg">Luxembourg</option>
+    <option value="Macau">Macau</option>
+    <option value="Macedonia">Macedonia, The Former Yugoslav Republic of</option>
+    <option value="Madagascar">Madagascar</option>
+    <option value="Malawi">Malawi</option>
+    <option value="Malaysia">Malaysia</option>
+    <option value="Maldives">Maldives</option>
+    <option value="Mali">Mali</option>
+    <option value="Malta">Malta</option>
+    <option value="Marshall Islands">Marshall Islands</option>
+    <option value="Martinique">Martinique</option>
+    <option value="Mauritania">Mauritania</option>
+    <option value="Mauritius">Mauritius</option>
+    <option value="Mayotte">Mayotte</option>
+    <option value="Mexico">Mexico</option>
+    <option value="Micronesia">Micronesia, Federated States of</option>
+    <option value="Moldova">Moldova, Republic of</option>
+    <option value="Monaco">Monaco</option>
+    <option value="Mongolia">Mongolia</option>
+    <option value="Montserrat">Montserrat</option>
+    <option value="Morocco">Morocco</option>
+    <option value="Mozambique">Mozambique</option>
+    <option value="Myanmar">Myanmar</option>
+    <option value="Namibia">Namibia</option>
+    <option value="Nauru">Nauru</option>
+    <option value="Nepal">Nepal</option>
+    <option value="Netherlands">Netherlands</option>
+    <option value="Netherlands Antilles">Netherlands Antilles</option>
+    <option value="New Caledonia">New Caledonia</option>
+    <option value="New Zealand">New Zealand</option>
+    <option value="Nicaragua">Nicaragua</option>
+    <option value="Niger">Niger</option>
+    <option value="Nigeria">Nigeria</option>
+    <option value="Niue">Niue</option>
+    <option value="Norfolk Island">Norfolk Island</option>
+    <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+    <option value="Norway">Norway</option>
+    <option value="Oman">Oman</option>
+    <option value="Pakistan" selected="selected">Pakistan</option>
+    <option value="Palau">Palau</option>
+    <option value="Panama">Panama</option>
+    <option value="Papua New Guinea">Papua New Guinea</option>
+    <option value="Paraguay">Paraguay</option>
+    <option value="Peru">Peru</option>
+    <option value="Philippines">Philippines</option>
+    <option value="Pitcairn">Pitcairn</option>
+    <option value="Poland">Poland</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Puerto Rico">Puerto Rico</option>
+    <option value="Qatar">Qatar</option>
+    <option value="Reunion">Reunion</option>
+    <option value="Romania">Romania</option>
+    <option value="Russia">Russian Federation</option>
+    <option value="Rwanda">Rwanda</option>
+    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option> 
+    <option value="Saint LUCIA">Saint LUCIA</option>
+    <option value="Saint Vincent">Saint Vincent and the Grenadines</option>
+    <option value="Samoa">Samoa</option>
+    <option value="San Marino">San Marino</option>
+    <option value="Sao Tome and Principe">Sao Tome and Principe</option> 
+    <option value="Saudi Arabia">Saudi Arabia</option>
+    <option value="Senegal">Senegal</option>
+    <option value="Seychelles">Seychelles</option>
+    <option value="Sierra">Sierra Leone</option>
+    <option value="Singapore">Singapore</option>
+    <option value="Slovakia">Slovakia (Slovak Republic)</option>
+    <option value="Slovenia">Slovenia</option>
+    <option value="Solomon Islands">Solomon Islands</option>
+    <option value="Somalia">Somalia</option>
+    <option value="South Africa">South Africa</option>
+    <option value="South Georgia">South Georgia and the South Sandwich Islands</option>
+    <option value="Span">Spain</option>
+    <option value="SriLanka">Sri Lanka</option>
+    <option value="St. Helena">St. Helena</option>
+    <option value="St. Pierre and Miguelon">St. Pierre and Miquelon</option>
+    <option value="Sudan">Sudan</option>
+    <option value="Suriname">Suriname</option>
+    <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
+    <option value="Swaziland">Swaziland</option>
+    <option value="Sweden">Sweden</option>
+    <option value="Switzerland">Switzerland</option>
+    <option value="Syria">Syrian Arab Republic</option>
+    <option value="Taiwan">Taiwan, Province of China</option>
+    <option value="Tajikistan">Tajikistan</option>
+    <option value="Tanzania">Tanzania, United Republic of</option>
+    <option value="Thailand">Thailand</option>
+    <option value="Togo">Togo</option>
+    <option value="Tokelau">Tokelau</option>
+    <option value="Tonga">Tonga</option>
+    <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+    <option value="Tunisia">Tunisia</option>
+    <option value="Turkey">Turkey</option>
+    <option value="Turkmenistan">Turkmenistan</option>
+    <option value="Turks and Caicos">Turks and Caicos Islands</option>
+    <option value="Tuvalu">Tuvalu</option>
+    <option value="Uganda">Uganda</option>
+    <option value="Ukraine">Ukraine</option>
+    <option value="United Arab Emirates">United Arab Emirates</option>
+    <option value="United Kingdom">United Kingdom</option>
+    <option value="United States">United States</option>
+    <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+    <option value="Uruguay">Uruguay</option>
+    <option value="Uzbekistan">Uzbekistan</option>
+    <option value="Vanuatu">Vanuatu</option>
+    <option value="Venezuela">Venezuela</option>
+    <option value="Vietnam">Viet Nam</option>
+    <option value="Virgin Islands (British)">Virgin Islands (British)</option>
+    <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
+    <option value="Wallis and Futana Islands">Wallis and Futuna Islands</option>
+    <option value="Western Sahara">Western Sahara</option>
+    <option value="Yemen">Yemen</option>
+    <option value="Yugoslavia">Yugoslavia</option>
+    <option value="Zambia">Zambia</option>
+    <option value="Zimbabwe">Zimbabwe</option>-->
+
+<?php if($coubet != '0'){?>
+<select name="shipiing_contry"   required >
+<option  ><?php echo $shipiing_contry ;?></option>
+
+
+
+<?php }else{ ?>
+<select name="shipiing_contry"   required <?php echo $disabled ;?>>
+<option></option>                      
+<?php }?>
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Armenia">Armenia</option>
+    <option value="Australia">Australia</option>
+    <option value="Austria">Austria</option>
+    <option value="Azerbaijan">Azerbaijan</option>
+    <option value="Bahrain">Bahrain</option>
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="Belgium">Belgium</option>
+    <option value="Bhutan">Bhutan</option>
+    <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+    <option value="Brazil">Brazil</option>
+    <option value="Bulgaria">Bulgaria</option>
+    <option value="Cambodia">Cambodia</option>
+    <option value="Canada">Canada</option>
+    <option value="Chile">Chile</option>
+    <option value="China">China</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Congo">Congo</option>
+    <option value="Costa Rica">Costa Rica</option>
+    <option value="Croatia">Croatia (Hrvatska)</option>
+    <option value="Cuba">Cuba</option>
+    <option value="Cyprus">Cyprus</option>
+    <option value="Czech Republic">Czech Republic</option>
+    <option value="Denmark">Denmark</option>
+    <option value="Dominica">Dominica</option>
+    <option value="Dominican Republic">Dominican Republic</option>
+    <option value="Egypt">Egypt</option>
+    <option value="Estonia">Estonia</option>
+    <option value="Ethiopia">Ethiopia</option>
+    <option value="Fiji">Fiji</option>
+    <option value="Finland">Finland</option>
+    <option value="France">France</option>
+    <option value="Gambia">Gambia</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Germany">Germany</option>
+    <option value="Greece">Greece</option>
+    <option value="Haiti">Haiti</option>
+    <option value="Hong Kong">Hong Kong</option>
+    <option value="Hungary">Hungary</option>
+    <option value="Iceland">Iceland</option>
+    <option value="India">India</option>
+    <option value="Indonesia">Indonesia</option>
+    <option value="Iran">Iran</option>
+    <option value="Iraq">Iraq</option>
+    <option value="Ireland">Ireland</option>
+    <option value="Israel">Israel</option>
+    <option value="Italy">Italy</option>
+    <option value="Jamaica">Jamaica</option>
+    <option value="Japan">Japan</option>
+    <option value="Jordan">Jordan</option>
+    <option value="Kazakhstan">Kazakhstan</option>
+    <option value="Kenya">Kenya</option>
+    <option value="Korea">Korea</option>
+    <option value="Kuwait">Kuwait</option>
+    <option value="Kyrgyzstan">Kyrgyzstan</option>
+    <option value="Latvia">Latvia</option>
+    <option value="Lebanon">Lebanon</option>
+    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+    <option value="Liechtenstein">Liechtenstein</option>
+    <option value="Macau">Macau</option>
+    <option value="Madagascar">Madagascar</option>
+    <option value="Malaysia">Malaysia</option>
+    <option value="Maldives">Maldives</option>
+    <option value="Mali">Mali</option>
+    <option value="Malta">Malta</option>
+    <option value="Mexico">Mexico</option>
+    <option value="Morocco">Morocco</option>
+    <option value="Myanmar">Myanmar</option>
+    <option value="Nepal">Nepal</option>
+    <option value="Netherlands">Netherlands</option>
+    <option value="New Zealand">New Zealand</option>
+    <option value="Nigeria">Nigeria</option>
+    <option value="Norway">Norway</option>
+    <option value="Oman">Oman</option>
+    <option value="Pakistan" selected="selected">Pakistan</option>
+    <option value="Panama">Panama</option>
+    <option value="Peru">Peru</option>
+    <option value="Philippines">Philippines</option>
+    <option value="Poland">Poland</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Qatar">Qatar</option>
+    <option value="Romania">Romania</option>
+    <option value="Russia">Russian Federation</option>
+    <option value="Samoa">Samoa</option>
+    <option value="San Marino">San Marino</option>
+    <option value="Sao Tome and Principe">Sao Tome and Principe</option> 
+    <option value="Saudi Arabia">Saudi Arabia</option>
+    <option value="Singapore">Singapore</option>
+    <option value="Slovenia">Slovenia</option>
+    <option value="Solomon Islands">Solomon Islands</option>
+    <option value="Somalia">Somalia</option>
+    <option value="South Africa">South Africa</option>
+    <option value="South Georgia">South Georgia and the South Sandwich Islands</option>
+    <option value="Span">Spain</option>
+    <option value="SriLanka">Sri Lanka</option>
+    <option value="Swaziland">Swaziland</option>
+    <option value="Sweden">Sweden</option>
+    <option value="Switzerland">Switzerland</option>
+    <option value="Syria">Syrian Arab Republic</option>
+    <option value="Tajikistan">Tajikistan</option>
+    <option value="Thailand">Thailand</option>
+    <option value="Tunisia">Tunisia</option>
+    <option value="Turkey">Turkey</option>
+    <option value="Turkmenistan">Turkmenistan</option>
+    <option value="Uganda">Uganda</option>
+    <option value="Ukraine">Ukraine</option>
+    <option value="United Arab Emirates">United Arab Emirates</option>
+    <option value="United Kingdom">United Kingdom</option>
+    <option value="United States">United States</option>
+    <option value="Uzbekistan">Uzbekistan</option>
+    <option value="Venezuela">Venezuela</option>
+    <option value="Vietnam">Viet Nam</option>
+    <option value="Zimbabwe">Zimbabwe</option>
+</select>
+				   
+
+                </div>
+
+<!--                <div class="form-group">
+
+                    <label>Email address*</label>
+
+                    <input type="text" class="form-control" placeholder="Email" name="email" required>
+
+                </div>-->
+
+                 
+
+                 <div class="form-group">
+
+                   <label>Comment* </label>
+
+
+
+<?php if($coubet != '0'){?>
+<textarea class="form-control" rows="4" placeholder="Comment" name="comments" ><?php echo $comments;?></textarea>
+
+<?php }else{ ?>
+<textarea class="form-control" rows="4" placeholder="Comment" name="comments"></textarea>
+<?php }?>
+                  </div>
+
+                 <div class="form-group">
+
+<?php if($coubet != '0'){?>
+<button class="btn green button red" type="submit" <?php //echo $disabled ;?>>UPDATE NOW</button>
+
+<?php }else{ ?>
+<button class="btn green button red" type="submit" <?php echo $disabled ;?>>BID BID </button>
+<?php }?>
+
+				 <!--
+          <button class="btn green button red" type="submit" <?php echo $disabled ;?>>EDIT BID</button>
+				  <button class="btn green button red" type="submit" <?php echo $disabled ;?>>CANCEL BID</button>
+				  -->
+
+                </div>
+
+              </form>
+
+            </div>
+
+           </div>
+
+	</div>
+
+	</div>
+
+	<div class="row">
+
+     <div class="col-lg-6 col-md-6 col-sm-6">
+
+       <div class="car-details-sidebar">
+
+          <div class="details-block details-weight">
+
+            <h5>DESCRIPTION</h5>
+
+            <ul>
+
+
+
+<?php 	  foreach($arr as $v) { ?>
+
+              <li> <span>LOT</span> <strong class="text-right"><?php echo $v['LOT'];?></strong></li>
+
+<!--			  <li> <span>SERIAL</span> <strong class="text-right"><?php echo $v['SERIAL'];?></strong></li>-->
+
+			  <li> <span>AUCTION DATE</span> <strong class="text-right"><?php echo $v['AUCTION_DATE'];?></strong></li>
+
+			  <li> <span>AUCTION</span> <strong class="text-right"><?php echo $v['AUCTION'];?></strong></li>
+
+			  <li> <span>MAKE</span> <strong class="text-right"><?php echo $v['MARKA_NAME'];?></strong></li>
+
+			  <li> <span>NAME</span> <strong class="text-right"><?php echo $v['MODEL_NAME'];?></strong></li>
+
+			  <li> <span>YEAR</span> <strong class="text-right"><?php echo $v['YEAR'];?></strong></li>
+
+			  <li> <span>ENGINE</span> <strong class="text-right"><?php echo $v['ENG_V'];?></strong></li>
+
+	
+
+		  
+
+			 
+
+  <?php }?>
+
+            </ul>
+
+           </div>
+
+           </div>
+
+        </div>
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		 <div class="col-lg-6 col-md-6 col-sm-6">
+
+       <div class="car-details-sidebar">
+
+          <div class="details-block details-weight">
+
+            <h5>OTHER INFO</h5>
+
+            <ul>
+
+
+
+<?php 	  foreach($arr as $v) { ?>
+
+             
+
+			  <li> <span>GRADE</span> <strong class="text-right"><?php echo $v['GRADE'];?></strong></li>
+
+			  <li> <span>COLOR</span> <strong class="text-right"><?php echo $v['COLOR'];?></strong></li>
+
+			  <li> <span>TRANSMISSION</span> <strong class="text-right"><?php echo $v['KPP'];?></strong></li>
+
+			  <li> <span>MILEAGE</span> <strong class="text-right"><?php echo $v['MILEAGE'];?></strong></li>
+
+			  <li> <span>START</span> <strong class="text-right">&yen; <?php echo number_format($v['START']);?></strong></li>
+
+			  <li> <span>FINISH</span> <strong class="text-right">&yen; <?php echo number_format($v['FINISH']);?></strong></li>
+
+			  
+<!--
+			  <li> <span>AVG PRICE</span> <strong class="text-right"><?php //echo number_format($v['AVG_PRICE']);?></strong></li>-->
+
+			  
+
+<li> <span>STATUS</span> <strong class="text-right"><?php echo $v['STATUS'];?></strong></li>
+
+		  
+
+			 
+
+  <?php }?>
+
+            </ul>
+
+           </div>
+
+           </div>
+
+        </div>
+
+       </div>
+
+	    <?php 	  foreach($arr as $v) { ?>
+
+		<?php if($v['INFO'] != ''){?>
+
+       <div class="row">
+
+         <div class="col-lg-12 col-md-12  col-sm-12">
+
+           <div id="tabs">
+
+          <ul class="tabs">
+
+             <li data-tabs="tab1" class="active"> <span aria-hidden="true" class="icon-diamond"></span> General Information</li>
+
+           </ul>
+
+           <div id="tab1" class="tabcontent"> 
+
+			 <h6><?php echo $v['MODEL_NAME'];?> - <?php echo $v['MARKA_NAME'];?></h6>  
+
+             <p>
+
+			
+
+			 <?php echo $v['INFO'];?>
+
+			 
+
+			 <?php //echo nl2br($row['short_descip']);?>
+
+			 </p>
+
+         </div>
+
+      
+
+      </div>
+
+          
+
+         </div>
+
+         
+
+       </div>
+
+		<?php }}?>
+
+	   
+
+<div class="row">
+
+	 <div class="col-lg-7 col-md-7 col-sm-7">
+
+       <div class="car-details-sidebar">
+
+          <div class="details-block details-weight">
+
+            <h5>Auction Sheet</h5>
+
+				<?php 
+
+					$img = explode('#',$arr[0]['IMAGES']);
+
+				?>
+
+				<img src="<?php echo $img[0];?>" style="max-width: 100%;    border: 10px solid #CC0000;    padding: 2px;" class="img-responsive" >
+
+			</div>
+
+		</div>
+
+	</div>   
+
+		 <div class="col-lg-5 col-md-5 col-sm-5">
+
+       <div class="car-details-sidebar">
+
+          <div class="details-block details-weight">
+
+            <h5>Understanding the Japanese Auction Sheet</h5>
+
+
+
+ 
+
+ 
+
+ <div class="col-lg-6 col-md-6 col-sm-6"  style="font-family:Cuprum,Tahoma;font-size:13px;">
+
+ 
+
+A1 Small Scratch<br>A2 Scratch<br>A3 Big Scratch<br>E1 Few Dimples<br>E2 Several Dimples<br>E3 Many Dimples<br>U1 Small Dent<br>U2 Dent<br>U3 Big Dent<br>W1 Repair Mark/Wave (hardly detectable)<br>W2 Repair Mark/Wave<br>W3 Obvious Repair Mark/Wave (needs to be repainted)<br>S1 Rust<br>S2 Heavy Rust<br>C1 Corrosion<br>C2 Heavy Corrosion<br>P - Paint marked<br>H - Paint faded
+
+          </div>
+
+		  <div class="col-lg-6 col-md-6 col-sm-6" style="font-family:Cuprum,Tahoma;font-size:13px;">
+
+		  X  Need to be replaced<br>XX Replaced<br>B1 Small dent with scratch (size like a thumb)<br>B2 Dent with scratch (size like flat of the hand)<br>B3 Big Dent with scratch (size like elbow)<br>Y1 Small Hole or Crack<br>Y2 Hole or Crack<br>Y3 Big Hole or Crack<br>X1 Small Crack on Windshield (approximately 1cm)<br>R  Repaired Crack on Windshield<br>RX Repaired Crack on Windshield (needs to be replaced)<br>X  Crack on Windshield (needs to be replaced)<br>G - Stone chip in glass
+
+			</div>
+
+			
+
+			
+
+			
+
+			</div>
+
+		</div>
+
+	</div>      
+
+</div>
+
+	   
+
+	   
+
+	 
+
+  </div>
+
+		
+
+</section>
+
+
+
+
+
+
+
+
+
+<!--=================================
+
+car-details  -->
+
+ 
+
+ 
+
+<!--=================================
+
+ footer -->
+
+ 
+
+ <footer class="footer footer-black bg-3 bg-overlay-black-90">
+
+<?php include('inc_footer.php');?>
+
+</footer>
+
+ 
+
+<!--=================================
+
+ footer -->
+
+
+
+ <!--=================================
+
+ back to top -->
+
+
+
+<div class="car-top">
+
+  <span><img src="images/car.png" alt=""></span>
+
+</div>
+
+
+
+ <!--=================================
+
+ back to top -->
+
+ 
+
+
+
+<!--=================================
+
+ jquery -->
+
+
+
+<!-- jquery  -->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+ 
+
+<!-- bootstrap -->
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+
+<!-- bootstrap -->
+
+<script type="text/javascript" src="js/mega-menu/mega_menu.js"></script>
+
+
+
+<!-- appear -->
+
+<script type="text/javascript" src="js/jquery.appear.js"></script>
+
+
+
+<!-- owl-carousel -->
+
+<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+
+
+
+<!-- slick -->
+
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+
+
+
+<!-- select -->
+
+<script type="text/javascript" src="js/select/jquery-select.js"></script>
+
+ 
+
+<!-- custom -->
+
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+
+<!-- php forms -->
+
+<script type="text/javascript" src="js/forms/form-validation.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+
+<script type="text/javascript" src="js/forms/recaptcha.js"></script>
+
+   
+
+</body>
+
+</html>
+

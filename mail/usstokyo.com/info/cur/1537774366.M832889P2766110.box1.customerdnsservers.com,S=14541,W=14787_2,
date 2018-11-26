@@ -1,0 +1,246 @@
+Return-Path: <00ooooo9+bncBDUP7RFY3IHRB5NFULOQKGQEQZTWVTQ@googlegroups.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id 8CiXMR6TqFseNSoAsyhj2Q
+	for <info@usstokyo.com>; Mon, 24 Sep 2018 02:32:46 -0500
+Return-path: <00ooooo9+bncBDUP7RFY3IHRB5NFULOQKGQEQZTWVTQ@googlegroups.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Mon, 24 Sep 2018 02:32:46 -0500
+Received: from mail-yw1-f60.google.com ([209.85.161.60]:39156)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <00ooooo9+bncBDUP7RFY3IHRB5NFULOQKGQEQZTWVTQ@googlegroups.com>)
+	id 1g4LMM-00Bceu-Jw
+	for info@usstokyo.com; Mon, 24 Sep 2018 02:32:46 -0500
+Received: by mail-yw1-f60.google.com with SMTP id l2-v6sf9766905ywb.6
+        for <info@usstokyo.com>; Mon, 24 Sep 2018 00:32:27 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1537774327; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=N416sxQg+KZTqVOfENRBkG/jc6mBpLZqW7N8RxGq3y+uQ38rAUyYr0q4z+hT5FtrwE
+         bceHHWzccf+KiRbCCMJ53FC7kd7KC3xMlW4ZI8OaAYNxw4Axo2NkXGjEU2/hfI0079MC
+         AUpwxWgUzDXqeqCYfThbxpiqGWw2icfBczPiAQHVK5Be2m8lsLM/3SHd2hUUwDjYzUsF
+         cGtP4xrkWfHxHwFiYBHBR3141Bf00E1ilpsZnERvSl750UiJnTs1LicjnJW83V/Qn5aw
+         xvwpGIzpT/O+RkIQ8UtuE5DRBHkE8AmVtR8zpWZ54UxGp45IYwtuL0ht07jSIM2qFX/k
+         IMAA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-archive:list-help:list-post:list-id
+         :mailing-list:precedence:to:subject:message-id:date:from:reply-to
+         :in-reply-to:references:mime-version:sender:dkim-signature
+         :dkim-signature;
+        bh=gf2lRGDG0HHdA13ZtFoKSS+TjmbtXZQydTIzDYQuEZw=;
+        b=faRCerbel6y8SJz+zLYmMUxqUtf/yPyfhvvHbku0vctMBJUUtgVaVu0Q44qBAthnOK
+         LteJPo9a/6BIXH10J1zMhTwCLgHh9tArbHXxI51wBerQI/0kiGhXicnPUo9q4SRMn6yT
+         uZSiNVtEaXftCQQGgBIAmvaksHxWf46Ac47YCJi9JiLv68kQakA1hr/cmsQ+Uqvgx3z8
+         /OKeTWv+/F92lWESdjOdDZgWDjsl+CDzYBEmfPeGnEP41XpuCng96TP08yLcdHUh5UhZ
+         imlSsIAzJCVjZCsRby9HAeXKaSccZV3sn4YR8AIwPioU2DqZ2lukrkE032r9JN9vbodJ
+         Bbdg==
+ARC-Authentication-Results: i=2; gmr-mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=CMqyGUQI;
+       spf=pass (google.com: domain of advertisingzone.pk@gmail.com designates 2607:f8b0:4864:20::143 as permitted sender) smtp.mailfrom=advertisingzone.pk@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20161025;
+        h=sender:mime-version:references:in-reply-to:reply-to:from:date
+         :message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:list-unsubscribe;
+        bh=gf2lRGDG0HHdA13ZtFoKSS+TjmbtXZQydTIzDYQuEZw=;
+        b=ZMEfC7vsiPwPcZrwL3JwdXW6n+pbZQ1BsZMnxLdUzW2HQzCZfvlytFXu7AdDbYAzId
+         mtcpnUMzxzZ/v2qdK7cdCLHMtJsauDL7CBFiBOjrWRNo1q18M7wobEC0mnisZhfAX3dC
+         FKTsRf2wCpYurxpgpkJaKgRSURw0TH7oArtkxBrcPEDGlSgOflEwvk2FSC1ku5kXvWxc
+         cT+ima+iXBywu/Zy4h/CWxVoHmZmUhuOjRVu3NKfmL4E79v71XWrYYNckibiqjivDSAP
+         HlPgGRB+4cG8dwou5FN38BU8/W+60ZmUpcP43+P01VMx9YW/lMqHZmzpsq9UQF99r544
+         VlPg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:reply-to:from:date:message-id
+         :subject:to:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=gf2lRGDG0HHdA13ZtFoKSS+TjmbtXZQydTIzDYQuEZw=;
+        b=FVJx1EY/cdUcg1BVxycUeb6IAPskr9hfJZhQ0ocOTWgJ/8uUjRY5C8ukcMBNXIwI32
+         wRgerKv4HZ7/8gY9PlAVpOzbli0v5aA2Vj8+/gzaCtL6qNRkd6a+pK5hzcjksdTQusDI
+         30arg9J7n6w3SdwOCCNRAUXoh/NLbNcK2MrY9zojkwyc2Kh0lxHXsFwq/MXEu/k7mCUc
+         /CvTq0p5j1dhco7as5p6oTYaY/pmWjMDw0WaqzZQF1ZXz+oJG4fHzGBitz+UuqI0meC5
+         j+zZkpRMnrU9eesRLDXD8e0+N4W0SlmTvpccF9oZSVYvHdwPTZQtlJSb5oxh9I7LeKRd
+         tjqQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=sender:x-gm-message-state:mime-version:references:in-reply-to
+         :reply-to:from:date:message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=gf2lRGDG0HHdA13ZtFoKSS+TjmbtXZQydTIzDYQuEZw=;
+        b=W/ZED+TOjPrayn8H2rtJoIcwpUtTzvw/Sc+b6cqe1gm8+5d8hfYZ9QYgzHSs5md/9a
+         /EvWJzgmQf5AhDotQzNPZw3P/VtPBqpbqu+DuXUpV2ZXFtYSb9imGiLAHEawD3vLbIc1
+         9UStE2N578y+fvM7Hq4Fly8ZQid99AoDsagdaSt8Tnvf9Ct2e5DEzo836Qr1llgFRAG3
+         aGJXoHKhvmNMUS28H3DWv651KtE+oij2K3tfaCYS4gl1u6184cSc/988wtHS+gHbDyzm
+         h9jpRIAYi1csHWAgpqnPoW1D+VCkKZV6Of4f5c7k9y2vQ6ZdF92ERXrLR4SNiIlmBjZG
+         w0HA==
+Sender: 00ooooo9@googlegroups.com
+X-Gm-Message-State: ABuFfoiG5A5/pxAZCChCgmFvmC5ev/z/sMFUDPQ9Z8NRVm8XtOqDsDig
+	6e74uwgY4s9kItEcthiWqPU=
+X-Google-Smtp-Source: ACcGV60kafLFSsjKR/Z9iB+eJMcDoMkr0s6USRET4e2e2ntXf5XllakfX1RJ3Cih23I8Ezq17/pgWA==
+X-Received: by 2002:a25:2483:: with SMTP id k125-v6mr79947ybk.5.1537774327072;
+        Mon, 24 Sep 2018 00:32:07 -0700 (PDT)
+X-BeenThere: 00ooooo9@googlegroups.com
+Received: by 2002:a81:25d3:: with SMTP id l202-v6ls1226787ywl.21.gmail; Mon,
+ 24 Sep 2018 00:32:05 -0700 (PDT)
+X-Received: by 2002:a81:5882:: with SMTP id m124-v6mr688676ywb.151.1537774325494;
+        Mon, 24 Sep 2018 00:32:05 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1537774325; cv=none;
+        d=google.com; s=arc-20160816;
+        b=zAr4Oh3e7lay+mg6XWW9xPfbIWNTafm/CWBQBTVuRGKcqSd4wi4KkQFJ5kimbvXmfL
+         Jtn7SMjeIK7kLQyyaDBViNfct6aP24goqSc0x3iU0OCbKULGgSPEFjw0vrXSwjww35NS
+         SCzhTnRnVsRYyyhFQYYenSMVgUGW58LuK8EOHDKfmdElJk/bcy3CXFPbzsDGl8NIaM3e
+         eYRtx/VC9CCaSbHYPqOMWl8VMPp0zom6bA/HaAKRo3i4T9tBHMSOLCNLrZ0Yl3u760so
+         6hd6w1hvcUjBoG48PFO9+Fw7OjmUSqpb3gWiNqccdwfqI7LE6nAV7TYZ5hOIT7sSzC+s
+         /cUQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:reply-to:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=mya8pVpCwSjMQRcTD5yaVZaRtheUAmbh6L2pa0K49GY=;
+        b=gL3fN29FVfWnJWstFsWaCh9l4qi27mahJvveUplfywmTcwj+DGZl+PvTl6pVLJG5Ym
+         tf4ArVWCV09ZqfwhmlkLG8xbTyPZsdxz+m/X0LkaQM0MPGK+RoNMUzmYWA1UD9QNO73+
+         4Trnp4n0UfPwKWqS4oiI6O56Z75R4av74D5+E8JaEMeY2uftai9TjWdXZBiP0u24NEAR
+         a0wibaRQNTmo1QGCO1FSUaxTEt8pwcBLUKPlZn7NQ2b+4SHN2s0f2v0xjvOuY8/mDdJx
+         q+/FG5eKWilKsA849TpGnUUqWQUEhu+c923V801JA/WwBhsFvIkV7nRyYCxTtrWCZ9p2
+         zUpQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=CMqyGUQI;
+       spf=pass (google.com: domain of advertisingzone.pk@gmail.com designates 2607:f8b0:4864:20::143 as permitted sender) smtp.mailfrom=advertisingzone.pk@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from mail-it1-x143.google.com (mail-it1-x143.google.com. [2607:f8b0:4864:20::143])
+        by gmr-mx.google.com with ESMTPS id e6-v6si1661667ybq.0.2018.09.24.00.32.05
+        for <00ooooo9@googlegroups.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 24 Sep 2018 00:32:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of advertisingzone.pk@gmail.com designates 2607:f8b0:4864:20::143 as permitted sender) client-ip=2607:f8b0:4864:20::143;
+Received: by mail-it1-x143.google.com with SMTP id c85-v6so510011itd.1
+        for <00ooooo9@googlegroups.com>; Mon, 24 Sep 2018 00:32:05 -0700 (PDT)
+X-Received: by 2002:a02:7004:: with SMTP id f4-v6mr8350923jac.141.1537774324992;
+ Mon, 24 Sep 2018 00:32:04 -0700 (PDT)
+MIME-Version: 1.0
+References: <00a201d453ca$567da100$0378e300$@gmail.com> <CALNTepO5Cw5Ev2AoeC+=fAA_7D9dLaGow6Y9_sL9TztuAkY7nA@mail.gmail.com>
+In-Reply-To: <CALNTepO5Cw5Ev2AoeC+=fAA_7D9dLaGow6Y9_sL9TztuAkY7nA@mail.gmail.com>
+Reply-To: karachi@softax.com.pk
+From: Softax <advertisingzone.pk@gmail.com>
+Date: Mon, 24 Sep 2018 12:31:53 +0500
+Message-ID: <CAB8UvxPtTTjyDSQqG9W=1Uv9ivAsPRxjydpqcmXc29KChYxGSg@mail.gmail.com>
+Subject: FRAUD Prevention, Detection & Investigation
+To: karachi@softax.com.pk
+Content-Type: multipart/alternative; boundary="00000000000062d5bc057698fc58"
+Bcc: 00ooooo9@googlegroups.com
+X-Original-Sender: advertisingzone.pk@gmail.com
+X-Original-Authentication-Results: gmr-mx.google.com;       dkim=pass
+ header.i=@gmail.com header.s=20161025 header.b=CMqyGUQI;       spf=pass
+ (google.com: domain of advertisingzone.pk@gmail.com designates
+ 2607:f8b0:4864:20::143 as permitted sender) smtp.mailfrom=advertisingzone.pk@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Precedence: list
+Mailing-list: list 00ooooo9@googlegroups.com; contact 00ooooo9+owners@googlegroups.com
+List-ID: <00ooooo9.googlegroups.com>
+X-Spam-Checked-In-Group: 00ooooo9@googlegroups.com
+X-Google-Group-Id: 266373294955
+List-Post: <https://groups.google.com/group/00ooooo9/post>, <mailto:00ooooo9@googlegroups.com>
+List-Help: <https://groups.google.com/support/>, <mailto:00ooooo9+help@googlegroups.com>
+List-Archive: <https://groups.google.com/group/00ooooo9
+List-Unsubscribe: <mailto:googlegroups-manage+266373294955+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/group/00ooooo9/subscribe>
+
+--00000000000062d5bc057698fc58
+Content-Type: text/plain; charset="UTF-8"
+
+*Workshop on *
+
+*FRAUD Prevention, Detection & Investigation*
+
+
+
+*September 27**, 2018*
+
+*Marriott Hotel, **Karachi*
+
+
+
+*For more details and registration, please contact:*
+
+*021-32640313 or 0321-5596119*
+
+
+
+<http://softax.com.pk/events.php>
+
+-- 
+You received this message because you are subscribed to the Google Groups "00ooooo9" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to 00ooooo9+unsubscribe@googlegroups.com.
+To post to this group, send email to 00ooooo9@googlegroups.com.
+To view this discussion on the web visit https://groups.google.com/d/msgid/00ooooo9/CAB8UvxPtTTjyDSQqG9W%3D1Uv9ivAsPRxjydpqcmXc29KChYxGSg%40mail.gmail.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--00000000000062d5bc057698fc58
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"color:black"></span><div class=3D"gmail_quo=
+te"><div dir=3D"ltr"><div class=3D"gmail_quote"><div link=3D"blue" vlink=3D=
+"purple" lang=3D"EN-US"><div class=3D"m_-6652445198859991387m_9066960020666=
+185313WordSection1"><p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"=
+></span></p><p class=3D"MsoNormal" style=3D"text-align:center" align=3D"cen=
+ter"><font size=3D"4"><b><span style=3D"color:#404040">W<b><span style=3D"f=
+ont-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">orkshop on </span></=
+b></span></b></font></p><p class=3D"MsoNormal" style=3D"text-align:center" =
+align=3D"center"><font size=3D"4"><b><span style=3D"font-family:&quot;Bahns=
+chrift SemiBold SemiConden&quot;,&quot;sans-serif&quot;;color:rgb(128,100,1=
+62)">FRAUD Prevention, Detection &amp; Investigation</span></b></font></p><=
+p class=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><font si=
+ze=3D"4"><b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif=
+&quot;;color:black">=C2=A0</span></b></font></p><p class=3D"MsoNormal" styl=
+e=3D"text-align:center" align=3D"center"><font size=3D"4"><b><i><span style=
+=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:rgb(64,64,=
+64)">September 27</span></i></b><b><i><span style=3D"font-family:&quot;Cali=
+bri&quot;,&quot;sans-serif&quot;;color:rgb(64,64,64);font-weight:normal">, =
+2018</span></i></b><b><i><span style=3D"font-family:&quot;Calibri&quot;,&qu=
+ot;sans-serif&quot;;color:rgb(64,64,64)"></span></i></b></font></p><p class=
+=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><font size=3D"4=
+"><b><i><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quo=
+t;;color:rgb(64,64,64);font-weight:normal">Marriott Hotel, </span></i></b><=
+b><i><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;=
+color:rgb(64,64,64)">Karachi</span></i></b></font></p><p class=3D"MsoNormal=
+" style=3D"text-align:center;line-height:12.75pt" align=3D"center"><font si=
+ze=3D"4">=C2=A0</font></p><p class=3D"MsoNormal" style=3D"text-align:center=
+;line-height:12.75pt" align=3D"center"><font size=3D"4"><b>For more details=
+ and registration, please contact:</b></font></p><p class=3D"MsoNormal" sty=
+le=3D"text-align:center;line-height:12.75pt" align=3D"center"><b><font size=
+=3D"4">021-32640313<span style=3D"color:black"> or 0321-5596119</span></fon=
+t></b></p><p class=3D"MsoNormal" style=3D"text-align:center;line-height:12.=
+75pt" align=3D"center"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Segoe UI&quot;,&quot;sans-serif&quot;;color:black"><u></u>=C2=A0<u></u></s=
+pan></b></p><p class=3D"MsoNormal" style=3D"text-align:center;line-height:1=
+2.75pt" align=3D"center"><a href=3D"http://softax.com.pk/events.php"><b><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Segoe UI&quot;,&quot;sans-se=
+rif&quot;;color:black"><img id=3D"m_-6652445198859991387m_90669600206661853=
+13Picture_x0020_1" src=3D"cid:1660a7b27ab5b006a1" width=3D"683" height=3D"9=
+60" border=3D"0"></span></b></a></p></div></div></div></div>
+</div></div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;00ooooo9&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:00ooooo9+unsubscribe@googlegroups.com">00ooooo9+u=
+nsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:00ooooo9@googlegroup=
+s.com">00ooooo9@googlegroups.com</a>.<br />
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/00ooooo9/CAB8UvxPtTTjyDSQqG9W%3D1Uv9ivAsPRxjydpqcmXc29KChYxGSg%4=
+0mail.gmail.com?utm_medium=3Demail&utm_source=3Dfooter">https://groups.goog=
+le.com/d/msgid/00ooooo9/CAB8UvxPtTTjyDSQqG9W%3D1Uv9ivAsPRxjydpqcmXc29KChYxG=
+Sg%40mail.gmail.com</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--00000000000062d5bc057698fc58--

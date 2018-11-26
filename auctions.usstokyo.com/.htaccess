@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^auctions\.usstokyo\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.auctions\.usstokyo\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/usstokyo\.com\/search\.php" [R=301,L]
+

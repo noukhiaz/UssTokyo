@@ -1,0 +1,318 @@
+Return-Path: <m-41h7pnqhmx28fqlhnu8jcqhp5jctkej82ugeo3fnarjrm1lamq5gx@bounce.linkedin.com>
+Delivered-To: sm@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id QPabN31KNls0YwYAsyhj2Q
+	for <sm@usstokyo.com>; Fri, 29 Jun 2018 10:04:29 -0500
+Return-path: <m-41h7pnqhmx28fqlhnu8jcqhp5jctkej82ugeo3fnarjrm1lamq5gx@bounce.linkedin.com>
+Envelope-to: sm@usstokyo.com
+Delivery-date: Fri, 29 Jun 2018 10:04:29 -0500
+Received: from maile-dc.linkedin.com ([108.174.6.203]:56906)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <m-41h7pnqhmx28fqlhnu8jcqhp5jctkej82ugeo3fnarjrm1lamq5gx@bounce.linkedin.com>)
+	id 1fYuwn-001lZy-Qc
+	for sm@usstokyo.com; Fri, 29 Jun 2018 10:04:29 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-201806-01; t=1530284631;
+	bh=sUbJlUfV/zKBWoqaUExtEb6rLWjH0+77iWq3INx6n5c=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=zG5vAJuoKeNJT4dn4xusG5N1yRpru7XSLIU6r2TDFVdVGwG3H5j1oERiaMgVHkmri
+	 k81J8NZ+AfOh1LlrrKE6MPVMdPXwkSiDaE9TJXi0+KK9ilgJ65DVe7IHtZEFdKDoI1
+	 /NhfbKOEGsEzmwLqGjokzispJHe262mFA1O6KJugDiD+Nv7G42RRsAFKTpC8D4jJXP
+	 110WOdU+0eO1FX8jIKPocbmidCQtabCq2S3Fqbf1iWvX0wojJIPDFuQF0HgueueUXP
+	 WOyRC80Nqb5pXXCjfJMK5WSvK+gaxiDUr9qcH8ZDonvt4p3yo9vpTGlCuz+OkxavK3
+	 S4y1FZGarpSOg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=proddkim1024; t=1530284631;
+	bh=sUbJlUfV/zKBWoqaUExtEb6rLWjH0+77iWq3INx6n5c=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=Yn0pku/MeXwo2rju663lM2vN4KoUf8pzUYeN8+p4NJMrJbCWa6yy1pYvdHLRoOmAz
+	 4WEdaJQit4OeucWGY9tc/2r+886ht74W5KkMZMQ7BDgFJWF2eZ3/6yABZ3DGp4oubP
+	 9hy04AlMlKSbyJ/GfgyxhQJW6QwDoIM4cJ3M/Q+s=
+From: LinkedIn Welcome Team <messages-noreply@linkedin.com>
+Message-ID: <448725563.987880.1530284631504.JavaMail.app@lor1-app12753.prod.linkedin.com>
+Subject: Uss, see who you already know on LinkedIn
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_987878_1664605106.1530284631500"
+To: Uss Tokyo <sm@usstokyo.com>
+Date: Fri, 29 Jun 2018 15:03:51 +0000 (UTC)
+X-LinkedIn-Class: TIK
+X-LinkedIn-Template: email_welcome_pymk_v2
+X-LinkedIn-fbl: m2-aszp8j0ajn3kpvstndkmkvv23zaien66hdgn4a86fw6xq1185d511qvryy99mabe8i1vezz0oyynnihmg3ug11qkytsmi2jd4capfu
+X-LinkedIn-Id: ayv4c2-jj03x7uo-l1
+List-Unsubscribe: <https://www.linkedin.com/e/v2?e=ayv4c2-jj03x7uo-l1&t=lun&midToken=AQE2YFZLuF9xxA&ek=email_welcome_pymk_v2&li=24&m=unsub&ts=unsub&loid=AQGCiUdZV299sgAAAWRMEmVh8Qw-N73yMRyM-tJM_NWornKcng3hwnSFrE4HYyas1_eFHTapdUOwey7BNB7B7CSNYSkwNw&eid=ayv4c2-jj03x7uo-l1>
+Require-Recipient-Valid-Since: sm@usstokyo.com; Fri, 22 Jun 2018 15:56:22 +0000
+
+------=_Part_987878_1664605106.1530284631500
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Uss, see who you already know on LinkedIn
+
+Build your network. Open doors to more opportunity. https://www.linkedin.co=
+m/comm/mynetwork/import-contacts/?midToken=3DAQE2YFZLuF9xxA&trk=3Deml-email=
+_welcome_pymk_v2-abook-8-generic_top_cta&trkEmail=3Deml-email_welcome_pymk_=
+v2-abook-8-generic_top_cta-null-ayv4c2%7Ejj03x7uo%7El1-null-neptune%2Fmynet=
+work%2Eabi&lipi=3Durn%3Ali%3Apage%3Aemail_email_welcome_pymk_v2%3BJf8epU%2B=
+8Tdmm%2FuHKxdhIqw%3D%3D
+
+The fastest way to grow your network is to import your contacts and find pe=
+ople you already know on LinkedIn.
+
+
+
+.....................................
+
+Unsubscribe: https://www.linkedin.com/e/v2?e=3Dayv4c2-jj03x7uo-l1&t=3Dlun&m=
+idToken=3DAQE2YFZLuF9xxA&ek=3Demail_welcome_pymk_v2&li=3D24&m=3Dunsub&ts=3D=
+unsub&loid=3DAQGCiUdZV299sgAAAWRMEmVh8Qw-N73yMRyM-tJM_NWornKcng3hwnSFrE4HYy=
+as1_eFHTapdUOwey7BNB7B7CSNYSkwNw&eid=3Dayv4c2-jj03x7uo-l1
+
+Help: https://www.linkedin.com/e/v2?e=3Dayv4c2-jj03x7uo-l1&lipi=3Durn%3Ali%=
+3Apage%3Aemail_email_welcome_pymk_v2%3BJf8epU%2B8Tdmm%2FuHKxdhIqw%3D%3D&a=
+=3DcustomerServiceUrl&midToken=3DAQE2YFZLuF9xxA&ek=3Demail_welcome_pymk_v2&=
+li=3D23&m=3Dfooter&ts=3Dhelp&articleId=3D67
+
+
+This is an occasional email to help you get the most out of LinkedIn.
+
+This email was intended for Uss Tokyo (CEO at USSTOKYO.com).
+Learn why we included this: https://www.linkedin.com/e/v2?e=3Dayv4c2-jj03x7=
+uo-l1&lipi=3Durn%3Ali%3Apage%3Aemail_email_welcome_pymk_v2%3BJf8epU%2B8Tdmm=
+%2FuHKxdhIqw%3D%3D&a=3DcustomerServiceUrl&midToken=3DAQE2YFZLuF9xxA&ek=3Dem=
+ail_welcome_pymk_v2&articleId=3D4788
+
+=C2=A9 2018 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2. LinkedIn is a registered business name of LinkedIn Ireland Unlim=
+ited Company. LinkedIn and the LinkedIn logo are registered trademarks of L=
+inkedIn.
+------=_Part_987878_1664605106.1530284631500
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns=3D"http://www.w3=
+.org/1999/xhtml" lang=3D"en" xml:lang=3D"en"> <head> <meta http-equiv=3D"Co=
+ntent-Type" content=3D"text/html;charset=3Dutf-8"> <meta name=3D"HandheldFr=
+iendly" content=3D"true"> <meta name=3D"viewport" content=3D"width=3Ddevice=
+-width; initial-scale=3D0.666667; maximum-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <!--[if mso]><style type=3D"text/css">body {font-family: 'Helvetica N=
+eue', Helvetica, Arial, sans-serif;}.phoenix-email-container {width: 512px =
+!important;}</style><![endif]--> <!--[if IE]><style type=3D"text/css">.phoe=
+nix-email-container {width: 512px !important;}</style><![endif]--> <style t=
+ype=3D"text/css">@media only screen and (max-width:32em) { .phoenix-email-c=
+ontainer { width:100% !important; } } @media only screen and (max-width:20e=
+m) {} @media only screen and (max-device-width:30em) {} @media screen and (=
+device-width:30em) and (device-height:22.5em), screen and (device-width:22.=
+5em) and (device-height:30em), screen and (device-width:20em) and (device-h=
+eight:15em) {} @media screen and (-webkit-min-device-pixel-ratio:0) {} @med=
+ia screen and (max-device-width:25.88em) and (max-device-height:48.5em) {} =
+@media only screen and (max-width:30em) { .cards .cards-container { width:1=
+00% !important; } .cta-container-desktop { display:none !important; width:0=
+ !important; height:0 !important; overflow:hidden !important; visibility:hi=
+dden !important; } .cta-container-mobile { visibility:visible !important; o=
+verflow:visible !important; } } @media only screen and (min-width:30.06em) =
+{ .cta-container-mobile { display:none !important; width:0 !important; over=
+flow:hidden !important; visibility:hidden !important; } .cta-container-desk=
+top { overflow:visible !important; padding-top:12px; vertical-align:top; vi=
+sibility:visible !important; } } </style> </head> <body style=3D"padding:0;=
+margin:0 auto;-webkit-text-size-adjust:100%;width:100% !important;-ms-text-=
+size-adjust:100%;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;">=
+ <div style=3D"overflow:hidden;color:transparent;visibility:hidden;mso-hide=
+:all;width:0;font-size:0;opacity:0;height:0;"> Adding connections makes bui=
+lding relationships easy </div> <table align=3D"center" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#EDF0F3" style=3D"b=
+ackground-color:#EDF0F3;table-layout:fixed;-webkit-text-size-adjust:100%;ms=
+o-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <tbody=
+> <tr> <td align=3D"center" style=3D"-webkit-text-size-adjust:100%;mso-tabl=
+e-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <center styl=
+e=3D"width:100%;"> <table border=3D"0" class=3D"phoenix-email-container" ce=
+llspacing=3D"0" cellpadding=3D"0" width=3D"512" bgcolor=3D"#FFFFFF" style=
+=3D"background-color:#FFFFFF;margin:0 auto;max-width:512px;-webkit-text-siz=
+e-adjust:100%;mso-table-rspace:0pt;width:inherit;mso-table-lspace:0pt;-ms-t=
+ext-size-adjust:100%;"> <tbody> <tr> <td bgcolor=3D"#F6F8FA" style=3D"backg=
+round-color:#F6F8FA;padding:5px 16px 13px;-webkit-text-size-adjust:100%;mso=
+-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;border-bot=
+tom:1px solid #ECECEC;"> <table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:100%;mso-table-rspa=
+ce:0pt;width:100% !important;mso-table-lspace:0pt;-ms-text-size-adjust:100%=
+;min-width:100% !important;"> <tbody> <tr> <td align=3D"left" valign=3D"mid=
+dle" style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-=
+lspace:0pt;-ms-text-size-adjust:100%;"><a href=3D"https://www.linkedin.com/=
+comm/feed/?midToken=3DAQE2YFZLuF9xxA&amp;trk=3Deml-email_welcome_pymk_v2-he=
+ader-19-home&amp;trkEmail=3Deml-email_welcome_pymk_v2-header-19-home-null-a=
+yv4c2%7Ejj03x7uo%7El1-null-neptune%2Ffeed&amp;lipi=3Durn%3Ali%3Apage%3Aemai=
+l_email_welcome_pymk_v2%3BJf8epU%2B8Tdmm%2FuHKxdhIqw%3D%3D" style=3D"cursor=
+:pointer;color:#008CC9;-webkit-text-size-adjust:100%;display:inline-block;t=
+ext-decoration:none;-ms-text-size-adjust:100%;"> <img alt=3D"LinkedIn" bord=
+er=3D"0" src=3D"https://www.linkedin.com/comm/dms/logo?midToken=3DAQE2YFZLu=
+F9xxA&amp;trk=3Deml-email_welcome_pymk_v2-null-26-null&amp;trkEmail=3Deml-e=
+mail_welcome_pymk_v2-null-26-null-null-ayv4c2%7Ejj03x7uo%7El1-null-comms%7E=
+badging%7Edynamic&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_welcome_pymk_v2%=
+3BJf8epU%2B8Tdmm%2FuHKxdhIqw%3D%3D&amp;_sig=3D0zgTlVmv_DaUk1" height=3D"42"=
+ style=3D"outline:none;-ms-interpolation-mode:bicubic;color:#FFFFFF;text-de=
+coration:none;"></a></td> <td valign=3D"middle" width=3D"100%" align=3D"rig=
+ht" style=3D"padding:0 0 0 10px;padding-top:7px;-webkit-text-size-adjust:10=
+0%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"><a=
+ href=3D"https://www.linkedin.com/comm/in/uss-tokyo-302140166?midToken=3DAQ=
+E2YFZLuF9xxA&amp;trk=3Deml-email_welcome_pymk_v2-header-27-profile&amp;trkE=
+mail=3Deml-email_welcome_pymk_v2-header-27-profile-null-ayv4c2%7Ejj03x7uo%7=
+El1-null-neptune%2Fprofile%7Evanity%2Eview&amp;lipi=3Durn%3Ali%3Apage%3Aema=
+il_email_welcome_pymk_v2%3BJf8epU%2B8Tdmm%2FuHKxdhIqw%3D%3D" style=3D"curso=
+r:pointer;margin:0;color:#008CC9;-webkit-text-size-adjust:100%;display:inli=
+ne-block;text-decoration:none;-ms-text-size-adjust:100%;"> <span style=3D"w=
+ord-wrap:break-word;color:#4C4C4C;word-break:break-word;font-weight:400;-ms=
+-word-break:break-all;font-size:14px;line-height:1.429;overflow-wrap:break-=
+word;">Uss Tokyo</span></a></td> <td width=3D"1" style=3D"-webkit-text-size=
+-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust=
+:100%;">&nbsp;</td> </tr> </tbody> </table></td> </tr> <tr> <td style=3D"-w=
+ebkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-t=
+ext-size-adjust:100%;"></td> </tr> <tr> <td style=3D"-webkit-text-size-adju=
+st:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%=
+;"> <table bgcolor=3D"#00a0dc" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:100%;mso-table-rspa=
+ce:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <tbody> <tr> <td b=
+gcolor=3D"#7A8B98" background=3D"https://static.licdn.com/scds/common/u/ima=
+ges/email/campaigns/welcome_series/bg_slate_texture_1024x540_v1.png" align=
+=3D"center" style=3D"background-color:#7A8B98;padding:24px;-webkit-text-siz=
+e-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjus=
+t:100%;background-image:url(https://static.licdn.com/scds/common/u/images/e=
+mail/campaigns/welcome_series/bg_slate_texture_1024x540_v1.png);text-align:=
+center;"> <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"=
+100%" style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table=
+-lspace:0pt;-ms-text-size-adjust:100%;"> <tbody> <tr> <td align=3D"center" =
+style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspac=
+e:0pt;-ms-text-size-adjust:100%;"> <h2 style=3D"margin:0;color:#FFFFFF;font=
+-weight:200;font-size:20px;line-height:1.2;">Build your network. Open doors=
+ to more opportunity.</h2></td> </tr> <tr> <td align=3D"center" style=3D"pa=
+dding-top:16px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table=
+-lspace:0pt;-ms-text-size-adjust:100%;text-align:center;"> <a href=3D"https=
+://www.linkedin.com/comm/mynetwork/import-contacts/?midToken=3DAQE2YFZLuF9x=
+xA&amp;trk=3Deml-email_welcome_pymk_v2-abook-8-generic_top_cta&amp;trkEmail=
+=3Deml-email_welcome_pymk_v2-abook-8-generic_top_cta-null-ayv4c2%7Ejj03x7uo=
+%7El1-null-neptune%2Fmynetwork%2Eabi&amp;lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_welcome_pymk_v2%3BJf8epU%2B8Tdmm%2FuHKxdhIqw%3D%3D" style=3D"border-radi=
+us:50%;cursor:pointer;color:#008CC9;-webkit-text-size-adjust:100%;display:i=
+nline-block;text-decoration:none;-ms-text-size-adjust:100%;"><img alt=3D"" =
+border=3D"0" height=3D"56" width=3D"56" src=3D"https://static.licdn.com/scd=
+s/common/u/images/email/campaigns/email_welcome_abi_v2/icon_abi_default_172=
+x172_v1.png" style=3D"border-radius:50%;outline:none;-ms-interpolation-mode=
+:bicubic;color:#FFFFFF;text-decoration:none;"></a></td> </tr> <tr> <td alig=
+n=3D"center" style=3D"padding-top:24px;-webkit-text-size-adjust:100%;mso-ta=
+ble-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;text-align:ce=
+nter;"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-w=
+ebkit-text-size-adjust:100%;mso-table-rspace:0pt;display:inline-block;mso-t=
+able-lspace:0pt;-ms-text-size-adjust:100%;"> <tbody> <tr> <td align=3D"cent=
+er" valign=3D"middle" style=3D"-webkit-text-size-adjust:100%;mso-table-rspa=
+ce:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"><a href=3D"https://=
+www.linkedin.com/comm/mynetwork/import-contacts/?midToken=3DAQE2YFZLuF9xxA&=
+amp;trk=3Deml-email_welcome_pymk_v2-abook-8-generic_top_cta&amp;trkEmail=3D=
+eml-email_welcome_pymk_v2-abook-8-generic_top_cta-null-ayv4c2%7Ejj03x7uo%7E=
+l1-null-neptune%2Fmynetwork%2Eabi&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+welcome_pymk_v2%3BJf8epU%2B8Tdmm%2FuHKxdhIqw%3D%3D" target=3D"_blank" style=
+=3D"cursor:pointer;word-wrap:normal;color:#008CC9;word-break:normal;white-s=
+pace:nowrap;-webkit-text-size-adjust:100%;display:block;text-decoration:non=
+e;-ms-text-size-adjust:100%;overflow-wrap:normal;"> <table border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" width=3D"auto" style=3D"-webkit-text-size-=
+adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:=
+100%;"> <tbody> <tr> <td bgcolor=3D"#FFFFFF" style=3D"padding:6px 16px;colo=
+r:#4C4C4C;-webkit-text-size-adjust:100%;font-weight:500;font-size:16px;-ms-=
+text-size-adjust:100%;border-color:#FFFFFF;background-color:#FFFFFF;border-=
+radius:2px;mso-table-rspace:0pt;mso-table-lspace:0pt;border-width:1px;borde=
+r-style:solid;"><a href=3D"https://www.linkedin.com/comm/mynetwork/import-c=
+ontacts/?midToken=3DAQE2YFZLuF9xxA&amp;trk=3Deml-email_welcome_pymk_v2-aboo=
+k-8-generic_top_cta&amp;trkEmail=3Deml-email_welcome_pymk_v2-abook-8-generi=
+c_top_cta-null-ayv4c2%7Ejj03x7uo%7El1-null-neptune%2Fmynetwork%2Eabi&amp;li=
+pi=3Durn%3Ali%3Apage%3Aemail_email_welcome_pymk_v2%3BJf8epU%2B8Tdmm%2FuHKxd=
+hIqw%3D%3D" target=3D"_blank" style=3D"cursor:pointer;color:#4C4C4C;-webkit=
+-text-size-adjust:100%;display:inline-block;text-decoration:none;-ms-text-s=
+ize-adjust:100%;">Find contacts</a></td> </tr> </tbody> </table></a></td> <=
+/tr> </tbody> </table></td> </tr> </tbody> </table></td> </tr> </tbody> </t=
+able></td> </tr> <tr> <td align=3D"center" style=3D"padding:24px;-webkit-te=
+xt-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size=
+-adjust:100%;text-align:center;"> <p style=3D"margin:0;color:#4C4C4C;font-w=
+eight:400;font-size:16px;line-height:1.25;">The fastest way to grow your ne=
+twork is to import your contacts and find people you already know on Linked=
+In.</p></td> </tr> <tr> <td style=3D"-webkit-text-size-adjust:100%;mso-tabl=
+e-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <table borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#EDF0=
+F3" align=3D"center" style=3D"background-color:#EDF0F3;padding:0 24px;color=
+:#6A6C6D;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspac=
+e:0pt;-ms-text-size-adjust:100%;text-align:center;"> <tbody> <tr> <td align=
+=3D"center" style=3D"padding:16px 0 0 0;-webkit-text-size-adjust:100%;mso-t=
+able-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;text-align:c=
+enter;"> <table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:100%;mso-table-rspa=
+ce:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <tbody> <tr> <td v=
+align=3D"middle" align=3D"center" style=3D"padding:0 0 16px 0;-webkit-text-=
+size-adjust:100%;mso-table-rspace:0pt;vertical-align:middle;mso-table-lspac=
+e:0pt;-ms-text-size-adjust:100%;text-align:center;"><a href=3D"https://www.=
+linkedin.com/e/v2?e=3Dayv4c2-jj03x7uo-l1&amp;t=3Dlun&amp;midToken=3DAQE2YFZ=
+LuF9xxA&amp;ek=3Demail_welcome_pymk_v2&amp;li=3D24&amp;m=3Dunsub&amp;ts=3Du=
+nsub&amp;loid=3DAQGCiUdZV299sgAAAWRMEmVh8Qw-N73yMRyM-tJM_NWornKcng3hwnSFrE4=
+HYyas1_eFHTapdUOwey7BNB7B7CSNYSkwNw&amp;eid=3Dayv4c2-jj03x7uo-l1" style=3D"=
+cursor:pointer;color:#6A6C6D;-webkit-text-size-adjust:100%;text-decoration:=
+underline;display:inline-block;-ms-text-size-adjust:100%;"> <span style=3D"=
+color:#6A6C6D;font-weight:400;text-decoration:underline;font-size:12px;line=
+-height:1.333;">Unsubscribe</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=3D"h=
+ttps://www.linkedin.com/e/v2?e=3Dayv4c2-jj03x7uo-l1&amp;lipi=3Durn%3Ali%3Ap=
+age%3Aemail_email_welcome_pymk_v2%3BJf8epU%2B8Tdmm%2FuHKxdhIqw%3D%3D&amp;a=
+=3DcustomerServiceUrl&amp;midToken=3DAQE2YFZLuF9xxA&amp;ek=3Demail_welcome_=
+pymk_v2&amp;li=3D23&amp;m=3Dfooter&amp;ts=3Dhelp&amp;articleId=3D67" style=
+=3D"cursor:pointer;color:#6A6C6D;-webkit-text-size-adjust:100%;text-decorat=
+ion:underline;display:inline-block;-ms-text-size-adjust:100%;"> <span style=
+=3D"color:#6A6C6D;font-weight:400;text-decoration:underline;font-size:12px;=
+line-height:1.333;">Help</span></a></td> </tr> </tbody> </table></td> </tr>=
+ <tr> <td style=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-t=
+able-lspace:0pt;-ms-text-size-adjust:100%;"> <table border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust:=
+100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;">=
+ <tbody> <tr> <td align=3D"center" style=3D"padding:0 0 12px 0;-webkit-text=
+-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-a=
+djust:100%;text-align:center;"> <p style=3D"margin:0;color:#6A6C6D;font-wei=
+ght:400;font-size:12px;line-height:1.333;">This is an occasional email to h=
+elp you get the most out of LinkedIn.</p></td> </tr> <tr> <td align=3D"cent=
+er" style=3D"padding:0 0 12px 0;-webkit-text-size-adjust:100%;mso-table-rsp=
+ace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;text-align:center;">=
+ <p style=3D"margin:0;word-wrap:break-word;color:#6A6C6D;word-break:break-w=
+ord;font-weight:400;-ms-word-break:break-all;font-size:12px;line-height:1.3=
+33;overflow-wrap:break-word;">This email was intended for Uss Tokyo (CEO at=
+ USSTOKYO.com). <a href=3D"https://www.linkedin.com/e/v2?e=3Dayv4c2-jj03x7u=
+o-l1&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_welcome_pymk_v2%3BJf8epU%2B8T=
+dmm%2FuHKxdhIqw%3D%3D&amp;a=3DcustomerServiceUrl&amp;midToken=3DAQE2YFZLuF9=
+xxA&amp;ek=3Demail_welcome_pymk_v2&amp;articleId=3D4788" style=3D"cursor:po=
+inter;color:#6A6C6D;-webkit-text-size-adjust:100%;text-decoration:underline=
+;display:inline-block;-ms-text-size-adjust:100%;">Learn why we included thi=
+s.</a></p></td> </tr> <tr> <td align=3D"center" style=3D"padding:0 0 8px 0;=
+-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms=
+-text-size-adjust:100%;text-align:center;"><a href=3D"https://www.linkedin.=
+com/comm/feed/?midToken=3DAQE2YFZLuF9xxA&amp;trk=3Deml-email_welcome_pymk_v=
+2-footer-21-home&amp;trkEmail=3Deml-email_welcome_pymk_v2-footer-21-home-nu=
+ll-ayv4c2%7Ejj03x7uo%7El1-null-neptune%2Ffeed&amp;lipi=3Durn%3Ali%3Apage%3A=
+email_email_welcome_pymk_v2%3BJf8epU%2B8Tdmm%2FuHKxdhIqw%3D%3D" style=3D"cu=
+rsor:pointer;color:#6A6C6D;-webkit-text-size-adjust:100%;text-decoration:un=
+derline;display:inline-block;-ms-text-size-adjust:100%;"><img alt=3D"Linked=
+In" border=3D"0" height=3D"14" src=3D"https://static.licdn.com/scds/common/=
+u/images/email/phoenix/logos/logo_phoenix_footer_darkgray_197x48_v1.png" wi=
+dth=3D"58" style=3D"outline:none;-ms-interpolation-mode:bicubic;color:#FFFF=
+FF;display:block;text-decoration:none;"></a></td> </tr> <tr> <td align=3D"c=
+enter" style=3D"padding:0 0 12px 0;-webkit-text-size-adjust:100%;mso-table-=
+rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;text-align:center=
+;"> <p style=3D"margin:0;color:#6A6C6D;font-weight:400;font-size:12px;line-=
+height:1.333;">=C2=A9 2018 LinkedIn Ireland Unlimited Company, Wilton Plaza=
+, Wilton Place, Dublin 2. LinkedIn is a registered business name of LinkedI=
+n Ireland Unlimited Company. LinkedIn and the LinkedIn logo are registered =
+trademarks of LinkedIn.</p></td> </tr> </tbody> </table></td> </tr> </tbody=
+> </table></td> </tr> </tbody> </table> </center></td> </tr> </tbody> </tab=
+le> <img src=3D"http://www.linkedin.com/emimp/ip_WVhsMk5HTXlMV3BxTURONE4zVn=
+ZMV3d4OlpXMWhhV3hmZDJWc1kyOXRaVjl3ZVcxclgzWXk6.gif" style=3D"outline:none;-=
+ms-interpolation-mode:bicubic;color:#FFFFFF;text-decoration:none;width:1px;=
+height:1px;"> </body> </html>
+------=_Part_987878_1664605106.1530284631500--
+

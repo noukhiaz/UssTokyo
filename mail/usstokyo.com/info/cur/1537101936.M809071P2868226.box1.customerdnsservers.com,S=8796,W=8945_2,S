@@ -1,0 +1,149 @@
+Return-Path: <theupper12+noreply@googlegroups.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id sOjmL3BQnlsCxCsAsyhj2Q
+	for <info@usstokyo.com>; Sun, 16 Sep 2018 07:45:36 -0500
+Return-path: <theupper12+noreply@googlegroups.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Sun, 16 Sep 2018 07:45:36 -0500
+Received: from mail-oi0-f72.google.com ([209.85.218.72]:38051)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <theupper12+noreply@googlegroups.com>)
+	id 1g1WQi-00C1xN-6l
+	for info@usstokyo.com; Sun, 16 Sep 2018 07:45:36 -0500
+Received: by mail-oi0-f72.google.com with SMTP id w194-v6so15227455oiw.5
+        for <info@usstokyo.com>; Sun, 16 Sep 2018 05:45:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20161025;
+        h=mime-version:date:auto-submitted:message-id:subject:from:to;
+        bh=We7lYQuw1F2Nb6koBtpFHcnqYbF8rMa175N5PZ/Kgws=;
+        b=TEQClkpiv2dkJYDnhgVl717NzIw1T+uIZ5oVc/clbBpKz+1J8sk/IU+RUIxemfcsaA
+         NnCsBmaqosp0jUSK68Cr39fVh+7miCYmvRd5amf3J7Nl2D1+sfNrecX4K3aCenQECYKT
+         g/BawcZ789xaSXgbmk+aque/lBHSNw8qYQR3uGYclegOdQv7ennrPdk2fTTzYkQFUSd9
+         KT4sxRr4gCTIGuB9I29arfVqD5XXpREuKR5DV1f5eCZByjLofPiznJaekPiL1e0Av548
+         f8+KczCQ4azuno0dGftzUKSRId39Zo2YJmd7GLKsJPU6xSsjq7v76C1gIhZaLUT9lpdm
+         dhmQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:auto-submitted:message-id
+         :subject:from:to;
+        bh=We7lYQuw1F2Nb6koBtpFHcnqYbF8rMa175N5PZ/Kgws=;
+        b=LPQ4uTsXQ4vF+hKdhTyIKP/U3Kz8fooVuSCADh/RctGtcC6XUrzQLHvhL3s9A8GaK0
+         UKQPLO+e1e+qAdiqIxvurlVIjM58StD0UFYZMVVdWAp/LV4M5fJpVq04gHsQB4ARSVq1
+         ckfdngaYTVht7L/n89mxJjDtJUlqHPAMAGBrhUBZ4jhy0FsYhcN+9yafPNC1DTYMvyO8
+         iPXVs5+uOmeGujsCUd2rc3jVxZXf8L9N0pAaXkl4PqmHzIV3u3zlUhfscmes69/uxE6r
+         nY9Sh871Lbhnx0wbkGTzI3VAOoEcS51CF89P+chP+UHU+OOCrJplhccSllF+03kglzdH
+         cqfA==
+X-Gm-Message-State: APzg51D0Rx8pd0cOE2B9PzPTIVEa0MJHCSeJfzvIU4QRVmo0hHPOsTT0
+	Ztj/pxc4a4DI1f6zpOHEIlz2NQxlrVbHYouVN6PcayXTQ4o=
+X-Google-Smtp-Source: ANB0Vdb8us8AYEM+PDaEC6OY7mvtmo6XsdDkytefhLZaug8pOzgn/jJmJQQSdunip8OFpBeRWycgL4Lk4pomFLeN+huMZ02JF+E=
+MIME-Version: 1.0
+X-Received: by 2002:aca:b704:: with SMTP id h4-v6mr21630939oif.66.1537101897377;
+ Sun, 16 Sep 2018 05:44:57 -0700 (PDT)
+Date: Sun, 16 Sep 2018 05:44:57 -0700
+Auto-Submitted: auto-generated
+X-Notifications: ce476e2d3e000000
+Message-ID: <SlQYKUMt0Uqu3sVTW6Z-vg.0@notifications.google.com>
+Subject: You have been added to theupper12
+From: theupper12 <theupper12+noreply@googlegroups.com>
+To: info@usstokyo.com
+Content-Type: multipart/alternative; boundary="00000000000093ac720575fc6ca0"
+
+--00000000000093ac720575fc6ca0
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+Hi info@usstokyo.com,
+ziyadnazeer99 added you to the theupper12 group.
+https://groups.google.com/d/forum/theupper12
+
+Message from ziyadnazeer99:
+ads
+
+About this group:
+.
+
+Google Groups allows you to create and participate in online forums and
+email-based groups with a rich community experience. You can also use
+your Group to share documents, pictures, calendars, invitations, and other  
+resources.
+
+If you do not wish to be a member of this group or believe this group may  
+contain spam:
+* You can unsubscribe from this group at  
+https://groups.google.com/d/forum/theupper12/unsubscribe/AHZ7KVMp2ikjLVTERNmZ2lmeWu3wc02-nvmdQiS-iOlwiyHAvmR5PX_XqQziCN5fq8rJZC_xMOChviJk9mlibBzydVdowcQ3MA
+* You can report this group for abuse at  
+https://groups.google.com/d/abuse/YQAAAPLAEp5OAAAA3-NVVGwAAABTqGGACk-hjX56q2kdRVqF6u73plE
+* You can opt out of all future Google Groups activity at  
+https://groups.google.com/d/optout
+
+View this group at: https://groups.google.com/d/forum/theupper12
+
+Start your own group at https://groups.google.com/d/creategroup.
+Visit Google Groups Help Center at  
+http://support.google.com/groups/bin/answer.py?answer=46601.
+
+--00000000000093ac720575fc6ca0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr"><head><meta charset=3D"UTF-8"></head><body><div dir=3D"lt=
+r" style=3D"border:1px solid #f0f0f0;max-width:650px;font-family:Arial,sans=
+-serif;color:#000000"><div style=3D"background-color:#f5f5f5;padding:10px 1=
+2px"><table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%"><tbody=
+><tr><td style=3D"width:50%"><span style=3D"font:20px/24px arial;color:#333=
+333"><a href=3D"https://groups.google.com/d/forum/theupper12" style=3D"text=
+-decoration:none; color: #000000">theupper12</a></span></td><td style=3D"te=
+xt-align:right;width:50%"><span style=3D"font:20px/24px arial"><a style=3D"=
+color:#dd4b39; text-decoration:none;" href=3D"https://groups.google.com/d/o=
+verview" target=3D"_blank">Google Groups</a></span></td><td style=3D"text-a=
+lign: right;"><a href=3D"https://groups.google.com/d/overview" target=3D"_b=
+lank"><img style=3D"border:0;vertical-align:middle;padding-left:10px;" src=
+=3D"http://www.google.com/images/icons/product/groups-32.png" alt=3D'Logo f=
+or Google Groups'></a></td></tr></tbody></table></div><div style=3D"margin:=
+ 30px 30px 30px 30px; line-height: 21px;"><span style=3D"font-size: 13px; c=
+olor: #333333;">Hi info@usstokyo.com,<br>ziyadnazeer99 added you to the <a =
+href=3D"https://groups.google.com/d/forum/theupper12" style=3D"color: #1155=
+cc;text-decoration: none;"><b>theupper12</b></a> group.</span></div><div st=
+yle=3D"margin: 30px 30px 30px 30px; line-height: 21px;"><span style=3D"font=
+-size: 13px; color: #000000; font-weight:bold;">Message from ziyadnazeer99<=
+/span><div><p style=3D"font-size: 13px; color: #666666; padding: 10px 10px;=
+background-color:#FAFAFA; border: 1px solid #DDDDDD; margin-top:0px;">ads</=
+p></div></div><div style=3D"margin: 30px 30px 30px 30px; line-height: 21px;=
+"><span style=3D"font-size: 13px; color: #000000; font-weight:bold;">About =
+this group</span><div><p style=3D"font-size: 13px; color: #666666; padding:=
+ 10px 10px;background-color:#FAFAFA; border: 1px solid #DDDDDD; margin-top:=
+0px;">.</p></div></div><div style=3D"margin: 30px 30px 30px 30px; line-heig=
+ht: 21px;"><p style=3D"font-size: 13px; color: #333333;">Google Groups allo=
+ws you to create and participate in online forums and email-based groups wi=
+th a rich community experience. You can also use your Group to share docume=
+nts, pictures, calendars, invitations, and other resources. <a href=3D"http=
+s://support.google.com/groups/answer/46601?hl=3Den">Learn more</a>.</p><p s=
+tyle=3D"font-size: 13px; color: #333333;">If you do not wish to be a member=
+ of this group you can <a style=3D"color: #1155cc;text-decoration: none;" h=
+ref=3D"https://groups.google.com/d/forum/theupper12/unsubscribe/AHZ7KVNT_Al=
+3tugvQ9bFbQVsy5EAO0BZNjWPuMm72UQCJOcyeX9hUsMVEKx0pcZy3JGu_ZGbaOnP6IYrS5Kpzl=
+JDm4Ld8_hckg">unsubscribe</a>. If you believe this group may contain spam, =
+you can also <a style=3D"color: #1155cc;text-decoration: none;" href=3D"htt=
+ps://groups.google.com/d/abuse/YQAAAPLAEp5OAAAA3-NVVGwAAABTqGGACk-hjX56q2kd=
+RVqF6u73plE">report</a> the group for abuse. For additional information see=
+ our <a style=3D"color: #1155cc;text-decoration: none;" href=3D"http://supp=
+ort.google.com/groups/bin/answer.py?answer=3D46601">help center</a>.</p></d=
+iv><div style=3D"margin: 30px 30px 30px 30px; line-height: 21px;"><a style=
+=3D"border-radius:2px; display:inline-block;padding:0px 8px;background-colo=
+r:#498af2;color:#ffffff;font-size:11px;border:solid 1px #3079ed; font-weigh=
+t:bold;text-decoration:none;min-width: 54px;text-align:center;line-height:2=
+7px;" href=3D"https://groups.google.com/d/forum/theupper12">View this group=
+</a></div><div style=3D"margin: 30px 30px 30px 30px; line-height: 21px;"><s=
+pan style=3D"font-size: 13px; color: #333333;">If you do not wish to be add=
+ed to Google Groups in the future you can opt out <a href=3D"https://groups=
+.google.com/d/optout" style=3D"color: #1155cc;text-decoration: none;">here<=
+/a>.</span></div><div style=3D"background-color: #f5f5f5;padding: 5px 12px;=
+"><table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%"><tbody><t=
+r><td style=3D"padding-top:4px;font-family:arial,sans-serif;color:#636363;f=
+ont-size:11px"><a href=3D"https://groups.google.com/d/creategroup" style=3D=
+"color: #1155cc;text-decoration: none;" target=3D"_blank">Start</a> a new g=
+roup. <a href=3D"http://support.google.com/groups/bin/answer.py?answer=3D46=
+601" style=3D"color: #1155cc;text-decoration: none;" target=3D"_blank">Visi=
+t</a> the help center.</td></tr></tbody></table></div></div></body></html>
+--00000000000093ac720575fc6ca0--

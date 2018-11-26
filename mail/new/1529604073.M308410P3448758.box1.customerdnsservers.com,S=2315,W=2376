@@ -1,0 +1,61 @@
+Return-Path: <>
+Delivered-To: usstoki@box1.customerdnsservers.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id qPAOEunnK1u2nzQAsyhj2Q
+	for <usstoki@box1.customerdnsservers.com>; Thu, 21 Jun 2018 13:01:13 -0500
+Return-path: <>
+Envelope-to: usstoki@box1.customerdnsservers.com
+Delivery-date: Thu, 21 Jun 2018 13:01:13 -0500
+Received: from mailnull by box1.customerdnsservers.com with local (Exim 4.91)
+	id 1fW3tR-00ETB1-56
+	for usstoki@box1.customerdnsservers.com; Thu, 21 Jun 2018 13:01:13 -0500
+X-Failed-Recipients: $email@box1.customerdnsservers.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@box1.customerdnsservers.com>
+To: usstoki@box1.customerdnsservers.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1529604073-eximdsn-309793593
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fW3tR-00ETB1-56@box1.customerdnsservers.com>
+Date: Thu, 21 Jun 2018 13:01:13 -0500
+
+--1529604073-eximdsn-309793593
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  $email@box1.customerdnsservers.com
+    Unrouteable address
+
+--1529604073-eximdsn-309793593
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; box1.customerdnsservers.com
+
+Action: failed
+Final-Recipient: rfc822;$email@box1.customerdnsservers.com
+Status: 5.0.0
+
+--1529604073-eximdsn-309793593
+Content-type: message/rfc822
+
+Return-path: <usstoki@box1.customerdnsservers.com>
+Received: from usstoki by box1.customerdnsservers.com with local (Exim 4.91)
+	(envelope-from <usstoki@box1.customerdnsservers.com>)
+	id 1fW3tR-00ETAu-0h
+	for $email@box1.customerdnsservers.com; Thu, 21 Jun 2018 13:01:13 -0500
+To: $email@box1.customerdnsservers.com
+Subject: Password Recovered
+X-PHP-Script: usstokyo.com/forgot.php for 39.46.226.15
+From: noreply@usstokyo.com
+Reply-To: noreply@usstokyo.com
+X-Mailer: PHP/5.6.31
+Message-Id: <E1fW3tR-00ETAu-0h@box1.customerdnsservers.com>
+Date: Thu, 21 Jun 2018 13:01:13 -0500
+
+Dear $name \n\n Your password is: $pass \n\n Regards\n Support \n USSTOKYO.com
+
+--1529604073-eximdsn-309793593--

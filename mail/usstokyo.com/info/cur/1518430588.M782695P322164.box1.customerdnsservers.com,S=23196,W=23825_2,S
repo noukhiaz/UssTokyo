@@ -1,0 +1,629 @@
+Return-Path: <shreyasharma.01989@gmail.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id YJ2LJnxpgVp06gQAsyhj2Q
+	for <info@usstokyo.com>; Mon, 12 Feb 2018 04:16:28 -0600
+Return-path: <shreyasharma.01989@gmail.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Mon, 12 Feb 2018 04:16:28 -0600
+Received: from mail-pl0-f68.google.com ([209.85.160.68]:34260)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89_1)
+	(envelope-from <shreyasharma.01989@gmail.com>)
+	id 1elB9w-001M1I-D6
+	for info@usstokyo.com; Mon, 12 Feb 2018 04:16:28 -0600
+Received: by mail-pl0-f68.google.com with SMTP id q17so4829138pll.1
+        for <info@usstokyo.com>; Mon, 12 Feb 2018 02:16:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=message-id:from:to:subject:date:mime-version:content-language
+         :thread-index;
+        bh=nUjsmcPIIHUbOB7CU2YfWxQ+DhV0kvPYWdfLqJA53Js=;
+        b=MIDlHn8zThCi6x9iI85g2QaYUEtRWwN4QvU8hyueosbhXlp6E6L9mXy+mBcpR0huPy
+         +5gj8IS9wn2lprhZVphzvy0V075D3wAldgzbcWahMvUklgTDHFXK84QYSfrCK6ipYWji
+         HNSpCE+OWNF5rldyZYLAyerXaHwusfzVZwOtZgOww7FHPQZFutYgzBvk8LNgFpGLXlmK
+         THzWfzbgPFlx2G6oldpUsuzEihBs5+BfAH1g7jeZ9QnpKxqipls9m7grpZx17+N6R96M
+         Kxq9M52u2TVQL13+6ZZtuaUhrjj+t8CWzHHll/baCo1X3JHkhbVgNmWo5sNSjRudTFDP
+         JW8Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:message-id:from:to:subject:date:mime-version
+         :content-language:thread-index;
+        bh=nUjsmcPIIHUbOB7CU2YfWxQ+DhV0kvPYWdfLqJA53Js=;
+        b=BTWyiHKXokhMwYMze7Y+JptzM1Ir7n8io6BP6H/O7/zc7h2OcJ51HOpKt6aLu6msTf
+         LBtkljAV+nwGSXJdPNdqIamr9wnxBqZcHaUJeQsYQc0LIOEORVZ123rUhCkFQN+DJjUp
+         fYkwNdTkcG3XTzBSKHKfYVG+Cidw57EFqlALwpXHZf3m9RzZBbtBG0T8hFbgdGPV6D8l
+         yd3B4hg7rOBwYxAHkcCfxSFveCiNEtXEuobcLh8LlpB87G1Lzw/v1ryqzIXhvo9erTBT
+         yikW6AIYdek9zCqpTYa9RxgD7T7kroUhVD2azdNZGp8COVjdbLA2O1asP/UR2xMPakxy
+         fvmQ==
+X-Gm-Message-State: APf1xPC07dnywK6ApaQOdYCMEgLo6ARbsci1vutJU5I6q2UYvFvyuL2p
+	dika0s56xEBJNeUS6aXhhFpaYA==
+X-Google-Smtp-Source: AH8x227LQvtd9sdWJrdeLKgo1X5zdIDv+tBWYcy9axj5JQ1ubcqPODCqRhUlhG7wFgjmq8ARB94umg==
+X-Received: by 2002:a17:902:600e:: with SMTP id r14-v6mr1200027plj.200.1518430548063;
+        Mon, 12 Feb 2018 02:15:48 -0800 (PST)
+Received: from CPPC ([182.68.160.220])
+        by smtp.gmail.com with ESMTPSA id i194sm25395759pfe.145.2018.02.12.02.15.45
+        for <info@usstokyo.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 12 Feb 2018 02:15:47 -0800 (PST)
+Message-ID: <5a816953.cb87620a.4330f.9ca5@mx.google.com>
+X-Google-Original-Message-ID: <0fd601d3a3ea$72a55930$57f00b90$@01989@gmail.com>
+From: "Shreya" <shreyasharma.01989@gmail.com>
+To: <info@usstokyo.com>
+Subject: App, Website Development Proposal
+Date: Mon, 12 Feb 2018 15:45:25 +0530
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0FD7_01D3A418.8C5D9530"
+X-Mailer: Microsoft Office Outlook 12.0
+Content-Language: en-us
+Thread-Index: AdOj6SDFVXyeuAIPTiiYb5ftSIeawQ==
+x-cr-hashedpuzzle: ABoD ASxQ A1b7 DCAJ DukL EUwt EV7e EmAk FUhg Gj6i G1is Hpxn Iv1z J7+4 Kl9Z Ku7w;1;aQBuAGYAbwBAAHUAcwBzAHQAbwBrAHkAbwAuAGMAbwBtAA==;Sosha1_v1;7;{1ADD14CF-8BCD-401E-A140-75F88FCC52C3};cwBoAHIAZQB5AGEAcwBoAGEAcgBtAGEALgAwADEAOQA4ADkAQABnAG0AYQBpAGwALgBjAG8AbQA=;Mon, 12 Feb 2018 10:06:25 GMT;QQBwAHAALAAgAFcAZQBiAHMAaQB0AGUAIABEAGUAdgBlAGwAbwBwAG0AZQBuAHQAIABQAHIAbwBwAG8AcwBhAGwA
+x-cr-puzzleid: {1ADD14CF-8BCD-401E-A140-75F88FCC52C3}
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0FD7_01D3A418.8C5D9530
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+ 
+
+Hi,
+
+ 
+
+By the way of introduction, I am Shreya, Online Marketing Consultant.
+
+ Your website is first impression of your business. A user friendly, easy to
+navigate and search engine optimized website is best way to represent your
+products, services and company values to website visitors. Now a day's
+websites is the first way to impress your clients and prospect.
+
+
+
+Your website can be your best marketing agent and will bring more clients
+and revenue. A wise little investment helps to explore new success. 
+
+ We are India based organization with over 8 years of experience in website
+and mobile app development services. We help you to get a website that will
+be your revenue generator.
+
+ 
+
+We offer following Services at affordable cost: 
+
+ 
+
+.         Website Design & Development
+
+.         Corporate website/portal
+
+.         Online store for your products (E-commerce websites)
+
+.         Informational websites
+
+.         Online Business Brochure websites (1-2 page websites for
+marketing)
+
+.         Social Network/Community building websites
+
+.          Mobile Application Development
+
+.         Personal/Business Blogs
+
+.         Mobile device friendly website
+
+.         Internet Marketing (SEO, SMO)
+
+.         ASO (App Store optimization) For iOS and Android
+
+ 
+
+  I will be highly appreciated if you will give us opportunity to help you
+with any of above mentioned services.
+
+ 
+
+Looking forward to hearing from you.
+
+ 
+
+Kinds Regards,
+
+Shreya  
+
+Online Marketing Consultant
+
+ 
+
+P.S. If you are not interested then you can reply with a simple \"NO\",We
+will never contact you again.
+
+ 
+
+ 
+
+
+------=_NextPart_000_0FD7_01D3A418.8C5D9530
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<title>Hi,</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-link:"Normal \(Web\) Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.yiv1550218553msonormal, li.yiv1550218553msonormal, =
+div.yiv1550218553msonormal
+	{mso-style-name:yiv1550218553msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.NormalWebChar
+	{mso-style-name:"Normal \(Web\) Char";
+	mso-style-link:"Normal \(Web\)";}
+p.m6486011172371128849msolistparagraph, =
+li.m6486011172371128849msolistparagraph, =
+div.m6486011172371128849msolistparagraph
+	{mso-style-name:m_6486011172371128849msolistparagraph;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:-2;
+	mso-list-type:simple;
+	mso-list-template-ids:1096159408;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:*;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l0:level1 lfo1
+	{mso-level-numbering:continue;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:.25in;
+	mso-level-legacy-space:0in;
+	margin-left:0in;
+	text-indent:0in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>Hi,</span><span lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'><o:p></o:p></span></p=
+>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>&nbsp;</span><span lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'><o:p></o:p></span></p=
+>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>By the way of introduction, </span><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>I am&nbsp;</span><b><span lang=3DEN =
+style=3D'font-size:11.0pt;font-family:
+"Calibri","sans-serif";color:#0F243E'>Shreya</span></b><span lang=3DEN
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#0F243=
+E;
+background:white;mso-highlight:white'>, Online Marketing =
+Consultant.</span><span
+lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";color:#0F243E;background:
+white;mso-highlight:white'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>&nbsp;Your website is first impression of your
+business.&nbsp;A user friendly, easy to navigate and search engine =
+optimized
+website is best way to represent your products, services and company =
+values to
+website visitors. Now a day&#8217;s websites is the first way to impress =
+your
+clients and prospect.</span><span lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'><br>
+<br>
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>Your website can be your best marketing agent and =
+will
+bring more clients and revenue. A wise little investment helps to =
+explore new
+success. </span><span lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'><o:p></o:p></span></p=
+>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>&nbsp;We are&nbsp;India&nbsp;based =
+organization&nbsp;with
+over 8 years of experience&nbsp;in website and mobile app development
+services.&nbsp;We help you to get a website that will be your revenue
+generator.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>&nbsp;</span><span lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'><o:p></o:p></span></p=
+>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><b><span lang=3DEN
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#0F243=
+E;
+background:white;mso-highlight:white'>We offer following Services at =
+affordable
+cost: <o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><b><span lang=3DEN
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#0F243=
+E;
+background:white;mso-highlight:white'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'>Website Design &amp;
+Development</span><span lang=3DEN =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'><o:p></o:p></span></p=
+>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>Corporate website/portal<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>Online store for your products (E-commerce =
+websites)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>Informational websites<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>Online Business Brochure websites (1-2 page websites for =
+marketing)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>Social Network/Community building websites<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><em><span lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";
+font-style:normal'>&nbsp;</span></em><span lang=3DEN =
+style=3D'font-size:11.0pt;
+color:#0F243E;background:white;mso-highlight:white'>Mobile Application
+Development</span><span lang=3DEN =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'><o:p></o:p></span></p=
+>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>Personal/Business Blogs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>Mobile device friendly website<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'>Internet Marketing (SEO, SMO)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;
+text-autospace:none'><![if !supportLists]><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:Symbol;color:#0F243E;background:white;mso-highlight:white'><s=
+pan
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'>ASO (App Store
+optimization) For iOS and Android</span><span lang=3DEN =
+style=3D'font-size:11.0pt;
+font-family:"Calibri","sans-serif";color:#0F243E;background:white;mso-hig=
+hlight:
+white'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-left:.5in;text-autospace:none'><span lang=3DEN
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#0F243=
+E;
+background:white;mso-highlight:white'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>&nbsp;&nbsp;I will be highly appreciated if you =
+will give
+us opportunity to help you with any of above mentioned =
+services.</span><span
+lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";color:#0F243E;background:
+white;mso-highlight:white'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>&nbsp;</span><span lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";
+color:#0F243E;background:white;mso-highlight:white'><o:p></o:p></span></p=
+>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'>Looking forward to hearing from =
+you.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN =
+style=3D'font-size:
+11.0pt;font-family:"Calibri","sans-serif";color:#0F243E;background:white;=
+
+mso-highlight:white'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><b><span lang=3DEN
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#0F243=
+E;
+background:white;mso-highlight:white'>Kinds Regards,</span></b><b><span
+lang=3DEN =
+style=3D'font-family:"Calibri","sans-serif";color:#0F243E;background:
+white;mso-highlight:white'><o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><b><span lang=3DEN
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#0F243=
+E'>Shreya
+&nbsp;<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><b><span lang=3DEN
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#0F243=
+E;
+background:white;mso-highlight:white'>Online Marketing =
+Consultant<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:10.0pt;line-height:115%;text-autospace:
+none'><span lang=3DEN =
+style=3D'font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-se=
+rif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:10.0pt;line-height:115%;text-autospace:
+none'><span =
+style=3D'font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-se=
+rif";
+background:yellow;mso-highlight:yellow'>P.S. If you are not interested =
+then you
+can reply with a simple \&quot;NO\&quot;,We will never contact you =
+again.</span><span
+style=3D'font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-se=
+rif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'margin-bottom:10.0pt;line-height:115%;text-autospace:
+none'><span lang=3DEN =
+style=3D'font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-se=
+rif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0FD7_01D3A418.8C5D9530--
+

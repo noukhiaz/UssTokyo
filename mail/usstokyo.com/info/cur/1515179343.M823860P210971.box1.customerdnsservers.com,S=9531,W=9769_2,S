@@ -1,0 +1,238 @@
+Return-Path: <bounce@webadwords.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id cICoKk/NT1obOAMAsyhj2Q
+	for <info@usstokyo.com>; Fri, 05 Jan 2018 13:09:03 -0600
+Return-path: <bounce@webadwords.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Fri, 05 Jan 2018 13:09:03 -0600
+Received: from [199.180.135.176] (port=27100 helo=holm3.localdomain)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89_1)
+	(envelope-from <bounce@webadwords.com>)
+	id 1eXXMU-000tJA-7g
+	for info@usstokyo.com; Fri, 05 Jan 2018 13:09:03 -0600
+Received: by holm3.localdomain (Postfix, from userid 0)
+	id 23BC524D3C6; Fri,  5 Jan 2018 17:40:33 +0000 (UTC)
+DKIM-Filter: OpenDKIM Filter v2.11.0 holm3.localdomain 23BC524D3C6
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=webadwords.com;
+	s=dkim; t=1515176938;
+	bh=Z6pMs2GH1yqNVHkHBetk/NLHPgAn77cY0EaZixxEH8s=;
+	h=To:Subject:Date:From:Reply-To:List-Unsubscribe:From;
+	b=ErhoVBBgAQoAolnW1nUx+oT2uKAuoDUrLMYKMxStI3VUYW7YVtoK0i+9ZFlaD3nzo
+	 y7wj6iz+/g2kud8qfs6fm7P/s2IuMwGtWKWhTDsi3jQlBHXHh1RkXNYo+96dGIq4Vl
+	 1YVAqnrpwsen2NmZ24fOPWv6Jrl8G8puD9apimGw=
+To: info@usstokyo.com
+Subject: Identify web visitor with Google Analytics Add-on
+X-PHP-Originating-Script: 1000:email.php
+Message-ID: <be6e86b031e00e9ceaa1e1b07a59f349@webadwords.com>
+Date: Fri, 05 Jan 2018 14:29:21 +0000
+From: "Analytics for webleads" <analytics@webadwords.com>
+Reply-To: analytics@webadwords.com
+MIME-Version: 1.0
+X-Mailer-LID: 11
+List-Unsubscribe: <http://webadwords.com/tailer/unsubscribe.php?M=572908&C=4c2de3e9b389ec2023b69978184de1b0&L=11&N=13>
+X-Mailer-RecptId: 572908
+X-Mailer-SID: 13
+X-Mailer-Sent-By: 1
+Content-Type: multipart/alternative; charset="UTF-8"; boundary="b1_57df2b24e701f19e4d87cfefc6c212e0"
+Content-Transfer-Encoding: 8bit
+
+--b1_57df2b24e701f19e4d87cfefc6c212e0
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Your email client cannot read this email.
+To view it online, please go here:
+http://webadwords.com/tailer/display.php?M=572908&C=4c2de3e9b389ec2023b69978184de1b0&S=13&L=11&N=4
+
+
+To stop receiving these
+emails:http://webadwords.com/tailer/unsubscribe.php?M=572908&C=4c2de3e9b389ec2023b69978184de1b0&L=11&N=13
+
+--b1_57df2b24e701f19e4d87cfefc6c212e0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1,
+maximum-scale=1, user-scalable=no"><meta name="charset" content="utf-8">
+	<style type="text/css">@media only screen and (max-device-width: 767px) {
+ .mainbody {width:100% !important;}
+ .mbbluebg {padding:24px 20px 28px !important;}
+ .mbtitle { font-size:22px !important; line-height:30px !important;}
+ .mbpading1 {padding:0px 15px 10px !important}
+ .mbpading2 {padding: 12px 10px !important;}
+ .mbpading3 { margin-top:20px !important;}
+ .newleadstext { font-size:16px !important;}
+}
+@media only screen and (max-device-width: 480px) {
+ .mainbody {width:100% !important;}
+ .mbbluebg {padding:20px 20px 24px !important;}
+ .mbtitle { font-size:18px !important; line-height:28px !important;}
+ .mbpading1 {padding:0px 15px 10px !important}
+ .mbpading2 {padding: 12px 10px !important;}
+ .newleadstext { font-size:14px !important;}
+}
+
+@media only screen and (max-device-width: 360px) {
+ .mainbody {width:100% !important;}
+ .mbbluebg {padding:22px 20px 22px !important;}
+ .mbtitle { font-size:16px !important; line-height:28px !important;}
+ .mbpading1 {padding:0px 15px 10px !important}
+ .mbpading2 {padding: 12px 10px !important;}
+ .newleadstext { font-size:14px !important;}
+}
+	</style>
+	<title>:: Fastbase Email ::</title>
+</head>
+<body bgcolor="#f9f9f9" bottommargin="0" data-gramm="true"
+data-gramm_editor="true"
+data-gramm_id="3d8d1233-77be-fb78-d4c9-3e688846813c" leftmargin="0"
+rightmargin="0" topmargin="0">
+<table align="center" bgcolor="#f9f9f9" border="0" cellpadding="0"
+cellspacing="0" class="mainbody" style="background-color: #f9f9f9;
+border-collapse: collapse; line-height: 100% !important; margin: 0;
+padding: 0; width: 100% !important;">
+<tbody>
+<tr>
+<td>
+<table class="mainbody" style="border-collapse: collapse; margin: auto;
+max-width: 635px; min-width: 320px; width: 100%;">
+<tbody>
+<tr>
+<td valign="top">
+<table align="center" border="0" cellpadding="0" cellspacing="0"
+class="mainbody" style="border-collapse: collapse; color: #545454;
+font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px;
+line-height: 20px; margin: 0 auto; width: 100%;">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mainbody"
+style="border-collapse: collapse; border-color: #dddddd; border-style:
+solid solid none; border-width: 0 1px 1px; width: 100%;">
+<tbody>
+<tr>
+<td bgcolor="#458cf8" class="mbbluebg" style="background-color: #458cf8;
+color: #fff; font-family: 'Helvetica Neue', Arial, sans-serif; font-size:
+15px; line-height: 22px; overflow: hidden; padding: 50px 40px 50px 40px;">
+<div align="left" class="mbtitle" style="text-align: left !important;
+color: #ffffff; font-family: 'Helvetica Neue', Arial, sans-serif;
+font-size: 30px; line-height: 38px; font-weight: bold;">Powerful Add-on to
+generate<br />leads from your Google Analytics</div>
+</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" class="mbpading1" style="background-color: #ffffff;
+color: #525252; font-family: 'Helvetica Neue', Arial, sans-serif;
+font-size: 15px; line-height: 22px; overflow: hidden; padding: 20px 40px
+20px;">
+<p align="left" style="line-height: 1.5; margin: 0 0 17px; text-align: left
+!important;"><span style="font-size: 26px;"><span style="color:
+#3a332b;">Invitation to try Webleads Premium PLUS for Google
+Analytics.</span></span></p>
+<p align="left" style="line-height: 1.5; margin: 0 0 17px; text-align: left
+!important;"><span style="color: #3a332b;">As a Google Analytics user, you
+will be able to access the service for free until January 1,
+2018.</span><br /> <br /> <a
+href="http://webadwords.com/tailer/link.php?M=572908&N=13&L=1&F=H"><span
+style="color: #3a332b;">Sign in to get list of your web visitors
+➔</span></a><br /> <br /> <span style="color: #3a332b;"><strong>New
+Premium PLUS Account Includes:</strong><br /> <br />&bull; In-depth
+information about your website visitors&nbsp;<br />&bull; List of all your
+visitors sorted by verified leads and ISPs<br />&bull; Enhanced search
+functions for contacts and emails<br />&bull; Ability to download or send
+messages via email to your visitors<br />&bull; All data will be freely
+accessible with unlimited download<br /> <br />Enjoy.</span></p>
+<table align="center" class="mbpading3" style="margin: 40px auto 20px;
+text-align: center !important;">
+<tbody>
+<tr>
+<td bgcolor="#458cf8" class="mbpading2" style="background-color: #458cf8;
+font-family: Helvetica, Arial, sans-serif; margin: 0; padding: 12px
+35px;"><a class="#"
+href="http://webadwords.com/tailer/link.php?M=572908&N=13&L=2&F=H"
+style="background-color: #458cf8; color: #fff; display: inline-block;
+font-size: 14px; font-weight: bold; min-height: 20px; text-decoration:
+none;" target="_blank">Sign in with Google Analytics ➔</a></td>
+</tr>
+</tbody>
+</table>
+<p align="left" style="line-height: 1.5; margin: 0 0 17px; text-align: left
+!important;"><br />Fastbase Inc<br />3422 Old Capitol Trail, Suit
+700&nbsp;<br />Welmington Delaware 19808<br />United States</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="height: 0; max-height: 0; max-width: 0; overflow: hidden;
+width: 0;">&nbsp;</div>
+<table align="center" border="0" cellpadding="0" cellspacing="0"
+class="mainbody" style="border-collapse: collapse; color: #545454;
+font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px;
+line-height: 20px; margin: 0 auto; max-width: 100%; width: 100%;">
+<tbody>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td class="mbwidth1" width="60%">
+<table border="0" cellpadding="0" cellspacing="0" class="mainbody"
+style="border-collapse: collapse; color: #545454; font-family: 'Helvetica
+Neue', Arial, sans-serif; font-size: 13px; line-height: 20px; margin: 0
+auto; max-width: 100%; width: 100%;">
+<tbody>
+<tr>
+<td width="40">&nbsp;</td>
+<td align="left" style="color: #272727;" valign="middle"
+width="50">&nbsp;</td>
+<td class="admin_name" style="color: #999999;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="mbwidth1" width="40%">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="none1">
+<td height="20" style="height: 20px;" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td align="left" class="mb_pad1" style="padding-bottom: 20px; padding-top:
+10px; padding-left: 52px; padding-right: 50px;" valign="top">
+<p style="font-size: 12px; font-family: Arial, sans-serif; color: #707070;
+margin: 1em 0px; line-height: 1.4em; text-align: center;">This email was
+sent to [EMAIL] because you indicated that you'd like to receive latest
+updates about Google Analytics.<br /> <br /> <a
+href="http://webadwords.com/tailer/unsubscribe.php?M=572908&C=4c2de3e9b389ec2023b69978184de1b0&L=11&N=13"
+style="color: #427fed; font-family: Arial, sans-serif;">Unsubscribe
+here</a> If you want to stop further correspondence with FastBase Inc.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<img
+src="http://webadwords.com/tailer/open.php?M=572908&L=11&N=13&F=H&image=.jpg"
+height="1" width="10"></body>
+</html>
+
+--b1_57df2b24e701f19e4d87cfefc6c212e0--
+

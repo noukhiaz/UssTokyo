@@ -1,0 +1,95 @@
+Return-Path: <aukinternational@gmail.com>
+Delivered-To: info@usstokyo.com
+Received: from box1.customerdnsservers.com
+	by box1.customerdnsservers.com with LMTP id 6B/EJCG2YVto7xMAsyhj2Q
+	for <info@usstokyo.com>; Wed, 01 Aug 2018 08:31:13 -0500
+Return-path: <aukinternational@gmail.com>
+Envelope-to: info@usstokyo.com
+Delivery-date: Wed, 01 Aug 2018 08:31:13 -0500
+Received: from mail-pl0-f49.google.com ([209.85.160.49]:42564)
+	by box1.customerdnsservers.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <aukinternational@gmail.com>)
+	id 1fkrDd-005U1n-Bu
+	for info@usstokyo.com; Wed, 01 Aug 2018 08:31:13 -0500
+Received: by mail-pl0-f49.google.com with SMTP id z7-v6so8807150plo.9
+        for <info@usstokyo.com>; Wed, 01 Aug 2018 06:30:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=SnKi2C5u38CvvgyrcrScq1MHAnuBwBEmN51jJkS0i7w=;
+        b=i4RUwv2pFY17op6SM6okyeerAbJMaM0+9G+8QyFHJkk3ZmNs5/HfDZOykbfz/OT/tG
+         TNyyYSYKds/PaxnvYKXJlT+S7J+2QtDdAstt+96TmEjEcSmF9qprfHLJZ537krGv83WO
+         CyedjrkE1uz4O2627mj7FLGuR133wKbDMH2huSFAo4GQXCxvP+LhT3S101VRIh4MIk18
+         r69XEdiiteK+pckkY5ToO+Mexr8FzXzvUqTwKSflYArsAxGDS/gtSOQ6t5bLnyCcO6EH
+         BmUy2rtms893kGwVWJlS3Tpuf/6tkdosn1g9UPyO+qCcQAF7LOiP2pBcmONOaqJOSjAn
+         RbsQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=SnKi2C5u38CvvgyrcrScq1MHAnuBwBEmN51jJkS0i7w=;
+        b=V4IkxL1cf+ouRXpRkWonFYQyxUnc2sbFwpcpqxXG2oKZdLaY9I+PRLUDA2+sYLO5YT
+         3r1rgQD/D5Itj1GQRzMswg81IPI18PUWvr/wNfL/LvEvhMGxXBbKpvThuMTIzCXDcLME
+         thiEm9hejZ+M9rGwqp9auQgAhqVtGJTaoKPmCdGA2uKS/GFjzvNYgp22bBeDPn1ilvuZ
+         hxNVF6fqvDhfdiwfRExrc+v/UJ9K3e1xIZHkyg63IvXZmzcFze0N6ikewTmok8hhkRru
+         zfIrk+d6AiQPRX10fIB6GL/kssSaeq6OdImGxAiI0aTmL1Xjc1lD/LPheZWS4YAPrjP0
+         hvhQ==
+X-Gm-Message-State: AOUpUlFcXmpNy38OaVBfs+8veiwZRizAVOzgcFqmQ1lIRKy5yFaj6YjP
+	OP/bQRVhuq7OBoJNqh92YOI4Q9e5QyAd558xZmrVEQ==
+X-Google-Smtp-Source: AAOMgpcg0IjygpTM957LWC2vlCqsd4Vv8mgkFfiH+aflr/ygQPL9GqQ2Tn05+XQVBIyxqXAae42OMPxXF7eOZqtnLq0=
+X-Received: by 2002:a17:902:e3:: with SMTP id a90-v6mr25156782pla.227.1533130234279;
+ Wed, 01 Aug 2018 06:30:34 -0700 (PDT)
+MIME-Version: 1.0
+References: <BN3PR16MB06737CF15995C6970D3308E4CA2D0@BN3PR16MB0673.namprd16.prod.outlook.com>
+In-Reply-To: <BN3PR16MB06737CF15995C6970D3308E4CA2D0@BN3PR16MB0673.namprd16.prod.outlook.com>
+From: "AUK International Inc." <aukinternational@gmail.com>
+Date: Wed, 1 Aug 2018 18:30:07 +0500
+Message-ID: <CAOMFM4yx2xko80tx30jvxWe9DcdsizgK6YvEFAZbM+4M6CWqbA@mail.gmail.com>
+Subject: Re: testing
+To: "Admin [USSTOKYO.COM]" <info@usstokyo.com>
+Content-Type: multipart/alternative; boundary="000000000000023b4805725fb35c"
+
+--000000000000023b4805725fb35c
+Content-Type: text/plain; charset="UTF-8"
+
+It works!
+
+On Wed, 1 Aug 2018, 6:29 PM Admin [USSTOKYO.COM], <info@usstokyo.com> wrote:
+
+> alksdj laksj dlkasj dlkasj dlkasjlkdj aslkdj alskd jlkasj dlkasjdkl
+> asjdkl  j
+>
+-- 
+
+Regards,
+Asad U. Khan
+
+--000000000000023b4805725fb35c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">It works!</div><span>
+</span><br><div class=3D"gmail_quote"><div dir=3D"ltr">On Wed, 1 Aug 2018, =
+6:29 PM Admin [<a href=3D"http://USSTOKYO.COM">USSTOKYO.COM</a>], &lt;<a hr=
+ef=3D"mailto:info@usstokyo.com">info@usstokyo.com</a>&gt; wrote:<br></div><=
+blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px=
+ #ccc solid;padding-left:1ex">
+
+
+
+
+<div dir=3D"ltr">
+<div id=3D"m_8991054778997162343divtagdefaultwrapper" style=3D"font-size:12=
+pt;color:#000000;font-family:Calibri,Helvetica,sans-serif" dir=3D"ltr">
+<p style=3D"margin-top:0;margin-bottom:0">alksdj laksj dlkasj dlkasj dlkasj=
+lkdj aslkdj alskd jlkasj dlkasjdkl asjdkl=C2=A0 j</p>
+</div>
+</div>
+
+</blockquote></div>-- <br><div dir=3D"ltr" class=3D"gmail_signature" data-s=
+martmail=3D"gmail_signature"><p dir=3D"ltr">Regards,<br>
+Asad U. Khan</p>
+</div>
+
+--000000000000023b4805725fb35c--
